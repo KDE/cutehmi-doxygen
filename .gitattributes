@@ -1,0 +1,4 @@
+# Doxygen generated HTML, CSS and JavaScript files.
+*.html -crlf
+*.js -crlf
+*.css -crlf
