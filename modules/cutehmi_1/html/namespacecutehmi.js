@@ -1,5 +1,31 @@
 var namespacecutehmi =
 [
-    [ "internal", "namespacecutehmi_1_1internal.html", null ],
-    [ "plugin", "namespacecutehmi_1_1plugin.html", null ]
+    [ "internal", "namespacecutehmi_1_1internal.html", "namespacecutehmi_1_1internal" ],
+    [ "plugin", "namespacecutehmi_1_1plugin.html", "namespacecutehmi_1_1plugin" ],
+    [ "CuteHMI", "classcutehmi_1_1_cute_h_m_i.html", "classcutehmi_1_1_cute_h_m_i" ],
+    [ "DataBlock", "classcutehmi_1_1_data_block.html", "classcutehmi_1_1_data_block" ],
+    [ "Error", "structcutehmi_1_1_error.html", "structcutehmi_1_1_error" ],
+    [ "ErrorException", "classcutehmi_1_1_error_exception.html", "classcutehmi_1_1_error_exception" ],
+    [ "ErrorInfo", "structcutehmi_1_1_error_info.html", "structcutehmi_1_1_error_info" ],
+    [ "Exception", "classcutehmi_1_1_exception.html", null ],
+    [ "ExceptionMixin", "classcutehmi_1_1_exception_mixin.html", "classcutehmi_1_1_exception_mixin" ],
+    [ "IMetadataPlugin", "classcutehmi_1_1_i_metadata_plugin.html", "classcutehmi_1_1_i_metadata_plugin" ],
+    [ "IProjectBackend", "classcutehmi_1_1_i_project_backend.html", "classcutehmi_1_1_i_project_backend" ],
+    [ "IProjectPlugin", "classcutehmi_1_1_i_project_plugin.html", "classcutehmi_1_1_i_project_plugin" ],
+    [ "MPtr", "classcutehmi_1_1_m_ptr.html", "classcutehmi_1_1_m_ptr" ],
+    [ "NonCopyable", "classcutehmi_1_1_non_copyable.html", "classcutehmi_1_1_non_copyable" ],
+    [ "NonMovable", "classcutehmi_1_1_non_movable.html", "classcutehmi_1_1_non_movable" ],
+    [ "Notification", "classcutehmi_1_1_notification.html", "classcutehmi_1_1_notification" ],
+    [ "NotificationListModel", "classcutehmi_1_1_notification_list_model.html", "classcutehmi_1_1_notification_list_model" ],
+    [ "NotificationManager", "classcutehmi_1_1_notification_manager.html", "classcutehmi_1_1_notification_manager" ],
+    [ "Plugin", "classcutehmi_1_1_plugin.html", "classcutehmi_1_1_plugin" ],
+    [ "PopupBridge", "classcutehmi_1_1_popup_bridge.html", "classcutehmi_1_1_popup_bridge" ],
+    [ "Project", "classcutehmi_1_1_project.html", "classcutehmi_1_1_project" ],
+    [ "ProjectModel", "classcutehmi_1_1_project_model.html", "classcutehmi_1_1_project_model" ],
+    [ "ProjectNode", "classcutehmi_1_1_project_node.html", "classcutehmi_1_1_project_node" ],
+    [ "ProjectNodeData", "classcutehmi_1_1_project_node_data.html", "classcutehmi_1_1_project_node_data" ],
+    [ "ProjectPluginLoader", "classcutehmi_1_1_project_plugin_loader.html", "classcutehmi_1_1_project_plugin_loader" ],
+    [ "Prompt", "classcutehmi_1_1_prompt.html", "classcutehmi_1_1_prompt" ],
+    [ "Singleton", "classcutehmi_1_1_singleton.html", "classcutehmi_1_1_singleton" ],
+    [ "Worker", "classcutehmi_1_1_worker.html", "classcutehmi_1_1_worker" ]
 ];
