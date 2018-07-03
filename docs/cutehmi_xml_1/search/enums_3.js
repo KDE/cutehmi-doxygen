@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_5ft',['type_t',['../../cutehmi_1/classcutehmi_1_1_notification.html#ad01399bbf0b9b57f368647c380e0a2f2',1,'cutehmi::Notification::type_t()'],['../../cutehmi_1/classcutehmi_1_1_prompt.html#ab10e06e3e4c21bb9c9557e7ce1608897',1,'cutehmi::Prompt::type_t()']]]
+  ['type',['Type',['../../cutehmi_1/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65',1,'cutehmi::Notification::Type()'],['../../cutehmi_1/classcutehmi_1_1_prompt.html#aa0caa7840dc3406f03ff7c4a23c9098b',1,'cutehmi::Prompt::Type()']]]
 ];

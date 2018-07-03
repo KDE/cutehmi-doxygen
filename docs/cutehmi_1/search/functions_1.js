@@ -5,6 +5,6 @@ var searchData=
   ['binaryabsentexception',['BinaryAbsentException',['../classcutehmi_1_1internal_1_1_plugin_loader_1_1_binary_absent_exception.html#a59ac704b96f4d2a116a40f66d9dd05d0',1,'cutehmi::internal::PluginLoader::BinaryAbsentException']]],
   ['binaryexists',['BinaryExists',['../classcutehmi_1_1_plugin.html#ab5e9cda879e751a1688c82faa9b88843',1,'cutehmi::Plugin']]],
   ['binarymetadata',['BinaryMetadata',['../classcutehmi_1_1_plugin.html#afe08a617834815ae4e312508a3afd606',1,'cutehmi::Plugin']]],
-  ['buttons',['buttons',['../classcutehmi_1_1_prompt.html#afcc92fd0216c70e942ae64ef56acf5d4',1,'cutehmi::Prompt']]],
+  ['buttons',['buttons',['../classcutehmi_1_1_prompt.html#a8b52385393e05c85be3c3edc86e1a7b1',1,'cutehmi::Prompt']]],
   ['buttonschanged',['buttonsChanged',['../classcutehmi_1_1_prompt.html#a1ecbacd55ad43fa3fccb4205a26270a4',1,'cutehmi::Prompt']]]
 ];

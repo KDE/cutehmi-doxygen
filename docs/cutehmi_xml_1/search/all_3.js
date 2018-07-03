@@ -4,7 +4,7 @@ var searchData=
   ['datablock',['DataBlock',['../../cutehmi_1/classcutehmi_1_1_data_block.html',1,'cutehmi::DataBlock'],['../../cutehmi_1/classcutehmi_1_1_data_block.html#ab40e916738bcf92054f519d3f0c65d26',1,'cutehmi::DataBlock::DataBlock()'],['../../cutehmi_1/classcutehmi_1_1_data_block.html#a0e6102f6ce2691a096ee085e75b564a3',1,'cutehmi::DataBlock::DataBlock(DataBlock &amp;&amp;other)=default']]],
   ['datablock_2ecpp',['DataBlock.cpp',['../../cutehmi_1/_data_block_8cpp.html',1,'']]],
   ['datablock_2ehpp',['DataBlock.hpp',['../../cutehmi_1/_data_block_8hpp.html',1,'']]],
-  ['date_5ftime_5frole',['DATE_TIME_ROLE',['../../cutehmi_1/classcutehmi_1_1_notification_list_model.html#a4ecdeec2a9457beaec8adae985ea3c72a4ee57b8faad825615ad0d54833bf7d42',1,'cutehmi::NotificationListModel']]],
+  ['date_5ftime_5frole',['DATE_TIME_ROLE',['../../cutehmi_1/classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0ea4ee57b8faad825615ad0d54833bf7d42',1,'cutehmi::NotificationListModel']]],
   ['datetime',['dateTime',['../../cutehmi_1/classcutehmi_1_1_notification.html#ad222a3ed8f59248b9ad032fbf75f0468',1,'cutehmi::Notification']]],
   ['deleter_5ftype',['deleter_type',['../../cutehmi_1/classcutehmi_1_1_m_ptr.html#a1251e97f2f5f1abe0aab4558b31de3d7',1,'cutehmi::MPtr::deleter_type()'],['../../cutehmi_1/classcutehmi_1_1_m_ptr.html#a1251e97f2f5f1abe0aab4558b31de3d7',1,'MPtr&lt; Members &gt;::deleter_type()']]],
   ['destroy',['Destroy',['../../cutehmi_1/classcutehmi_1_1_cute_h_m_i.html#aae1382d749f3903366a25f6544265d1d',1,'cutehmi::CuteHMI']]],

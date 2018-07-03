@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['question',['QUESTION',['../classcutehmi_1_1_prompt.html#ab10e06e3e4c21bb9c9557e7ce1608897a026db9f3fb62623d710e1354f8eafcee',1,'cutehmi::Prompt::QUESTION()'],['../classcutehmi_1_1_prompt.html#a8c6e962b770a789b5c159f993baa1efe',1,'cutehmi::Prompt::Question(const QString &amp;text, buttons_t buttons=buttons_t{BUTTON_YES, BUTTON_NO})']]]
+  ['question',['QUESTION',['../classcutehmi_1_1_prompt.html#aa0caa7840dc3406f03ff7c4a23c9098ba026db9f3fb62623d710e1354f8eafcee',1,'cutehmi::Prompt::QUESTION()'],['../classcutehmi_1_1_prompt.html#acba3e4d2e6292a35a69d8843378d46cd',1,'cutehmi::Prompt::Question(const QString &amp;text, Buttons buttons=Buttons{BUTTON_YES, BUTTON_NO})']]]
 ];

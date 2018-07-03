@@ -92,13 +92,15 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="doxygen_github_hack" style="font-size: 0px"></div><div class="doxygen_github_hack" style="font-size: 0px">[//]: # ( )
-<a href="https://travis-ci.org/michpolicht/CuteHMI" style="visibility: visible"><img src="https://travis-ci.org/michpolicht/CuteHMI.svg?branch=master" /></a>
 
-[//]: # () </div><p>CuteHMI is an open-source HMI (Human Machine Interface) software written in C++ and QML, using Qt library as a framework.</p>
+[![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-blue.svg)](https://opensource.org/licenses/MPL-2.0)
+[![Build Status](https://travis-ci.org/michpolicht/CuteHMI.svg?branch=master)](https://travis-ci.org/michpolicht/CuteHMI)
+
+[//]: # () </div><p>CuteHMI is an open-source HMI (Human Machine Interface) software written in C++ and QML, using Qt libraries as a framework.</p>
 <p>Note: While most of the project uses Mozilla Public License, v. 2.0, some files are distributed under different licenses.</p>
 <h2>Compiling</h2>
 <ol type="1">
-<li>Get the Qt framework. Open-source and commercial editions can be obtained from <a href="https://www.qt.io/">https://www.qt.io/</a>. Qt can also be shipped with Linux distribution.</li>
+<li>Get the Qt toolkit. Open-source and commercial editions can be obtained from <a href="https://www.qt.io/">https://www.qt.io/</a>. Qt can also be shipped with Linux distribution.</li>
 <li>Modbus components still use libmodbus library (<a href="http://libmodbus.org/">http://libmodbus.org/</a>). On Linux one can run following commands. <div class="fragment"><div class="line">git clone git://github.com/stephane/libmodbus.git</div><div class="line">cd libmodbus</div><div class="line">git checkout f9358460ee1f62bcac716ad0444b3bbe7628b204</div><div class="line">./autogen.sh</div><div class="line">./configure</div><div class="line">make &amp;&amp; sudo make install</div></div><!-- fragment --> Compiling libmodbus on Windows can be a bit more tricky. I won't write the instructions here, because if project prevails, it should use <em>QtSerialBus</em> module.</li>
 <li>Open <code>CuteHMI.qbs</code> file with <em>QtCreator</em> and build it. When apllication starts it shows empty screen.</li>
 </ol>

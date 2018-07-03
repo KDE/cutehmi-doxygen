@@ -4,7 +4,7 @@ var searchData=
   ['maxnotifications',['maxNotifications',['../../cutehmi_1/classcutehmi_1_1_notification_manager.html#ad075a20393de65ea7a6035fe8af1b61f',1,'cutehmi::NotificationManager']]],
   ['maxnotificationschanged',['maxNotificationsChanged',['../../cutehmi_1/classcutehmi_1_1_notification_manager.html#aa9c5c15a1ac15180851980551e99dc24',1,'cutehmi::NotificationManager']]],
   ['maxoccurrences',['maxOccurrences',['../classcutehmi_1_1xml_1_1_parse_element.html#a83af06e5ca4833bfaaae934c99028067',1,'cutehmi::xml::ParseElement']]],
-  ['metadata',['Metadata',['../../cutehmi_1/classcutehmi_1_1_plugin_1_1_metadata.html#a0221f7b22f689a88086119e38bcfa668',1,'cutehmi::Plugin::Metadata::Metadata()'],['../../cutehmi_1/classcutehmi_1_1_plugin.html#a7ba5112fb8917af2f554a3a180ef9d2d',1,'cutehmi::Plugin::metadata()']]],
+  ['metadata',['metadata',['../../cutehmi_1/classcutehmi_1_1_plugin.html#a7ba5112fb8917af2f554a3a180ef9d2d',1,'cutehmi::Plugin::metadata()'],['../../cutehmi_1/classcutehmi_1_1_plugin_1_1_metadata.html#a0221f7b22f689a88086119e38bcfa668',1,'cutehmi::Plugin::Metadata::Metadata()']]],
   ['micro',['micro',['../../cutehmi_1/classcutehmi_1_1_plugin_1_1_metadata.html#ada900a8de1385d8eb91acd63e0ff13f1',1,'cutehmi::Plugin::Metadata']]],
   ['minoccurrences',['minOccurrences',['../classcutehmi_1_1xml_1_1_parse_element.html#a12810abb3b08c9aaa4fc7a980d0a5eaa',1,'cutehmi::xml::ParseElement']]],
   ['minor',['minor',['../../cutehmi_1/classcutehmi_1_1_plugin_1_1_metadata.html#ac1dd9fcffed659a7d8ea56e447955311',1,'cutehmi::Plugin::Metadata']]],

@@ -1,8 +1,8 @@
 var classcutehmi_1_1_notification_list_model =
 [
-    [ "role_t", "classcutehmi_1_1_notification_list_model.html#a4ecdeec2a9457beaec8adae985ea3c72", [
-      [ "TYPE_ROLE", "classcutehmi_1_1_notification_list_model.html#a4ecdeec2a9457beaec8adae985ea3c72a09dbe86def0291a44772f3bd491089b6", null ],
-      [ "DATE_TIME_ROLE", "classcutehmi_1_1_notification_list_model.html#a4ecdeec2a9457beaec8adae985ea3c72a4ee57b8faad825615ad0d54833bf7d42", null ]
+    [ "Role", "classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0e", [
+      [ "TYPE_ROLE", "classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0ea09dbe86def0291a44772f3bd491089b6", null ],
+      [ "DATE_TIME_ROLE", "classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0ea4ee57b8faad825615ad0d54833bf7d42", null ]
     ] ],
     [ "NotificationListModel", "classcutehmi_1_1_notification_list_model.html#a1b21dba3c67848054319e22c57cf2c6b", null ],
     [ "~NotificationListModel", "classcutehmi_1_1_notification_list_model.html#af4f43ee6687e5b58c3791fc070c9b9ea", null ],
