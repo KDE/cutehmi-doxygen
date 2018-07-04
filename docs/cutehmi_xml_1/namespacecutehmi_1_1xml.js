@@ -1,9 +1,9 @@
 var namespacecutehmi_1_1xml =
 [
-    [ "BackendPlugin", "classcutehmi_1_1xml_1_1_backend_plugin.html", "classcutehmi_1_1xml_1_1_backend_plugin" ],
-    [ "IBackendPlugin", "classcutehmi_1_1xml_1_1_i_backend_plugin.html", "classcutehmi_1_1xml_1_1_i_backend_plugin" ],
-    [ "ParseAttribute", "classcutehmi_1_1xml_1_1_parse_attribute.html", "classcutehmi_1_1xml_1_1_parse_attribute" ],
-    [ "ParseElement", "classcutehmi_1_1xml_1_1_parse_element.html", "classcutehmi_1_1xml_1_1_parse_element" ],
-    [ "ParseHelper", "classcutehmi_1_1xml_1_1_parse_helper.html", "classcutehmi_1_1xml_1_1_parse_helper" ],
-    [ "ProjectBackend", "classcutehmi_1_1xml_1_1_project_backend.html", "classcutehmi_1_1xml_1_1_project_backend" ]
+    [ "BackendPlugin", "classcutehmi_1_1xml_1_1BackendPlugin.html", "classcutehmi_1_1xml_1_1BackendPlugin" ],
+    [ "IBackendPlugin", "classcutehmi_1_1xml_1_1IBackendPlugin.html", "classcutehmi_1_1xml_1_1IBackendPlugin" ],
+    [ "ParseAttribute", "classcutehmi_1_1xml_1_1ParseAttribute.html", "classcutehmi_1_1xml_1_1ParseAttribute" ],
+    [ "ParseElement", "classcutehmi_1_1xml_1_1ParseElement.html", "classcutehmi_1_1xml_1_1ParseElement" ],
+    [ "ParseHelper", "classcutehmi_1_1xml_1_1ParseHelper.html", "classcutehmi_1_1xml_1_1ParseHelper" ],
+    [ "ProjectBackend", "classcutehmi_1_1xml_1_1ProjectBackend.html", "classcutehmi_1_1xml_1_1ProjectBackend" ]
 ];

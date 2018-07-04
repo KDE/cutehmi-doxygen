@@ -1,0 +1,18 @@
+<map id="src/cutehmi/plugin/MetadataPlugin.hpp" name="src/cutehmi/plugin/MetadataPlugin.hpp">
+<area shape="rect" id="node2" href="$cutehmi_8metadata_8hpp.html" title="../../../cutehmi.metadata.hpp" alt="" coords="5,557,192,584"/>
+<area shape="rect" id="node3" href="$IMetadataPlugin_8hpp.html" title="../../../include/cutehmi\l/IMetadataPlugin.hpp" alt="" coords="171,95,320,136"/>
+<area shape="rect" id="node4" href="$common_8hpp.html" title="internal/common.hpp" alt="" coords="581,408,723,435"/>
+<area shape="rect" id="node24" href="$ProjectNode_8hpp.html" title="ProjectNode.hpp" alt="" coords="459,184,578,211"/>
+<area shape="rect" id="node5" href="$platform_8hpp.html" title="platform.hpp" alt="" coords="611,632,706,659"/>
+<area shape="rect" id="node6" href="$metadata_8hpp.html" title="../metadata.hpp" alt="" coords="217,483,330,509"/>
+<area shape="rect" id="node7" href="$logging_8hpp.html" title="../logging.hpp" alt="" coords="602,483,702,509"/>
+<area shape="rect" id="node10" href="$MPtr_8hpp.html" title="../MPtr.hpp" alt="" coords="1037,483,1123,509"/>
+<area shape="rect" id="node12" href="$ErrorInfo_8hpp.html" title="../ErrorInfo.hpp" alt="" coords="777,483,887,509"/>
+<area shape="rect" id="node17" href="$Notification_8hpp.html" title="../Notification.hpp" alt="" coords="355,483,480,509"/>
+<area shape="rect" id="node20" href="$Prompt_8hpp.html" title="../Prompt.hpp" alt="" coords="911,483,1012,509"/>
+<area shape="rect" id="node8" href="$loggingMacros_8hpp.html" title="loggingMacros.hpp" alt="" coords="493,557,624,584"/>
+<area shape="rect" id="node15" href="$Error_8hpp.html" title="Error.hpp" alt="" coords="701,557,776,584"/>
+<area shape="rect" id="node25" href="$ProjectNodeData_8hpp.html" title="ProjectNodeData.hpp" alt="" coords="625,259,772,285"/>
+<area shape="rect" id="node26" href="$DataBlock_8hpp.html" title="DataBlock.hpp" alt="" coords="723,333,831,360"/>
+<area shape="rect" id="node27" href="$NonCopyable_8hpp.html" title="NonCopyable.hpp" alt="" coords="747,408,874,435"/>
+</map>

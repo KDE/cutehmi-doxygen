@@ -1,0 +1,19 @@
+<map id="include/cutehmi/ProjectNodeData.hpp" name="include/cutehmi/ProjectNodeData.hpp">
+<area shape="rect" id="node2" href="$ProjectNode_8hpp.html" title="include/cutehmi/ProjectNode.hpp" alt="" coords="721,95,936,121"/>
+<area shape="rect" id="node18" href="$ProjectNodeData_8cpp.html" title="src/cutehmi/ProjectNodeData.cpp" alt="" coords="961,95,1179,121"/>
+<area shape="rect" id="node3" href="$ProjectModel_8hpp.html" title="include/cutehmi/ProjectModel.hpp" alt="" coords="498,177,717,203"/>
+<area shape="rect" id="node11" href="$IProjectBackend_8hpp.html" title="include/cutehmi/IProject\lBackend.hpp" alt="" coords="311,169,474,211"/>
+<area shape="rect" id="node12" href="$IMetadataPlugin_8hpp.html" title="include/cutehmi/IMetadata\lPlugin.hpp" alt="" coords="741,169,916,211"/>
+<area shape="rect" id="node14" href="$IProjectPlugin_8hpp.html" title="include/cutehmi/IProject\lPlugin.hpp" alt="" coords="941,169,1103,211"/>
+<area shape="rect" id="node17" href="$ProjectNode_8cpp.html" title="src/cutehmi/ProjectNode.cpp" alt="" coords="1128,177,1319,203"/>
+<area shape="rect" id="node4" href="$Project_8hpp.html" title="include/cutehmi/Project.hpp" alt="" coords="303,266,485,293"/>
+<area shape="rect" id="node10" href="$ProjectModel_8cpp.html" title="src/cutehmi/ProjectModel.cpp" alt="" coords="510,266,705,293"/>
+<area shape="rect" id="node5" href="$CuteHMI_8hpp.html" title="include/cutehmi/CuteHMI.hpp" alt="" coords="197,348,391,375"/>
+<area shape="rect" id="node9" href="$Project_8cpp.html" title="src/cutehmi/Project.cpp" alt="" coords="415,348,575,375"/>
+<area shape="rect" id="node6" href="$CuteHMI_8cpp.html" title="src/cutehmi/CuteHMI.cpp" alt="" coords="5,423,177,449"/>
+<area shape="rect" id="node7" href="$Notification_8cpp.html" title="src/cutehmi/Notification.cpp" alt="" coords="201,423,387,449"/>
+<area shape="rect" id="node8" href="$Prompt_8cpp.html" title="src/cutehmi/Prompt.cpp" alt="" coords="411,423,572,449"/>
+<area shape="rect" id="node13" href="$MetadataPlugin_8hpp.html" title="src/cutehmi/plugin\l/MetadataPlugin.hpp" alt="" coords="758,259,899,300"/>
+<area shape="rect" id="node15" href="$PluginNodeData_8cpp.html" title="src/cutehmi/internal\l/PluginNodeData.cpp" alt="" coords="935,259,1082,300"/>
+<area shape="rect" id="node16" href="$ProjectPluginLoader_8cpp.html" title="src/cutehmi/ProjectPlugin\lLoader.cpp" alt="" coords="1106,259,1277,300"/>
+</map>

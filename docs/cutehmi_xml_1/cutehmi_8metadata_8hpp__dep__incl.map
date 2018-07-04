@@ -1,0 +1,20 @@
+<map id="cutehmi.metadata.hpp" name="cutehmi.metadata.hpp">
+<area shape="rect" id="node2" href="$metadata_8hpp.html" title="include/cutehmi/xml\l/metadata.hpp" alt="" coords="507,80,646,121"/>
+<area shape="rect" id="node19" href="$MetadataPlugin_8hpp.html" title="src/cutehmi/xml/plugin\l/MetadataPlugin.hpp" alt="" coords="671,80,824,121"/>
+<area shape="rect" id="node3" href="$common_8hpp.html" title="include/cutehmi/xml\l/internal/common.hpp" alt="" coords="503,169,650,211"/>
+<area shape="rect" id="node4" href="$BackendPlugin_8hpp.html" title="include/cutehmi/xml\l/BackendPlugin.hpp" alt="" coords="118,348,257,389"/>
+<area shape="rect" id="node7" href="$IBackendPlugin_8hpp.html" title="include/cutehmi/xml\l/IBackendPlugin.hpp" alt="" coords="208,259,351,300"/>
+<area shape="rect" id="node8" href="$conversions_8hpp.html" title="include/cutehmi/xml\l/conversions.hpp" alt="" coords="375,259,514,300"/>
+<area shape="rect" id="node10" href="$functions_8hpp.html" title="include/cutehmi/xml\l/internal/functions.hpp" alt="" coords="464,437,615,479"/>
+<area shape="rect" id="node11" href="$ProjectBackend_8hpp.html" title="include/cutehmi/xml\l/ProjectBackend.hpp" alt="" coords="739,527,881,568"/>
+<area shape="rect" id="node14" href="$ParseAttribute_8hpp.html" title="include/cutehmi/xml\l/ParseAttribute.hpp" alt="" coords="690,259,829,300"/>
+<area shape="rect" id="node15" href="$ParseElement_8hpp.html" title="include/cutehmi/xml\l/ParseElement.hpp" alt="" coords="639,348,778,389"/>
+<area shape="rect" id="node16" href="$ParseHelper_8hpp.html" title="include/cutehmi/xml\l/ParseHelper.hpp" alt="" coords="639,437,778,479"/>
+<area shape="rect" id="node5" href="$BackendPlugin_8cpp.html" title="src/cutehmi/xml/BackendPlugin.cpp" alt="" coords="5,445,236,471"/>
+<area shape="rect" id="node6" href="$ProjectBackend_8cpp.html" title="src/cutehmi/xml/ProjectBackend.cpp" alt="" coords="424,616,660,643"/>
+<area shape="rect" id="node9" href="$conversions_8cpp.html" title="src/cutehmi/xml/conversions.cpp" alt="" coords="299,355,513,382"/>
+<area shape="rect" id="node12" href="$functions_8cpp.html" title="src/cutehmi/xml/internal\l/functions.cpp" alt="" coords="312,527,473,568"/>
+<area shape="rect" id="node13" href="$ParseHelper_8cpp.html" title="src/cutehmi/xml/ParseHelper.cpp" alt="" coords="498,534,714,561"/>
+<area shape="rect" id="node18" href="$ParseAttribute_8cpp.html" title="src/cutehmi/xml/ParseAttribute.cpp" alt="" coords="802,355,1029,382"/>
+<area shape="rect" id="node17" href="$ParseElement_8cpp.html" title="src/cutehmi/xml/ParseElement.cpp" alt="" coords="802,445,1029,471"/>
+</map>
