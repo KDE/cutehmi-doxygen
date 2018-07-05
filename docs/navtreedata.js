@@ -1,6 +1,7 @@
 var NAVTREE =
 [
   [ "CuteHMI", "index.html", [
+    [ "External libraries.", "md_external__r_e_a_d_m_e.html", null ],
     [ "Modules directory", "md_modules__r_e_a_d_m_e.html", null ],
     [ "QML extensions directory", "md__q_m_l__r_e_a_d_m_e.html", null ],
     [ "Tools directory", "md_tools__r_e_a_d_m_e.html", null ]

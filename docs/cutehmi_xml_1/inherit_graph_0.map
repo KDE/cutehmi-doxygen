@@ -1,7 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$classcutehmi_1_1Exception.html" title="cutehmi::Exception" alt="" coords="5,46,140,73"/>
-<area shape="rect" id="node2" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$classcutehmi_1_1ExceptionMixin.html" title="cutehmi::ExceptionMixin\l\&lt; Exception \&gt;" alt="" coords="188,39,353,80"/>
-<area shape="rect" id="node3" href="$classcutehmi_1_1xml_1_1ProjectBackend_1_1Exception.html" title="cutehmi::xml::ProjectBackend\l::Exception" alt="" coords="401,39,599,80"/>
-<area shape="rect" id="node4" href="$classcutehmi_1_1xml_1_1ProjectBackend_1_1DeviceOpenReadException.html" title="cutehmi::xml::ProjectBackend\l::DeviceOpenReadException" alt="" coords="647,5,844,47"/>
-<area shape="rect" id="node5" href="$classcutehmi_1_1xml_1_1ProjectBackend_1_1ParseErrorException.html" title="cutehmi::xml::ProjectBackend\l::ParseErrorException" alt="" coords="647,71,844,112"/>
+<area shape="rect" id="node1" href="$classcutehmi_1_1plugin_1_1MetadataPlugin.html" title="cutehmi::plugin::Metadata\lPlugin" alt="" coords="5,29,177,71"/>
+<area shape="rect" id="node2" href="$classcutehmi_1_1xml_1_1BackendPlugin.html" title="cutehmi::xml::BackendPlugin" alt="" coords="225,37,417,63"/>
 </map>

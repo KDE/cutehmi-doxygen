@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../modules_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../_q_m_l_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)'],['../tools_2_r_e_a_d_m_e_8md.html',1,'(Global Namespace)']]]
+  ['qml_20extensions_20directory',['QML extensions directory',['../md__q_m_l__r_e_a_d_m_e.html',1,'']]]
 ];
