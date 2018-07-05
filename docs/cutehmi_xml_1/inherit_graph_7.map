@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcutehmi_1_1xml_1_1ParseHelper.html" title="cutehmi::xml::ParseHelper" alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node2" href="$classcutehmi_1_1xml_1_1ProjectBackend_1_1Exception.html" title="cutehmi::xml::ProjectBackend\l::Exception" alt="" coords="164,39,361,80"/>
+<area shape="rect" id="node3" href="$classcutehmi_1_1xml_1_1ProjectBackend_1_1DeviceOpenReadException.html" title="cutehmi::xml::ProjectBackend\l::DeviceOpenReadException" alt="" coords="409,5,607,47"/>
+<area shape="rect" id="node4" href="$classcutehmi_1_1xml_1_1ProjectBackend_1_1ParseErrorException.html" title="cutehmi::xml::ProjectBackend\l::ParseErrorException" alt="" coords="409,71,607,112"/>
 </map>
