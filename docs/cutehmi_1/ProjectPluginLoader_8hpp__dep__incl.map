@@ -1,0 +1,10 @@
+<map id="include/cutehmi/ProjectPluginLoader.hpp" name="include/cutehmi/ProjectPluginLoader.hpp">
+<area shape="rect" id="node2" href="$IProjectBackend_8hpp.html" title="include/cutehmi/IProject\lBackend.hpp" alt="" coords="313,95,475,136"/>
+<area shape="rect" id="node9" href="$ProjectPluginLoader_8cpp.html" title="src/cutehmi/ProjectPlugin\lLoader.cpp" alt="" coords="499,95,670,136"/>
+<area shape="rect" id="node3" href="$Project_8hpp.html" title="include/cutehmi/Project.hpp" alt="" coords="303,184,485,211"/>
+<area shape="rect" id="node4" href="$CuteHMI_8hpp.html" title="include/cutehmi/CuteHMI.hpp" alt="" coords="197,259,391,285"/>
+<area shape="rect" id="node8" href="$Project_8cpp.html" title="src/cutehmi/Project.cpp" alt="" coords="415,259,575,285"/>
+<area shape="rect" id="node5" href="$CuteHMI_8cpp.html" title="src/cutehmi/CuteHMI.cpp" alt="" coords="5,333,177,360"/>
+<area shape="rect" id="node6" href="$Notification_8cpp.html" title="src/cutehmi/Notification.cpp" alt="" coords="201,333,387,360"/>
+<area shape="rect" id="node7" href="$Prompt_8cpp.html" title="src/cutehmi/Prompt.cpp" alt="" coords="411,333,572,360"/>
+</map>

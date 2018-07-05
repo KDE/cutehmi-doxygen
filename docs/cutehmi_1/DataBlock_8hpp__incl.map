@@ -1,0 +1,14 @@
+<map id="include/cutehmi/DataBlock.hpp" name="include/cutehmi/DataBlock.hpp">
+<area shape="rect" id="node2" href="$common_8hpp.html" title="internal/common.hpp" alt="" coords="779,80,921,107"/>
+<area shape="rect" id="node23" href="$NonCopyable_8hpp.html" title="NonCopyable.hpp" alt="" coords="1236,80,1363,107"/>
+<area shape="rect" id="node3" href="$platform_8hpp.html" title="platform.hpp" alt="" coords="885,304,980,331"/>
+<area shape="rect" id="node4" href="$metadata_8hpp.html" title="../metadata.hpp" alt="" coords="103,155,216,181"/>
+<area shape="rect" id="node6" href="$logging_8hpp.html" title="../logging.hpp" alt="" coords="296,155,396,181"/>
+<area shape="rect" id="node9" href="$MPtr_8hpp.html" title="../MPtr.hpp" alt="" coords="925,155,1012,181"/>
+<area shape="rect" id="node11" href="$ErrorInfo_8hpp.html" title="../ErrorInfo.hpp" alt="" coords="449,155,558,181"/>
+<area shape="rect" id="node16" href="$Notification_8hpp.html" title="../Notification.hpp" alt="" coords="650,155,775,181"/>
+<area shape="rect" id="node19" href="$Prompt_8hpp.html" title="../Prompt.hpp" alt="" coords="799,155,901,181"/>
+<area shape="rect" id="node5" href="$cutehmi_8metadata_8hpp.html" title="../../cutehmi.metadata.hpp" alt="" coords="5,229,180,256"/>
+<area shape="rect" id="node7" href="$loggingMacros_8hpp.html" title="loggingMacros.hpp" alt="" coords="205,229,335,256"/>
+<area shape="rect" id="node14" href="$Error_8hpp.html" title="Error.hpp" alt="" coords="503,229,578,256"/>
+</map>

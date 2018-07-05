@@ -1,0 +1,24 @@
+<map id="include/cutehmi/Project.hpp" name="include/cutehmi/Project.hpp">
+<area shape="rect" id="node2" href="$common_8hpp.html" title="internal/common.hpp" alt="" coords="1339,379,1482,405"/>
+<area shape="rect" id="node23" href="$PluginLoader_8hpp.html" title="internal/PluginLoader.hpp" alt="" coords="311,155,479,181"/>
+<area shape="rect" id="node31" href="$ProjectModel_8hpp.html" title="ProjectModel.hpp" alt="" coords="1421,80,1544,107"/>
+<area shape="rect" id="node39" href="$IProjectBackend_8hpp.html" title="IProjectBackend.hpp" alt="" coords="1254,80,1397,107"/>
+<area shape="rect" id="node3" href="$platform_8hpp.html" title="platform.hpp" alt="" coords="1043,603,1138,629"/>
+<area shape="rect" id="node4" href="$metadata_8hpp.html" title="../metadata.hpp" alt="" coords="1769,453,1882,480"/>
+<area shape="rect" id="node6" href="$logging_8hpp.html" title="../logging.hpp" alt="" coords="1938,453,2038,480"/>
+<area shape="rect" id="node9" href="$MPtr_8hpp.html" title="../MPtr.hpp" alt="" coords="983,453,1070,480"/>
+<area shape="rect" id="node11" href="$ErrorInfo_8hpp.html" title="../ErrorInfo.hpp" alt="" coords="1095,453,1204,480"/>
+<area shape="rect" id="node16" href="$Notification_8hpp.html" title="../Notification.hpp" alt="" coords="1553,453,1679,480"/>
+<area shape="rect" id="node19" href="$Prompt_8hpp.html" title="../Prompt.hpp" alt="" coords="1428,453,1529,480"/>
+<area shape="rect" id="node5" href="$cutehmi_8metadata_8hpp.html" title="../../cutehmi.metadata.hpp" alt="" coords="1754,528,1929,555"/>
+<area shape="rect" id="node7" href="$loggingMacros_8hpp.html" title="loggingMacros.hpp" alt="" coords="1953,528,2084,555"/>
+<area shape="rect" id="node14" href="$Error_8hpp.html" title="Error.hpp" alt="" coords="336,528,411,555"/>
+<area shape="rect" id="node24" href="$ExceptionMixin_8hpp.html" title="../ExceptionMixin.hpp" alt="" coords="158,229,306,256"/>
+<area shape="rect" id="node27" href="$Plugin_8hpp.html" title="../Plugin.hpp" alt="" coords="621,229,715,256"/>
+<area shape="rect" id="node25" href="$Exception_8hpp.html" title="Exception.hpp" alt="" coords="179,304,285,331"/>
+<area shape="rect" id="node32" href="$ProjectNode_8hpp.html" title="ProjectNode.hpp" alt="" coords="1267,155,1386,181"/>
+<area shape="rect" id="node33" href="$ProjectNodeData_8hpp.html" title="ProjectNodeData.hpp" alt="" coords="1013,229,1160,256"/>
+<area shape="rect" id="node34" href="$DataBlock_8hpp.html" title="DataBlock.hpp" alt="" coords="1001,304,1109,331"/>
+<area shape="rect" id="node35" href="$NonCopyable_8hpp.html" title="NonCopyable.hpp" alt="" coords="1034,379,1161,405"/>
+<area shape="rect" id="node40" href="$ProjectPluginLoader_8hpp.html" title="ProjectPluginLoader.hpp" alt="" coords="587,155,749,181"/>
+</map>

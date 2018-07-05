@@ -1,0 +1,16 @@
+<map id="include/cutehmi/internal/PluginLoader.hpp" name="include/cutehmi/internal/PluginLoader.hpp">
+<area shape="rect" id="node2" href="$common_8hpp.html" title="common.hpp" alt="" coords="991,244,1088,271"/>
+<area shape="rect" id="node14" href="$Error_8hpp.html" title="Error.hpp" alt="" coords="270,393,345,420"/>
+<area shape="rect" id="node23" href="$ExceptionMixin_8hpp.html" title="../ExceptionMixin.hpp" alt="" coords="121,95,269,121"/>
+<area shape="rect" id="node26" href="$Plugin_8hpp.html" title="../Plugin.hpp" alt="" coords="1465,169,1560,196"/>
+<area shape="rect" id="node3" href="$platform_8hpp.html" title="platform.hpp" alt="" coords="504,468,599,495"/>
+<area shape="rect" id="node4" href="$metadata_8hpp.html" title="../metadata.hpp" alt="" coords="551,319,664,345"/>
+<area shape="rect" id="node6" href="$logging_8hpp.html" title="../logging.hpp" alt="" coords="755,319,855,345"/>
+<area shape="rect" id="node9" href="$MPtr_8hpp.html" title="../MPtr.hpp" alt="" coords="1303,319,1389,345"/>
+<area shape="rect" id="node11" href="$ErrorInfo_8hpp.html" title="../ErrorInfo.hpp" alt="" coords="386,319,495,345"/>
+<area shape="rect" id="node16" href="$Notification_8hpp.html" title="../Notification.hpp" alt="" coords="977,319,1102,345"/>
+<area shape="rect" id="node19" href="$Prompt_8hpp.html" title="../Prompt.hpp" alt="" coords="1177,319,1278,345"/>
+<area shape="rect" id="node5" href="$cutehmi_8metadata_8hpp.html" title="../../cutehmi.metadata.hpp" alt="" coords="512,393,687,420"/>
+<area shape="rect" id="node7" href="$loggingMacros_8hpp.html" title="loggingMacros.hpp" alt="" coords="762,393,893,420"/>
+<area shape="rect" id="node24" href="$Exception_8hpp.html" title="Exception.hpp" alt="" coords="89,169,195,196"/>
+</map>

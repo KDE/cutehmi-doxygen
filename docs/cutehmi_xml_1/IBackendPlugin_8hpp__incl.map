@@ -1,0 +1,22 @@
+<map id="include/cutehmi/xml/IBackendPlugin.hpp" name="include/cutehmi/xml/IBackendPlugin.hpp">
+<area shape="rect" id="node2" href="$common_8hpp.html" title="internal/common.hpp" alt="" coords="263,468,406,495"/>
+<area shape="rect" id="node10" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$ProjectNode_8hpp.html" title="cutehmi/ProjectNode.hpp" alt="" coords="215,95,385,121"/>
+<area shape="rect" id="node3" href="$platform_8hpp.html" title="platform.hpp" alt="" coords="961,543,1055,569"/>
+<area shape="rect" id="node4" href="$metadata_8hpp.html" title="../metadata.hpp" alt="" coords="422,543,535,569"/>
+<area shape="rect" id="node6" href="$logging_8hpp.html" title="../logging.hpp" alt="" coords="718,543,818,569"/>
+<area shape="rect" id="node8" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$MPtr_8hpp.html" title="cutehmi/MPtr.hpp" alt="" coords="84,543,209,569"/>
+<area shape="rect" id="node5" href="$cutehmi_8metadata_8hpp.html" title="../../../cutehmi.metadata.hpp" alt="" coords="464,617,651,644"/>
+<area shape="rect" id="node7" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$loggingMacros_8hpp.html" title="cutehmi/loggingMacros.hpp" alt="" coords="708,617,889,644"/>
+<area shape="rect" id="node11" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$common_8hpp.html" title="internal/common.hpp" alt="" coords="475,319,618,345"/>
+<area shape="rect" id="node20" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$ProjectNodeData_8hpp.html" title="ProjectNodeData.hpp" alt="" coords="172,169,319,196"/>
+<area shape="rect" id="node12" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$platform_8hpp.html" title="platform.hpp" alt="" coords="842,543,937,569"/>
+<area shape="rect" id="node13" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$metadata_8hpp.html" title="../metadata.hpp" alt="" coords="673,393,786,420"/>
+<area shape="rect" id="node15" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$logging_8hpp.html" title="../logging.hpp" alt="" coords="1097,468,1197,495"/>
+<area shape="rect" id="node16" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$ErrorInfo_8hpp.html" title="../ErrorInfo.hpp" alt="" coords="912,393,1021,420"/>
+<area shape="rect" id="node18" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$Notification_8hpp.html" title="../Notification.hpp" alt="" coords="347,393,472,420"/>
+<area shape="rect" id="node19" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$Prompt_8hpp.html" title="../Prompt.hpp" alt="" coords="496,393,597,420"/>
+<area shape="rect" id="node14" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$cutehmi_8metadata_8hpp.html" title="../../cutehmi.metadata.hpp" alt="" coords="611,468,786,495"/>
+<area shape="rect" id="node17" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$Error_8hpp.html" title="Error.hpp" alt="" coords="929,468,1004,495"/>
+<area shape="rect" id="node21" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$DataBlock_8hpp.html" title="DataBlock.hpp" alt="" coords="106,244,214,271"/>
+<area shape="rect" id="node22" href="/home/cutebot/devel/CuteHMI/modules/cutehmi_1/doxygen.tag$NonCopyable_8hpp.html" title="NonCopyable.hpp" alt="" coords="94,319,221,345"/>
+</map>
