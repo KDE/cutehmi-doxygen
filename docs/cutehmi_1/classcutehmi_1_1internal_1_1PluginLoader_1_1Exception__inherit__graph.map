@@ -1,8 +1,0 @@
-<map id="cutehmi::internal::PluginLoader::Exception" name="cutehmi::internal::PluginLoader::Exception">
-<area shape="rect" id="node5" href="$classcutehmi_1_1internal_1_1PluginLoader_1_1BinaryAbsentException.html" title="cutehmi::internal::\lPluginLoader::BinaryAbsent\lException" alt="" coords="773,5,955,61"/>
-<area shape="rect" id="node6" href="$classcutehmi_1_1internal_1_1PluginLoader_1_1FailedLoadException.html" title="cutehmi::internal::\lPluginLoader::FailedLoadException" alt="" coords="751,86,977,127"/>
-<area shape="rect" id="node7" href="$classcutehmi_1_1internal_1_1PluginLoader_1_1LoadPrecedenceException.html" title="cutehmi::internal::\lPluginLoader::LoadPrecedence\lException" alt="" coords="763,152,965,208"/>
-<area shape="rect" id="node8" href="$classcutehmi_1_1internal_1_1PluginLoader_1_1WrongVersionException.html" title="cutehmi::internal::\lPluginLoader::WrongVersion\lException" alt="" coords="771,232,957,288"/>
-<area shape="rect" id="node2" href="$classcutehmi_1_1ExceptionMixin.html" title="cutehmi::ExceptionMixin\l\&lt; Exception \&gt;" alt="" coords="327,123,492,165"/>
-<area shape="rect" id="node3" href="$classcutehmi_1_1Exception.html" title="cutehmi::Exception" alt="" coords="144,131,279,157"/>
-</map>

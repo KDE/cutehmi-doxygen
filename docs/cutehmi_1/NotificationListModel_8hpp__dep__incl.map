@@ -1,9 +1,0 @@
-<map id="include/cutehmi/NotificationListModel.hpp" name="include/cutehmi/NotificationListModel.hpp">
-<area shape="rect" id="node2" href="$NotificationManager_8hpp.html" title="include/cutehmi/Notification\lManager.hpp" alt="" coords="303,95,485,136"/>
-<area shape="rect" id="node8" href="$NotificationListModel_8cpp.html" title="src/cutehmi/Notification\lListModel.cpp" alt="" coords="510,95,670,136"/>
-<area shape="rect" id="node3" href="$CuteHMI_8hpp.html" title="include/cutehmi/CuteHMI.hpp" alt="" coords="197,191,391,218"/>
-<area shape="rect" id="node7" href="$NotificationManager_8cpp.html" title="src/cutehmi/Notification\lManager.cpp" alt="" coords="415,184,575,225"/>
-<area shape="rect" id="node4" href="$CuteHMI_8cpp.html" title="src/cutehmi/CuteHMI.cpp" alt="" coords="5,273,177,300"/>
-<area shape="rect" id="node5" href="$Notification_8cpp.html" title="src/cutehmi/Notification.cpp" alt="" coords="201,273,387,300"/>
-<area shape="rect" id="node6" href="$Prompt_8cpp.html" title="src/cutehmi/Prompt.cpp" alt="" coords="411,273,572,300"/>
-</map>
