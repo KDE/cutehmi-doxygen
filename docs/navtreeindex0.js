@@ -1,9 +1,20 @@
 var NAVTREEINDEX0 =
 {
 "index.html":[],
-"md__q_m_l__r_e_a_d_m_e.html":[2],
+"md__q_m_l__r_e_a_d_m_e.html":[13],
 "md_external__r_e_a_d_m_e.html":[0],
-"md_modules__r_e_a_d_m_e.html":[1],
-"md_tools__r_e_a_d_m_e.html":[3],
+"md_external_recipes__r_e_a_d_m_e.html":[11],
+"md_external_recipes_i686-w64-mingw32__r_e_a_d_m_e.html":[9],
+"md_external_recipes_i686-w64-mingw32_gettext__r_e_a_d_m_e.html":[1],
+"md_external_recipes_i686-w64-mingw32_libgcrypt__r_e_a_d_m_e.html":[2],
+"md_external_recipes_i686-w64-mingw32_libgpg-error__r_e_a_d_m_e.html":[3],
+"md_external_recipes_i686-w64-mingw32_libiconv-nls__r_e_a_d_m_e.html":[5],
+"md_external_recipes_i686-w64-mingw32_libiconv__r_e_a_d_m_e.html":[4],
+"md_external_recipes_i686-w64-mingw32_libmodbus__r_e_a_d_m_e.html":[6],
+"md_external_recipes_i686-w64-mingw32_libssh__r_e_a_d_m_e.html":[7],
+"md_external_recipes_i686-w64-mingw32_postgresql__r_e_a_d_m_e.html":[8],
+"md_external_recipes_i686-w64-mingw32_zlib__r_e_a_d_m_e.html":[10],
+"md_modules__r_e_a_d_m_e.html":[12],
+"md_tools__r_e_a_d_m_e.html":[14],
 "pages.html":[]
 };

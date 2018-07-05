@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['exception',['Exception',['../classcutehmi_1_1xml_1_1ProjectBackend_1_1Exception.html',1,'cutehmi::xml::ProjectBackend']]]
+  ['datablock',['DataBlock',['../../cutehmi_1/classcutehmi_1_1DataBlock.html',1,'cutehmi']]],
+  ['deviceopenreadexception',['DeviceOpenReadException',['../classcutehmi_1_1xml_1_1ProjectBackend_1_1DeviceOpenReadException.html',1,'cutehmi::xml::ProjectBackend']]]
 ];
