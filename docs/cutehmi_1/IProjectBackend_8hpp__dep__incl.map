@@ -1,8 +1,0 @@
-<map id="include/cutehmi/IProjectBackend.hpp" name="include/cutehmi/IProjectBackend.hpp">
-<area shape="rect" id="node2" href="$Project_8hpp.html" title="include/cutehmi/Project.hpp" alt="" coords="303,95,485,121"/>
-<area shape="rect" id="node3" href="$CuteHMI_8hpp.html" title="include/cutehmi/CuteHMI.hpp" alt="" coords="197,169,391,196"/>
-<area shape="rect" id="node7" href="$Project_8cpp.html" title="src/cutehmi/Project.cpp" alt="" coords="415,169,575,196"/>
-<area shape="rect" id="node4" href="$CuteHMI_8cpp.html" title="src/cutehmi/CuteHMI.cpp" alt="" coords="5,244,177,271"/>
-<area shape="rect" id="node5" href="$Notification_8cpp.html" title="src/cutehmi/Notification.cpp" alt="" coords="201,244,387,271"/>
-<area shape="rect" id="node6" href="$Prompt_8cpp.html" title="src/cutehmi/Prompt.cpp" alt="" coords="411,244,572,271"/>
-</map>
