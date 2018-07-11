@@ -3,6 +3,7 @@ var searchData=
   ['cutehmi_5f1_5fcurrent',['CUTEHMI_1_CURRENT',['../cutehmi_8metadata_8hpp.html#a709e2f8c9691f1dad396ede797890f86',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fapi',['CUTEHMI_API',['../platform_8hpp.html#a716bad563b8fc15d6d4bedbd91d6fb19',1,'platform.hpp']]],
   ['cutehmi_5fassert',['CUTEHMI_ASSERT',['../loggingMacros_8hpp.html#a96f8f6f2de7fd76ea3ae892c10bbcbdd',1,'loggingMacros.hpp']]],
+  ['cutehmi_5fcutehmi_5ftype',['CUTEHMI_CUTEHMI_TYPE',['../cutehmi_8metadata_8hpp.html#a4fb898e02e27d77e224dc585a64bd5ab',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5ffriendly_5fname',['CUTEHMI_FRIENDLY_NAME',['../cutehmi_8metadata_8hpp.html#ae0e97a5eb1af00c65e4ebf54b385b5a3',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fimetadataplugin_5fiid',['CUTEHMI_IMETADATAPLUGIN_IID',['../IMetadataPlugin_8hpp.html#a4b7ba68045270b9fb923f741d507091a',1,'IMetadataPlugin.hpp']]],
   ['cutehmi_5fiprojectplugin_5fiid',['CUTEHMI_IPROJECTPLUGIN_IID',['../IProjectPlugin_8hpp.html#a1a00e80dfdd316f0227cde4fca27c57a',1,'IProjectPlugin.hpp']]],

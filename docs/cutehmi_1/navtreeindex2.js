@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"hierarchy.html":[1,2],
 "index.html":[],
 "loggingMacros_8hpp.html":[2,0,0,0,12],
 "loggingMacros_8hpp.html#a3e66cc413ee13e7a632b5db080275b2f":[2,0,0,0,12,4],
@@ -15,12 +16,12 @@ var NAVTREEINDEX2 =
 "logging_8hpp_source.html":[2,0,0,0,11],
 "metadata_8hpp.html":[2,0,0,0,13],
 "metadata_8hpp_source.html":[2,0,0,0,13],
-"namespacecutehmi.html":[0,0,0],
 "namespacecutehmi.html":[1,0,0],
+"namespacecutehmi.html":[0,0,0],
 "namespacecutehmi_1_1internal.html":[0,0,0,0],
 "namespacecutehmi_1_1internal.html":[1,0,0,0],
-"namespacecutehmi_1_1plugin.html":[1,0,0,1],
 "namespacecutehmi_1_1plugin.html":[0,0,0,1],
+"namespacecutehmi_1_1plugin.html":[1,0,0,1],
 "namespacemembers.html":[0,1,0],
 "namespacemembers_func.html":[0,1,1],
 "namespaces.html":[0,0],
