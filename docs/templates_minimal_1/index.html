@@ -110,8 +110,8 @@ $(document).ready(function(){initNavTree('index.html','');});
 <div class="contents">
 <div class="textblock"><p>Minimalistic module, that can be used as a template for writing modules.</p>
 <h2>Directories</h2>
-<p>Directory name of the module defines <b>module name</b>. Therefore this module is named <code>templates_minimal_1</code>.</p>
-<p>Module name consists of <b>base name</b> (<code>templates_minimal</code>) and <b>major version suffix</b> (<code>_1</code>). <b>Base name</b> also consists of two parts: <b>vendor id</b> (<code>templates</code>) and <b>module id</b> (<code>minimal</code>).</p>
+<p>Directory name of the module defines fully qualified module <b>name</b>. Therefore this module is named <code>templates_minimal_1</code>.</p>
+<p>Fully qualified <b>name</b> consists of <b>base name</b> (<code>templates_minimal</code>) and <b>major version suffix</b> (<code>_1</code>). <b>Base name</b> also consists of two parts: <b>vendor id</b> (<code>templates</code>) and <b>module id</b> (<code>minimal</code>). It is allowed to omit <b>module id</b> for a single module from a specific vendor.</p>
 <p>Typically each module will have directory structure similar to this one.</p>
 <ul>
 <li><code>include</code> - public header files (available to other modules).<ul>
@@ -148,9 +148,9 @@ $(document).ready(function(){initNavTree('index.html','');});
 <h4><code>templates_minimal_1.qbs</code></h4>
 <p>This file defines module in terms of Qbs product. The name of this file should be the same as directory name of the module, so you have to rename it.</p>
 <div class="fragment"><div class="line">import cutehmi</div></div><!-- fragment --><p> This line is required to import <code>cutehmi</code> Qbs items.</p>
-<div class="fragment"><div class="line">cutehmi.Module {</div></div><!-- fragment --><p> All modules inherit after cutehmi.Module item, which itself inherits after cutehmi.CommonProduct. You can find definitions of these items in <code>qbs</code> directory.</p>
+<div class="fragment"><div class="line">cutehmi.Module {</div></div><!-- fragment --><p> All modules inherit after cutehmi.Module item, which itself inherits after cutehmi.CommonProduct. You can find definitions of these items in <a href="https://github.com/michpolicht/CuteHMI/tree/master/qbs/imports/cutehmi">qbs directory</a>.</p>
 <p>One of the noticeable things is that cutehmi.Module item depends on cutehmi.metadata Qbs module, which will generate <code>cutehmi.metadata.json</code> and <code>cutehmi.metadata.hpp</code> files. These files will contain the meta-information extracted from properties of the Qbs file.</p>
-<div class="fragment"><div class="line">name: &quot;templates_minimal_1&quot;</div></div><!-- fragment --><p> Product name is the same as <b>module name</b>. This is also the same as directory name of the module.</p>
+<div class="fragment"><div class="line">name: &quot;templates_minimal_1&quot;</div></div><!-- fragment --><p> Product name is the same as fully qualified <b>name</b>. This is also the same as directory name of the module.</p>
 <div class="fragment"><div class="line">minor: 0</div><div class="line"></div><div class="line">micro: 0</div></div><!-- fragment --><p> Minor version has to be specified as it is not inhered within <code>name</code> of the product. Micro version also has to be specified. They may need to be editted in future, but it is uncommon to use other values than zeros for initial version of module.</p>
 <div class="fragment"><div class="line">vendor: &quot;The Secret Order of Templates&quot;</div><div class="line"></div><div class="line">friendlyName: &quot;Minimal Module Template&quot;</div></div><!-- fragment --><p> Human-friendly vendor and product names.</p>
 <div class="fragment"><div class="line">description: &quot;Minimalistic module, that can be used as a template for writing modules.&quot;</div></div><!-- fragment --><p> Description of the product.</p>
