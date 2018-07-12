@@ -11,7 +11,7 @@ var indexSectionsWithContent =
   8: "eruw",
   9: "bdfimnprtv",
   10: "p",
-  11: "t",
+  11: "ht",
   12: "m"
 };
 
