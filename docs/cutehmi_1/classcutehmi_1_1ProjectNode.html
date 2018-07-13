@@ -255,7 +255,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classcutehmi_1_1Project.html" title="Project. ">Project</a> model node. </p>
 <p>Represents a node of tree-like structure of project. Objects of this class can not be instantiated directly. It is only possible to add nodes to existing <a class="el" href="classcutehmi_1_1ProjectModel.html" title="Project model. ">ProjectModel</a> using <a class="el" href="classcutehmi_1_1ProjectNode.html#a51a9d2b962420fdd8aba27fd6c347dd4" title="Add child node. ">addChild()</a> function.</p>
-<p>Nodes serve several purposes. They reflect dependencies of the project, control lifetime of injected data and serve as extension points, allowing various parts of application to communicate with each other. Each node has an id by which it may be referred.</p>
+<p>Nodes serve several purposes. They reflect dependencies in the project, control lifetime of injected data and serve as extension points, allowing various parts of application to communicate with each other. Each node has an id by which it may be referred.</p>
 <p>&lt;principle id="cutehmi::ProjectNode-determined_destruction_order"&gt; Destruction order of exposed data members is determined. The order is as follows:</p><ul>
 <li>child nodes (<a class="el" href="classcutehmi_1_1ProjectNode.html#ab570db6ffda526517c2454693e77d1cc" title="Get children. ">children()</a>) in reverse order as they were added. Each child follows the order.</li>
 <li>extensions.</li>
@@ -522,7 +522,7 @@ this function explicitly sets QQmlEngine ownership of <em>extension</em> object 
 </dl>
 <dl class="section note"><dt>Note</dt><dd>with this method only one instance of particular class can be added to the node. To add more objects of the same class one may use <a class="el" href="classcutehmi_1_1ProjectNode.html#ab892c73312aad7e8fd4dee5632f39249" title="Add extension. ">addExtension(const QString &amp; extensionId, QObject * extension)</a> variant. Consider however, adding child nodes instead.</dd>
 <dd>
-extension object won't be owned by Node.</dd>
+this class will not take ownership of extension object.</dd>
 <dd>
 this function explicitly sets QQmlEngine ownership of <em>extension</em> object to QQmlEngine::CppOwnership, to prevent deletion from QML by garbage collector. </dd></dl>
 

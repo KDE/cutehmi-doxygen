@@ -195,7 +195,7 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classcutehmi_1_1Project.html" title="Project. ">Project</a> model. </p>
 <p><a class="el" href="classcutehmi_1_1Project.html" title="Project. ">Project</a> model is technically a tree, which uses <a class="el" href="classcutehmi_1_1ProjectNode.html" title="Project model node. ">ProjectNode</a> instances as underlying data structure for its nodes. Various aspects of the model are exposed as QAbstractItemModel, so that it can be used with standard Qt views.</p>
-<p>&lt;principle id="cutehmi::ProjectModel-internalPoiner"&gt; For all valid items in the model, QModelIndex::internalPointer() is always associated with pointer to object of type <code>ProjectModel::Node</code>, so that neither <code>nullptr</code> nor a pointer to any other object type can be returned. &lt;/principle&gt;</p>
+<p>&lt;principle id="cutehmi::ProjectModel::internalPointer"&gt; For all valid items in the model, QModelIndex::internalPointer() is always associated with pointer to object of type <code>ProjectModel::Node</code>, so that neither <code>nullptr</code> nor a pointer to any other object type can be returned. &lt;/principle&gt;</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="acac67fd579c0abec86a73dec0382b3f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acac67fd579c0abec86a73dec0382b3f0">&#9670;&nbsp;</a></span>const_iterator</h2>
