@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['q_5fdeclare_5flogging_5fcategory',['Q_DECLARE_LOGGING_CATEGORY',['../logging_8hpp.html#a642ebe882609bc148aa64f28e0af5bc1',1,'logging.hpp']]]
+  ['get',['get',['../../cutehmi_1/classcutehmi_1_1MPtr.html#a51e6884690bbcc7ed57781248c0b405f',1,'cutehmi::MPtr::get() const noexcept'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#a941d8052f931e37f11fdf4889f88491d',1,'cutehmi::MPtr::get() noexcept'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#a51e6884690bbcc7ed57781248c0b405f',1,'MPtr&lt; Members &gt;::get() const noexcept'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#a941d8052f931e37f11fdf4889f88491d',1,'MPtr&lt; Members &gt;::get() noexcept']]]
 ];
