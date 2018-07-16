@@ -25,5 +25,6 @@ var searchData=
   ['button_5fyes',['BUTTON_YES',['../classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a971456a4363904e200c3be1138852808',1,'cutehmi::Prompt']]],
   ['button_5fyes_5fto_5fall',['BUTTON_YES_TO_ALL',['../classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2adae7e2ff7c0cd005dd4c02d4bd3a7512',1,'cutehmi::Prompt']]],
   ['buttons',['buttons',['../classcutehmi_1_1Prompt.html#a7f3e49512b7c4d32627dbd6e81753f1e',1,'cutehmi::Prompt::buttons()'],['../classcutehmi_1_1Prompt.html#a8b52385393e05c85be3c3edc86e1a7b1',1,'cutehmi::Prompt::buttons() const']]],
-  ['buttonschanged',['buttonsChanged',['../classcutehmi_1_1Prompt.html#a1ecbacd55ad43fa3fccb4205a26270a4',1,'cutehmi::Prompt']]]
+  ['buttonschanged',['buttonsChanged',['../classcutehmi_1_1Prompt.html#a1ecbacd55ad43fa3fccb4205a26270a4',1,'cutehmi::Prompt']]],
+  ['base',['Base',['../index.html',1,'']]]
 ];

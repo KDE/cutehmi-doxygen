@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['raise',['raise',['../classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'cutehmi::ExceptionMixin']]],
+  ['raise',['raise',['../classcutehmi_1_1Exception.html#a42e0e98e213022a9b7c089d6eadfdfb5',1,'cutehmi::Exception::raise()'],['../classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'cutehmi::ExceptionMixin::raise()']]],
   ['ready',['ready',['../classcutehmi_1_1Worker.html#ade163e3acef45f617f2d27f63a50f9da',1,'cutehmi::Worker']]],
   ['registeredtype',['RegisteredType',['../classcutehmi_1_1Worker_1_1WorkEvent.html#ae6965e32dcec66af15916445025329bc',1,'cutehmi::Worker::WorkEvent']]],
+  ['registerextension',['registerExtension',['../classcutehmi_1_1ProjectNode.html#ab010c44068d2ef609d9d54082e55a490',1,'cutehmi::ProjectNode::registerExtension(const QString &amp;extensionId, QObject *extension)'],['../classcutehmi_1_1ProjectNode.html#a53b66a1078617e07fdd99638b18febc2',1,'cutehmi::ProjectNode::registerExtension(QObject *extension)']]],
   ['removelast',['removeLast',['../classcutehmi_1_1NotificationListModel.html#ad70ddae66dff49b7b0deb0b635565431',1,'cutehmi::NotificationListModel']]],
   ['reqminor',['reqMinor',['../classcutehmi_1_1internal_1_1PluginNodeData.html#ab768936de1ffdbd98999e9b4d0f1344c',1,'cutehmi::internal::PluginNodeData']]],
   ['reset',['reset',['../classcutehmi_1_1Project.html#abe2d57236c79fdaae8bb540a2f7f2868',1,'cutehmi::Project']]],

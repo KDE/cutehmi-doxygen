@@ -16,5 +16,6 @@ var searchData=
   ['skiptonextsiblingelement',['skipToNextSiblingElement',['../classcutehmi_1_1xml_1_1ParseHelper.html#a6aaf33820dfc1b90801ee6e7deea882b',1,'cutehmi::xml::ParseHelper']]],
   ['state',['State',['../../cutehmi_1/classcutehmi_1_1Worker.html#ad1af1b96360c59a3c9dc9ba470004c81',1,'cutehmi::Worker']]],
   ['str',['str',['../../cutehmi_1/structcutehmi_1_1ErrorInfo.html#addce052016813ca52f624921f8046c7f',1,'cutehmi::ErrorInfo::str()'],['../../cutehmi_1/structcutehmi_1_1Error.html#aef2624dce52e1447313ad8bff38ab6a6',1,'cutehmi::Error::str()']]],
+  ['subclass_5fbegin',['SUBCLASS_BEGIN',['../../cutehmi_1/structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0',1,'cutehmi::Error']]],
   ['swap',['swap',['../../cutehmi_1/classcutehmi_1_1MPtr.html#acfb1b5f08bc135fd701e1370108dc05a',1,'cutehmi::MPtr::swap()'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#acfb1b5f08bc135fd701e1370108dc05a',1,'MPtr&lt; Members &gt;::swap()']]]
 ];

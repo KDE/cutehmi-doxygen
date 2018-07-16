@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['fail',['FAIL',['../structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e',1,'cutehmi::Error']]],
   ['failedloadexception',['FailedLoadException',['../classcutehmi_1_1internal_1_1PluginLoader_1_1FailedLoadException.html',1,'cutehmi::internal::PluginLoader::FailedLoadException'],['../classcutehmi_1_1internal_1_1PluginLoader_1_1FailedLoadException.html#a3bfee20206873a1d474cb69a8888516f',1,'cutehmi::internal::PluginLoader::FailedLoadException::FailedLoadException()']]],
   ['filename',['fileName',['../classcutehmi_1_1Plugin.html#a2111e7ee235f86ee702c3111c630f482',1,'cutehmi::Plugin::fileName()'],['../classcutehmi_1_1Plugin.html#a41bd0207116c3057f17caf2af136e677',1,'cutehmi::Plugin::fileName() const']]],
   ['flags',['flags',['../classcutehmi_1_1ProjectModel.html#aabb91dd2e8132da21fc9771d4839bbc7',1,'cutehmi::ProjectModel']]],

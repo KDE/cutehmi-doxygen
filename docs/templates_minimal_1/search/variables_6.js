@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['str',['str',['../../cutehmi_1/structcutehmi_1_1ErrorInfo.html#addce052016813ca52f624921f8046c7f',1,'cutehmi::ErrorInfo']]]
+  ['ok',['OK',['../../cutehmi_1/structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188',1,'cutehmi::Error']]]
 ];

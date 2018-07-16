@@ -13,7 +13,7 @@ var dir_af47cb53463d2a51ba0770599d092505 =
     ] ],
     [ "ErrorInfo.hpp", "ErrorInfo_8hpp.html", "ErrorInfo_8hpp" ],
     [ "Exception.hpp", "Exception_8hpp.html", [
-      [ "Exception", "classcutehmi_1_1Exception.html", null ]
+      [ "Exception", "classcutehmi_1_1Exception.html", "classcutehmi_1_1Exception" ]
     ] ],
     [ "ExceptionMixin.hpp", "ExceptionMixin_8hpp.html", [
       [ "ExceptionMixin", "classcutehmi_1_1ExceptionMixin.html", "classcutehmi_1_1ExceptionMixin" ]

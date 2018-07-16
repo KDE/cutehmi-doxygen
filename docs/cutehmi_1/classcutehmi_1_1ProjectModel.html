@@ -53,6 +53,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -126,9 +127,6 @@ $(document).ready(function(){initNavTree('classcutehmi_1_1ProjectModel.html','')
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classcutehmi_1_1Project.html" title="Project. ">Project</a> model.  
- <a href="classcutehmi_1_1ProjectModel.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="ProjectModel_8hpp_source.html">ProjectModel.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cutehmi::ProjectModel:</div>
@@ -173,10 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8fddebfa8d069f911ad25fdd638d344a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1ProjectModel.html#acac67fd579c0abec86a73dec0382b3f0">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1ProjectModel.html#a8fddebfa8d069f911ad25fdd638d344a">end</a> () const</td></tr>
 <tr class="separator:a8fddebfa8d069f911ad25fdd638d344a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2d0fecaefdf31942afdd1d0f2a5a126"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcutehmi_1_1ProjectNode.html">ProjectNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1ProjectModel.html#aa2d0fecaefdf31942afdd1d0f2a5a126">root</a> () const</td></tr>
-<tr class="memdesc:aa2d0fecaefdf31942afdd1d0f2a5a126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get root node (const version).  <a href="#aa2d0fecaefdf31942afdd1d0f2a5a126">More...</a><br /></td></tr>
 <tr class="separator:aa2d0fecaefdf31942afdd1d0f2a5a126"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b09c12e05c3fe9bcb941be72eb13edc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1ProjectNode.html">ProjectNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1ProjectModel.html#a5b09c12e05c3fe9bcb941be72eb13edc">root</a> ()</td></tr>
-<tr class="memdesc:a5b09c12e05c3fe9bcb941be72eb13edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get root node.  <a href="#a5b09c12e05c3fe9bcb941be72eb13edc">More...</a><br /></td></tr>
 <tr class="separator:a5b09c12e05c3fe9bcb941be72eb13edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -184,7 +180,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:acea353cc2ab703acf819de0e1f48d1b1"><td class="memItemLeft" align="right" valign="top">QModelIndex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1ProjectModel.html#acea353cc2ab703acf819de0e1f48d1b1">createIndex</a> (int row, int column, <a class="el" href="classcutehmi_1_1ProjectNode.html">ProjectNode</a> *ptr) const</td></tr>
 <tr class="separator:acea353cc2ab703acf819de0e1f48d1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1de27ea2883fb809d0990d1049b4806"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcutehmi_1_1ProjectNode.html">ProjectNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1ProjectModel.html#ac1de27ea2883fb809d0990d1049b4806">rootPtr</a> () const</td></tr>
-<tr class="memdesc:ac1de27ea2883fb809d0990d1049b4806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root node pointer.  <a href="#ac1de27ea2883fb809d0990d1049b4806">More...</a><br /></td></tr>
 <tr class="separator:ac1de27ea2883fb809d0990d1049b4806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -195,7 +190,8 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classcutehmi_1_1Project.html" title="Project. ">Project</a> model. </p>
 <p><a class="el" href="classcutehmi_1_1Project.html" title="Project. ">Project</a> model is technically a tree, which uses <a class="el" href="classcutehmi_1_1ProjectNode.html" title="Project model node. ">ProjectNode</a> instances as underlying data structure for its nodes. Various aspects of the model are exposed as QAbstractItemModel, so that it can be used with standard Qt views.</p>
-<p>&lt;principle id="cutehmi::ProjectModel::internalPointer"&gt; For all valid items in the model, QModelIndex::internalPointer() is always associated with pointer to object of type <code>ProjectModel::Node</code>, so that neither <code>nullptr</code> nor a pointer to any other object type can be returned. &lt;/principle&gt;</p>
+<dl class="principles"><dt><b><a class="el" href="principles.html#_principles000002">Principle:</a></b></dt><dd><b>"cutehmi::ProjectModel::internalPointer"</b> <br />
+For all valid items in the model, QModelIndex::internalPointer() is always associated with pointer to object of type <code>ProjectModel::Node</code>, so that neither <code>nullptr</code> nor a pointer to any other object type can be returned. </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="acac67fd579c0abec86a73dec0382b3f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acac67fd579c0abec86a73dec0382b3f0">&#9670;&nbsp;</a></span>const_iterator</h2>

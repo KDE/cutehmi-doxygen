@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ready',['READY',['../classcutehmi_1_1Worker.html#ad1af1b96360c59a3c9dc9ba470004c81a2baa69eafc7204f3bd8648eba580c489',1,'cutehmi::Worker']]]
+  ['ok',['OK',['../structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188',1,'cutehmi::Error']]]
 ];

@@ -8,7 +8,7 @@ var searchData=
   ['noncopyable_2ehpp',['NonCopyable.hpp',['../NonCopyable_8hpp.html',1,'']]],
   ['nonmovable',['NonMovable',['../classcutehmi_1_1NonMovable.html',1,'cutehmi::NonMovable'],['../classcutehmi_1_1NonMovable.html#a91e73eb6e174aad94d4ac342562d4db6',1,'cutehmi::NonMovable::NonMovable()']]],
   ['nonmovable_2ehpp',['NonMovable.hpp',['../NonMovable_8hpp.html',1,'']]],
-  ['note',['NOTE',['../classcutehmi_1_1Notification.html#afb205cc6a11ed22783f860ede8aa6c65a9a9d8c4c744518b96c7af90d5e824d5c',1,'cutehmi::Notification::NOTE()'],['../classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098badec60d9a58819e3d8f993bf6735adc95',1,'cutehmi::Prompt::NOTE()'],['../classcutehmi_1_1Notification.html#a900b85df6b081d2e21f54563dfd0f9c0',1,'cutehmi::Notification::Note()'],['../classcutehmi_1_1Prompt.html#a383c6c9af6ef133844573ffbe1598b7f',1,'cutehmi::Prompt::Note()']]],
+  ['note',['Note',['../classcutehmi_1_1Notification.html#a900b85df6b081d2e21f54563dfd0f9c0',1,'cutehmi::Notification::Note()'],['../classcutehmi_1_1Prompt.html#a383c6c9af6ef133844573ffbe1598b7f',1,'cutehmi::Prompt::Note()'],['../classcutehmi_1_1Notification.html#afb205cc6a11ed22783f860ede8aa6c65a9a9d8c4c744518b96c7af90d5e824d5c',1,'cutehmi::Notification::NOTE()'],['../classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098badec60d9a58819e3d8f993bf6735adc95',1,'cutehmi::Prompt::NOTE()']]],
   ['notification',['Notification',['../classcutehmi_1_1Notification.html',1,'cutehmi::Notification'],['../classcutehmi_1_1Notification.html#a1dd07ba5e0f5198fc2368ac9a8c75451',1,'cutehmi::Notification::Notification()']]],
   ['notification_2ecpp',['Notification.cpp',['../Notification_8cpp.html',1,'']]],
   ['notification_2ehpp',['Notification.hpp',['../Notification_8hpp.html',1,'']]],

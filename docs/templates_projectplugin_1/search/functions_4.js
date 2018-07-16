@@ -6,6 +6,7 @@ var searchData=
   ['errorexception',['ErrorException',['../../cutehmi_1/classcutehmi_1_1ErrorException.html#a3eb0ffff6778954936e4621c13005929',1,'cutehmi::ErrorException']]],
   ['errorinfo',['errorInfo',['../../cutehmi_1/namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6',1,'cutehmi']]],
   ['event',['event',['../../cutehmi_1/classcutehmi_1_1Worker.html#a468f1c147d4b4d814cc6e5306329884a',1,'cutehmi::Worker']]],
+  ['exception',['Exception',['../../cutehmi_1/classcutehmi_1_1Exception.html#a431b3fff2c2d022207d30a996c8f75b4',1,'cutehmi::Exception']]],
   ['exceptionmixin',['ExceptionMixin',['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443',1,'cutehmi::ExceptionMixin::ExceptionMixin()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443',1,'ExceptionMixin&lt; ErrorException &gt;::ExceptionMixin()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443',1,'ExceptionMixin&lt; Exception &gt;::ExceptionMixin()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443',1,'ExceptionMixin&lt; MissingInterfaceException &gt;::ExceptionMixin()']]],
   ['exec',['exec',['../../cutehmi_1/classcutehmi_1_1Prompt.html#a7a3731f2b6b6e052475bd1543e2313d4',1,'cutehmi::Prompt']]],
   ['extension',['extension',['../../cutehmi_1/classcutehmi_1_1ProjectNode.html#ac79199e9292c75e91ace4598565ebb01',1,'cutehmi::ProjectNode']]],

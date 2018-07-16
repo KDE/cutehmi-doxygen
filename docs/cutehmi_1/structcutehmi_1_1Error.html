@@ -53,6 +53,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -115,6 +116,7 @@ $(document).ready(function(){initNavTree('structcutehmi_1_1Error.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="structcutehmi_1_1Error-members.html">List of all members</a>  </div>
@@ -123,31 +125,32 @@ $(document).ready(function(){initNavTree('structcutehmi_1_1Error.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Standarized error.  
- <a href="structcutehmi_1_1Error.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="Error_8hpp_source.html">Error.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:af321daa00c741246e8c9a21ea0435b96"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">: int { <a class="el" href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574">UNINITIALIZED</a> = -2, 
+<a class="el" href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e">FAIL</a> = -1, 
+<a class="el" href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188">OK</a> = 0, 
+<a class="el" href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0">SUBCLASS_BEGIN</a> = 1
+ }</td></tr>
+<tr class="separator:af321daa00c741246e8c9a21ea0435b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adab8391e49da47fe1c92b84b24843f98"><td class="memItemLeft" align="right" valign="top">Q_DECLARE_TR_FUNCTIONS(<a class="el" href="structcutehmi_1_1Error.html">cutehmi::Error</a>) public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#adab8391e49da47fe1c92b84b24843f98">Error</a> ()</td></tr>
-<tr class="memdesc:adab8391e49da47fe1c92b84b24843f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#adab8391e49da47fe1c92b84b24843f98">More...</a><br /></td></tr>
+<tr class="memitem:adab8391e49da47fe1c92b84b24843f98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#adab8391e49da47fe1c92b84b24843f98">Error</a> ()</td></tr>
 <tr class="separator:adab8391e49da47fe1c92b84b24843f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7005a5afb5b05b4062bb20d3c9025c2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#a7005a5afb5b05b4062bb20d3c9025c2e">Error</a> (int <a class="el" href="structcutehmi_1_1Error.html#ad8895de8ad394ba667dc1965c607b875">code</a>)</td></tr>
-<tr class="memdesc:a7005a5afb5b05b4062bb20d3c9025c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion constructor.  <a href="#a7005a5afb5b05b4062bb20d3c9025c2e">More...</a><br /></td></tr>
 <tr class="separator:a7005a5afb5b05b4062bb20d3c9025c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ffc199bd7c0907929165003eb44c1d4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#a8ffc199bd7c0907929165003eb44c1d4">operator==</a> (const <a class="el" href="structcutehmi_1_1Error.html">Error</a> &amp;other) const</td></tr>
 <tr class="separator:a8ffc199bd7c0907929165003eb44c1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd2dd94bdf40d173877c12bf225fec0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#abd2dd94bdf40d173877c12bf225fec0a">operator!=</a> (const <a class="el" href="structcutehmi_1_1Error.html">Error</a> &amp;other) const</td></tr>
 <tr class="separator:abd2dd94bdf40d173877c12bf225fec0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0a3598206bdefd8cfaaaae695dda57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#aad0a3598206bdefd8cfaaaae695dda57">operator bool</a> () const</td></tr>
-<tr class="memdesc:aad0a3598206bdefd8cfaaaae695dda57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to <code>bool</code>.  <a href="#aad0a3598206bdefd8cfaaaae695dda57">More...</a><br /></td></tr>
 <tr class="separator:aad0a3598206bdefd8cfaaaae695dda57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8895de8ad394ba667dc1965c607b875"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#ad8895de8ad394ba667dc1965c607b875">code</a> () const</td></tr>
-<tr class="memdesc:ad8895de8ad394ba667dc1965c607b875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get error code.  <a href="#ad8895de8ad394ba667dc1965c607b875">More...</a><br /></td></tr>
 <tr class="separator:ad8895de8ad394ba667dc1965c607b875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef2624dce52e1447313ad8bff38ab6a6"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcutehmi_1_1Error.html#aef2624dce52e1447313ad8bff38ab6a6">str</a> () const</td></tr>
-<tr class="memdesc:aef2624dce52e1447313ad8bff38ab6a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get error string.  <a href="#aef2624dce52e1447313ad8bff38ab6a6">More...</a><br /></td></tr>
 <tr class="separator:aef2624dce52e1447313ad8bff38ab6a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -157,8 +160,29 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Standarized error. </p>
-<p>Class reserves negative values for its error codes. When subclassing start custom error codes from 1 (<code>Error::SUBCLASS_BEGIN</code>). </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>Class reserves negative values for its error codes. When subclassing start custom error codes from 1 (<code><a class="el" href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0">Error::SUBCLASS_BEGIN</a></code>). </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="af321daa00c741246e8c9a21ea0435b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af321daa00c741246e8c9a21ea0435b96">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum : int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574"></a>UNINITIALIZED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e"></a>FAIL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188"></a>OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0"></a>SUBCLASS_BEGIN&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adab8391e49da47fe1c92b84b24843f98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adab8391e49da47fe1c92b84b24843f98">&#9670;&nbsp;</a></span>Error() <span class="overload">[1/2]</span></h2>
 
@@ -241,7 +265,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Conversion to <code>bool</code>. </p>
-<p>Evaluates to <code>true</code> if error code is <code>Error::OK</code>, <code>false</code> otherwise. </p>
+<p>Evaluates to <code>true</code> if error code is <code><a class="el" href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188">Error::OK</a></code>, <code>false</code> otherwise. </p>
 
 </div>
 </div>
@@ -324,7 +348,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Get error string. </p>
 <p>A subclass may reimplement this method to provide its own error descriptions. </p><dl class="section return"><dt>Returns</dt><dd>error message.</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>this function is non-virtual. When calling this function on down-casted instance of derived class, it may not recognize error code and return generic message. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function is non-virtual. When calling this function on down-casted instance of derived class, it may not recognize error code and return generic message. </dd></dl>
 
 </div>
 </div>

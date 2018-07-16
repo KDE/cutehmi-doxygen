@@ -15,5 +15,6 @@ var searchData=
   ['singleton_2ehpp',['Singleton.hpp',['../Singleton_8hpp.html',1,'']]],
   ['state',['State',['../classcutehmi_1_1Worker.html#ad1af1b96360c59a3c9dc9ba470004c81',1,'cutehmi::Worker']]],
   ['str',['str',['../structcutehmi_1_1ErrorInfo.html#addce052016813ca52f624921f8046c7f',1,'cutehmi::ErrorInfo::str()'],['../structcutehmi_1_1Error.html#aef2624dce52e1447313ad8bff38ab6a6',1,'cutehmi::Error::str()']]],
+  ['subclass_5fbegin',['SUBCLASS_BEGIN',['../structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0',1,'cutehmi::Error']]],
   ['swap',['swap',['../classcutehmi_1_1MPtr.html#acfb1b5f08bc135fd701e1370108dc05a',1,'cutehmi::MPtr::swap()'],['../MPtr_8hpp.html#a96ddc093f1196eae17952d9027a83fb7',1,'swap():&#160;MPtr.hpp']]]
 ];

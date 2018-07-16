@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['raise',['raise',['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'cutehmi::ExceptionMixin::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'ExceptionMixin&lt; ErrorException &gt;::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'ExceptionMixin&lt; Exception &gt;::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'ExceptionMixin&lt; MissingInterfaceException &gt;::raise()']]],
+  ['raise',['raise',['../../cutehmi_1/classcutehmi_1_1Exception.html#a42e0e98e213022a9b7c089d6eadfdfb5',1,'cutehmi::Exception::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'cutehmi::ExceptionMixin::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'ExceptionMixin&lt; ErrorException &gt;::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'ExceptionMixin&lt; Exception &gt;::raise()'],['../../cutehmi_1/classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998',1,'ExceptionMixin&lt; MissingInterfaceException &gt;::raise()']]],
   ['raiseerror',['raiseError',['../classcutehmi_1_1xml_1_1ParseHelper.html#a388d1f649d21096371db068001cc8078',1,'cutehmi::xml::ParseHelper']]],
   ['readelementtext',['readElementText',['../classcutehmi_1_1xml_1_1ParseHelper.html#aa057437a0c8b26d2142f0204cdc7b58d',1,'cutehmi::xml::ParseHelper']]],
   ['readerpositionstring',['readerPositionString',['../namespacecutehmi_1_1xml_1_1internal.html#a17646d33eed8f7308a576a2fc17a284e',1,'cutehmi::xml::internal']]],
@@ -8,6 +8,7 @@ var searchData=
   ['readxml',['readXML',['../classcutehmi_1_1xml_1_1IBackendPlugin.html#afd6708ec4e542819a9a0314be7c4e12e',1,'cutehmi::xml::IBackendPlugin']]],
   ['ready',['ready',['../../cutehmi_1/classcutehmi_1_1Worker.html#ade163e3acef45f617f2d27f63a50f9da',1,'cutehmi::Worker']]],
   ['registeredtype',['RegisteredType',['../../cutehmi_1/classcutehmi_1_1Worker_1_1WorkEvent.html#ae6965e32dcec66af15916445025329bc',1,'cutehmi::Worker::WorkEvent']]],
+  ['registerextension',['registerExtension',['../../cutehmi_1/classcutehmi_1_1ProjectNode.html#ab010c44068d2ef609d9d54082e55a490',1,'cutehmi::ProjectNode::registerExtension(const QString &amp;extensionId, QObject *extension)'],['../../cutehmi_1/classcutehmi_1_1ProjectNode.html#a53b66a1078617e07fdd99638b18febc2',1,'cutehmi::ProjectNode::registerExtension(QObject *extension)']]],
   ['removelast',['removeLast',['../../cutehmi_1/classcutehmi_1_1NotificationListModel.html#ad70ddae66dff49b7b0deb0b635565431',1,'cutehmi::NotificationListModel']]],
   ['reqminor',['reqMinor',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginNodeData.html#ab768936de1ffdbd98999e9b4d0f1344c',1,'cutehmi::internal::PluginNodeData']]],
   ['required',['required',['../classcutehmi_1_1xml_1_1ParseAttribute.html#ae886c6fe9cb7420896f7deb3b7e1c282',1,'cutehmi::xml::ParseAttribute']]],

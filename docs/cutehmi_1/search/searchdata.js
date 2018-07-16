@@ -8,10 +8,11 @@ var indexSectionsWithContent =
   5: "ces",
   6: "cdeilpr",
   7: "brst",
-  8: "bcdenqrtuw",
+  8: "bcdefnoqrstuw",
   9: "bdfimnprtv",
   10: "p",
-  11: "c"
+  11: "c",
+  12: "bp"
 };
 
 var indexSectionNames =
@@ -27,7 +28,8 @@ var indexSectionNames =
   8: "enumvalues",
   9: "properties",
   10: "related",
-  11: "defines"
+  11: "defines",
+  12: "pages"
 };
 
 var indexSectionLabels =
@@ -43,6 +45,7 @@ var indexSectionLabels =
   8: "Enumerator",
   9: "Properties",
   10: "Friends",
-  11: "Macros"
+  11: "Macros",
+  12: "Pages"
 };
 

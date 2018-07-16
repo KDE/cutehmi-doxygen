@@ -7,7 +7,7 @@ var namespacecutehmi =
     [ "Error", "structcutehmi_1_1Error.html", "structcutehmi_1_1Error" ],
     [ "ErrorException", "classcutehmi_1_1ErrorException.html", "classcutehmi_1_1ErrorException" ],
     [ "ErrorInfo", "structcutehmi_1_1ErrorInfo.html", "structcutehmi_1_1ErrorInfo" ],
-    [ "Exception", "classcutehmi_1_1Exception.html", null ],
+    [ "Exception", "classcutehmi_1_1Exception.html", "classcutehmi_1_1Exception" ],
     [ "ExceptionMixin", "classcutehmi_1_1ExceptionMixin.html", "classcutehmi_1_1ExceptionMixin" ],
     [ "IMetadataPlugin", "classcutehmi_1_1IMetadataPlugin.html", "classcutehmi_1_1IMetadataPlugin" ],
     [ "IProjectBackend", "classcutehmi_1_1IProjectBackend.html", "classcutehmi_1_1IProjectBackend" ],

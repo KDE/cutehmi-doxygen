@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_5frole',['TYPE_ROLE',['../classcutehmi_1_1NotificationListModel.html#a0569d94242e4b3f15c08b40a45039b0ea09dbe86def0291a44772f3bd491089b6',1,'cutehmi::NotificationListModel']]]
+  ['question',['QUESTION',['../classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098ba026db9f3fb62623d710e1354f8eafcee',1,'cutehmi::Prompt']]]
 ];

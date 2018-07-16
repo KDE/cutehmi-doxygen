@@ -15,7 +15,7 @@ var searchData=
   ['errorinfo_2ecpp',['ErrorInfo.cpp',['../ErrorInfo_8cpp.html',1,'']]],
   ['errorinfo_2ehpp',['ErrorInfo.hpp',['../ErrorInfo_8hpp.html',1,'']]],
   ['event',['event',['../classcutehmi_1_1Worker.html#a468f1c147d4b4d814cc6e5306329884a',1,'cutehmi::Worker']]],
-  ['exception',['Exception',['../classcutehmi_1_1Exception.html',1,'cutehmi::Exception'],['../classcutehmi_1_1internal_1_1PluginLoader_1_1Exception.html',1,'cutehmi::internal::PluginLoader::Exception']]],
+  ['exception',['Exception',['../classcutehmi_1_1Exception.html',1,'cutehmi::Exception'],['../classcutehmi_1_1internal_1_1PluginLoader_1_1Exception.html',1,'cutehmi::internal::PluginLoader::Exception'],['../classcutehmi_1_1Exception.html#a431b3fff2c2d022207d30a996c8f75b4',1,'cutehmi::Exception::Exception()']]],
   ['exception_2ecpp',['Exception.cpp',['../Exception_8cpp.html',1,'']]],
   ['exception_2ehpp',['Exception.hpp',['../Exception_8hpp.html',1,'']]],
   ['exceptionmixin',['ExceptionMixin',['../classcutehmi_1_1ExceptionMixin.html',1,'cutehmi::ExceptionMixin&lt; DERIVED &gt;'],['../classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443',1,'cutehmi::ExceptionMixin::ExceptionMixin()']]],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['type_5frole',['TYPE_ROLE',['../../cutehmi_1/classcutehmi_1_1NotificationListModel.html#a0569d94242e4b3f15c08b40a45039b0ea09dbe86def0291a44772f3bd491089b6',1,'cutehmi::NotificationListModel']]]
+  ['randomportbegin',['randomPortBegin',['../namespacecutehmi_1_1xml.html#a79eba90d96d953c0d1a79dad0f990f70',1,'cutehmi::xml']]],
+  ['randomportend',['randomPortEnd',['../namespacecutehmi_1_1xml.html#ad9c9510c79400ae7f760a8f13c8c32a5',1,'cutehmi::xml']]]
 ];

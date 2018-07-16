@@ -19,6 +19,7 @@ var searchData=
   ['popupbridge_2ecpp',['PopupBridge.cpp',['../PopupBridge_8cpp.html',1,'']]],
   ['popupbridge_2ehpp',['PopupBridge.hpp',['../PopupBridge_8hpp.html',1,'']]],
   ['prepend',['prepend',['../classcutehmi_1_1NotificationListModel.html#a89bde893a3b23f1dc72c6eb45e58e7d7',1,'cutehmi::NotificationListModel']]],
+  ['principles',['Principles',['../principles.html',1,'']]],
   ['project',['Project',['../classcutehmi_1_1Project.html',1,'cutehmi::Project'],['../classcutehmi_1_1ProjectPluginLoader.html#a7aa96bc4f81b0d0c023b6d0cbf31f944',1,'cutehmi::ProjectPluginLoader::Project()'],['../classcutehmi_1_1Project.html#ac785918584d429e55c220f2377e410fc',1,'cutehmi::Project::Project()'],['../classcutehmi_1_1CuteHMI.html#aadefee7a4b5e04acaeedd6dd4a4a6f3a',1,'cutehmi::CuteHMI::project()'],['../classcutehmi_1_1CuteHMI.html#a7b7984e211c96e5d002daa14ede2ad0f',1,'cutehmi::CuteHMI::project() const']]],
   ['project_2ecpp',['Project.cpp',['../Project_8cpp.html',1,'']]],
   ['project_2ehpp',['Project.hpp',['../Project_8hpp.html',1,'']]],

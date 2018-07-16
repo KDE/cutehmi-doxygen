@@ -23,6 +23,7 @@ for the JavaScript code in this file
 */
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
+{text:"Related Pages",url:"pages.html"},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[
@@ -84,7 +85,18 @@ var menudata={children:[
 {text:"Variables",url:"functions_vars.html"},
 {text:"Typedefs",url:"functions_type.html"},
 {text:"Enumerations",url:"functions_enum.html"},
-{text:"Enumerator",url:"functions_eval.html"},
+{text:"Enumerator",url:"functions_eval.html",children:[
+{text:"b",url:"functions_eval.html#index_b"},
+{text:"c",url:"functions_eval.html#index_c"},
+{text:"d",url:"functions_eval.html#index_d"},
+{text:"f",url:"functions_eval.html#index_f"},
+{text:"n",url:"functions_eval.html#index_n"},
+{text:"o",url:"functions_eval.html#index_o"},
+{text:"q",url:"functions_eval.html#index_q"},
+{text:"s",url:"functions_eval.html#index_s"},
+{text:"t",url:"functions_eval.html#index_t"},
+{text:"u",url:"functions_eval.html#index_u"},
+{text:"w",url:"functions_eval.html#index_w"}]},
 {text:"Properties",url:"functions_prop.html"},
 {text:"Related Functions",url:"functions_rela.html"}]}]},
 {text:"Files",url:"files.html",children:[

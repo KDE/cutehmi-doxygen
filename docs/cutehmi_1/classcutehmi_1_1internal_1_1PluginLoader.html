@@ -53,6 +53,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -124,9 +125,6 @@ $(document).ready(function(){initNavTree('classcutehmi_1_1internal_1_1PluginLoad
 </div><!--header-->
 <div class="contents">
 
-<p>Plugin loader.  
- <a href="classcutehmi_1_1internal_1_1PluginLoader.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="PluginLoader_8hpp_source.html">PluginLoader.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cutehmi::internal::PluginLoader:</div>
@@ -162,12 +160,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80d8a178d9c124a2f0188446d8039683"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1internal_1_1PluginLoader.html#a80d8a178d9c124a2f0188446d8039683">~PluginLoader</a> () override</td></tr>
 <tr class="separator:a80d8a178d9c124a2f0188446d8039683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a507cc3f1c28dd61d08e4382d0e455881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1Plugin.html">Plugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1internal_1_1PluginLoader.html#a507cc3f1c28dd61d08e4382d0e455881">loadPlugin</a> (const QString &amp;binary, int reqMinor) noexcept(false)</td></tr>
-<tr class="memdesc:a507cc3f1c28dd61d08e4382d0e455881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load plugin.  <a href="#a507cc3f1c28dd61d08e4382d0e455881">More...</a><br /></td></tr>
 <tr class="separator:a507cc3f1c28dd61d08e4382d0e455881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a56025007b82eb209df3bd31998100"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1internal_1_1PluginLoader.html#a17a56025007b82eb209df3bd31998100">unloadPlugins</a> ()</td></tr>
 <tr class="separator:a17a56025007b82eb209df3bd31998100"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f73cf0c433b6c9304964481f56e051f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1Plugin.html">Plugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1internal_1_1PluginLoader.html#a2f73cf0c433b6c9304964481f56e051f">plugin</a> (const QString &amp;binary)</td></tr>
-<tr class="memdesc:a2f73cf0c433b6c9304964481f56e051f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get loaded plugin.  <a href="#a2f73cf0c433b6c9304964481f56e051f">More...</a><br /></td></tr>
 <tr class="separator:a2f73cf0c433b6c9304964481f56e051f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80f2a5424ffd9775b60d27f3d1755def"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classcutehmi_1_1internal_1_1PluginLoader.html#a14bc8b65154457f7ef0c362aa2a378c8">LoadedPluginsContainer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1internal_1_1PluginLoader.html#a80f2a5424ffd9775b60d27f3d1755def">loadedPlugins</a> () const</td></tr>
 <tr class="separator:a80f2a5424ffd9775b60d27f3d1755def"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,7 +293,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">binary</td><td>name of plugin binary. </td></tr>
-    <tr><td class="paramname">minor</td><td>minimal required minor version. </td></tr>
+    <tr><td class="paramname">reqMinor</td><td>minimal required minor version. </td></tr>
   </table>
   </dd>
 </dl>
