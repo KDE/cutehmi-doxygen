@@ -5,5 +5,5 @@ var searchData=
   ['notification',['Notification',['../classcutehmi_1_1Notification.html',1,'cutehmi']]],
   ['notificationlistmodel',['NotificationListModel',['../classcutehmi_1_1NotificationListModel.html',1,'cutehmi']]],
   ['notificationmanager',['NotificationManager',['../classcutehmi_1_1NotificationManager.html',1,'cutehmi']]],
-  ['null',['Null',['http://doc.qt.io/qt-5.9/qstring-null.html',1,'QString']]]
+  ['null',['Null',['http://doc.qt.io/qt-5/qstring-null.html',1,'QString']]]
 ];

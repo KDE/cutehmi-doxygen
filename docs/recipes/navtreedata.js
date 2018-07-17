@@ -24,6 +24,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "External libraries recipes", "index.html", [
+    [ "Main Page", "../index.html", null ],
     [ "External libraries recipes.", "index.html", null ],
     [ "GNU gettext", "md_i686-w64-mingw32_gettext_README.html", null ],
     [ "GnuPG Libgcrypt", "md_i686-w64-mingw32_libgcrypt_README.html", null ],
@@ -40,7 +41,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"index.html"
+"../index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

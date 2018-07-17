@@ -24,21 +24,14 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "The Secret Order of Templates - Minimal Module Template (templates_minimal_1)", "index.html", [
-    [ "Minimal Module Template", "index.html", null ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
-    ] ]
+    [ "Main Page", "../index.html", null ],
+    [ "The Secret Order of Templates - Minimal Module Template", "index.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"common_8hpp.html"
+"../index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

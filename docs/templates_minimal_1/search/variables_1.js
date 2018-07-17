@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['base64options',['Base64Options',['http://doc.qt.io/qt-5.9/qbytearray.html#Base64Option-enum',1,'QByteArray']]],
-  ['bindmode',['BindMode',['http://doc.qt.io/qt-5.9/qabstractsocket.html#BindFlag-enum',1,'QAbstractSocket']]],
-  ['boundaryreasons',['BoundaryReasons',['http://doc.qt.io/qt-5.9/qtextboundaryfinder.html#BoundaryReason-enum',1,'QTextBoundaryFinder']]],
+  ['base64options',['Base64Options',['http://doc.qt.io/qt-5/qbytearray.html#Base64Option-enum',1,'QByteArray']]],
+  ['bindmode',['BindMode',['http://doc.qt.io/qt-5/qabstractsocket.html#BindFlag-enum',1,'QAbstractSocket']]],
+  ['boundaryreasons',['BoundaryReasons',['http://doc.qt.io/qt-5/qtextboundaryfinder.html#BoundaryReason-enum',1,'QTextBoundaryFinder']]],
   ['button_5fabort',['BUTTON_ABORT',['../../cutehmi_1/classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a8dd7cc0349a8d6f1b25b2935d1521d23',1,'cutehmi::Prompt']]],
   ['button_5fapply',['BUTTON_APPLY',['../../cutehmi_1/classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a8aa7545aaab92f44df243b50925be902',1,'cutehmi::Prompt']]],
   ['button_5fcancel',['BUTTON_CANCEL',['../../cutehmi_1/classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a7043f01fc9d9a414544512539c8a97b1',1,'cutehmi::Prompt']]],

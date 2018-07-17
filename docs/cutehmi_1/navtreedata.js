@@ -23,8 +23,9 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "CuteHMI - Base (cutehmi_1)", "index.html", [
-    [ "Base", "index.html", null ],
+  [ "CuteHMI - [Core] (cutehmi_1)", "index.html", [
+    [ "Main Page", "../index.html", null ],
+    [ "CuteHMI - [Core]", "index.html", null ],
     [ "Principles", "principles.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
@@ -47,23 +48,14 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"CuteHMI_8cpp.html",
-"classcutehmi_1_1Project.html#abe2d57236c79fdaae8bb540a2f7f2868",
-"functions_w.html"
+"../index.html",
+"classcutehmi_1_1Prompt.html#a9c1e5afb4ad43ae62aa489d5c6a92d38"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

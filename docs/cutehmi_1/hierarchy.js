@@ -17,10 +17,10 @@ var hierarchy =
       [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ]
     ] ],
     [ "cutehmi::ProjectPluginLoader", "classcutehmi_1_1ProjectPluginLoader.html", null ],
-    [ "QEvent", "http://doc.qt.io/qt-5.9/qevent.html", [
+    [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1Worker_1_1WorkEvent.html", null ]
     ] ],
-    [ "QException", "http://doc.qt.io/qt-5.9/qexception.html", [
+    [ "QException", "http://doc.qt.io/qt-5/qexception.html", [
       [ "cutehmi::Exception", "classcutehmi_1_1Exception.html", [
         [ "cutehmi::ExceptionMixin< DERIVED >", "classcutehmi_1_1ExceptionMixin.html", null ],
         [ "cutehmi::ExceptionMixin< ErrorException >", "classcutehmi_1_1ExceptionMixin.html", [
@@ -39,7 +39,7 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "QObject", "http://doc.qt.io/qt-5.9/qobject.html", [
+    [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
       [ "cutehmi::CuteHMI", "classcutehmi_1_1CuteHMI.html", null ],
       [ "cutehmi::internal::PluginLoader", "classcutehmi_1_1internal_1_1PluginLoader.html", null ],
       [ "cutehmi::Notification", "classcutehmi_1_1Notification.html", null ],
@@ -51,9 +51,9 @@ var hierarchy =
       [ "cutehmi::ProjectNode", "classcutehmi_1_1ProjectNode.html", null ],
       [ "cutehmi::Prompt", "classcutehmi_1_1Prompt.html", null ],
       [ "cutehmi::Worker", "classcutehmi_1_1Worker.html", null ],
-      [ "QAbstractItemModel", "http://doc.qt.io/qt-5.9/qabstractitemmodel.html", [
+      [ "QAbstractItemModel", "http://doc.qt.io/qt-5/qabstractitemmodel.html", [
         [ "cutehmi::ProjectModel", "classcutehmi_1_1ProjectModel.html", null ],
-        [ "QAbstractListModel", "http://doc.qt.io/qt-5.9/qabstractlistmodel.html", [
+        [ "QAbstractListModel", "http://doc.qt.io/qt-5/qabstractlistmodel.html", [
           [ "cutehmi::NotificationListModel", "classcutehmi_1_1NotificationListModel.html", null ]
         ] ]
       ] ]

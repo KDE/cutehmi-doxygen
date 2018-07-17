@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CuteHMI - Base (cutehmi_1): Principles</title>
+<title>CuteHMI - [Core] (cutehmi_1): Principles</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CuteHMI - Base (cutehmi_1)
+   <div id="projectname">CuteHMI - [Core] (cutehmi_1)
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
   </td>
@@ -52,11 +52,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="../index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Overview</span></a></li>
       <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -116,8 +116,8 @@ $(document).ready(function(){initNavTree('principles.html','');});
 <dd><b>"cutehmi::DataBlock-determined_destruction_order"</b> <br />
 Child objects are destroyed in the reverse order as they were appended.  </dd>
 <dt><a class="anchor" id="_principles000002"></a>Class <a class="el" href="classcutehmi_1_1ProjectModel.html">cutehmi::ProjectModel</a>  </dt>
-<dd><b>"cutehmi::ProjectModel::internalPointer"</b> <br />
-For all valid items in the model, <a class="elRef" doxygen="/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5.9/" href="http://doc.qt.io/qt-5.9/qmodelindex.html#internalPointer">QModelIndex::internalPointer()</a> is always associated with pointer to object of type <code>ProjectModel::Node</code>, so that neither <code>nullptr</code> nor a pointer to any other object type can be returned.  </dd>
+<dd><b>"cutehmi::ProjectModel-internalPointer_always_ProjectNode"</b> <br />
+For all valid items in the model, <a class="elRef" doxygen="/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/" href="http://doc.qt.io/qt-5/qmodelindex.html#internalPointer">QModelIndex::internalPointer()</a> is always associated with pointer to object of type <code><a class="el" href="classcutehmi_1_1ProjectNode.html" title="Project model node. ">ProjectNode</a></code>, so that neither <code>nullptr</code> nor a pointer to any other object type can be returned.  </dd>
 <dt><a class="anchor" id="_principles000003"></a>Class <a class="el" href="classcutehmi_1_1ProjectNode.html">cutehmi::ProjectNode</a>  </dt>
 <dd><b>"cutehmi::ProjectNode-determined_destruction_order"</b> <br />
 Destruction order of exposed data members is determined. The order is as follows:<ul>

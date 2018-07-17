@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['qml_20extensions_20directory',['QML extensions directory',['../md__q_m_l__r_e_a_d_m_e.html',1,'']]]
+  ['modules_20directory',['Modules directory',['../md_modules__r_e_a_d_m_e.html',1,'']]],
+  ['moduleslist_2edox',['ModulesList.dox',['../_modules_list_8dox.html',1,'']]]
 ];

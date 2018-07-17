@@ -24,7 +24,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "CuteHMI - XML (cutehmi_xml_1)", "index.html", [
-    [ "XML", "index.html", null ],
+    [ "Main Page", "../index.html", null ],
+    [ "CuteHMI - XML", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -43,21 +44,13 @@ var NAVTREE =
         [ "Typedefs", "functions_type.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"BackendPlugin_8cpp.html"
+"../index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

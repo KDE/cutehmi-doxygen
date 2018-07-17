@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['package',['Package',['http://doc.qt.io/qt-5.9/qml-package.html',1,'']]],
+  ['package',['Package',['http://doc.qt.io/qt-5/qml-package.html',1,'']]],
   ['plugin',['Plugin',['../../cutehmi_1/classcutehmi_1_1Plugin.html',1,'cutehmi']]],
   ['pluginloader',['PluginLoader',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader.html',1,'cutehmi::internal']]],
   ['pluginnodedata',['PluginNodeData',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginNodeData.html',1,'cutehmi::internal::PluginNodeData'],['../classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html',1,'templates::projectplugin::plugin::PluginNodeData']]],

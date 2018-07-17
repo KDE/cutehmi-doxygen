@@ -7,7 +7,7 @@ var hierarchy =
     [ "cutehmi::xml::ParseAttribute", "classcutehmi_1_1xml_1_1ParseAttribute.html", null ],
     [ "cutehmi::xml::ParseElement", "classcutehmi_1_1xml_1_1ParseElement.html", null ],
     [ "cutehmi::xml::ParseHelper", "classcutehmi_1_1xml_1_1ParseHelper.html", null ],
-    [ "QException", "http://doc.qt.io/qt-5.9/qexception.html", [
+    [ "QException", "http://doc.qt.io/qt-5/qexception.html", [
       [ "cutehmi::Exception", "../cutehmi_1/classcutehmi_1_1Exception.html", [
         [ "cutehmi::ExceptionMixin< Exception >", "../cutehmi_1/classcutehmi_1_1ExceptionMixin.html", [
           [ "cutehmi::xml::ProjectBackend::Exception", "classcutehmi_1_1xml_1_1ProjectBackend_1_1Exception.html", [
@@ -18,10 +18,10 @@ var hierarchy =
         [ "cutehmi::ExceptionMixin< Exception >", "../cutehmi_1/classcutehmi_1_1ExceptionMixin.html", null ]
       ] ]
     ] ],
-    [ "QMap< QString, ParseAttribute >", "http://doc.qt.io/qt-5.9/qmap.html", [
+    [ "QMap< QString, ParseAttribute >", "http://doc.qt.io/qt-5/qmap.html", [
       [ "cutehmi::xml::ParseElement::AttributesContainer", "classcutehmi_1_1xml_1_1ParseElement_1_1AttributesContainer.html", null ]
     ] ],
-    [ "QObject", "http://doc.qt.io/qt-5.9/qobject.html", [
+    [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
       [ "cutehmi::xml::BackendPlugin", "classcutehmi_1_1xml_1_1BackendPlugin.html", null ]
     ] ]
 ];

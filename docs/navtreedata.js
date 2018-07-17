@@ -24,11 +24,9 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "CuteHMI", "index.html", [
-    [ "Documentation directory", "md_doc__r_e_a_d_m_e.html", null ],
-    [ "External libraries directory.", "md_external__r_e_a_d_m_e.html", null ],
-    [ "Modules directory", "md_modules__r_e_a_d_m_e.html", null ],
-    [ "QML extensions directory", "md__q_m_l__r_e_a_d_m_e.html", null ],
-    [ "Tools directory", "md_tools__r_e_a_d_m_e.html", null ]
+    [ "List of modules", "modules_list.html", null ],
+    [ "List of tools", "tools_list.html", null ],
+    [ "List of QML modules", "qml_list.html", null ]
   ] ]
 ];
 

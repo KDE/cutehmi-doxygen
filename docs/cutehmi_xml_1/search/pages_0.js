@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xml',['XML',['../index.html',1,'']]]
+  ['cutehmi_20_2d_20xml',['CuteHMI - XML',['../index.html',1,'']]]
 ];

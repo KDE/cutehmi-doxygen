@@ -24,7 +24,8 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "The Secret Order of Templates - Project Plugin Template (templates_projectplugin_1)", "index.html", [
-    [ "Project Plugin Template", "index.html", null ],
+    [ "Main Page", "../index.html", null ],
+    [ "The Secret Order of Templates - Project Plugin Template", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -36,21 +37,13 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"PluginNodeData_8cpp.html"
+"../index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

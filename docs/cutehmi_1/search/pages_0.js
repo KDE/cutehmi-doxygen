@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['base',['Base',['../index.html',1,'']]]
+  ['cutehmi_20_2d_20_5bcore_5d',['CuteHMI - [Core]',['../index.html',1,'']]]
 ];
