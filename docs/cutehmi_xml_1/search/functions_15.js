@@ -14,6 +14,6 @@ var searchData=
   ['vasprintf',['vasprintf',['http://doc.qt.io/qt-5/qstring.html#vasprintf',1,'QString']]],
   ['verbosity',['verbosity',['http://doc.qt.io/qt-5/qdebug.html#verbosity',1,'QDebug']]],
   ['verify',['verify',['http://doc.qt.io/qt-5/qsslcertificate.html#verify',1,'QSslCertificate']]],
-  ['version',['version',['http://doc.qt.io/qt-5/qlibraryinfo.html#version',1,'QLibraryInfo::version()'],['http://doc.qt.io/qt-5/qdatastream.html#version',1,'QDataStream::version()'],['http://doc.qt.io/qt-5/quuid.html#version',1,'QUuid::version()'],['http://doc.qt.io/qt-5/qsslcertificate.html#version',1,'QSslCertificate::version()'],['../../cutehmi_1/classcutehmi_1_1Plugin.html#ab266c4fab4e44f7ec6ab044b382963dc',1,'cutehmi::Plugin::version()']]],
+  ['version',['version',['http://doc.qt.io/qt-5/qlibraryinfo.html#version',1,'QLibraryInfo::version()'],['http://doc.qt.io/qt-5/qdatastream.html#version',1,'QDataStream::version()'],['http://doc.qt.io/qt-5/quuid.html#version',1,'QUuid::version()'],['http://doc.qt.io/qt-5/qsslcertificate.html#version',1,'QSslCertificate::version()']]],
   ['vsprintf',['vsprintf',['http://doc.qt.io/qt-5/qstring-obsolete.html#vsprintf',1,'QString']]]
 ];

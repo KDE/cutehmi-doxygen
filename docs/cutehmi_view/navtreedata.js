@@ -25,14 +25,7 @@ var NAVTREE =
 [
   [ "CuteHMI - View (cutehmi_view)", "index.html", [
     [ "Main Page", "../index.html", null ],
-    [ "CuteHMI - View", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ]
+    [ "CuteHMI - View", "index.html", null ]
   ] ]
 ];
 

@@ -26,17 +26,10 @@ var NAVTREE =
   [ "The Secret Order of Templates - Project Plugin Template (templates_projectplugin_1)", "index.html", [
     [ "Main Page", "../index.html", null ],
     [ "The Secret Order of Templates - Project Plugin Template", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
-      ] ]
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ]
     ] ]
   ] ]
 ];

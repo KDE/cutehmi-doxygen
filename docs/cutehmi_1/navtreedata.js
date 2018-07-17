@@ -27,26 +27,16 @@ var NAVTREE =
     [ "Main Page", "../index.html", null ],
     [ "CuteHMI - [Core]", "index.html", null ],
     [ "Principles", "principles.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
-      [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Properties", "functions_prop.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ]
   ] ]
@@ -55,7 +45,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../index.html",
-"classcutehmi_1_1Prompt.html#a9c1e5afb4ad43ae62aa489d5c6a92d38"
+"classcutehmi_1_1Prompt.html#a7a3731f2b6b6e052475bd1543e2313d4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

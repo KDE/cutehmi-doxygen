@@ -55,7 +55,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="index.html"><span>Overview</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -139,34 +138,47 @@ Inheritance diagram for cutehmi::MPtr&lt; T, DELETER &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0b49146cf20e395693d64e4e6c3ecb61"><td class="memItemLeft" align="right" valign="top">typedef T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a0b49146cf20e395693d64e4e6c3ecb61">element_type</a></td></tr>
+<tr class="memitem:a0b49146cf20e395693d64e4e6c3ecb61"><td class="memItemLeft" align="right" valign="top"><a id="a0b49146cf20e395693d64e4e6c3ecb61"></a>
+typedef T&#160;</td><td class="memItemRight" valign="bottom"><b>element_type</b></td></tr>
 <tr class="separator:a0b49146cf20e395693d64e4e6c3ecb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a821ba062b01899ff42b7b3b1c0bdf42a"><td class="memItemLeft" align="right" valign="top">typedef T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a">pointer</a></td></tr>
+<tr class="memitem:a821ba062b01899ff42b7b3b1c0bdf42a"><td class="memItemLeft" align="right" valign="top"><a id="a821ba062b01899ff42b7b3b1c0bdf42a"></a>
+typedef T *&#160;</td><td class="memItemRight" valign="bottom"><b>pointer</b></td></tr>
 <tr class="separator:a821ba062b01899ff42b7b3b1c0bdf42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710f69cc4c69537abbd101e90d1f4e81"><td class="memItemLeft" align="right" valign="top">typedef const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a710f69cc4c69537abbd101e90d1f4e81">const_pointer</a></td></tr>
+<tr class="memitem:a710f69cc4c69537abbd101e90d1f4e81"><td class="memItemLeft" align="right" valign="top"><a id="a710f69cc4c69537abbd101e90d1f4e81"></a>
+typedef const T *&#160;</td><td class="memItemRight" valign="bottom"><b>const_pointer</b></td></tr>
 <tr class="separator:a710f69cc4c69537abbd101e90d1f4e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1251e97f2f5f1abe0aab4558b31de3d7"><td class="memItemLeft" align="right" valign="top">typedef Parent::deleter_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a1251e97f2f5f1abe0aab4558b31de3d7">deleter_type</a></td></tr>
+<tr class="memitem:a1251e97f2f5f1abe0aab4558b31de3d7"><td class="memItemLeft" align="right" valign="top"><a id="a1251e97f2f5f1abe0aab4558b31de3d7"></a>
+typedef Parent::deleter_type&#160;</td><td class="memItemRight" valign="bottom"><b>deleter_type</b></td></tr>
 <tr class="separator:a1251e97f2f5f1abe0aab4558b31de3d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cf03a5d5df39ab48c8b9f4bd368e152"><td class="memItemLeft" align="right" valign="top">typedef std::add_lvalue_reference&lt; <a class="el" href="classcutehmi_1_1MPtr.html#a0b49146cf20e395693d64e4e6c3ecb61">element_type</a> &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a5cf03a5d5df39ab48c8b9f4bd368e152">reference</a></td></tr>
+<tr class="memitem:a5cf03a5d5df39ab48c8b9f4bd368e152"><td class="memItemLeft" align="right" valign="top"><a id="a5cf03a5d5df39ab48c8b9f4bd368e152"></a>
+typedef std::add_lvalue_reference&lt; element_type &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b></td></tr>
 <tr class="separator:a5cf03a5d5df39ab48c8b9f4bd368e152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8fc39c8b3a89bd3091cf2ebb7e5e4d8"><td class="memItemLeft" align="right" valign="top">typedef std::add_lvalue_reference&lt; typename std::add_const&lt; <a class="el" href="classcutehmi_1_1MPtr.html#a0b49146cf20e395693d64e4e6c3ecb61">element_type</a> &gt;::type &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#aa8fc39c8b3a89bd3091cf2ebb7e5e4d8">const_reference</a></td></tr>
+<tr class="memitem:aa8fc39c8b3a89bd3091cf2ebb7e5e4d8"><td class="memItemLeft" align="right" valign="top"><a id="aa8fc39c8b3a89bd3091cf2ebb7e5e4d8"></a>
+typedef std::add_lvalue_reference&lt; typename std::add_const&lt; element_type &gt;::type &gt;::type&#160;</td><td class="memItemRight" valign="bottom"><b>const_reference</b></td></tr>
 <tr class="separator:aa8fc39c8b3a89bd3091cf2ebb7e5e4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acfb1b5f08bc135fd701e1370108dc05a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#acfb1b5f08bc135fd701e1370108dc05a">swap</a> (<a class="el" href="classcutehmi_1_1MPtr.html">MPtr</a>&lt; T, DELETER &gt; &amp;x) noexcept</td></tr>
+<tr class="memitem:acfb1b5f08bc135fd701e1370108dc05a"><td class="memItemLeft" align="right" valign="top"><a id="acfb1b5f08bc135fd701e1370108dc05a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>swap</b> (<a class="el" href="classcutehmi_1_1MPtr.html">MPtr</a>&lt; T, DELETER &gt; &amp;x) noexcept</td></tr>
 <tr class="separator:acfb1b5f08bc135fd701e1370108dc05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51e6884690bbcc7ed57781248c0b405f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1MPtr.html#a710f69cc4c69537abbd101e90d1f4e81">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a51e6884690bbcc7ed57781248c0b405f">get</a> () const noexcept</td></tr>
+<tr class="memitem:a51e6884690bbcc7ed57781248c0b405f"><td class="memItemLeft" align="right" valign="top"><a id="a51e6884690bbcc7ed57781248c0b405f"></a>
+const_pointer&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> () const noexcept</td></tr>
 <tr class="separator:a51e6884690bbcc7ed57781248c0b405f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a941d8052f931e37f11fdf4889f88491d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a">pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a941d8052f931e37f11fdf4889f88491d">get</a> () noexcept</td></tr>
+<tr class="memitem:a941d8052f931e37f11fdf4889f88491d"><td class="memItemLeft" align="right" valign="top"><a id="a941d8052f931e37f11fdf4889f88491d"></a>
+pointer&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> () noexcept</td></tr>
 <tr class="separator:a941d8052f931e37f11fdf4889f88491d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf062ddeaf749e08708012315900713d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1MPtr.html#a710f69cc4c69537abbd101e90d1f4e81">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#acf062ddeaf749e08708012315900713d">operator-&gt;</a> () const noexcept</td></tr>
+<tr class="memitem:acf062ddeaf749e08708012315900713d"><td class="memItemLeft" align="right" valign="top"><a id="acf062ddeaf749e08708012315900713d"></a>
+const_pointer&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> () const noexcept</td></tr>
 <tr class="separator:acf062ddeaf749e08708012315900713d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fcfe9cabd350441071ba108a73c986c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a">pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a6fcfe9cabd350441071ba108a73c986c">operator-&gt;</a> () noexcept</td></tr>
+<tr class="memitem:a6fcfe9cabd350441071ba108a73c986c"><td class="memItemLeft" align="right" valign="top"><a id="a6fcfe9cabd350441071ba108a73c986c"></a>
+pointer&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> () noexcept</td></tr>
 <tr class="separator:a6fcfe9cabd350441071ba108a73c986c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a268fdae4c39b406eb227d44690d338ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1MPtr.html#a5cf03a5d5df39ab48c8b9f4bd368e152">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a268fdae4c39b406eb227d44690d338ee">operator*</a> ()</td></tr>
+<tr class="memitem:a268fdae4c39b406eb227d44690d338ee"><td class="memItemLeft" align="right" valign="top"><a id="a268fdae4c39b406eb227d44690d338ee"></a>
+reference&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> ()</td></tr>
 <tr class="separator:a268fdae4c39b406eb227d44690d338ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a219359cce0ecbd739f274b4c32bd35a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcutehmi_1_1MPtr.html#aa8fc39c8b3a89bd3091cf2ebb7e5e4d8">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1MPtr.html#a219359cce0ecbd739f274b4c32bd35a5">operator*</a> () const</td></tr>
+<tr class="memitem:a219359cce0ecbd739f274b4c32bd35a5"><td class="memItemLeft" align="right" valign="top"><a id="a219359cce0ecbd739f274b4c32bd35a5"></a>
+const_reference&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> () const</td></tr>
 <tr class="separator:a219359cce0ecbd739f274b4c32bd35a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -175,300 +187,12 @@ class cutehmi::MPtr&lt; T, DELETER &gt;</h3>
 
 <p>Members pointer. </p>
 <p>This class wraps std::unique_ptr and provides opaque interface that forwards const to the member. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a710f69cc4c69537abbd101e90d1f4e81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a710f69cc4c69537abbd101e90d1f4e81">&#9670;&nbsp;</a></span>const_pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef const T* <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::<a class="el" href="classcutehmi_1_1MPtr.html#a710f69cc4c69537abbd101e90d1f4e81">const_pointer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8fc39c8b3a89bd3091cf2ebb7e5e4d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8fc39c8b3a89bd3091cf2ebb7e5e4d8">&#9670;&nbsp;</a></span>const_reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::add_lvalue_reference&lt;typename std::add_const&lt;<a class="el" href="classcutehmi_1_1MPtr.html#a0b49146cf20e395693d64e4e6c3ecb61">element_type</a>&gt;::type&gt;::type <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::<a class="el" href="classcutehmi_1_1MPtr.html#aa8fc39c8b3a89bd3091cf2ebb7e5e4d8">const_reference</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1251e97f2f5f1abe0aab4558b31de3d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1251e97f2f5f1abe0aab4558b31de3d7">&#9670;&nbsp;</a></span>deleter_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef Parent::deleter_type <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::<a class="el" href="classcutehmi_1_1MPtr.html#a1251e97f2f5f1abe0aab4558b31de3d7">deleter_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0b49146cf20e395693d64e4e6c3ecb61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b49146cf20e395693d64e4e6c3ecb61">&#9670;&nbsp;</a></span>element_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef T <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::<a class="el" href="classcutehmi_1_1MPtr.html#a0b49146cf20e395693d64e4e6c3ecb61">element_type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a821ba062b01899ff42b7b3b1c0bdf42a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a821ba062b01899ff42b7b3b1c0bdf42a">&#9670;&nbsp;</a></span>pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef T* <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::<a class="el" href="classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a">pointer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5cf03a5d5df39ab48c8b9f4bd368e152"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cf03a5d5df39ab48c8b9f4bd368e152">&#9670;&nbsp;</a></span>reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::add_lvalue_reference&lt;<a class="el" href="classcutehmi_1_1MPtr.html#a0b49146cf20e395693d64e4e6c3ecb61">element_type</a>&gt;::type <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::<a class="el" href="classcutehmi_1_1MPtr.html#a5cf03a5d5df39ab48c8b9f4bd368e152">reference</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a51e6884690bbcc7ed57781248c0b405f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51e6884690bbcc7ed57781248c0b405f">&#9670;&nbsp;</a></span>get() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcutehmi_1_1MPtr.html#a710f69cc4c69537abbd101e90d1f4e81">const_pointer</a> <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a941d8052f931e37f11fdf4889f88491d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a941d8052f931e37f11fdf4889f88491d">&#9670;&nbsp;</a></span>get() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a">pointer</a> <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a268fdae4c39b406eb227d44690d338ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a268fdae4c39b406eb227d44690d338ee">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcutehmi_1_1MPtr.html#a5cf03a5d5df39ab48c8b9f4bd368e152">reference</a> <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a219359cce0ecbd739f274b4c32bd35a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a219359cce0ecbd739f274b4c32bd35a5">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcutehmi_1_1MPtr.html#aa8fc39c8b3a89bd3091cf2ebb7e5e4d8">const_reference</a> <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acf062ddeaf749e08708012315900713d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf062ddeaf749e08708012315900713d">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcutehmi_1_1MPtr.html#a710f69cc4c69537abbd101e90d1f4e81">const_pointer</a> <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::operator-&gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6fcfe9cabd350441071ba108a73c986c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fcfe9cabd350441071ba108a73c986c">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a">pointer</a> <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::operator-&gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acfb1b5f08bc135fd701e1370108dc05a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfb1b5f08bc135fd701e1370108dc05a">&#9670;&nbsp;</a></span>swap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, class DELETER&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classcutehmi_1_1MPtr.html">cutehmi::MPtr</a>&lt; T, DELETER &gt;::swap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classcutehmi_1_1MPtr.html">MPtr</a>&lt; T, DELETER &gt; &amp;&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacecutehmi.html">cutehmi</a></li><li class="navelem"><a class="el" href="classcutehmi_1_1MPtr.html">MPtr</a></li>
+    <li class="navelem"><b>cutehmi</b></li><li class="navelem"><a class="el" href="classcutehmi_1_1MPtr.html">MPtr</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>

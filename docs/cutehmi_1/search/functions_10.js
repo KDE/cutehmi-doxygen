@@ -246,7 +246,6 @@ var searchData=
   ['queryproxy',['queryProxy',['http://doc.qt.io/qt-5/qnetworkproxyfactory.html#queryProxy',1,'QNetworkProxyFactory']]],
   ['querytype',['queryType',['http://doc.qt.io/qt-5/qnetworkproxyquery.html#queryType',1,'QNetworkProxyQuery']]],
   ['queryvaluedelimiter',['queryValueDelimiter',['http://doc.qt.io/qt-5/qurlquery.html#queryValueDelimiter',1,'QUrlQuery']]],
-  ['question',['Question',['../classcutehmi_1_1Prompt.html#acba3e4d2e6292a35a69d8843378d46cd',1,'cutehmi::Prompt']]],
   ['quit',['quit',['http://doc.qt.io/qt-5/qcoreapplication.html#quit',1,'QCoreApplication::quit()'],['http://doc.qt.io/qt-5/qeventloop.html#quit',1,'QEventLoop::quit()'],['http://doc.qt.io/qt-5/qthread.html#quit',1,'QThread::quit()'],['http://doc.qt.io/qt-5/qqmlengine.html#quit',1,'QQmlEngine::quit()']]],
   ['quote',['quote',['http://doc.qt.io/qt-5/qdebug.html#quote',1,'QDebug']]],
   ['quotestring',['quoteString',['http://doc.qt.io/qt-5/qlocale.html#quoteString',1,'QLocale::quoteString(const QString &amp;str, QuotationStyle style) const'],['http://doc.qt.io/qt-5/qlocale.html#quoteString-1',1,'QLocale::quoteString(const QStringRef &amp;str, QuotationStyle style) const']]],
