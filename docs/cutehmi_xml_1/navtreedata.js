@@ -25,6 +25,9 @@ var NAVTREE =
 [
   [ "CuteHMI - XML (cutehmi_xml_1)", "index.html", [
     [ "Main Page", "../index.html", null ],
+    [ "Modules", "../modules_list.html", null ],
+    [ "Tools", "../tools_list.html", null ],
+    [ "QML modules", "../qml_list.html", null ],
     [ "CuteHMI - XML", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

@@ -25,6 +25,9 @@ var NAVTREE =
 [
   [ "The Secret Order of Templates - Project Plugin Template (templates_projectplugin_1)", "index.html", [
     [ "Main Page", "../index.html", null ],
+    [ "Modules", "../modules_list.html", null ],
+    [ "Tools", "../tools_list.html", null ],
+    [ "QML modules", "../qml_list.html", null ],
     [ "The Secret Order of Templates - Project Plugin Template", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

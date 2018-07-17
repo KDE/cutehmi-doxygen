@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['key',['Key',['http://doc.qt.io/qt-5/qpixmapcache-key.html',1,'QPixmapCache']]],
-  ['key_5fiterator',['key_iterator',['http://doc.qt.io/qt-5/qhash-key-iterator.html',1,'QHash::key_iterator'],['http://doc.qt.io/qt-5/qmap-key-iterator.html',1,'QMap::key_iterator']]],
-  ['keydata',['KeyData',['http://doc.qt.io/qt-5/qpixmapcache-keydata.html',1,'QPixmapCache']]]
+  ['has_5fvirtual_5fdestructor',['has_virtual_destructor',['https://en.cppreference.com/w/cpp/types/has_virtual_destructor.html',1,'std']]],
+  ['hash',['hash',['https://en.cppreference.com/w/cpp/utility/hash.html',1,'std']]],
+  ['hecto',['hecto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
+  ['high_5fresolution_5fclock',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',1,'std::chrono']]],
+  ['hours',['hours',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]]
 ];

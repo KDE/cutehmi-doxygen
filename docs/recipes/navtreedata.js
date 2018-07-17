@@ -25,6 +25,9 @@ var NAVTREE =
 [
   [ "External libraries recipes", "index.html", [
     [ "Main Page", "../index.html", null ],
+    [ "Modules", "../modules_list.html", null ],
+    [ "Tools", "../tools_list.html", null ],
+    [ "QML modules", "../qml_list.html", null ],
     [ "External libraries recipes.", "index.html", null ],
     [ "GNU gettext", "md_i686-w64-mingw32_gettext_README.html", null ],
     [ "GnuPG Libgcrypt", "md_i686-w64-mingw32_libgcrypt_README.html", null ],

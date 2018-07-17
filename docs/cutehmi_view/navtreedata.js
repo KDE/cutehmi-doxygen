@@ -25,6 +25,9 @@ var NAVTREE =
 [
   [ "CuteHMI - View (cutehmi_view)", "index.html", [
     [ "Main Page", "../index.html", null ],
+    [ "Modules", "../modules_list.html", null ],
+    [ "Tools", "../tools_list.html", null ],
+    [ "QML modules", "../qml_list.html", null ],
     [ "CuteHMI - View", "index.html", null ]
   ] ]
 ];

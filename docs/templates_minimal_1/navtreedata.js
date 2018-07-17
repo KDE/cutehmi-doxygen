@@ -25,6 +25,9 @@ var NAVTREE =
 [
   [ "The Secret Order of Templates - Minimal Module Template (templates_minimal_1)", "index.html", [
     [ "Main Page", "../index.html", null ],
+    [ "Modules", "../modules_list.html", null ],
+    [ "Tools", "../tools_list.html", null ],
+    [ "QML modules", "../qml_list.html", null ],
     [ "The Secret Order of Templates - Minimal Module Template", "index.html", null ]
   ] ]
 ];

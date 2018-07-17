@@ -58,8 +58,10 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "unique_ptr", null, [
-      [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1MPtr.html", null ],
+    [ "std::unique_ptr< Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
       [ "cutehmi::MPtr< Members >", "classcutehmi_1_1MPtr.html", null ]
+    ] ],
+    [ "std::unique_ptr< T, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
+      [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1MPtr.html", null ]
     ] ]
 ];
