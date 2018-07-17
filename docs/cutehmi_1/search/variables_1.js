@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['errclass',['errClass',['../structcutehmi_1_1ErrorInfo.html#a8cf2fe1e015f8c5e6409eb8fda22bde2',1,'cutehmi::ErrorInfo']]]
+  ['base64options',['Base64Options',['http://doc.qt.io/qt-5.9/qbytearray.html#Base64Option-enum',1,'QByteArray']]],
+  ['bindmode',['BindMode',['http://doc.qt.io/qt-5.9/qabstractsocket.html#BindFlag-enum',1,'QAbstractSocket']]],
+  ['boundaryreasons',['BoundaryReasons',['http://doc.qt.io/qt-5.9/qtextboundaryfinder.html#BoundaryReason-enum',1,'QTextBoundaryFinder']]]
 ];

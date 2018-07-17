@@ -8,7 +8,7 @@ var hierarchy =
         [ "templates::projectplugin::plugin::PluginNodeData", "classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html", null ]
       ] ]
     ] ],
-    [ "QObject", null, [
+    [ "QObject", "http://doc.qt.io/qt-5.9/qobject.html", [
       [ "templates::projectplugin::plugin::ProjectPlugin", "classtemplates_1_1projectplugin_1_1plugin_1_1ProjectPlugin.html", null ]
     ] ]
 ];

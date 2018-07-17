@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['singleton',['Singleton',['../classcutehmi_1_1Singleton.html',1,'cutehmi']]]
+  ['offsetdata',['OffsetData',['http://doc.qt.io/qt-5.9/qtimezone-offsetdata.html',1,'QTimeZone']]]
 ];

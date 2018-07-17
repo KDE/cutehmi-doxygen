@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ok',['OK',['../../cutehmi_1/structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188',1,'cutehmi::Error']]]
+  ['gestureflags',['GestureFlags',['http://doc.qt.io/qt-5.9/qt.html#GestureFlag-enum',1,'Qt']]]
 ];

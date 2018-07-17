@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['notificationmanager',['notificationManager',['../classcutehmi_1_1CuteHMI.html#a0bed9169f79123b6c2f4077a6fd8cdb8',1,'cutehmi::CuteHMI']]]
+  ['filename',['fileName',['http://doc.qt.io/qt-5.9/qlibrary.html#fileName-prop',1,'QLibrary::fileName()'],['http://doc.qt.io/qt-5.9/qpluginloader.html#fileName-prop',1,'QPluginLoader::fileName()'],['../classcutehmi_1_1Plugin.html#a2111e7ee235f86ee702c3111c630f482',1,'cutehmi::Plugin::fileName()']]],
+  ['filtercasesensitivity',['filterCaseSensitivity',['http://doc.qt.io/qt-5.9/qsortfilterproxymodel.html#filterCaseSensitivity-prop',1,'QSortFilterProxyModel']]],
+  ['filterkeycolumn',['filterKeyColumn',['http://doc.qt.io/qt-5.9/qsortfilterproxymodel.html#filterKeyColumn-prop',1,'QSortFilterProxyModel']]],
+  ['filterregexp',['filterRegExp',['http://doc.qt.io/qt-5.9/qsortfilterproxymodel.html#filterRegExp-prop',1,'QSortFilterProxyModel']]],
+  ['filterrole',['filterRole',['http://doc.qt.io/qt-5.9/qsortfilterproxymodel.html#filterRole-prop',1,'QSortFilterProxyModel']]]
 ];

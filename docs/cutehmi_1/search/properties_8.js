@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['text',['text',['../classcutehmi_1_1Notification.html#acae3021ed8176d391d9ca4c7a155ccb9',1,'cutehmi::Notification::text()'],['../classcutehmi_1_1Prompt.html#a4cc976a35e37ccee029bd182e07b05a2',1,'cutehmi::Prompt::text()']]],
-  ['type',['type',['../classcutehmi_1_1Notification.html#ad99ba65837ceef8360260ac1907f3722',1,'cutehmi::Notification::type()'],['../classcutehmi_1_1Prompt.html#a21448ea35c153922061afc08309bca49',1,'cutehmi::Prompt::type()']]]
+  ['implicitload',['implicitLoad',['../classcutehmi_1_1Plugin.html#afeceb65ab658e74a3a37db99a3c0d451',1,'cutehmi::Plugin']]],
+  ['informativetext',['informativeText',['../classcutehmi_1_1Prompt.html#acea62947467e15d293c0740f01330433',1,'cutehmi::Prompt']]],
+  ['initialstate',['initialState',['http://doc.qt.io/qt-5.9/qstate.html#initialState-prop',1,'QState']]],
+  ['interval',['interval',['http://doc.qt.io/qt-5.9/qtimer.html#interval-prop',1,'QTimer']]],
+  ['issortlocaleaware',['isSortLocaleAware',['http://doc.qt.io/qt-5.9/qsortfilterproxymodel.html#isSortLocaleAware-prop',1,'QSortFilterProxyModel']]]
 ];

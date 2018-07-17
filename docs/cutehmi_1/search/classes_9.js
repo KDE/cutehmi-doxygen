@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['plugin',['Plugin',['../classcutehmi_1_1Plugin.html',1,'cutehmi']]],
-  ['pluginloader',['PluginLoader',['../classcutehmi_1_1internal_1_1PluginLoader.html',1,'cutehmi::internal']]],
-  ['pluginnodedata',['PluginNodeData',['../classcutehmi_1_1internal_1_1PluginNodeData.html',1,'cutehmi::internal']]],
-  ['popupbridge',['PopupBridge',['../classcutehmi_1_1PopupBridge.html',1,'cutehmi']]],
-  ['project',['Project',['../classcutehmi_1_1Project.html',1,'cutehmi']]],
-  ['projectmodel',['ProjectModel',['../classcutehmi_1_1ProjectModel.html',1,'cutehmi']]],
-  ['projectnode',['ProjectNode',['../classcutehmi_1_1ProjectNode.html',1,'cutehmi']]],
-  ['projectnodedata',['ProjectNodeData',['../classcutehmi_1_1ProjectNodeData.html',1,'cutehmi']]],
-  ['projectpluginloader',['ProjectPluginLoader',['../classcutehmi_1_1ProjectPluginLoader.html',1,'cutehmi']]],
-  ['prompt',['Prompt',['../classcutehmi_1_1Prompt.html',1,'cutehmi']]]
+  ['noncopyable',['NonCopyable',['../classcutehmi_1_1NonCopyable.html',1,'cutehmi']]],
+  ['nonmovable',['NonMovable',['../classcutehmi_1_1NonMovable.html',1,'cutehmi']]],
+  ['notification',['Notification',['../classcutehmi_1_1Notification.html',1,'cutehmi']]],
+  ['notificationlistmodel',['NotificationListModel',['../classcutehmi_1_1NotificationListModel.html',1,'cutehmi']]],
+  ['notificationmanager',['NotificationManager',['../classcutehmi_1_1NotificationManager.html',1,'cutehmi']]],
+  ['null',['Null',['http://doc.qt.io/qt-5.9/qstring-null.html',1,'QString']]]
 ];

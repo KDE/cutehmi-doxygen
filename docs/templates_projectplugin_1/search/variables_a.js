@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['uninitialized',['UNINITIALIZED',['../../cutehmi_1/structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574',1,'cutehmi::Error']]]
+  ['loadhints',['LoadHints',['http://doc.qt.io/qt-5.9/qlibrary.html#LoadHint-enum',1,'QLibrary']]],
+  ['locateoptions',['LocateOptions',['http://doc.qt.io/qt-5.9/qstandardpaths.html#LocateOption-enum',1,'QStandardPaths']]]
 ];
