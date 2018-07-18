@@ -13,8 +13,10 @@ var NAVTREEINDEX0 =
 "classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html#ab93bc29827baf6e3685cc2ff1fcf1d5a":[5,0,0,0,0,0,0],
 "classtemplates_1_1projectplugin_1_1plugin_1_1ProjectPlugin.html":[5,0,0,0,0,1],
 "classtemplates_1_1projectplugin_1_1plugin_1_1ProjectPlugin.html#af455deceb01fd8fc8cfa58aef1b220a8":[5,0,0,0,0,1,0],
+"functions.html":[5,3,0],
+"functions_func.html":[5,3,1],
 "hierarchy.html":[5,2],
-"index.html":[],
 "index.html":[4],
+"index.html":[],
 "pages.html":[]
 };
