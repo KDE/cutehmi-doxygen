@@ -146,7 +146,7 @@ var searchData=
   ['urlselected',['urlSelected',['http://doc.qt.io/qt-5/qfiledialog.html#urlSelected',1,'QFileDialog']]],
   ['urlsselected',['urlsSelected',['http://doc.qt.io/qt-5/qfiledialog.html#urlsSelected',1,'QFileDialog']]],
   ['usagepattern',['usagePattern',['http://doc.qt.io/qt-5/qopenglbuffer.html#usagePattern',1,'QOpenGLBuffer']]],
-  ['usagepolicies',['UsagePolicies',['http://doc.qt.io/qt-5/qnetworksession.html#UsagePolicy-enum',1,'QNetworkSession::UsagePolicies()'],['http://doc.qt.io/qt-5/qnetworksession.html#usagePolicies',1,'QNetworkSession::usagePolicies() const']]],
+  ['usagepolicies',['usagePolicies',['http://doc.qt.io/qt-5/qnetworksession.html#usagePolicies',1,'QNetworkSession::usagePolicies() const'],['http://doc.qt.io/qt-5/qnetworksession.html#UsagePolicy-enum',1,'QNetworkSession::UsagePolicies()']]],
   ['usagepolicieschanged',['usagePoliciesChanged',['http://doc.qt.io/qt-5/qnetworksession.html#usagePoliciesChanged',1,'QNetworkSession']]],
   ['use_5fcount',['use_count',['https://en.cppreference.com/w/cpp/memory/weak_ptr/use_count.html',1,'std::weak_ptr']]],
   ['use_5ffacet',['use_facet',['https://en.cppreference.com/w/cpp/locale/use_facet.html',1,'std']]],

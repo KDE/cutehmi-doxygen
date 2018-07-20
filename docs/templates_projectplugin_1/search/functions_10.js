@@ -62,6 +62,7 @@ var searchData=
   ['piecewise_5fconstant_5fdistribution',['piecewise_constant_distribution',['https://en.cppreference.com/w/cpp/numeric/random/piecewise_constant_distribution/piecewise_constant_distribution.html',1,'std::piecewise_constant_distribution']]],
   ['piecewise_5flinear_5fdistribution',['piecewise_linear_distribution',['https://en.cppreference.com/w/cpp/numeric/random/piecewise_linear_distribution/piecewise_linear_distribution.html',1,'std::piecewise_linear_distribution']]],
   ['plugin',['plugin',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader.html#a2f73cf0c433b6c9304964481f56e051f',1,'cutehmi::internal::PluginLoader']]],
+  ['pluginnodedata',['PluginNodeData',['../classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html#ab93bc29827baf6e3685cc2ff1fcf1d5a',1,'templates::projectplugin::plugin::PluginNodeData']]],
   ['pluginpathlist',['pluginPathList',['http://doc.qt.io/qt-5/qqmlengine.html#pluginPathList',1,'QQmlEngine']]],
   ['pmtext',['pmText',['http://doc.qt.io/qt-5/qlocale.html#pmText',1,'QLocale']]],
   ['pointat',['pointAt',['http://doc.qt.io/qt-5/qlinef.html#pointAt',1,'QLineF']]],

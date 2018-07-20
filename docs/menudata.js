@@ -25,4 +25,4 @@ var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"Modules",url:"modules_list.html"},
 {text:"Tools",url:"tools_list.html"},
-{text:"QML modules",url:"qml_list.html"}]}
+{text:"QML extensions",url:"qml_list.html"}]}

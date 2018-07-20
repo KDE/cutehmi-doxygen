@@ -27,7 +27,7 @@ var NAVTREE =
     [ "Main Page", "../index.html", null ],
     [ "Modules", "../modules_list.html", null ],
     [ "Tools", "../tools_list.html", null ],
-    [ "QML modules", "../qml_list.html", null ],
+    [ "QML extensions", "../qml_list.html", null ],
     [ "CuteHMI - [Core]", "index.html", null ],
     [ "Principles", "principles.html", null ],
     [ "Classes", "annotated.html", [

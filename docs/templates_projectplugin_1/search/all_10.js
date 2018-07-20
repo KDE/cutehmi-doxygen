@@ -69,7 +69,7 @@ var searchData=
   ['placeholders',['placeholders',['https://en.cppreference.com/w/cpp/utility/functional/placeholders.html',1,'std']]],
   ['plugin',['Plugin',['../../cutehmi_1/classcutehmi_1_1Plugin.html',1,'cutehmi::Plugin'],['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader.html#a2f73cf0c433b6c9304964481f56e051f',1,'cutehmi::internal::PluginLoader::plugin()']]],
   ['pluginloader',['PluginLoader',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader.html',1,'cutehmi::internal']]],
-  ['pluginnodedata',['PluginNodeData',['../classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html',1,'templates::projectplugin::plugin::PluginNodeData'],['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginNodeData.html',1,'cutehmi::internal::PluginNodeData']]],
+  ['pluginnodedata',['PluginNodeData',['../classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html',1,'templates::projectplugin::plugin::PluginNodeData'],['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginNodeData.html',1,'cutehmi::internal::PluginNodeData'],['../classtemplates_1_1projectplugin_1_1plugin_1_1PluginNodeData.html#ab93bc29827baf6e3685cc2ff1fcf1d5a',1,'templates::projectplugin::plugin::PluginNodeData::PluginNodeData()']]],
   ['pluginpathlist',['pluginPathList',['http://doc.qt.io/qt-5/qqmlengine.html#pluginPathList',1,'QQmlEngine']]],
   ['plus',['plus',['https://en.cppreference.com/w/cpp/utility/functional/plus.html',1,'std']]],
   ['pmtext',['pmText',['http://doc.qt.io/qt-5/qlocale.html#pmText',1,'QLocale']]],
