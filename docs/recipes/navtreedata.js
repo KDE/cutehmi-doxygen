@@ -36,6 +36,7 @@ var NAVTREE =
     [ "GNU libiconv (internationalized)", "md_i686-w64-mingw32_libiconv-nls_README.html", null ],
     [ "Libmodbus", "md_i686-w64-mingw32_libmodbus_README.html", null ],
     [ "Libssh", "md_i686-w64-mingw32_libssh_README.html", null ],
+    [ "LIBSSH2", "md_i686-w64-mingw32_libssh2_README.html", null ],
     [ "PostgreSQL", "md_i686-w64-mingw32_postgresql_README.html", null ],
     [ "Windows mingw32 recipes.", "md_i686-w64-mingw32_README.html", null ],
     [ "Zlib", "md_i686-w64-mingw32_zlib_README.html", null ]
