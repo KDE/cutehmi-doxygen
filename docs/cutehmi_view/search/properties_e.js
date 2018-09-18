@@ -14,6 +14,7 @@ var searchData=
   ['placeholdertext',['placeholderText',['http://doc.qt.io/qt-5/qlineedit.html#placeholderText-prop',1,'QLineEdit::placeholderText()'],['http://doc.qt.io/qt-5/qplaintextedit.html#placeholderText-prop',1,'QPlainTextEdit::placeholderText()'],['http://doc.qt.io/qt-5/qtextedit.html#placeholderText-prop',1,'QTextEdit::placeholderText()']]],
   ['plaintext',['plainText',['http://doc.qt.io/qt-5/qplaintextedit.html#plainText-prop',1,'QPlainTextEdit::plainText()'],['http://doc.qt.io/qt-5/qtextedit.html#plainText-prop',1,'QTextEdit::plainText()']]],
   ['platformname',['platformName',['http://doc.qt.io/qt-5/qguiapplication.html#platformName-prop',1,'QGuiApplication']]],
+  ['plugins',['plugins',['../../cutehmi_1/classcutehmi_1_1Project.html#ad41fbf19447adbe18abf8bf136b73982',1,'cutehmi::Project']]],
   ['popupbridge',['popupBridge',['../../cutehmi_1/classcutehmi_1_1CuteHMI.html#ae6f04cafab43efd4cdf04c9dd8bfe9e4',1,'cutehmi::CuteHMI']]],
   ['popupmode',['popupMode',['http://doc.qt.io/qt-5/qtoolbutton.html#popupMode-prop',1,'QToolButton']]],
   ['pos',['pos',['http://doc.qt.io/qt-5/qgraphicsobject.html#pos-prop',1,'QGraphicsObject::pos()'],['http://doc.qt.io/qt-5/qwidget.html#pos-prop',1,'QWidget::pos()']]],

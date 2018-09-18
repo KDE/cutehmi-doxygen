@@ -301,6 +301,7 @@ var searchData=
   ['queryproxy',['queryProxy',['http://doc.qt.io/qt-5/qnetworkproxyfactory.html#queryProxy',1,'QNetworkProxyFactory']]],
   ['querytype',['queryType',['http://doc.qt.io/qt-5/qnetworkproxyquery.html#queryType',1,'QNetworkProxyQuery']]],
   ['queryvaluedelimiter',['queryValueDelimiter',['http://doc.qt.io/qt-5/qurlquery.html#queryValueDelimiter',1,'QUrlQuery']]],
+  ['question',['QUESTION',['../classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098ba026db9f3fb62623d710e1354f8eafcee',1,'cutehmi::Prompt::QUESTION()'],['../classcutehmi_1_1Prompt.html#acba3e4d2e6292a35a69d8843378d46cd',1,'cutehmi::Prompt::Question(const QString &amp;text, Buttons buttons=Buttons{BUTTON_YES, BUTTON_NO})']]],
   ['queue',['queue',['https://en.cppreference.com/w/cpp/container/queue.html',1,'std::queue'],['https://en.cppreference.com/w/cpp/container/queue/queue.html',1,'std::queue::queue()']]],
   ['quick_5fexit',['quick_exit',['https://en.cppreference.com/w/cpp/utility/program/quick_exit.html',1,'std']]],
   ['quiet_5fnan',['quiet_NaN',['https://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',1,'std::numeric_limits']]],

@@ -247,6 +247,7 @@ var searchData=
   ['queryproxy',['queryProxy',['http://doc.qt.io/qt-5/qnetworkproxyfactory.html#queryProxy',1,'QNetworkProxyFactory']]],
   ['querytype',['queryType',['http://doc.qt.io/qt-5/qnetworkproxyquery.html#queryType',1,'QNetworkProxyQuery']]],
   ['queryvaluedelimiter',['queryValueDelimiter',['http://doc.qt.io/qt-5/qurlquery.html#queryValueDelimiter',1,'QUrlQuery']]],
+  ['question',['Question',['../classcutehmi_1_1Prompt.html#acba3e4d2e6292a35a69d8843378d46cd',1,'cutehmi::Prompt']]],
   ['queue',['queue',['https://en.cppreference.com/w/cpp/container/queue/queue.html',1,'std::queue']]],
   ['quick_5fexit',['quick_exit',['https://en.cppreference.com/w/cpp/utility/program/quick_exit.html',1,'std']]],
   ['quiet_5fnan',['quiet_NaN',['https://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',1,'std::numeric_limits']]],

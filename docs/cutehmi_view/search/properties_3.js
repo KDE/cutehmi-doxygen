@@ -20,7 +20,7 @@ var searchData=
   ['depth',['depth',['http://doc.qt.io/qt-5/qscreen.html#depth-prop',1,'QScreen']]],
   ['description',['description',['http://doc.qt.io/qt-5/qcommandlinkbutton.html#description-prop',1,'QCommandLinkButton']]],
   ['desktopfilename',['desktopFileName',['http://doc.qt.io/qt-5/qguiapplication.html#desktopFileName-prop',1,'QGuiApplication']]],
-  ['detailedtext',['detailedText',['http://doc.qt.io/qt-5/qmessagebox.html#detailedText-prop',1,'QMessageBox']]],
+  ['detailedtext',['detailedText',['http://doc.qt.io/qt-5/qmessagebox.html#detailedText-prop',1,'QMessageBox::detailedText()'],['../../cutehmi_1/classcutehmi_1_1Prompt.html#a3234c167dfb634cc642a753f7c60160c',1,'cutehmi::Prompt::detailedText()']]],
   ['devicepixelratio',['devicePixelRatio',['http://doc.qt.io/qt-5/qscreen.html#devicePixelRatio-prop',1,'QScreen']]],
   ['digitcount',['digitCount',['http://doc.qt.io/qt-5/qlcdnumber.html#digitCount-prop',1,'QLCDNumber']]],
   ['direction',['direction',['http://doc.qt.io/qt-5/qabstractanimation.html#direction-prop',1,'QAbstractAnimation::direction()'],['http://doc.qt.io/qt-5/qtimeline.html#direction-prop',1,'QTimeLine::direction()']]],

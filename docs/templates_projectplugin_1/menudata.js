@@ -27,6 +27,8 @@ var menudata={children:[
 {text:"Tools",url:"../tools_list.html"},
 {text:"QML extensions",url:"../qml_list.html"},
 {text:"Overview",url:"index.html"},
+{text:"Namespaces",url:"namespaces.html",children:[
+{text:"Namespace List",url:"namespaces.html"}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},

@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../qml_list.html"><span>QML&nbsp;extensions</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
@@ -176,11 +177,13 @@ H_MODULES_CUTEHMI__1_INCLUDE_CUTEHMI_EXCEPTIONMIXIN_HPP</span></div>
 "lineno">18</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00019" id="l00019"></a> <span class=
 "lineno">19</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1ExceptionMixin.html">ExceptionMixin</a>(<span class="keyword">const</span>
-<a class="codeRef" doxygen=
+"classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443">
+ExceptionMixin</a>(<span class="keyword">const</span> <a class=
+"codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;
-what);</div>
+<a class="code" href=
+"classcutehmi_1_1Exception.html#a0025ca24f556e6318749f5221f062a08">what</a>);</div>
 <div class="line"><a name="l00020" id="l00020"></a> <span class=
 "lineno">20</span>&nbsp;</div>
 <div class="line"><a name="l00021" id="l00021"></a> <span class=
@@ -192,8 +195,10 @@ what);</div>
 "lineno">22</span>&nbsp;</div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
 "lineno">23</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1Exception.html">Exception</a> * clone()
-<span class="keyword">const override</span>;</div>
+"classcutehmi_1_1Exception.html">Exception</a> * <a class="code"
+href=
+"classcutehmi_1_1ExceptionMixin.html#ad27607b93d70a2de8b72a43743178579">
+clone</a>() <span class="keyword">const override</span>;</div>
 <div class="line"><a name="l00024" id="l00024"></a> <span class=
 "lineno">24</span>&nbsp;};</div>
 <div class="line"><a name="l00025" id="l00025"></a> <span class=
@@ -202,8 +207,10 @@ what);</div>
 "lineno">26</span>&nbsp;<span class="keyword">template</span>
 &lt;<span class="keyword">class</span> DERIVED&gt;</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp;<a class="code" href=
-"classcutehmi_1_1ExceptionMixin.html">ExceptionMixin&lt;DERIVED&gt;::ExceptionMixin</a>(<span class="keyword">const</span>
+"lineno"><a class="line" href=
+"classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443">
+27</a></span>&nbsp;<a class="code" href=
+"classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443">ExceptionMixin&lt;DERIVED&gt;::ExceptionMixin</a>(<span class="keyword">const</span>
 <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;
@@ -221,8 +228,12 @@ what):</div>
 "lineno">32</span>&nbsp;<span class="keyword">template</span>
 &lt;<span class="keyword">class</span> DERIVED&gt;</div>
 <div class="line"><a name="l00033" id="l00033"></a> <span class=
-"lineno">33</span>&nbsp;<span class="keywordtype">void</span>
-ExceptionMixin&lt;DERIVED&gt;::raise() const noexcept(false)</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1ExceptionMixin.html#aeb8f30c53bb24c8f56d547a5ec19f998">
+33</a></span>&nbsp;<span class="keywordtype">void</span> <a class=
+"code" href=
+"classcutehmi_1_1ExceptionMixin.html">ExceptionMixin&lt;DERIVED&gt;::raise</a>()
+const noexcept(false)</div>
 <div class="line"><a name="l00034" id="l00034"></a> <span class=
 "lineno">34</span>&nbsp;{</div>
 <div class="line"><a name="l00035" id="l00035"></a> <span class=
@@ -238,9 +249,13 @@ ExceptionMixin&lt;DERIVED&gt;::raise() const noexcept(false)</div>
 "lineno">38</span>&nbsp;<span class="keyword">template</span>
 &lt;<span class="keyword">class</span> DERIVED&gt;</div>
 <div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp;Exception *
-ExceptionMixin&lt;DERIVED&gt;::clone() <span class=
-"keyword">const</span></div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1ExceptionMixin.html#ad27607b93d70a2de8b72a43743178579">
+39</a></span>&nbsp;<a class="code" href=
+"classcutehmi_1_1Exception.html">Exception</a> * <a class="code"
+href=
+"classcutehmi_1_1ExceptionMixin.html">ExceptionMixin&lt;DERIVED&gt;::clone</a>()
+<span class="keyword">const</span></div>
 <div class="line"><a name="l00040" id="l00040"></a> <span class=
 "lineno">40</span>&nbsp;{</div>
 <div class="line"><a name="l00041" id="l00041"></a> <span class=
@@ -268,6 +283,14 @@ DERIVED &amp;&gt;(*<span class="keyword">this</span>));</div>
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="ttc" id=
+"classcutehmi_1_1Exception_html_a0025ca24f556e6318749f5221f062a08">
+<div class="ttname"><a href=
+"classcutehmi_1_1Exception.html#a0025ca24f556e6318749f5221f062a08">cutehmi::Exception::what</a></div>
+<div class="ttdeci">const char * what() const noexcept
+override</div>
+<div class="ttdef"><b>Definition:</b> Exception.cpp:20</div>
+</div>
 <div class="ttc" id="namespacecutehmi_html">
 <div class="ttname"><a href=
 "namespacecutehmi.html">cutehmi</a></div>
@@ -276,6 +299,14 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 <div class="ttc" id="qstring_html">
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/qstring.html">QString</a></div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1ExceptionMixin_html_a6f24b8d72b10323f4d85ef650754e443">
+<div class="ttname"><a href=
+"classcutehmi_1_1ExceptionMixin.html#a6f24b8d72b10323f4d85ef650754e443">
+cutehmi::ExceptionMixin::ExceptionMixin</a></div>
+<div class="ttdeci">ExceptionMixin(const QString &amp;what)</div>
+<div class="ttdef"><b>Definition:</b> ExceptionMixin.hpp:27</div>
 </div>
 <div class="ttc" id="classcutehmi_1_1Exception_html">
 <div class="ttname"><a href=
@@ -288,6 +319,14 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "classcutehmi_1_1ExceptionMixin.html">cutehmi::ExceptionMixin</a></div>
 <div class="ttdoc">Exception mixin.</div>
 <div class="ttdef"><b>Definition:</b> ExceptionMixin.hpp:15</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1ExceptionMixin_html_ad27607b93d70a2de8b72a43743178579">
+<div class="ttname"><a href=
+"classcutehmi_1_1ExceptionMixin.html#ad27607b93d70a2de8b72a43743178579">
+cutehmi::ExceptionMixin::clone</a></div>
+<div class="ttdeci">Exception * clone() const override</div>
+<div class="ttdef"><b>Definition:</b> ExceptionMixin.hpp:39</div>
 </div>
 </div>
 <!-- fragment --></div>

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['value',['value',['http://doc.qt.io/qt-5/qprogressdialog.html#value-prop',1,'QProgressDialog::value()'],['http://doc.qt.io/qt-5/qabstractslider.html#value-prop',1,'QAbstractSlider::value()'],['http://doc.qt.io/qt-5/qlcdnumber.html#value-prop',1,'QLCDNumber::value()'],['http://doc.qt.io/qt-5/qprogressbar.html#value-prop',1,'QProgressBar::value()'],['http://doc.qt.io/qt-5/qspinbox.html#value-prop',1,'QSpinBox::value()'],['http://doc.qt.io/qt-5/qdoublespinbox.html#value-prop',1,'QDoubleSpinBox::value()']]],
+  ['version',['version',['../../cutehmi_1/classcutehmi_1_1Plugin.html#a54b810cdc6f6fc072b741cde2c2e788e',1,'cutehmi::Plugin']]],
   ['verticaldirection',['verticalDirection',['http://doc.qt.io/qt-5/qswipegesture.html#verticalDirection-prop',1,'QSwipeGesture']]],
   ['verticalheaderformat',['verticalHeaderFormat',['http://doc.qt.io/qt-5/qcalendarwidget.html#verticalHeaderFormat-prop',1,'QCalendarWidget']]],
   ['verticalscrollbarpolicy',['verticalScrollBarPolicy',['http://doc.qt.io/qt-5/qabstractscrollarea.html#verticalScrollBarPolicy-prop',1,'QAbstractScrollArea']]],

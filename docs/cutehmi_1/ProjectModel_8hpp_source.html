@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../qml_list.html"><span>QML&nbsp;extensions</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
@@ -186,7 +187,9 @@ href="http://doc.qt.io/qt-5/qabstractitemmodel.html">QAbstractItemModel</a></div
 "lineno">30</span>&nbsp; <span class="keyword">template</span>
 &lt;<span class="keyword">typename</span> NODE&gt;</div>
 <div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp; <span class="keyword">struct</span>
+"lineno"><a class="line" href=
+"classcutehmi_1_1ProjectModel.html#a9501991f8f110b08feacff26c821bc7f">
+31</a></span>&nbsp; <span class="keyword">struct</span>
 Iterator;</div>
 <div class="line"><a name="l00032" id="l00032"></a> <span class=
 "lineno">32</span>&nbsp;</div>
@@ -194,15 +197,23 @@ Iterator;</div>
 "lineno">33</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00034" id="l00034"></a> <span class=
 "lineno">34</span>&nbsp; <span class="keyword">typedef</span>
-Iterator&lt;ProjectNode&gt; iterator;</div>
+Iterator&lt;ProjectNode&gt; <a class="code" href=
+"classcutehmi_1_1ProjectModel.html#a9501991f8f110b08feacff26c821bc7f">
+iterator</a>;</div>
 <div class="line"><a name="l00035" id="l00035"></a> <span class=
-"lineno">35</span>&nbsp; <span class="keyword">typedef</span>
-Iterator&lt;const ProjectNode&gt; const_iterator;</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1ProjectModel.html#acac67fd579c0abec86a73dec0382b3f0">
+35</a></span>&nbsp; <span class="keyword">typedef</span>
+Iterator&lt;const ProjectNode&gt; <a class="code" href=
+"classcutehmi_1_1ProjectModel.html#acac67fd579c0abec86a73dec0382b3f0">
+const_iterator</a>;</div>
 <div class="line"><a name="l00036" id="l00036"></a> <span class=
 "lineno">36</span>&nbsp;</div>
 <div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp; Q_PROPERTY(<span class=
-"keyword">const</span> <a class="code" href=
+"lineno"><a class="line" href=
+"classcutehmi_1_1ProjectModel.html#a21ff5098209f4316c0669fe0f9fa4c46">
+37</a></span>&nbsp; Q_PROPERTY(<span class="keyword">const</span>
+<a class="code" href=
 "classcutehmi_1_1ProjectNode.html">cutehmi::ProjectNode</a> * root
 READ rootPtr CONSTANT)</div>
 <div class="line"><a name="l00038" id="l00038"></a> <span class=
@@ -311,21 +322,28 @@ index) <span class="keyword">const override</span>;</div>
 <div class="line"><a name="l00061" id="l00061"></a> <span class=
 "lineno">61</span>&nbsp;</div>
 <div class="line"><a name="l00062" id="l00062"></a> <span class=
-"lineno">62</span>&nbsp; iterator begin();</div>
+"lineno">62</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1ProjectModel.html#a9501991f8f110b08feacff26c821bc7f">
+iterator</a> begin();</div>
 <div class="line"><a name="l00063" id="l00063"></a> <span class=
 "lineno">63</span>&nbsp;</div>
 <div class="line"><a name="l00064" id="l00064"></a> <span class=
-"lineno">64</span>&nbsp; const_iterator begin() <span class=
+"lineno">64</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1ProjectModel.html#acac67fd579c0abec86a73dec0382b3f0">
+const_iterator</a> begin() <span class=
 "keyword">const</span>;</div>
 <div class="line"><a name="l00065" id="l00065"></a> <span class=
 "lineno">65</span>&nbsp;</div>
 <div class="line"><a name="l00066" id="l00066"></a> <span class=
-"lineno">66</span>&nbsp; iterator end();</div>
+"lineno">66</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1ProjectModel.html#a9501991f8f110b08feacff26c821bc7f">
+iterator</a> end();</div>
 <div class="line"><a name="l00067" id="l00067"></a> <span class=
 "lineno">67</span>&nbsp;</div>
 <div class="line"><a name="l00068" id="l00068"></a> <span class=
-"lineno">68</span>&nbsp; const_iterator end() <span class=
-"keyword">const</span>;</div>
+"lineno">68</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1ProjectModel.html#acac67fd579c0abec86a73dec0382b3f0">
+const_iterator</a> end() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00069" id="l00069"></a> <span class=
 "lineno">69</span>&nbsp;</div>
 <div class="line"><a name="l00074" id="l00074"></a> <span class=
@@ -505,8 +523,7 @@ Members</div>
 <div class="line"><a name="l00150" id="l00150"></a> <span class=
 "lineno">150</span>&nbsp;</div>
 <div class="line"><a name="l00151" id="l00151"></a> <span class=
-"lineno">151</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> m;</div>
+"lineno">151</span>&nbsp; MPtr&lt;Members&gt; m;</div>
 <div class="line"><a name="l00152" id="l00152"></a> <span class=
 "lineno">152</span>&nbsp;};</div>
 <div class="line"><a name="l00153" id="l00153"></a> <span class=
@@ -751,11 +768,6 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 <div class="ttname"><a href=
 "https://en.cppreference.com/w/cpp/iterator/iterator.html">std::iterator</a></div>
 </div>
-<div class="ttc" id="classcutehmi_1_1MPtr_html">
-<div class="ttname"><a href=
-"classcutehmi_1_1MPtr.html">cutehmi::MPtr&lt; Members
-&gt;</a></div>
-</div>
 <div class="ttc" id="qobject_html">
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
@@ -765,11 +777,28 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "namespacecutehmi.html">cutehmi</a></div>
 <div class="ttdef"><b>Definition:</b> CuteHMI.hpp:11</div>
 </div>
+<div class="ttc" id=
+"classcutehmi_1_1ProjectModel_html_acac67fd579c0abec86a73dec0382b3f0">
+<div class="ttname"><a href=
+"classcutehmi_1_1ProjectModel.html#acac67fd579c0abec86a73dec0382b3f0">
+cutehmi::ProjectModel::const_iterator</a></div>
+<div class="ttdeci">Iterator&lt; const ProjectNode &gt;
+const_iterator</div>
+<div class="ttdef"><b>Definition:</b> ProjectModel.hpp:35</div>
+</div>
 <div class="ttc" id="classcutehmi_1_1ProjectModel_html">
 <div class="ttname"><a href=
 "classcutehmi_1_1ProjectModel.html">cutehmi::ProjectModel</a></div>
 <div class="ttdoc">Project model.</div>
 <div class="ttdef"><b>Definition:</b> ProjectModel.hpp:25</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1ProjectModel_html_a9501991f8f110b08feacff26c821bc7f">
+<div class="ttname"><a href=
+"classcutehmi_1_1ProjectModel.html#a9501991f8f110b08feacff26c821bc7f">
+cutehmi::ProjectModel::iterator</a></div>
+<div class="ttdeci">Iterator&lt; ProjectNode &gt; iterator</div>
+<div class="ttdef"><b>Definition:</b> ProjectModel.hpp:31</div>
 </div>
 <div class="ttc" id="qabstractitemmodel_html">
 <div class="ttname"><a href=

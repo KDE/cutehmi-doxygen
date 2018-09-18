@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../qml_list.html"><span>QML&nbsp;extensions</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li class="current"><a href=
 "annotated.html"><span>Classes</span></a></li>
 <li>
@@ -158,12 +159,16 @@ Public Types</h2>
 </td>
 </tr>
 <tr class="memitem:af321daa00c741246e8c9a21ea0435b96">
-<td class="memItemLeft" align="right" valign="top"><a id=
-"af321daa00c741246e8c9a21ea0435b96" name=
-"af321daa00c741246e8c9a21ea0435b96"></a>enum &nbsp;</td>
-<td class="memItemRight" valign="bottom">: int {
-<b>UNINITIALIZED</b> = -2, <b>FAIL</b> = -1, <b>OK</b> = 0,
-<b>SUBCLASS_BEGIN</b> = 1 }</td>
+<td class="memItemLeft" align="right" valign="top">enum &nbsp;</td>
+<td class="memItemRight" valign="bottom">: int { <a class="el"
+href="structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574">
+UNINITIALIZED</a> = -2, <a class="el" href=
+"structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e">
+FAIL</a> = -1, <a class="el" href=
+"structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188">
+OK</a> = 0, <a class="el" href=
+"structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0">
+SUBCLASS_BEGIN</a> = 1 }</td>
 </tr>
 <tr class="separator:af321daa00c741246e8c9a21ea0435b96">
 <td class="memSeparator" colspan="2">&nbsp;</td>
@@ -206,22 +211,20 @@ Public Member Functions</h2>
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
 <tr class="memitem:a8ffc199bd7c0907929165003eb44c1d4">
-<td class="memItemLeft" align="right" valign="top"><a id=
-"a8ffc199bd7c0907929165003eb44c1d4" name=
-"a8ffc199bd7c0907929165003eb44c1d4"></a> bool&nbsp;</td>
-<td class="memItemRight" valign="bottom"><b>operator==</b> (const
-<a class="el" href="structcutehmi_1_1Error.html">Error</a>
+<td class="memItemLeft" align="right" valign="top">bool&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"structcutehmi_1_1Error.html#a8ffc199bd7c0907929165003eb44c1d4">operator==</a>
+(const <a class="el" href="structcutehmi_1_1Error.html">Error</a>
 &amp;other) const</td>
 </tr>
 <tr class="separator:a8ffc199bd7c0907929165003eb44c1d4">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
 <tr class="memitem:abd2dd94bdf40d173877c12bf225fec0a">
-<td class="memItemLeft" align="right" valign="top"><a id=
-"abd2dd94bdf40d173877c12bf225fec0a" name=
-"abd2dd94bdf40d173877c12bf225fec0a"></a> bool&nbsp;</td>
-<td class="memItemRight" valign="bottom"><b>operator!=</b> (const
-<a class="el" href="structcutehmi_1_1Error.html">Error</a>
+<td class="memItemLeft" align="right" valign="top">bool&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"structcutehmi_1_1Error.html#abd2dd94bdf40d173877c12bf225fec0a">operator!=</a>
+(const <a class="el" href="structcutehmi_1_1Error.html">Error</a>
 &amp;other) const</td>
 </tr>
 <tr class="separator:abd2dd94bdf40d173877c12bf225fec0a">
@@ -281,11 +284,10 @@ Protected Member Functions</h2>
 </td>
 </tr>
 <tr class="memitem:a6c57805dd0863425aedb43ef5642aade">
-<td class="memItemLeft" align="right" valign="top"><a id=
-"a6c57805dd0863425aedb43ef5642aade" name=
-"a6c57805dd0863425aedb43ef5642aade"></a> void&nbsp;</td>
-<td class="memItemRight" valign="bottom"><b>setCode</b> (int
-<a class="el" href=
+<td class="memItemLeft" align="right" valign="top">void&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"structcutehmi_1_1Error.html#a6c57805dd0863425aedb43ef5642aade">setCode</a>
+(int <a class="el" href=
 "structcutehmi_1_1Error.html#ad8895de8ad394ba667dc1965c607b875">code</a>)</td>
 </tr>
 <tr class="separator:a6c57805dd0863425aedb43ef5642aade">
@@ -297,8 +299,63 @@ Protected Member Functions</h2>
 <div class="textblock">
 <p>Standarized error.</p>
 <p>Class reserves negative values for its error codes. When
-subclassing start custom error codes from 1
-(<code>Error::SUBCLASS_BEGIN</code>).</p>
+subclassing start custom error codes from 1 (<code><a class="el"
+href=
+"structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0">Error::SUBCLASS_BEGIN</a></code>).</p>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="af321daa00c741246e8c9a21ea0435b96" name=
+"af321daa00c741246e8c9a21ea0435b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#af321daa00c741246e8c9a21ea0435b96">◆&nbsp;</a></span>anonymous
+enum</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tr>
+<td class="memname">anonymous enum : int</td>
+</tr>
+</table>
+</div>
+<div class="memdoc">
+<table class="fieldtable">
+<tr>
+<th colspan="2">Enumerator</th>
+</tr>
+<tr>
+<td class="fieldname"><a id=
+"af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574"
+name=
+"af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574">
+</a>UNINITIALIZED&nbsp;</td>
+<td class="fielddoc"></td>
+</tr>
+<tr>
+<td class="fieldname"><a id=
+"af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e"
+name=
+"af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e">
+</a>FAIL&nbsp;</td>
+<td class="fielddoc"></td>
+</tr>
+<tr>
+<td class="fieldname"><a id=
+"af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188"
+name=
+"af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188">
+</a>OK&nbsp;</td>
+<td class="fielddoc"></td>
+</tr>
+<tr>
+<td class="fieldname"><a id=
+"af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0"
+name=
+"af321daa00c741246e8c9a21ea0435b96aefffe847bc445e61104b6d99caf5d8d0">
+</a>SUBCLASS_BEGIN&nbsp;</td>
+<td class="fielddoc"></td>
+</tr>
+</table>
+</div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor
 Documentation</h2>
@@ -400,9 +457,78 @@ bool()</h2>
 </div>
 <div class="memdoc">
 <p>Conversion to <code>bool</code>.</p>
-<p>Evaluates to <code>true</code> if error code is
-<code>Error::OK</code>, <code>false</code> otherwise.</p>
+<p>Evaluates to <code>true</code> if error code is <code><a class=
+"el" href=
+"structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188">
+Error::OK</a></code>, <code>false</code> otherwise.</p>
 </div>
+</div>
+<a id="abd2dd94bdf40d173877c12bf225fec0a" name=
+"abd2dd94bdf40d173877c12bf225fec0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#abd2dd94bdf40d173877c12bf225fec0a">◆&nbsp;</a></span>operator!=()</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tr>
+<td class="memname">bool cutehmi::Error::operator!=</td>
+<td>(</td>
+<td class="paramtype">const <a class="el" href=
+"structcutehmi_1_1Error.html">Error</a> &amp;&nbsp;</td>
+<td class="paramname"><em>other</em></td>
+<td>)</td>
+<td>const</td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
+<a id="a8ffc199bd7c0907929165003eb44c1d4" name=
+"a8ffc199bd7c0907929165003eb44c1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#a8ffc199bd7c0907929165003eb44c1d4">◆&nbsp;</a></span>operator==()</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tr>
+<td class="memname">bool cutehmi::Error::operator==</td>
+<td>(</td>
+<td class="paramtype">const <a class="el" href=
+"structcutehmi_1_1Error.html">Error</a> &amp;&nbsp;</td>
+<td class="paramname"><em>other</em></td>
+<td>)</td>
+<td>const</td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
+<a id="a6c57805dd0863425aedb43ef5642aade" name=
+"a6c57805dd0863425aedb43ef5642aade"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#a6c57805dd0863425aedb43ef5642aade">◆&nbsp;</a></span>setCode()</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+<tr>
+<td class="mlabels-left">
+<table class="memname">
+<tr>
+<td class="memname">void cutehmi::Error::setCode</td>
+<td>(</td>
+<td class="paramtype">int&nbsp;</td>
+<td class="paramname"><em>code</em></td>
+<td>)</td>
+<td></td>
+</tr>
+</table>
+</td>
+<td class="mlabels-right"><span class="mlabels"><span class=
+"mlabel">protected</span></span></td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
 </div>
 <a id="aef2624dce52e1447313ad8bff38ab6a6" name=
 "aef2624dce52e1447313ad8bff38ab6a6"></a>
@@ -446,7 +572,8 @@ code and return generic message.</dd>
 <div id="nav-path" class="navpath">
 <!-- id is needed for treeview function! -->
 <ul>
-<li class="navelem"><b>cutehmi</b></li>
+<li class="navelem"><a class="el" href=
+"namespacecutehmi.html">cutehmi</a></li>
 <li class="navelem"><a class="el" href=
 "structcutehmi_1_1Error.html">Error</a></li>
 <li class="footer">Generated by <a href=

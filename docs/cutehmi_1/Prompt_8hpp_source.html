@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../qml_list.html"><span>QML&nbsp;extensions</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
@@ -185,41 +186,63 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
 <div class="line"><a name="l00022" id="l00022"></a> <span class=
 "lineno">22</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
-"lineno">23</span>&nbsp; Q_PROPERTY(Type type READ type WRITE
-setType NOTIFY typeChanged)</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a21448ea35c153922061afc08309bca49">23</a></span>&nbsp;
+Q_PROPERTY(<a class="code" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098b">Type</a>
+type READ type WRITE setType NOTIFY typeChanged)</div>
 <div class="line"><a name="l00024" id="l00024"></a> <span class=
-"lineno">24</span>&nbsp; Q_PROPERTY(<a class="codeRef" doxygen=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a4cc976a35e37ccee029bd182e07b05a2">24</a></span>&nbsp;
+Q_PROPERTY(<a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> text READ
 text WRITE setText NOTIFY textChanged)</div>
 <div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp; Q_PROPERTY(<a class="codeRef" doxygen=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#acea62947467e15d293c0740f01330433">25</a></span>&nbsp;
+Q_PROPERTY(<a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a>
 informativeText READ informativeText WRITE setInformativeText
 NOTIFY informativeTextChanged)</div>
 <div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp; Q_PROPERTY(<a class="codeRef" doxygen=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a3234c167dfb634cc642a753f7c60160c">26</a></span>&nbsp;
+Q_PROPERTY(<a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> detailedText
 READ detailedText WRITE setDetailedText NOTIFY
 detailedTextChanged)</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp; Q_PROPERTY(Buttons buttons READ buttons
-WRITE setButtons NOTIFY buttonsChanged)</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a7f3e49512b7c4d32627dbd6e81753f1e">27</a></span>&nbsp;
+Q_PROPERTY(Buttons buttons READ buttons WRITE setButtons NOTIFY
+buttonsChanged)</div>
 <div class="line"><a name="l00028" id="l00028"></a> <span class=
 "lineno">28</span>&nbsp;</div>
 <div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp; <span class="keyword">enum</span> Type
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098b">29</a></span>&nbsp;
+enum <a class="code" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098b">Type</a>
 {</div>
 <div class="line"><a name="l00030" id="l00030"></a> <span class=
-"lineno">30</span>&nbsp; NOTE = 1,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098badec60d9a58819e3d8f993bf6735adc95">
+30</a></span>&nbsp; NOTE = 1,</div>
 <div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp; WARNING = 2,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098bad58b438499988da32362d7efe92c74b8">
+31</a></span>&nbsp; WARNING = 2,</div>
 <div class="line"><a name="l00032" id="l00032"></a> <span class=
-"lineno">32</span>&nbsp; CRITICAL = 3,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098ba1bc5b406bd3531ccc503bba85eca6ea5">
+32</a></span>&nbsp; CRITICAL = 3,</div>
 <div class="line"><a name="l00033" id="l00033"></a> <span class=
-"lineno">33</span>&nbsp; QUESTION = 4</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098ba026db9f3fb62623d710e1354f8eafcee">
+33</a></span>&nbsp; QUESTION = 4</div>
 <div class="line"><a name="l00034" id="l00034"></a> <span class=
 "lineno">34</span>&nbsp; };</div>
 <div class="line"><a name="l00035" id="l00035"></a> <span class=
@@ -227,47 +250,87 @@ WRITE setButtons NOTIFY buttonsChanged)</div>
 <div class="line"><a name="l00036" id="l00036"></a> <span class=
 "lineno">36</span>&nbsp;</div>
 <div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp; <span class="keyword">enum</span> Button :
-qint32 {</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2">37</a></span>&nbsp;
+enum <a class="code" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2">Button</a>
+: qint32 {</div>
 <div class="line"><a name="l00038" id="l00038"></a> <span class=
-"lineno">38</span>&nbsp; BUTTON_OK = 0x00000400,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2ad62a29b3ab7e83be7307bfc35a37c045">
+38</a></span>&nbsp; BUTTON_OK = 0x00000400,</div>
 <div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp; BUTTON_OPEN = 0x00002000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2ae57ed486783509c5a00728d3e4b3259b">
+39</a></span>&nbsp; BUTTON_OPEN = 0x00002000,</div>
 <div class="line"><a name="l00040" id="l00040"></a> <span class=
-"lineno">40</span>&nbsp; BUTTON_SAVE = 0x00000800,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a10aa866bb5007cf41eeaf64d902b7a4f">
+40</a></span>&nbsp; BUTTON_SAVE = 0x00000800,</div>
 <div class="line"><a name="l00041" id="l00041"></a> <span class=
-"lineno">41</span>&nbsp; BUTTON_CANCEL = 0x00400000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a7043f01fc9d9a414544512539c8a97b1">
+41</a></span>&nbsp; BUTTON_CANCEL = 0x00400000,</div>
 <div class="line"><a name="l00042" id="l00042"></a> <span class=
-"lineno">42</span>&nbsp; BUTTON_CLOSE = 0x00200000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2ade638b032b56d4b6dac197f9ea5653fa">
+42</a></span>&nbsp; BUTTON_CLOSE = 0x00200000,</div>
 <div class="line"><a name="l00043" id="l00043"></a> <span class=
-"lineno">43</span>&nbsp; BUTTON_DISCARD = 0x00800000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a14debb64e0c37d140f52f74ffcc67331">
+43</a></span>&nbsp; BUTTON_DISCARD = 0x00800000,</div>
 <div class="line"><a name="l00044" id="l00044"></a> <span class=
-"lineno">44</span>&nbsp; BUTTON_APPLY = 0x02000000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a8aa7545aaab92f44df243b50925be902">
+44</a></span>&nbsp; BUTTON_APPLY = 0x02000000,</div>
 <div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp; BUTTON_RESET = 0x04000000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a67cc31f43c9a8f6930ef36a1ab02ceb1">
+45</a></span>&nbsp; BUTTON_RESET = 0x04000000,</div>
 <div class="line"><a name="l00046" id="l00046"></a> <span class=
-"lineno">46</span>&nbsp; BUTTON_RESTORE_DEFAULTS =
-0x08000000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2ad73e2787eb1768700fefcf56e17df5e1">
+46</a></span>&nbsp; BUTTON_RESTORE_DEFAULTS = 0x08000000,</div>
 <div class="line"><a name="l00047" id="l00047"></a> <span class=
-"lineno">47</span>&nbsp; BUTTON_HELP = 0x01000000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2ac8e901e486310235982b7a2fe8435b12">
+47</a></span>&nbsp; BUTTON_HELP = 0x01000000,</div>
 <div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp; BUTTON_SAVE_ALL = 0x00001000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a2b58d879835ed767d7845a1eb23db0b0">
+48</a></span>&nbsp; BUTTON_SAVE_ALL = 0x00001000,</div>
 <div class="line"><a name="l00049" id="l00049"></a> <span class=
-"lineno">49</span>&nbsp; BUTTON_YES = 0x00004000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a971456a4363904e200c3be1138852808">
+49</a></span>&nbsp; BUTTON_YES = 0x00004000,</div>
 <div class="line"><a name="l00050" id="l00050"></a> <span class=
-"lineno">50</span>&nbsp; BUTTON_YES_TO_ALL = 0x00008000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2adae7e2ff7c0cd005dd4c02d4bd3a7512">
+50</a></span>&nbsp; BUTTON_YES_TO_ALL = 0x00008000,</div>
 <div class="line"><a name="l00051" id="l00051"></a> <span class=
-"lineno">51</span>&nbsp; BUTTON_NO = 0x00010000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a5a4007073cde6c9f8b1b1dcbaa80a7a0">
+51</a></span>&nbsp; BUTTON_NO = 0x00010000,</div>
 <div class="line"><a name="l00052" id="l00052"></a> <span class=
-"lineno">52</span>&nbsp; BUTTON_NO_TO_ALL = 0x00020000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a773c632ddd797aaa48a6c1eae1fa4502">
+52</a></span>&nbsp; BUTTON_NO_TO_ALL = 0x00020000,</div>
 <div class="line"><a name="l00053" id="l00053"></a> <span class=
-"lineno">53</span>&nbsp; BUTTON_ABORT = 0x00040000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a8dd7cc0349a8d6f1b25b2935d1521d23">
+53</a></span>&nbsp; BUTTON_ABORT = 0x00040000,</div>
 <div class="line"><a name="l00054" id="l00054"></a> <span class=
-"lineno">54</span>&nbsp; BUTTON_RETRY = 0x00080000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a5872da2e398f5099ccf8220b84842d3b">
+54</a></span>&nbsp; BUTTON_RETRY = 0x00080000,</div>
 <div class="line"><a name="l00055" id="l00055"></a> <span class=
-"lineno">55</span>&nbsp; BUTTON_IGNORE = 0x00100000,</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2ab89b961d45f83b9aed08d4d366a2404a">
+55</a></span>&nbsp; BUTTON_IGNORE = 0x00100000,</div>
 <div class="line"><a name="l00056" id="l00056"></a> <span class=
-"lineno">56</span>&nbsp; NO_BUTTON = 0x00000000</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2aa985a59e3a9e3a9c67b86948d7253d2d">
+56</a></span>&nbsp; NO_BUTTON = 0x00000000</div>
 <div class="line"><a name="l00057" id="l00057"></a> <span class=
 "lineno">57</span>&nbsp; };</div>
 <div class="line"><a name="l00058" id="l00058"></a> <span class=
@@ -288,7 +351,9 @@ href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp; text =
 <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a>(), Buttons
-buttons = Prompt::NO_BUTTON, <a class="codeRef" doxygen=
+buttons = <a class="code" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2aa985a59e3a9e3a9c67b86948d7253d2d">
+Prompt::NO_BUTTON</a>, <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent =
 0);</div>
@@ -303,8 +368,9 @@ href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp; text,
 <span class="keyword">const</span> <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;
-informativeText, Buttons buttons = Prompt::NO_BUTTON, <a class=
-"codeRef" doxygen=
+informativeText, Buttons buttons = <a class="code" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2aa985a59e3a9e3a9c67b86948d7253d2d">
+Prompt::NO_BUTTON</a>, <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent =
 0);</div>
@@ -323,8 +389,9 @@ informativeText, <span class="keyword">const</span> <a class=
 "codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;
-detailedText, Buttons buttons = Prompt::NO_BUTTON, <a class=
-"codeRef" doxygen=
+detailedText, Buttons buttons = <a class="code" href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2aa985a59e3a9e3a9c67b86948d7253d2d">
+Prompt::NO_BUTTON</a>, <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent =
 0);</div>
@@ -394,8 +461,9 @@ Buttons buttons = BUTTON_OK);</div>
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Prompt&gt;</a>
-Critical(<span class="keyword">const</span> <a class="code" href=
-"structcutehmi_1_1ErrorInfo.html">ErrorInfo</a> &amp; errorInfo,
+Critical(<span class="keyword">const</span> ErrorInfo &amp;
+<a class="code" href=
+"namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">errorInfo</a>,
 Buttons buttons = BUTTON_OK);</div>
 <div class="line"><a name="l00079" id="l00079"></a> <span class=
 "lineno">79</span>&nbsp;</div>
@@ -557,8 +625,7 @@ detailedText;</div>
 <div class="line"><a name="l00137" id="l00137"></a> <span class=
 "lineno">137</span>&nbsp;</div>
 <div class="line"><a name="l00138" id="l00138"></a> <span class=
-"lineno">138</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> m;</div>
+"lineno">138</span>&nbsp; MPtr&lt;Members&gt; m;</div>
 <div class="line"><a name="l00139" id="l00139"></a> <span class=
 "lineno">139</span>&nbsp;};</div>
 <div class="line"><a name="l00140" id="l00140"></a> <span class=
@@ -584,10 +651,20 @@ detailedText;</div>
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
-<div class="ttc" id="classcutehmi_1_1MPtr_html">
+<div class="ttc" id=
+"namespacecutehmi_html_ae3b13288afce025ac92a12a65589f8e6">
 <div class="ttname"><a href=
-"classcutehmi_1_1MPtr.html">cutehmi::MPtr&lt; Members
-&gt;</a></div>
+"namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">cutehmi::errorInfo</a></div>
+<div class="ttdeci">ErrorInfo errorInfo(ERR err)</div>
+<div class="ttdoc">Get error info.</div>
+<div class="ttdef"><b>Definition:</b> ErrorInfo.hpp:36</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1Prompt_html_a082be6590c56deba64928938a29221d2aa985a59e3a9e3a9c67b86948d7253d2d">
+<div class="ttname"><a href=
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2aa985a59e3a9e3a9c67b86948d7253d2d">
+cutehmi::Prompt::NO_BUTTON</a></div>
+<div class="ttdef"><b>Definition:</b> Prompt.hpp:56</div>
 </div>
 <div class="ttc" id="qobject_html">
 <div class="ttname"><a href=
@@ -602,6 +679,13 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/qstring.html">QString</a></div>
 </div>
+<div class="ttc" id=
+"classcutehmi_1_1Prompt_html_aa0caa7840dc3406f03ff7c4a23c9098b">
+<div class="ttname"><a href=
+"classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098b">cutehmi::Prompt::Type</a></div>
+<div class="ttdeci">Type</div>
+<div class="ttdef"><b>Definition:</b> Prompt.hpp:29</div>
+</div>
 <div class="ttc" id="unique_ptr_html">
 <div class="ttname"><a href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a></div>
@@ -612,11 +696,12 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 <div class="ttdoc">Prompt message.</div>
 <div class="ttdef"><b>Definition:</b> Prompt.hpp:17</div>
 </div>
-<div class="ttc" id="structcutehmi_1_1ErrorInfo_html">
+<div class="ttc" id=
+"classcutehmi_1_1Prompt_html_a082be6590c56deba64928938a29221d2">
 <div class="ttname"><a href=
-"structcutehmi_1_1ErrorInfo.html">cutehmi::ErrorInfo</a></div>
-<div class="ttdoc">Error info.</div>
-<div class="ttdef"><b>Definition:</b> ErrorInfo.hpp:17</div>
+"classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2">cutehmi::Prompt::Button</a></div>
+<div class="ttdeci">Button</div>
+<div class="ttdef"><b>Definition:</b> Prompt.hpp:37</div>
 </div>
 </div>
 <!-- fragment --></div>

@@ -17,7 +17,7 @@ var searchData=
   ['vector',['vector',['https://en.cppreference.com/w/cpp/container/vector/vector.html',1,'std::vector']]],
   ['verbosity',['verbosity',['http://doc.qt.io/qt-5/qdebug.html#verbosity',1,'QDebug']]],
   ['verify',['verify',['http://doc.qt.io/qt-5/qsslcertificate.html#verify',1,'QSslCertificate']]],
-  ['version',['version',['http://doc.qt.io/qt-5/qlibraryinfo.html#version',1,'QLibraryInfo::version()'],['http://doc.qt.io/qt-5/qdatastream.html#version',1,'QDataStream::version()'],['http://doc.qt.io/qt-5/quuid.html#version',1,'QUuid::version()'],['http://doc.qt.io/qt-5/qsslcertificate.html#version',1,'QSslCertificate::version()']]],
+  ['version',['version',['http://doc.qt.io/qt-5/qlibraryinfo.html#version',1,'QLibraryInfo::version()'],['http://doc.qt.io/qt-5/qdatastream.html#version',1,'QDataStream::version()'],['http://doc.qt.io/qt-5/quuid.html#version',1,'QUuid::version()'],['http://doc.qt.io/qt-5/qsslcertificate.html#version',1,'QSslCertificate::version()'],['../classcutehmi_1_1Plugin.html#ab266c4fab4e44f7ec6ab044b382963dc',1,'cutehmi::Plugin::version()']]],
   ['vfprintf',['vfprintf',['https://en.cppreference.com/w/cpp/io/c/vfprintf.html',1,'std']]],
   ['vfscanf',['vfscanf',['https://en.cppreference.com/w/cpp/io/c/vfscanf.html',1,'std']]],
   ['vfwprintf',['vfwprintf',['https://en.cppreference.com/w/cpp/io/c/vfwprintf.html',1,'std']]],

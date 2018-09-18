@@ -29,6 +29,9 @@ var NAVTREE =
     [ "Tools", "../tools_list.html", null ],
     [ "QML extensions", "../qml_list.html", null ],
     [ "The Secret Order of Templates - XML Backend Template", "index.html", null ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

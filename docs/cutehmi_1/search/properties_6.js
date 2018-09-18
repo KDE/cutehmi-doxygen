@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['historytype',['historyType',['http://doc.qt.io/qt-5/qhistorystate.html#historyType-prop',1,'QHistoryState']]]
+  ['globalrestorepolicy',['globalRestorePolicy',['http://doc.qt.io/qt-5/qstatemachine.html#globalRestorePolicy-prop',1,'QStateMachine']]]
 ];

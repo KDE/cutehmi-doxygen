@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['maxthreadcount',['maxThreadCount',['http://doc.qt.io/qt-5/qthreadpool.html#maxThreadCount-prop',1,'QThreadPool']]]
+  ['loadhints',['loadHints',['http://doc.qt.io/qt-5/qlibrary.html#loadHints-prop',1,'QLibrary::loadHints()'],['http://doc.qt.io/qt-5/qpluginloader.html#loadHints-prop',1,'QPluginLoader::loadHints()']]],
+  ['loopcount',['loopCount',['http://doc.qt.io/qt-5/qabstractanimation.html#loopCount-prop',1,'QAbstractAnimation::loopCount()'],['http://doc.qt.io/qt-5/qtimeline.html#loopCount-prop',1,'QTimeLine::loopCount()']]]
 ];

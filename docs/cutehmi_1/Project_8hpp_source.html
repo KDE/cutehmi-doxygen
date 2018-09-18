@@ -79,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../qml_list.html"><span>QML&nbsp;extensions</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
@@ -190,14 +191,20 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
 <div class="line"><a name="l00024" id="l00024"></a> <span class=
 "lineno">24</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp; Q_PROPERTY(<a class="code" href=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Project.html#a6e5a4f6c70c352563c9f01d49674f0b1">25</a></span>&nbsp;
+Q_PROPERTY(<a class="code" href=
 "classcutehmi_1_1ProjectModel.html">ProjectModel</a> * model READ
 model NOTIFY modelChanged)</div>
 <div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp; Q_PROPERTY(<a class="codeRef" doxygen=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Project.html#ad41fbf19447adbe18abf8bf136b73982">26</a></span>&nbsp;
+Q_PROPERTY(<a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtqml/qtqml.tags:http://doc.qt.io/qt-5/" href=
-"http://doc.qt.io/qt-5/qqmllistproperty.html">QQmlListProperty&lt;cutehmi::Plugin&gt;</a>
-plugins READ plugins NOTIFY pluginsChanged)</div>
+"http://doc.qt.io/qt-5/qqmllistproperty.html">QQmlListProperty</a>&lt;<a class="code"
+href="namespacecutehmi.html">cutehmi</a>::<a class="code" href=
+"classcutehmi_1_1Plugin.html">Plugin</a>&gt; plugins READ plugins
+NOTIFY pluginsChanged)</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
 "lineno">27</span>&nbsp;</div>
 <div class="line"><a name="l00028" id="l00028"></a> <span class=
@@ -211,29 +218,28 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent =
 "lineno">29</span>&nbsp;</div>
 <div class="line"><a name="l00030" id="l00030"></a> <span class=
 "lineno">30</span>&nbsp; ~<a class="code" href=
-"classcutehmi_1_1Project.html">Project</a>() <span class=
-"keyword">override</span>;</div>
+"classcutehmi_1_1Project.html">Project</a>() override;</div>
 <div class="line"><a name="l00031" id="l00031"></a> <span class=
 "lineno">31</span>&nbsp;</div>
 <div class="line"><a name="l00032" id="l00032"></a> <span class=
 "lineno">32</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1ProjectModel.html">ProjectModel</a> * model()
-<span class="keyword">const</span>;</div>
+const;</div>
 <div class="line"><a name="l00033" id="l00033"></a> <span class=
 "lineno">33</span>&nbsp;</div>
 <div class="line"><a name="l00034" id="l00034"></a> <span class=
-"lineno">34</span>&nbsp; <span class="keyword">const</span>
-<a class="codeRef" doxygen=
+"lineno">34</span>&nbsp; const <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtqml/qtqml.tags:http://doc.qt.io/qt-5/" href=
-"http://doc.qt.io/qt-5/qqmllistproperty.html">QQmlListProperty&lt;Plugin&gt;</a>
-&amp; plugins() <span class="keyword">const</span>;</div>
+"http://doc.qt.io/qt-5/qqmllistproperty.html">QQmlListProperty</a>&lt;<a class="code"
+href="classcutehmi_1_1Plugin.html">Plugin</a>&gt; &amp; plugins()
+const;</div>
 <div class="line"><a name="l00035" id="l00035"></a> <span class=
 "lineno">35</span>&nbsp;</div>
 <div class="line"><a name="l00036" id="l00036"></a> <span class=
 "lineno">36</span>&nbsp; <span class="keywordtype">void</span>
 load(<a class="code" href=
 "classcutehmi_1_1IProjectBackend.html">IProjectBackend</a> &amp;
-backend) noexcept(<span class="keyword">false</span>);</div>
+backend) noexcept(false);</div>
 <div class="line"><a name="l00037" id="l00037"></a> <span class=
 "lineno">37</span>&nbsp;</div>
 <div class="line"><a name="l00038" id="l00038"></a> <span class=
@@ -254,20 +260,16 @@ pluginsChanged();</div>
 <div class="line"><a name="l00044" id="l00044"></a> <span class=
 "lineno">44</span>&nbsp;</div>
 <div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp; <span class=
-"keyword">protected</span>:</div>
+"lineno">45</span>&nbsp; protected:</div>
 <div class="line"><a name="l00046" id="l00046"></a> <span class=
-"lineno">46</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1internal_1_1PluginLoader.html">internal::PluginLoader</a>
-* pluginLoader() <span class="keyword">const</span>;</div>
+"lineno">46</span>&nbsp; internal::PluginLoader * pluginLoader()
+const;</div>
 <div class="line"><a name="l00047" id="l00047"></a> <span class=
 "lineno">47</span>&nbsp;</div>
 <div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp; <span class=
-"keyword">private</span>:</div>
+"lineno">48</span>&nbsp; private:</div>
 <div class="line"><a name="l00049" id="l00049"></a> <span class=
-"lineno">49</span>&nbsp; <span class="keyword">struct</span>
-Members</div>
+"lineno">49</span>&nbsp; struct Members</div>
 <div class="line"><a name="l00050" id="l00050"></a> <span class=
 "lineno">50</span>&nbsp; {</div>
 <div class="line"><a name="l00051" id="l00051"></a> <span class=
