@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['childmode',['childMode',['http://doc.qt.io/qt-5/qstate.html#childMode-prop',1,'QState']]],
-  ['currentanimation',['currentAnimation',['http://doc.qt.io/qt-5/qsequentialanimationgroup.html#currentAnimation-prop',1,'QSequentialAnimationGroup']]],
-  ['currentloop',['currentLoop',['http://doc.qt.io/qt-5/qabstractanimation.html#currentLoop-prop',1,'QAbstractAnimation']]],
-  ['currenttime',['currentTime',['http://doc.qt.io/qt-5/qabstractanimation.html#currentTime-prop',1,'QAbstractAnimation::currentTime()'],['http://doc.qt.io/qt-5/qtimeline.html#currentTime-prop',1,'QTimeLine::currentTime()']]],
-  ['currentvalue',['currentValue',['http://doc.qt.io/qt-5/qvariantanimation.html#currentValue-prop',1,'QVariantAnimation']]],
-  ['curveshape',['curveShape',['http://doc.qt.io/qt-5/qtimeline.html#curveShape-prop',1,'QTimeLine']]]
+  ['background',['background',['../classCuteHMI_1_1ColorSet.html#a75e1a3a9e2ee6d009c0a23113f81e1f8',1,'CuteHMI::ColorSet']]],
+  ['base',['base',['../classCuteHMI_1_1ColorSet.html#aab66e03dd4bb37e85c5f0b482b568ec6',1,'CuteHMI::ColorSet']]]
 ];
