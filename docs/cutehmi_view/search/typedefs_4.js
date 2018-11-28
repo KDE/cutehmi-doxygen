@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keyscontainer',['KeysContainer',['../../cutehmi_xml_1/classcutehmi_1_1xml_1_1ParseElement_1_1AttributesContainer.html#ad9703a5e2609ad76ca7bb6a334e9c9ea',1,'cutehmi::xml::ParseElement::AttributesContainer']]]
+  ['loadedpluginscontainer',['LoadedPluginsContainer',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader.html#a14bc8b65154457f7ef0c362aa2a378c8',1,'cutehmi::internal::PluginLoader']]]
 ];

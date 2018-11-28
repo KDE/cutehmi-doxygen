@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadedpluginscontainer',['LoadedPluginsContainer',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader.html#a14bc8b65154457f7ef0c362aa2a378c8',1,'cutehmi::internal::PluginLoader']]]
+  ['pointer',['pointer',['../../cutehmi_1/classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a',1,'cutehmi::MPtr::pointer()'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a',1,'MPtr&lt; Members &gt;::pointer()']]]
 ];

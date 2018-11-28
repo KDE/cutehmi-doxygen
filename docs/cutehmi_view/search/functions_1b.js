@@ -32,7 +32,6 @@ var searchData=
   ['_7eforward_5flist',['~forward_list',['https://en.cppreference.com/w/cpp/container/forward_list/~forward_list.html',1,'std::forward_list']]],
   ['_7efunction',['~function',['https://en.cppreference.com/w/cpp/utility/functional/function/~function.html',1,'std::function']]],
   ['_7efuture',['~future',['https://en.cppreference.com/w/cpp/thread/future/~future.html',1,'std::future']]],
-  ['_7eibackendplugin',['~IBackendPlugin',['../../cutehmi_xml_1/classcutehmi_1_1xml_1_1IBackendPlugin.html#a1289ad61036e0e475d7546fb0c25e3fc',1,'cutehmi::xml::IBackendPlugin']]],
   ['_7eimetadataplugin',['~IMetadataPlugin',['../../cutehmi_1/classcutehmi_1_1IMetadataPlugin.html#a6b825119a8d6f38792690f0d8cb3e3f3',1,'cutehmi::IMetadataPlugin']]],
   ['_7eios_5fbase',['~ios_base',['https://en.cppreference.com/w/cpp/io/ios_base/~ios_base.html',1,'std::ios_base']]],
   ['_7eiostream',['~iostream',['https://en.cppreference.com/w/cpp/io/basic_iostream/~basic_iostream.html',1,'std::iostream']]],

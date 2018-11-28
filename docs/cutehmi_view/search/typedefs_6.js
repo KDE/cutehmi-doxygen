@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pointer',['pointer',['../../cutehmi_1/classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a',1,'cutehmi::MPtr::pointer()'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#a821ba062b01899ff42b7b3b1c0bdf42a',1,'MPtr&lt; Members &gt;::pointer()']]]
+  ['reference',['reference',['../../cutehmi_1/classcutehmi_1_1MPtr.html#a5cf03a5d5df39ab48c8b9f4bd368e152',1,'cutehmi::MPtr::reference()'],['../../cutehmi_1/classcutehmi_1_1MPtr.html#a5cf03a5d5df39ab48c8b9f4bd368e152',1,'MPtr&lt; Members &gt;::reference()']]]
 ];

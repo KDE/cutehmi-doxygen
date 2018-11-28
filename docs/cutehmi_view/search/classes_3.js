@@ -8,7 +8,6 @@ var searchData=
   ['default_5frandom_5fengine',['default_random_engine',['https://en.cppreference.com/w/cpp/numeric/random.html',1,'std']]],
   ['defer_5flock_5ft',['defer_lock_t',['https://en.cppreference.com/w/cpp/thread/lock_tag_t.html',1,'std']]],
   ['deque',['deque',['https://en.cppreference.com/w/cpp/container/deque.html',1,'std']]],
-  ['deviceopenreadexception',['DeviceOpenReadException',['../../cutehmi_xml_1/classcutehmi_1_1xml_1_1ProjectBackend_1_1DeviceOpenReadException.html',1,'cutehmi::xml::ProjectBackend']]],
   ['discard_5fblock_5fengine',['discard_block_engine',['https://en.cppreference.com/w/cpp/numeric/random/discard_block_engine.html',1,'std']]],
   ['discrete_5fdistribution',['discrete_distribution',['https://en.cppreference.com/w/cpp/numeric/random/discrete_distribution.html',1,'std']]],
   ['divides',['divides',['https://en.cppreference.com/w/cpp/utility/functional/divides.html',1,'std']]],

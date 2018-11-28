@@ -1,7 +1,6 @@
 var searchData=
 [
   ['back_5finsert_5fiterator',['back_insert_iterator',['https://en.cppreference.com/w/cpp/iterator/back_insert_iterator.html',1,'std']]],
-  ['backendplugin',['BackendPlugin',['../../cutehmi_xml_1/classcutehmi_1_1xml_1_1BackendPlugin.html',1,'cutehmi::xml']]],
   ['bad_5falloc',['bad_alloc',['https://en.cppreference.com/w/cpp/memory/new/bad_alloc.html',1,'std']]],
   ['bad_5farray_5flength',['bad_array_length',['https://en.cppreference.com/w/cpp/memory/new/bad_array_length.html',1,'std']]],
   ['bad_5farray_5fnew_5flength',['bad_array_new_length',['https://en.cppreference.com/w/cpp/memory/new/bad_array_new_length.html',1,'std']]],
