@@ -1,6 +1,6 @@
 var classcutehmi_1_1NotificationManager =
 [
-    [ "NotificationManager", "classcutehmi_1_1NotificationManager.html#ac231b165f967065a386eee76405c30ee", null ],
+    [ "NotificationManager", "classcutehmi_1_1NotificationManager.html#adf6162d1877df5dbeb01a98856b4c516", null ],
     [ "add", "classcutehmi_1_1NotificationManager.html#aa004b27cedaa0503be2b98ecdd578ad4", null ],
     [ "clear", "classcutehmi_1_1NotificationManager.html#a8302136608a53c165ab75f64b2acb046", null ],
     [ "maxNotifications", "classcutehmi_1_1NotificationManager.html#ad075a20393de65ea7a6035fe8af1b61f", null ],

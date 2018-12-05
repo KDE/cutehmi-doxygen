@@ -5,7 +5,7 @@ var classcutehmi_1_1Notification =
       [ "WARNING", "classcutehmi_1_1Notification.html#afb205cc6a11ed22783f860ede8aa6c65accfd003ae81c889f3c0a40991a52d73b", null ],
       [ "CRITICAL", "classcutehmi_1_1Notification.html#afb205cc6a11ed22783f860ede8aa6c65af4da1a892db8cf99e8d4f6b7f6ca6886", null ]
     ] ],
-    [ "Notification", "classcutehmi_1_1Notification.html#a1dd07ba5e0f5198fc2368ac9a8c75451", null ],
+    [ "Notification", "classcutehmi_1_1Notification.html#ae066f10a1549c6aeb6cb42613d7aea67", null ],
     [ "clone", "classcutehmi_1_1Notification.html#a2c3f591799789fd02c89fdf95f78a728", null ],
     [ "dateTime", "classcutehmi_1_1Notification.html#ad222a3ed8f59248b9ad032fbf75f0468", null ],
     [ "setText", "classcutehmi_1_1Notification.html#a33b5cc105a86ee78698040a552d812eb", null ],

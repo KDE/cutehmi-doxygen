@@ -1,8 +1,8 @@
 var classcutehmi_1_1Plugin =
 [
     [ "Metadata", "classcutehmi_1_1Plugin_1_1Metadata.html", "classcutehmi_1_1Plugin_1_1Metadata" ],
-    [ "Plugin", "classcutehmi_1_1Plugin.html#a329126846ea8a27e08e3b959052822f0", null ],
-    [ "Plugin", "classcutehmi_1_1Plugin.html#a8625229f2f276bbab69359f9eb4f8d46", null ],
+    [ "Plugin", "classcutehmi_1_1Plugin.html#a8c57e0d432575cba0301bde601cb7a00", null ],
+    [ "Plugin", "classcutehmi_1_1Plugin.html#a96b7ec3eb69e80224fa43ae1a6c67afb", null ],
     [ "~Plugin", "classcutehmi_1_1Plugin.html#ab622ed07ad02d579704ce20f81a1e44c", null ],
     [ "binary", "classcutehmi_1_1Plugin.html#ab31e4a8f193ed4b703332da3851faf59", null ],
     [ "fileName", "classcutehmi_1_1Plugin.html#a41bd0207116c3057f17caf2af136e677", null ],
