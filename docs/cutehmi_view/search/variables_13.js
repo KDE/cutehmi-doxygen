@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['uninitialized',['UNINITIALIZED',['../../cutehmi_1/structcutehmi_1_1Error.html#af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574',1,'cutehmi::Error']]],
-  ['usagepolicies',['UsagePolicies',['http://doc.qt.io/qt-5/qnetworksession.html#UsagePolicy-enum',1,'QNetworkSession']]],
-  ['userinputresolutionoptions',['UserInputResolutionOptions',['http://doc.qt.io/qt-5/qurl.html#UserInputResolutionOption-enum',1,'QUrl']]]
+  ['value_5ftype',['value_type',['http://doc.qt.io/qt-5/qjsonarray.html#value_type-typedef',1,'QJsonArray::value_type()'],['http://doc.qt.io/qt-5/qfuture-const-iterator.html#value_type-typedef',1,'QFuture::const_iterator::value_type()'],['http://doc.qt.io/qt-5/qlinkedlist.html#value_type-typedef',1,'QLinkedList::value_type()'],['http://doc.qt.io/qt-5/qlist.html#value_type-typedef',1,'QList::value_type()'],['http://doc.qt.io/qt-5/qset.html#value_type-typedef',1,'QSet::value_type()'],['http://doc.qt.io/qt-5/qstring.html#value_type-typedef',1,'QString::value_type()'],['http://doc.qt.io/qt-5/qvarlengtharray.html#value_type-typedef',1,'QVarLengthArray::value_type()'],['http://doc.qt.io/qt-5/qvector.html#value_type-typedef',1,'QVector::value_type()']]],
+  ['viewitemfeatures',['ViewItemFeatures',['http://doc.qt.io/qt-5/qstyleoptionviewitem.html#ViewItemFeature-enum',1,'QStyleOptionViewItem']]]
 ];

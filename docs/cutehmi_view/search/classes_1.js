@@ -29,7 +29,6 @@ var searchData=
   ['bidirectional_5fiterator_5ftag',['bidirectional_iterator_tag',['https://en.cppreference.com/w/cpp/iterator/iterator_tags.html',1,'std']]],
   ['binary_5ffunction',['binary_function',['https://en.cppreference.com/w/cpp/utility/functional/binary_function.html',1,'std']]],
   ['binary_5fnegate',['binary_negate',['https://en.cppreference.com/w/cpp/utility/functional/binary_negate.html',1,'std']]],
-  ['binaryabsentexception',['BinaryAbsentException',['../../cutehmi_1/classcutehmi_1_1internal_1_1PluginLoader_1_1BinaryAbsentException.html',1,'cutehmi::internal::PluginLoader']]],
   ['binder',['Binder',['http://doc.qt.io/qt-5/qopenglvertexarrayobject-binder.html',1,'QOpenGLVertexArrayObject']]],
   ['binomial_5fdistribution',['binomial_distribution',['https://en.cppreference.com/w/cpp/numeric/random/binomial_distribution.html',1,'std']]],
   ['bit_5fand',['bit_and',['https://en.cppreference.com/w/cpp/utility/functional/bit_and.html',1,'std']]],

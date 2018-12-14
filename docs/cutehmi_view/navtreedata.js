@@ -25,16 +25,15 @@ var NAVTREE =
 [
   [ "CuteHMI - View (cutehmi_view)", "index.html", [
     [ "Main Page", "../index.html", null ],
-    [ "Modules", "../modules_list.html", null ],
+    [ "Extensions", "../extensions_list.html", null ],
     [ "Tools", "../tools_list.html", null ],
-    [ "QML extensions", "../qml_list.html", null ],
     [ "CuteHMI - View", "index.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"../index.html"
+"../extensions_list.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

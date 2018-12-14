@@ -12,7 +12,6 @@ var searchData=
   ['resizegripsvisible',['resizeGripsVisible',['http://doc.qt.io/qt-5/qcolumnview.html#resizeGripsVisible-prop',1,'QColumnView']]],
   ['resizemode',['resizeMode',['http://doc.qt.io/qt-5/qlistview.html#resizeMode-prop',1,'QListView']]],
   ['resolvesymlinks',['resolveSymlinks',['http://doc.qt.io/qt-5/qfiledialog-obsolete.html#resolveSymlinks-prop',1,'QFileDialog::resolveSymlinks()'],['http://doc.qt.io/qt-5/qfilesystemmodel.html#resolveSymlinks-prop',1,'QFileSystemModel::resolveSymlinks()'],['http://doc.qt.io/qt-5/qdirmodel.html#resolveSymlinks-prop',1,'QDirModel::resolveSymlinks()']]],
-  ['root',['root',['../../cutehmi_1/classcutehmi_1_1ProjectModel.html#a21ff5098209f4316c0669fe0f9fa4c46',1,'cutehmi::ProjectModel']]],
   ['rootisdecorated',['rootIsDecorated',['http://doc.qt.io/qt-5/qtreeview.html#rootIsDecorated-prop',1,'QTreeView']]],
   ['rotation',['rotation',['http://doc.qt.io/qt-5/qgraphicsobject.html#rotation-prop',1,'QGraphicsObject']]],
   ['rotationangle',['rotationAngle',['http://doc.qt.io/qt-5/qpinchgesture.html#rotationAngle-prop',1,'QPinchGesture']]],

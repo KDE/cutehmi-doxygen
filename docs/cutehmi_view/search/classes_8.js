@@ -2,7 +2,6 @@ var searchData=
 [
   ['id',['id',['https://en.cppreference.com/w/cpp/thread/thread/id.html',1,'std::thread::id'],['https://en.cppreference.com/w/cpp/locale/locale/id.html',1,'std::locale::id']]],
   ['ifstream',['ifstream',['https://en.cppreference.com/w/cpp/io/basic_ifstream.html',1,'std']]],
-  ['imetadataplugin',['IMetadataPlugin',['../../cutehmi_1/classcutehmi_1_1IMetadataPlugin.html',1,'cutehmi']]],
   ['independent_5fbits_5fengine',['independent_bits_engine',['https://en.cppreference.com/w/cpp/numeric/random/independent_bits_engine.html',1,'std']]],
   ['initializer_5flist',['initializer_list',['https://en.cppreference.com/w/cpp/utility/initializer_list.html',1,'std']]],
   ['input_5fiterator_5ftag',['input_iterator_tag',['https://en.cppreference.com/w/cpp/iterator/iterator_tags.html',1,'std']]],
@@ -27,8 +26,6 @@ var searchData=
   ['invalid_5fargument',['invalid_argument',['https://en.cppreference.com/w/cpp/error/invalid_argument.html',1,'std']]],
   ['ios_5fbase',['ios_base',['https://en.cppreference.com/w/cpp/io/ios_base.html',1,'std']]],
   ['iostream',['iostream',['https://en.cppreference.com/w/cpp/io/basic_iostream.html',1,'std']]],
-  ['iprojectbackend',['IProjectBackend',['../../cutehmi_1/classcutehmi_1_1IProjectBackend.html',1,'cutehmi']]],
-  ['iprojectplugin',['IProjectPlugin',['../../cutehmi_1/classcutehmi_1_1IProjectPlugin.html',1,'cutehmi']]],
   ['is_5fabstract',['is_abstract',['https://en.cppreference.com/w/cpp/types/is_abstract.html',1,'std']]],
   ['is_5farithmetic',['is_arithmetic',['https://en.cppreference.com/w/cpp/types/is_arithmetic.html',1,'std']]],
   ['is_5farray',['is_array',['https://en.cppreference.com/w/cpp/types/is_array.html',1,'std']]],

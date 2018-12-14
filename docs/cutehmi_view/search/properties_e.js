@@ -14,8 +14,6 @@ var searchData=
   ['placeholdertext',['placeholderText',['http://doc.qt.io/qt-5/qlineedit.html#placeholderText-prop',1,'QLineEdit::placeholderText()'],['http://doc.qt.io/qt-5/qplaintextedit.html#placeholderText-prop',1,'QPlainTextEdit::placeholderText()'],['http://doc.qt.io/qt-5/qtextedit.html#placeholderText-prop',1,'QTextEdit::placeholderText()']]],
   ['plaintext',['plainText',['http://doc.qt.io/qt-5/qplaintextedit.html#plainText-prop',1,'QPlainTextEdit::plainText()'],['http://doc.qt.io/qt-5/qtextedit.html#plainText-prop',1,'QTextEdit::plainText()']]],
   ['platformname',['platformName',['http://doc.qt.io/qt-5/qguiapplication.html#platformName-prop',1,'QGuiApplication']]],
-  ['plugins',['plugins',['../../cutehmi_1/classcutehmi_1_1Project.html#ad41fbf19447adbe18abf8bf136b73982',1,'cutehmi::Project']]],
-  ['popupbridge',['popupBridge',['../../cutehmi_1/classcutehmi_1_1CuteHMI.html#ae6f04cafab43efd4cdf04c9dd8bfe9e4',1,'cutehmi::CuteHMI']]],
   ['popupmode',['popupMode',['http://doc.qt.io/qt-5/qtoolbutton.html#popupMode-prop',1,'QToolButton']]],
   ['pos',['pos',['http://doc.qt.io/qt-5/qgraphicsobject.html#pos-prop',1,'QGraphicsObject::pos()'],['http://doc.qt.io/qt-5/qwidget.html#pos-prop',1,'QWidget::pos()']]],
   ['position',['position',['http://doc.qt.io/qt-5/qtapgesture.html#position-prop',1,'QTapGesture::position()'],['http://doc.qt.io/qt-5/qtapandholdgesture.html#position-prop',1,'QTapAndHoldGesture::position()']]],
@@ -25,6 +23,5 @@ var searchData=
   ['primaryscreen',['primaryScreen',['http://doc.qt.io/qt-5/qguiapplication.html#primaryScreen-prop',1,'QGuiApplication::primaryScreen()'],['http://doc.qt.io/qt-5/qdesktopwidget.html#primaryScreen-prop',1,'QDesktopWidget::primaryScreen()']]],
   ['priority',['priority',['http://doc.qt.io/qt-5/qaction.html#priority-prop',1,'QAction']]],
   ['progress',['progress',['http://doc.qt.io/qt-5/qqmlcomponent.html#progress-prop',1,'QQmlComponent']]],
-  ['project',['project',['../../cutehmi_1/classcutehmi_1_1CuteHMI.html#aadefee7a4b5e04acaeedd6dd4a4a6f3a',1,'cutehmi::CuteHMI']]],
   ['propertyname',['propertyName',['http://doc.qt.io/qt-5/qpropertyanimation.html#propertyName-prop',1,'QPropertyAnimation']]]
 ];

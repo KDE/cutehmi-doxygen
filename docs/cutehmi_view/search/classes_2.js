@@ -34,6 +34,5 @@ var searchData=
   ['csub_5fmatch',['csub_match',['https://en.cppreference.com/w/cpp/regex/sub_match.html',1,'std']]],
   ['ctype',['ctype',['https://en.cppreference.com/w/cpp/locale/ctype.html',1,'std']]],
   ['ctype_5fbase',['ctype_base',['https://en.cppreference.com/w/cpp/locale/ctype_base.html',1,'std']]],
-  ['ctype_5fbyname',['ctype_byname',['https://en.cppreference.com/w/cpp/locale/ctype_byname.html',1,'std']]],
-  ['cutehmi',['CuteHMI',['../../cutehmi_1/classcutehmi_1_1CuteHMI.html',1,'cutehmi']]]
+  ['ctype_5fbyname',['ctype_byname',['https://en.cppreference.com/w/cpp/locale/ctype_byname.html',1,'std']]]
 ];

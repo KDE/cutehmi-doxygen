@@ -1,10 +1,9 @@
 var NAVTREEINDEX0 =
 {
+"../extensions_list.html":[1],
 "../index.html":[0],
-"../modules_list.html":[1],
-"../qml_list.html":[3],
 "../tools_list.html":[2],
-"index.html":[4],
+"index.html":[3],
 "index.html":[],
 "pages.html":[]
 };

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['moduleslist_2edox',['ModulesList.dox',['../_modules_list_8dox.html',1,'']]]
+  ['extensionslist_2edox',['ExtensionsList.dox',['../_extensions_list_8dox.html',1,'']]]
 ];

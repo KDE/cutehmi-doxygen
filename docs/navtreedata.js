@@ -24,15 +24,14 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "CuteHMI", "index.html", [
-    [ "Modules", "modules_list.html", null ],
-    [ "Tools", "tools_list.html", null ],
-    [ "QML extensions", "qml_list.html", null ]
+    [ "Extensions", "extensions_list.html", null ],
+    [ "Tools", "tools_list.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"extensions_list.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
