@@ -1,6 +1,7 @@
 var searchData=
 [
   ['base64options',['Base64Options',['http://doc.qt.io/qt-5/qbytearray.html#Base64Option-enum',1,'QByteArray']]],
+  ['basedir',['basedir',['../structcutehmi_1_1daemon_1_1CoreData_1_1Options.html#aa1cf3ffb46b8a3449ae667b14c07f450',1,'cutehmi::daemon::CoreData::Options']]],
   ['bindmode',['BindMode',['http://doc.qt.io/qt-5/qabstractsocket.html#BindFlag-enum',1,'QAbstractSocket']]],
   ['boundaryreasons',['BoundaryReasons',['http://doc.qt.io/qt-5/qtextboundaryfinder.html#BoundaryReason-enum',1,'QTextBoundaryFinder']]],
   ['button_5fabort',['BUTTON_ABORT',['../../CuteHMI.2/classcutehmi_1_1Prompt.html#a082be6590c56deba64928938a29221d2a8dd7cc0349a8d6f1b25b2935d1521d23',1,'cutehmi::Prompt']]],

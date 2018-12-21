@@ -194,6 +194,7 @@ var searchData=
   ['seteventdispatcher',['setEventDispatcher',['http://doc.qt.io/qt-5/qcoreapplication.html#setEventDispatcher',1,'QCoreApplication::setEventDispatcher()'],['http://doc.qt.io/qt-5/qthread.html#setEventDispatcher',1,'QThread::setEventDispatcher()']]],
   ['seteventsource',['setEventSource',['http://doc.qt.io/qt-5/qeventtransition.html#setEventSource',1,'QEventTransition']]],
   ['seteventtype',['setEventType',['http://doc.qt.io/qt-5/qeventtransition.html#setEventType',1,'QEventTransition']]],
+  ['setexitcode',['setExitCode',['../classcutehmi_1_1daemon_1_1Daemon.html#ad3cf7f2de98957f4f80e068b57e6d99e',1,'cutehmi::daemon::Daemon']]],
   ['setexpirationdate',['setExpirationDate',['http://doc.qt.io/qt-5/qnetworkcachemetadata.html#setExpirationDate',1,'QNetworkCacheMetaData::setExpirationDate()'],['http://doc.qt.io/qt-5/qnetworkcookie.html#setExpirationDate',1,'QNetworkCookie::setExpirationDate()']]],
   ['setexpiry',['setExpiry',['http://doc.qt.io/qt-5/qhstspolicy.html#setExpiry',1,'QHstsPolicy']]],
   ['setexpirytimeout',['setExpiryTimeout',['http://doc.qt.io/qt-5/qthreadpool.html#expiryTimeout-prop',1,'QThreadPool']]],

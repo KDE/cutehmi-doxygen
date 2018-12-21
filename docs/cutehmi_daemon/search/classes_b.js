@@ -1,16 +1,6 @@
 var searchData=
 [
-  ['lconv',['lconv',['https://en.cppreference.com/w/cpp/locale/lconv.html',1,'std']]],
-  ['length_5ferror',['length_error',['https://en.cppreference.com/w/cpp/error/length_error.html',1,'std']]],
-  ['less',['less',['https://en.cppreference.com/w/cpp/utility/functional/less.html',1,'std']]],
-  ['less_5fequal',['less_equal',['https://en.cppreference.com/w/cpp/utility/functional/less_equal.html',1,'std']]],
-  ['linear_5fcongruential_5fengine',['linear_congruential_engine',['https://en.cppreference.com/w/cpp/numeric/random/linear_congruential_engine.html',1,'std']]],
-  ['list',['list',['https://en.cppreference.com/w/cpp/container/list.html',1,'std']]],
-  ['locale',['locale',['https://en.cppreference.com/w/cpp/locale/locale.html',1,'std']]],
-  ['lock_5fguard',['lock_guard',['https://en.cppreference.com/w/cpp/thread/lock_guard.html',1,'std']]],
-  ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std']]],
-  ['logical_5fand',['logical_and',['https://en.cppreference.com/w/cpp/utility/functional/logical_and.html',1,'std']]],
-  ['logical_5fnot',['logical_not',['https://en.cppreference.com/w/cpp/utility/functional/logical_not.html',1,'std']]],
-  ['logical_5for',['logical_or',['https://en.cppreference.com/w/cpp/utility/functional/logical_or.html',1,'std']]],
-  ['lognormal_5fdistribution',['lognormal_distribution',['https://en.cppreference.com/w/cpp/numeric/random/lognormal_distribution.html',1,'std']]]
+  ['key_5fiterator',['key_iterator',['http://doc.qt.io/qt-5/qhash-key-iterator.html',1,'QHash::key_iterator'],['http://doc.qt.io/qt-5/qmap-key-iterator.html',1,'QMap::key_iterator']]],
+  ['kilo',['kilo',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
+  ['knuth_5fb',['knuth_b',['https://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine.html',1,'std']]]
 ];

@@ -49,6 +49,7 @@ var searchData=
   ['unique_5fcopy',['unique_copy',['https://en.cppreference.com/w/cpp/algorithm/unique_copy.html',1,'std']]],
   ['unique_5flock',['unique_lock',['https://en.cppreference.com/w/cpp/thread/unique_lock.html',1,'std::unique_lock'],['https://en.cppreference.com/w/cpp/thread/unique_lock/unique_lock.html',1,'std::unique_lock::unique_lock()']]],
   ['unique_5fptr',['unique_ptr',['https://en.cppreference.com/w/cpp/memory/unique_ptr.html',1,'std::unique_ptr'],['https://en.cppreference.com/w/cpp/memory/unique_ptr/unique_ptr.html',1,'std::unique_ptr::unique_ptr()']]],
+  ['unique_5fptr_3c_20qsocketnotifier_20_3e',['unique_ptr&lt; QSocketNotifier &gt;',['https://en.cppreference.com/w/cpp/memory/unique_ptr.html',1,'std']]],
   ['uniquekeys',['uniqueKeys',['http://doc.qt.io/qt-5/qhash.html#uniqueKeys',1,'QHash::uniqueKeys()'],['http://doc.qt.io/qt-5/qmap.html#uniqueKeys',1,'QMap::uniqueKeys()']]],
   ['unit',['unit',['../../CuteHMI.2/classCuteHMI_1_1NumberDisplay.html#adafbe4c1c472884ba3a33593d33d77db',1,'CuteHMI::NumberDisplay']]],
   ['unitbuf',['unitbuf',['https://en.cppreference.com/w/cpp/io/manip/unitbuf.html',1,'std']]],

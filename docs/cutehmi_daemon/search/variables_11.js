@@ -5,6 +5,8 @@ var searchData=
   ['sectionflags',['SectionFlags',['http://doc.qt.io/qt-5/qstring.html#SectionFlag-enum',1,'QString']]],
   ['selectionflags',['SelectionFlags',['http://doc.qt.io/qt-5/qitemselectionmodel.html#SelectionFlag-enum',1,'QItemSelectionModel']]],
   ['settingsmap',['SettingsMap',['http://doc.qt.io/qt-5/qsettings.html#SettingsMap-typedef',1,'QSettings']]],
+  ['sigtermfd',['sigtermFd',['../classcutehmi_1_1daemon_1_1__Daemon.html#ab9cfe230efafb4a53ef1d7f11ffc2c3a',1,'cutehmi::daemon::_Daemon']]],
+  ['sigunhandledfd',['sigUnhandledFd',['../classcutehmi_1_1daemon_1_1__Daemon.html#a73f4c037b055703eec642ec44603e84a',1,'cutehmi::daemon::_Daemon']]],
   ['size_5ftype',['size_type',['http://doc.qt.io/qt-5/qjsonarray.html#size_type-typedef',1,'QJsonArray::size_type()'],['http://doc.qt.io/qt-5/qjsonobject.html#size_type-typedef',1,'QJsonObject::size_type()'],['http://doc.qt.io/qt-5/qhash.html#size_type-typedef',1,'QHash::size_type()'],['http://doc.qt.io/qt-5/qlinkedlist.html#size_type-typedef',1,'QLinkedList::size_type()'],['http://doc.qt.io/qt-5/qlist.html#size_type-typedef',1,'QList::size_type()'],['http://doc.qt.io/qt-5/qmap.html#size_type-typedef',1,'QMap::size_type()'],['http://doc.qt.io/qt-5/qset.html#size_type-typedef',1,'QSet::size_type()'],['http://doc.qt.io/qt-5/qstring.html#size_type-typedef',1,'QString::size_type()'],['http://doc.qt.io/qt-5/qvarlengtharray.html#size_type-typedef',1,'QVarLengthArray::size_type()'],['http://doc.qt.io/qt-5/qvector.html#size_type-typedef',1,'QVector::size_type()']]],
   ['socketoptions',['SocketOptions',['http://doc.qt.io/qt-5/qlocalserver.html#SocketOption-enum',1,'QLocalServer']]],
   ['sortflags',['SortFlags',['http://doc.qt.io/qt-5/qdir.html#SortFlag-enum',1,'QDir']]],

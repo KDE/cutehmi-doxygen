@@ -4,6 +4,7 @@ var searchData=
   ['categoryfilter',['CategoryFilter',['http://doc.qt.io/qt-5/qloggingcategory.html#CategoryFilter-typedef',1,'QLoggingCategory']]],
   ['categoryfunction',['CategoryFunction',['http://doc.qt.io/qt-5/qmessagelogger.html#CategoryFunction-typedef',1,'QMessageLogger']]],
   ['clearfunction',['ClearFunction',['http://doc.qt.io/qt-5/qqmllistproperty.html#ClearFunction-typedef',1,'QQmlListProperty']]],
+  ['cmd',['cmd',['../structcutehmi_1_1daemon_1_1CoreData.html#a1f0b22cf268b8b1f09ea3405b1775abc',1,'cutehmi::daemon::CoreData']]],
   ['code',['code',['../../CuteHMI.2/structcutehmi_1_1ErrorInfo.html#ae0156ec3ed8365be22bb1b4d1d100ec5',1,'cutehmi::ErrorInfo']]],
   ['componentformattingoptions',['ComponentFormattingOptions',['http://doc.qt.io/qt-5/qurl.html#ComponentFormattingOption-enum',1,'QUrl']]],
   ['const_5fiterator',['const_iterator',['http://doc.qt.io/qt-5/qbytearray.html#const_iterator-typedef',1,'QByteArray::const_iterator()'],['http://doc.qt.io/qt-5/qstring.html#const_iterator-typedef',1,'QString::const_iterator()'],['http://doc.qt.io/qt-5/qstringref.html#const_iterator-typedef',1,'QStringRef::const_iterator()'],['http://doc.qt.io/qt-5/qvarlengtharray.html#const_iterator-typedef',1,'QVarLengthArray::const_iterator()'],['http://doc.qt.io/qt-5/qvector.html#const_iterator-typedef',1,'QVector::const_iterator()']]],

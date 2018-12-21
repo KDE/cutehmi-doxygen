@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['has_5fvirtual_5fdestructor',['has_virtual_destructor',['https://en.cppreference.com/w/cpp/types/has_virtual_destructor.html',1,'std']]],
-  ['hash',['hash',['https://en.cppreference.com/w/cpp/utility/hash.html',1,'std']]],
-  ['hecto',['hecto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
-  ['high_5fresolution_5fclock',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',1,'std::chrono']]],
-  ['hours',['hours',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]]
+  ['gamma_5fdistribution',['gamma_distribution',['https://en.cppreference.com/w/cpp/numeric/random/gamma_distribution.html',1,'std']]],
+  ['geometric_5fdistribution',['geometric_distribution',['https://en.cppreference.com/w/cpp/numeric/random/geometric_distribution.html',1,'std']]],
+  ['giga',['giga',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
+  ['greater',['greater',['https://en.cppreference.com/w/cpp/utility/functional/greater.html',1,'std']]],
+  ['greater_5fequal',['greater_equal',['https://en.cppreference.com/w/cpp/utility/functional/greater_equal.html',1,'std']]]
 ];
