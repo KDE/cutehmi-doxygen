@@ -219,62 +219,39 @@ CUTEHMI_CRITICAL(EXPR) (void)0</span></div>
 <div class="line"><a name="l00029" id="l00029"></a> <span class=
 "lineno">29</span>&nbsp;</div>
 <div class="line"><a name="l00030" id="l00030"></a> <span class=
-"lineno">30</span>&nbsp;<span class="comment">// Changes order of
-arguments so that CUTEHMI_DIE can be used with single or multiple
-arguments (__VA_ARGS__ can not be empty).</span></div>
+"lineno">30</span>&nbsp;<span class="preprocessor">#define
+CUTEHMI_DIE(...) QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO,
+loggingCategory().categoryName()).fatal(__VA_ARGS__)</span></div>
 <div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp;<span class=
-"keyword">template</span>&lt;<span class="keyword">typename</span>
-...ARGS&gt;</div>
+"lineno">31</span>&nbsp;</div>
 <div class="line"><a name="l00032" id="l00032"></a> <span class=
-"lineno">32</span>&nbsp;<span class="keywordtype">void</span>
-cutehmiFatalWrapper(<span class="keyword">const</span> <span class=
-"keywordtype">char</span> * category, <span class=
-"keyword">const</span> <span class="keywordtype">char</span> *
-message, ARGS... args)</div>
-<div class="line"><a name="l00033" id="l00033"></a> <span class=
-"lineno">33</span>&nbsp;{</div>
-<div class="line"><a name="l00034" id="l00034"></a> <span class=
-"lineno">34</span>&nbsp; qFatal(message, category, args...);</div>
-<div class="line"><a name="l00035" id="l00035"></a> <span class=
-"lineno">35</span>&nbsp;}</div>
-<div class="line"><a name="l00036" id="l00036"></a> <span class=
-"lineno">36</span>&nbsp;</div>
-<div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp;<span class="preprocessor">#define
-CUTEHMI_DIE(...)
-cutehmiFatalWrapper(loggingCategory().categoryName(), "%s [fatal]:
-" __VA_ARGS__)</span></div>
-<div class="line"><a name="l00038" id="l00038"></a> <span class=
-"lineno">38</span>&nbsp;</div>
-<div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp;<span class="preprocessor">#ifndef
+"lineno">32</span>&nbsp;<span class="preprocessor">#ifndef
 CUTEHMI_NDEBUG</span></div>
-<div class="line"><a name="l00040" id="l00040"></a> <span class=
-"lineno">40</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00033" id="l00033"></a> <span class=
+"lineno">33</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_ASSERT(EXPR, MSG) Q_ASSERT_X(EXPR, __FILE__,
 MSG)</span></div>
-<div class="line"><a name="l00041" id="l00041"></a> <span class=
-"lineno">41</span>&nbsp;<span class=
+<div class="line"><a name="l00034" id="l00034"></a> <span class=
+"lineno">34</span>&nbsp;<span class=
 "preprocessor">#else</span></div>
-<div class="line"><a name="l00042" id="l00042"></a> <span class=
-"lineno">42</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00035" id="l00035"></a> <span class=
+"lineno">35</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_ASSERT(EXPR, MSG) (void)0</span></div>
-<div class="line"><a name="l00043" id="l00043"></a> <span class=
-"lineno">43</span>&nbsp;<span class=
+<div class="line"><a name="l00036" id="l00036"></a> <span class=
+"lineno">36</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00044" id="l00044"></a> <span class=
-"lineno">44</span>&nbsp;</div>
-<div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp;<span class=
+<div class="line"><a name="l00037" id="l00037"></a> <span class=
+"lineno">37</span>&nbsp;</div>
+<div class="line"><a name="l00038" id="l00038"></a> <span class=
+"lineno">38</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00046" id="l00046"></a> <span class=
-"lineno">46</span>&nbsp;</div>
-<div class="line"><a name="l00047" id="l00047"></a> <span class=
-"lineno">47</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+<div class="line"><a name="l00039" id="l00039"></a> <span class=
+"lineno">39</span>&nbsp;</div>
+<div class="line"><a name="l00040" id="l00040"></a> <span class=
+"lineno">40</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
 2018, Michal Policht. All rights reserved.</span></div>
-<div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp;<span class="comment">//(c)MP: This Source
+<div class="line"><a name="l00041" id="l00041"></a> <span class=
+"lineno">41</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
