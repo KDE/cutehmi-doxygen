@@ -170,13 +170,13 @@ href="http://doc.qt.io/qt-5/qobject.html" alt="QObject" shape=
 Signals</h2>
 </td>
 </tr>
-<tr class="memitem:a0ea274671d26af8690aae1530b913eb4">
+<tr class="memitem:ad240378ba6c20ae43a18c62f8c20a7dc">
 <td class="memItemLeft" align="right" valign="top">void&nbsp;</td>
 <td class="memItemRight" valign="bottom"><a class="el" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a0ea274671d26af8690aae1530b913eb4">
-terminateRequested</a> ()</td>
+"classcutehmi_1_1daemon_1_1__Daemon.html#ad240378ba6c20ae43a18c62f8c20a7dc">
+exitRequested</a> (int exitCode)</td>
 </tr>
-<tr class="separator:a0ea274671d26af8690aae1530b913eb4">
+<tr class="separator:ad240378ba6c20ae43a18c62f8c20a7dc">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
 </table>
@@ -760,24 +760,14 @@ href="http://doc.qt.io/qt-5/qobject.html#deleteLater">deleteLater</a>
 "pub-static-attribs"></a> Static Public Attributes</h2>
 </td>
 </tr>
-<tr class="memitem:ab9cfe230efafb4a53ef1d7f11ffc2c3a">
+<tr class="memitem:a02bb80f6261a0a02aad4047290e40ad7">
 <td class="memItemLeft" align="right" valign="top">static
 int&nbsp;</td>
 <td class="memItemRight" valign="bottom"><a class="el" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#ab9cfe230efafb4a53ef1d7f11ffc2c3a">
-sigtermFd</a> [2]</td>
+"classcutehmi_1_1daemon_1_1__Daemon.html#a02bb80f6261a0a02aad4047290e40ad7">
+signalFd</a> [2]</td>
 </tr>
-<tr class="separator:ab9cfe230efafb4a53ef1d7f11ffc2c3a">
-<td class="memSeparator" colspan="2">&nbsp;</td>
-</tr>
-<tr class="memitem:a73f4c037b055703eec642ec44603e84a">
-<td class="memItemLeft" align="right" valign="top">static
-int&nbsp;</td>
-<td class="memItemRight" valign="bottom"><a class="el" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a73f4c037b055703eec642ec44603e84a">
-sigUnhandledFd</a> [2]</td>
-</tr>
-<tr class="separator:a73f4c037b055703eec642ec44603e84a">
+<tr class="separator:a02bb80f6261a0a02aad4047290e40ad7">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
 </table>
@@ -1213,6 +1203,34 @@ cutehmi::daemon::_Daemon::destroyPidFile</td>
 </div>
 <div class="memdoc"></div>
 </div>
+<a id="ad240378ba6c20ae43a18c62f8c20a7dc" name=
+"ad240378ba6c20ae43a18c62f8c20a7dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#ad240378ba6c20ae43a18c62f8c20a7dc">◆&nbsp;</a></span>exitRequested</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+<tr>
+<td class="mlabels-left">
+<table class="memname">
+<tr>
+<td class="memname">void
+cutehmi::daemon::_Daemon::exitRequested</td>
+<td>(</td>
+<td class="paramtype">int&nbsp;</td>
+<td class="paramname"><em>exitCode</em></td>
+<td>)</td>
+<td></td>
+</tr>
+</table>
+</td>
+<td class="mlabels-right"><span class="mlabels"><span class=
+"mlabel">signal</span></span></td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
 <a id="ad7a16193f4061ce153aa34668ab5a66d" name=
 "ad7a16193f4061ce153aa34668ab5a66d"></a>
 <h2 class="memtitle"><span class="permalink"><a href=
@@ -1251,38 +1269,11 @@ cutehmi::daemon::_Daemon::initializeSignalHandling</td>
 </div>
 <div class="memdoc"></div>
 </div>
-<a id="a0ea274671d26af8690aae1530b913eb4" name=
-"a0ea274671d26af8690aae1530b913eb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href=
-"#a0ea274671d26af8690aae1530b913eb4">◆&nbsp;</a></span>terminateRequested</h2>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-<tr>
-<td class="mlabels-left">
-<table class="memname">
-<tr>
-<td class="memname">void
-cutehmi::daemon::_Daemon::terminateRequested</td>
-<td>(</td>
-<td class="paramname"></td>
-<td>)</td>
-<td></td>
-</tr>
-</table>
-</td>
-<td class="mlabels-right"><span class="mlabels"><span class=
-"mlabel">signal</span></span></td>
-</tr>
-</table>
-</div>
-<div class="memdoc"></div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab9cfe230efafb4a53ef1d7f11ffc2c3a" name=
-"ab9cfe230efafb4a53ef1d7f11ffc2c3a"></a>
+<a id="a02bb80f6261a0a02aad4047290e40ad7" name=
+"a02bb80f6261a0a02aad4047290e40ad7"></a>
 <h2 class="memtitle"><span class="permalink"><a href=
-"#ab9cfe230efafb4a53ef1d7f11ffc2c3a">◆&nbsp;</a></span>sigtermFd</h2>
+"#a02bb80f6261a0a02aad4047290e40ad7">◆&nbsp;</a></span>signalFd</h2>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1290,30 +1281,7 @@ cutehmi::daemon::_Daemon::terminateRequested</td>
 <td class="mlabels-left">
 <table class="memname">
 <tr>
-<td class="memname">int cutehmi::daemon::_Daemon::sigtermFd</td>
-</tr>
-</table>
-</td>
-<td class="mlabels-right"><span class="mlabels"><span class=
-"mlabel">static</span></span></td>
-</tr>
-</table>
-</div>
-<div class="memdoc"></div>
-</div>
-<a id="a73f4c037b055703eec642ec44603e84a" name=
-"a73f4c037b055703eec642ec44603e84a"></a>
-<h2 class="memtitle"><span class="permalink"><a href=
-"#a73f4c037b055703eec642ec44603e84a">◆&nbsp;</a></span>sigUnhandledFd</h2>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-<tr>
-<td class="mlabels-left">
-<table class="memname">
-<tr>
-<td class="memname">int
-cutehmi::daemon::_Daemon::sigUnhandledFd</td>
+<td class="memname">int cutehmi::daemon::_Daemon::signalFd</td>
 </tr>
 </table>
 </td>

@@ -105,6 +105,7 @@ var searchData=
   ['exit',['exit',['http://doc.qt.io/qt-5/qcoreapplication.html#exit',1,'QCoreApplication::exit()'],['http://doc.qt.io/qt-5/qeventloop.html#exit',1,'QEventLoop::exit()'],['http://doc.qt.io/qt-5/qthread.html#exit',1,'QThread::exit()'],['http://doc.qt.io/qt-5/qqmlengine.html#exit',1,'QQmlEngine::exit()'],['https://en.cppreference.com/w/cpp/utility/program/exit.html',1,'std::exit()']]],
   ['exitcode',['exitCode',['http://doc.qt.io/qt-5/qprocess.html#exitCode',1,'QProcess::exitCode()'],['../classcutehmi_1_1daemon_1_1Daemon.html#a66796815af9b76968be4146fc93fb7fb',1,'cutehmi::daemon::Daemon::exitCode()']]],
   ['exited',['exited',['http://doc.qt.io/qt-5/qabstractstate.html#exited',1,'QAbstractState']]],
+  ['exitrequested',['exitRequested',['../classcutehmi_1_1daemon_1_1__Daemon.html#ad240378ba6c20ae43a18c62f8c20a7dc',1,'cutehmi::daemon::_Daemon']]],
   ['exitstatus',['exitStatus',['http://doc.qt.io/qt-5/qprocess.html#exitStatus',1,'QProcess']]],
   ['exp',['exp',['https://en.cppreference.com/w/cpp/numeric/math/exp.html',1,'std']]],
   ['exp2',['exp2',['https://en.cppreference.com/w/cpp/numeric/math/exp2.html',1,'std']]],

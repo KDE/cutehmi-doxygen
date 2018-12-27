@@ -185,166 +185,140 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
 "lineno">22</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#ab9cfe230efafb4a53ef1d7f11ffc2c3a">
+"classcutehmi_1_1daemon_1_1__Daemon.html#a02bb80f6261a0a02aad4047290e40ad7">
 23</a></span>&nbsp; <span class="keyword">static</span>
 <span class="keywordtype">int</span> <a class="code" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#ab9cfe230efafb4a53ef1d7f11ffc2c3a">
-sigtermFd</a>[2];</div>
+"classcutehmi_1_1daemon_1_1__Daemon.html#a02bb80f6261a0a02aad4047290e40ad7">
+signalFd</a>[2];</div>
 <div class="line"><a name="l00024" id="l00024"></a> <span class=
-"lineno"><a class="line" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a73f4c037b055703eec642ec44603e84a">
-24</a></span>&nbsp; <span class="keyword">static</span>
-<span class="keywordtype">int</span> <a class="code" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a73f4c037b055703eec642ec44603e84a">
-sigUnhandledFd</a>[2];</div>
+"lineno">24</span>&nbsp;</div>
 <div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp;</div>
-<div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp; <a class="code" href=
+"lineno">25</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1daemon_1_1__Daemon.html#ab61c101e429b3d705b5f70e526cfa813">
 _Daemon</a>(<span class="keyword">const</span> <a class="codeRef"
 doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp;
 pidFile);</div>
+<div class="line"><a name="l00026" id="l00026"></a> <span class=
+"lineno">26</span>&nbsp;</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp;</div>
-<div class="line"><a name="l00028" id="l00028"></a> <span class=
-"lineno">28</span>&nbsp; <span class="keywordtype">void</span>
+"lineno">27</span>&nbsp; <span class="keywordtype">void</span>
 <a class="code" href=
 "classcutehmi_1_1daemon_1_1__Daemon.html#a282639efb55c7cb89373cef004430a77">
 initializeSignalHandling</a>();</div>
+<div class="line"><a name="l00028" id="l00028"></a> <span class=
+"lineno">28</span>&nbsp;</div>
 <div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp;</div>
-<div class="line"><a name="l00030" id="l00030"></a> <span class=
-"lineno">30</span>&nbsp; <span class="keywordtype">void</span>
+"lineno">29</span>&nbsp; <span class="keywordtype">void</span>
 <a class="code" href=
 "classcutehmi_1_1daemon_1_1__Daemon.html#ad7a16193f4061ce153aa34668ab5a66d">
 initializePidFile</a>();</div>
+<div class="line"><a name="l00030" id="l00030"></a> <span class=
+"lineno">30</span>&nbsp;</div>
 <div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp;</div>
-<div class="line"><a name="l00032" id="l00032"></a> <span class=
-"lineno">32</span>&nbsp; <span class="keywordtype">void</span>
+"lineno">31</span>&nbsp; <span class="keywordtype">void</span>
 <a class="code" href=
 "classcutehmi_1_1daemon_1_1__Daemon.html#aace2de425b680f26112d77cdef6cba62">
 destroyPidFile</a>();</div>
+<div class="line"><a name="l00032" id="l00032"></a> <span class=
+"lineno">32</span>&nbsp;</div>
 <div class="line"><a name="l00033" id="l00033"></a> <span class=
-"lineno">33</span>&nbsp;</div>
+"lineno">33</span>&nbsp; signals:</div>
 <div class="line"><a name="l00034" id="l00034"></a> <span class=
-"lineno">34</span>&nbsp; signals:</div>
-<div class="line"><a name="l00035" id="l00035"></a> <span class=
-"lineno">35</span>&nbsp; <span class="keywordtype">void</span>
+"lineno">34</span>&nbsp; <span class="keywordtype">void</span>
 <a class="code" href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a0ea274671d26af8690aae1530b913eb4">
-terminateRequested</a>();</div>
+"classcutehmi_1_1daemon_1_1__Daemon.html#ad240378ba6c20ae43a18c62f8c20a7dc">
+exitRequested</a>(<span class="keywordtype">int</span>
+exitCode);</div>
+<div class="line"><a name="l00035" id="l00035"></a> <span class=
+"lineno">35</span>&nbsp;</div>
 <div class="line"><a name="l00036" id="l00036"></a> <span class=
-"lineno">36</span>&nbsp;</div>
-<div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp; <span class="keyword">private</span>
+"lineno">36</span>&nbsp; <span class="keyword">private</span>
 slots:</div>
+<div class="line"><a name="l00037" id="l00037"></a> <span class=
+"lineno">37</span>&nbsp; <span class="keywordtype">void</span>
+handleSignal();</div>
 <div class="line"><a name="l00038" id="l00038"></a> <span class=
-"lineno">38</span>&nbsp; <span class="keywordtype">void</span>
-handleSigterm();</div>
+"lineno">38</span>&nbsp;</div>
 <div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp;</div>
+"lineno">39</span>&nbsp; <span class=
+"keyword">private</span>:</div>
 <div class="line"><a name="l00040" id="l00040"></a> <span class=
-"lineno">40</span>&nbsp; <span class="keywordtype">void</span>
-handleUnhandledSignals();</div>
+"lineno">40</span>&nbsp; <span class="keywordtype">int</span>
+createPidFile();</div>
 <div class="line"><a name="l00041" id="l00041"></a> <span class=
 "lineno">41</span>&nbsp;</div>
 <div class="line"><a name="l00042" id="l00042"></a> <span class=
-"lineno">42</span>&nbsp; <span class=
-"keyword">private</span>:</div>
-<div class="line"><a name="l00043" id="l00043"></a> <span class=
-"lineno">43</span>&nbsp; <span class="keywordtype">int</span>
-createPidFile();</div>
-<div class="line"><a name="l00044" id="l00044"></a> <span class=
-"lineno">44</span>&nbsp;</div>
-<div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp; <span class="keywordtype">void</span>
+"lineno">42</span>&nbsp; <span class="keywordtype">void</span>
 lockPidFile();</div>
-<div class="line"><a name="l00046" id="l00046"></a> <span class=
-"lineno">46</span>&nbsp;</div>
-<div class="line"><a name="l00047" id="l00047"></a> <span class=
-"lineno">47</span>&nbsp; <span class="keywordtype">void</span>
+<div class="line"><a name="l00043" id="l00043"></a> <span class=
+"lineno">43</span>&nbsp;</div>
+<div class="line"><a name="l00044" id="l00044"></a> <span class=
+"lineno">44</span>&nbsp; <span class="keywordtype">void</span>
 writePidFile();</div>
-<div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp;</div>
-<div class="line"><a name="l00049" id="l00049"></a> <span class=
-"lineno">49</span>&nbsp; <span class="keywordtype">void</span>
+<div class="line"><a name="l00045" id="l00045"></a> <span class=
+"lineno">45</span>&nbsp;</div>
+<div class="line"><a name="l00046" id="l00046"></a> <span class=
+"lineno">46</span>&nbsp; <span class="keywordtype">void</span>
 removePidFile();</div>
-<div class="line"><a name="l00050" id="l00050"></a> <span class=
-"lineno">50</span>&nbsp;</div>
-<div class="line"><a name="l00051" id="l00051"></a> <span class=
-"lineno">51</span>&nbsp; <span class=
+<div class="line"><a name="l00047" id="l00047"></a> <span class=
+"lineno">47</span>&nbsp;</div>
+<div class="line"><a name="l00048" id="l00048"></a> <span class=
+"lineno">48</span>&nbsp; <span class=
 "keyword">private</span>:</div>
-<div class="line"><a name="l00052" id="l00052"></a> <span class=
-"lineno">52</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00049" id="l00049"></a> <span class=
+"lineno">49</span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a>
 m_pidFile;</div>
-<div class="line"><a name="l00053" id="l00053"></a> <span class=
-"lineno">53</span>&nbsp; <span class="keywordtype">int</span>
+<div class="line"><a name="l00050" id="l00050"></a> <span class=
+"lineno">50</span>&nbsp; <span class="keywordtype">int</span>
 m_pidFd;</div>
-<div class="line"><a name="l00054" id="l00054"></a> <span class=
-"lineno">54</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00051" id="l00051"></a> <span class=
+"lineno">51</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QSocketNotifier&gt;</a>
-m_sigtermSocketNotifier;</div>
-<div class="line"><a name="l00055" id="l00055"></a> <span class=
-"lineno">55</span>&nbsp; <a class="codeRef" doxygen=
+m_signalSocketNotifier;</div>
+<div class="line"><a name="l00052" id="l00052"></a> <span class=
+"lineno">52</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QSocketNotifier&gt;</a>
 m_unhandledSignalsSocketNotifier;</div>
+<div class="line"><a name="l00053" id="l00053"></a> <span class=
+"lineno">53</span>&nbsp;};</div>
+<div class="line"><a name="l00054" id="l00054"></a> <span class=
+"lineno">54</span>&nbsp;</div>
+<div class="line"><a name="l00055" id="l00055"></a> <span class=
+"lineno">55</span>&nbsp;</div>
 <div class="line"><a name="l00056" id="l00056"></a> <span class=
-"lineno">56</span>&nbsp;};</div>
+"lineno">56</span>&nbsp;}</div>
 <div class="line"><a name="l00057" id="l00057"></a> <span class=
-"lineno">57</span>&nbsp;</div>
+"lineno">57</span>&nbsp;}</div>
 <div class="line"><a name="l00058" id="l00058"></a> <span class=
 "lineno">58</span>&nbsp;</div>
 <div class="line"><a name="l00059" id="l00059"></a> <span class=
-"lineno">59</span>&nbsp;}</div>
-<div class="line"><a name="l00060" id="l00060"></a> <span class=
-"lineno">60</span>&nbsp;}</div>
-<div class="line"><a name="l00061" id="l00061"></a> <span class=
-"lineno">61</span>&nbsp;</div>
-<div class="line"><a name="l00062" id="l00062"></a> <span class=
-"lineno">62</span>&nbsp;<span class=
+"lineno">59</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00063" id="l00063"></a> <span class=
-"lineno">63</span>&nbsp;</div>
-<div class="line"><a name="l00064" id="l00064"></a> <span class=
-"lineno">64</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+<div class="line"><a name="l00060" id="l00060"></a> <span class=
+"lineno">60</span>&nbsp;</div>
+<div class="line"><a name="l00061" id="l00061"></a> <span class=
+"lineno">61</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
 2018, Michal Policht. All rights reserved.</span></div>
-<div class="line"><a name="l00065" id="l00065"></a> <span class=
-"lineno">65</span>&nbsp;<span class="comment">//(c)MP: This Source
+<div class="line"><a name="l00062" id="l00062"></a> <span class=
+"lineno">62</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
-<div class="ttc" id=
-"classcutehmi_1_1daemon_1_1__Daemon_html_a0ea274671d26af8690aae1530b913eb4">
-<div class="ttname"><a href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a0ea274671d26af8690aae1530b913eb4">
-cutehmi::daemon::_Daemon::terminateRequested</a></div>
-<div class="ttdeci">void terminateRequested()</div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1daemon_1_1__Daemon_html_ab61c101e429b3d705b5f70e526cfa813">
 <div class="ttname"><a href=
 "classcutehmi_1_1daemon_1_1__Daemon.html#ab61c101e429b3d705b5f70e526cfa813">
 cutehmi::daemon::_Daemon::_Daemon</a></div>
 <div class="ttdeci">_Daemon(const QString &amp;pidFile)</div>
-<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:83</div>
-</div>
-<div class="ttc" id=
-"classcutehmi_1_1daemon_1_1__Daemon_html_ab9cfe230efafb4a53ef1d7f11ffc2c3a">
-<div class="ttname"><a href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#ab9cfe230efafb4a53ef1d7f11ffc2c3a">
-cutehmi::daemon::_Daemon::sigtermFd</a></div>
-<div class="ttdeci">static int sigtermFd[2]</div>
-<div class="ttdef"><b>Definition:</b> Daemon_unix.hpp:23</div>
+<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:75</div>
 </div>
 <div class="ttc" id=
 "classcutehmi_1_1daemon_1_1__Daemon_html_a282639efb55c7cb89373cef004430a77">
@@ -352,7 +326,7 @@ cutehmi::daemon::_Daemon::sigtermFd</a></div>
 "classcutehmi_1_1daemon_1_1__Daemon.html#a282639efb55c7cb89373cef004430a77">
 cutehmi::daemon::_Daemon::initializeSignalHandling</a></div>
 <div class="ttdeci">void initializeSignalHandling()</div>
-<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:88</div>
+<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:80</div>
 </div>
 <div class="ttc" id="qobject_html">
 <div class="ttname"><a href=
@@ -361,6 +335,14 @@ cutehmi::daemon::_Daemon::initializeSignalHandling</a></div>
 <div class="ttc" id="namespacecutehmi_html">
 <div class="ttname"><a href=
 "namespacecutehmi.html">cutehmi</a></div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1daemon_1_1__Daemon_html_a02bb80f6261a0a02aad4047290e40ad7">
+<div class="ttname"><a href=
+"classcutehmi_1_1daemon_1_1__Daemon.html#a02bb80f6261a0a02aad4047290e40ad7">
+cutehmi::daemon::_Daemon::signalFd</a></div>
+<div class="ttdeci">static int signalFd[2]</div>
+<div class="ttdef"><b>Definition:</b> Daemon_unix.hpp:23</div>
 </div>
 <div class="ttc" id="qstring_html">
 <div class="ttname"><a href=
@@ -372,7 +354,7 @@ cutehmi::daemon::_Daemon::initializeSignalHandling</a></div>
 "classcutehmi_1_1daemon_1_1__Daemon.html#aace2de425b680f26112d77cdef6cba62">
 cutehmi::daemon::_Daemon::destroyPidFile</a></div>
 <div class="ttdeci">void destroyPidFile()</div>
-<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:110</div>
+<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:98</div>
 </div>
 <div class="ttc" id="unique_ptr_html">
 <div class="ttname"><a href=
@@ -385,7 +367,7 @@ QSocketNotifier &gt;</a></div>
 "classcutehmi_1_1daemon_1_1__Daemon.html#ad7a16193f4061ce153aa34668ab5a66d">
 cutehmi::daemon::_Daemon::initializePidFile</a></div>
 <div class="ttdeci">void initializePidFile()</div>
-<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:103</div>
+<div class="ttdef"><b>Definition:</b> Daemon_unix.cpp:91</div>
 </div>
 <div class="ttc" id="classcutehmi_1_1daemon_1_1__Daemon_html">
 <div class="ttname"><a href=
@@ -394,12 +376,11 @@ cutehmi::daemon::_Daemon::initializePidFile</a></div>
 <div class="ttdef"><b>Definition:</b> Daemon_unix.hpp:17</div>
 </div>
 <div class="ttc" id=
-"classcutehmi_1_1daemon_1_1__Daemon_html_a73f4c037b055703eec642ec44603e84a">
+"classcutehmi_1_1daemon_1_1__Daemon_html_ad240378ba6c20ae43a18c62f8c20a7dc">
 <div class="ttname"><a href=
-"classcutehmi_1_1daemon_1_1__Daemon.html#a73f4c037b055703eec642ec44603e84a">
-cutehmi::daemon::_Daemon::sigUnhandledFd</a></div>
-<div class="ttdeci">static int sigUnhandledFd[2]</div>
-<div class="ttdef"><b>Definition:</b> Daemon_unix.hpp:24</div>
+"classcutehmi_1_1daemon_1_1__Daemon.html#ad240378ba6c20ae43a18c62f8c20a7dc">
+cutehmi::daemon::_Daemon::exitRequested</a></div>
+<div class="ttdeci">void exitRequested(int exitCode)</div>
 </div>
 </div>
 <!-- fragment --></div>

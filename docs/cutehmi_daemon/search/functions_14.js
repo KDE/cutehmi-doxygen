@@ -21,7 +21,6 @@ var searchData=
   ['temp',['temp',['http://doc.qt.io/qt-5/qdir.html#temp',1,'QDir']]],
   ['temppath',['tempPath',['http://doc.qt.io/qt-5/qdir.html#tempPath',1,'QDir']]],
   ['terminate',['terminate',['http://doc.qt.io/qt-5/qprocess.html#terminate',1,'QProcess::terminate()'],['http://doc.qt.io/qt-5/qthread.html#terminate',1,'QThread::terminate()'],['https://en.cppreference.com/w/cpp/error/terminate.html',1,'std::terminate()']]],
-  ['terminaterequested',['terminateRequested',['../classcutehmi_1_1daemon_1_1__Daemon.html#a0ea274671d26af8690aae1530b913eb4',1,'cutehmi::daemon::_Daemon']]],
   ['test',['test',['https://en.cppreference.com/w/cpp/utility/bitset/test.html',1,'std::bitset']]],
   ['test_5fand_5fset',['test_and_set',['https://en.cppreference.com/w/cpp/atomic/atomic_flag/test_and_set.html',1,'std::atomic_flag']]],
   ['testandsetacquire',['testAndSetAcquire',['http://doc.qt.io/qt-5/qatomicinteger.html#testAndSetAcquire',1,'QAtomicInteger::testAndSetAcquire()'],['http://doc.qt.io/qt-5/qatomicpointer.html#testAndSetAcquire',1,'QAtomicPointer::testAndSetAcquire()']]],

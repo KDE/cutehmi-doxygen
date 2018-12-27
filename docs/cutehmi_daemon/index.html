@@ -134,21 +134,41 @@ Daemon</div>
 <!--header-->
 <div class="contents">
 <div class="textblock">
-<p>Non-GUI application, which allows one to run <a class="elRef"
-doxygen=
-"/home/cutebot/devel/CuteHMI/extensions/CuteHMI.2/doxygen.tag:../CuteHMI.2/"
-href="../CuteHMI.2/namespaceCuteHMI.html">CuteHMI</a> project in
-the background.</p>
+<p>Non-GUI program, which allows one to run QML project in the
+background.</p>
 <p>Use <code>--project</code> command line option to specify the
-QML project file to open. For example to run 'CountDaemon' example
-use following command.</p>
+QML project file to open. For example to run <em>CountDaemon</em>
+example use following command.</p>
 <div class="fragment">
 <div class="line">cutehmi_daemon
 --project="examples/CountDaemon/Main.qml"</div>
 </div>
 <!-- fragment -->
-<p>You can use <code>--help</code> command line argument to see a
+<p>Read system logs to investigate whether daemon is running (e.g.
+<code>journalctl -n20</code> on a system with
+<em>systemd</em>).</p>
+<p>One may use <code>--app</code> option to tell the program to
+work as a foreground process (this can be useful when testing
+projects).</p>
+<div class="fragment">
+<div class="line">cutehmi_daemon
+--project="examples/CountDaemon/Main.qml" --app</div>
+</div>
+<!-- fragment -->
+<p>You can use <code>--help</code> command line argument to see the
 list of all possible command line options.</p>
+<h2>Signals</h2>
+<p>Under Unix daemon will respond to signals in a following
+way.</p>
+<ul>
+<li>SIGTERM tells daemon to gracefully quit with exit code set to
+EXIT_SUCCESS (0 on almost all systems).</li>
+<li>SIGINT tells daemon to gracefully quit, but exit code will be
+set to 128 + signal code.</li>
+<li>SIGQUIT causes violent termination and exits via abort.</li>
+<li>SIGHUP attempts to reload the project as if daemon has been
+restarted.</li>
+</ul>
 </div>
 </div>
 <!-- contents --></div>

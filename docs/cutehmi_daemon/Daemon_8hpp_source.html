@@ -172,7 +172,17 @@ _Daemon;</div>
 <div class="line"><a name="l00015" id="l00015"></a> <span class=
 "lineno">15</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00016" id="l00016"></a> <span class=
-"lineno">16</span>&nbsp; <a class="code" href=
+"lineno"><a class="line" href=
+"classcutehmi_1_1daemon_1_1Daemon.html#a4b010b93694733d083aad06415a916bd">
+16</a></span>&nbsp; <span class="keyword">static</span> constexpr
+<span class="keywordtype">int</span> <a class="code" href=
+"classcutehmi_1_1daemon_1_1Daemon.html#a4b010b93694733d083aad06415a916bd">
+EXIT_AGAIN</a> = 129; <span class="comment">// 128 + SIGHUP
+(1).</span></div>
+<div class="line"><a name="l00017" id="l00017"></a> <span class=
+"lineno">17</span>&nbsp;</div>
+<div class="line"><a name="l00018" id="l00018"></a> <span class=
+"lineno">18</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1daemon_1_1Daemon.html#a69a7eec49f5739010de3cb5c6919e63f">
 Daemon</a>(<a class="code" href=
 "structcutehmi_1_1daemon_1_1CoreData.html">CoreData</a> * <a class=
@@ -185,105 +195,105 @@ href=
 std::function</a>&lt;<span class="keywordtype">int</span>(<a class=
 "code" href="structcutehmi_1_1daemon_1_1CoreData.html">CoreData</a>
 &amp;)&gt; &amp; core);</div>
-<div class="line"><a name="l00017" id="l00017"></a> <span class=
-"lineno">17</span>&nbsp;</div>
-<div class="line"><a name="l00018" id="l00018"></a> <span class=
-"lineno">18</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1daemon_1_1Daemon.html#a492d88bdc9a83ec75f3c244fd2cfe24a">
-~Daemon</a>(); <span class="comment">// Non-virtual destructor, but
-class is final.</span></div>
 <div class="line"><a name="l00019" id="l00019"></a> <span class=
 "lineno">19</span>&nbsp;</div>
 <div class="line"><a name="l00020" id="l00020"></a> <span class=
-"lineno">20</span>&nbsp; <span class="keywordtype">int</span>
-<a class="code" href=
-"classcutehmi_1_1daemon_1_1Daemon.html#a66796815af9b76968be4146fc93fb7fb">
-exitCode</a>() <span class="keyword">const</span>;</div>
+"lineno">20</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1daemon_1_1Daemon.html#a492d88bdc9a83ec75f3c244fd2cfe24a">
+~Daemon</a>(); <span class="comment">// Non-virtual destructor, but
+class is final.</span></div>
 <div class="line"><a name="l00021" id="l00021"></a> <span class=
 "lineno">21</span>&nbsp;</div>
 <div class="line"><a name="l00022" id="l00022"></a> <span class=
-"lineno">22</span>&nbsp; <span class=
-"keyword">protected</span>:</div>
+"lineno">22</span>&nbsp; <span class="keywordtype">int</span>
+<a class="code" href=
+"classcutehmi_1_1daemon_1_1Daemon.html#a66796815af9b76968be4146fc93fb7fb">
+exitCode</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
-"lineno">23</span>&nbsp; <span class="keywordtype">void</span>
+"lineno">23</span>&nbsp;</div>
+<div class="line"><a name="l00024" id="l00024"></a> <span class=
+"lineno">24</span>&nbsp; <span class=
+"keyword">protected</span>:</div>
+<div class="line"><a name="l00025" id="l00025"></a> <span class=
+"lineno">25</span>&nbsp; <span class="keywordtype">void</span>
 <a class="code" href=
 "classcutehmi_1_1daemon_1_1Daemon.html#ad3cf7f2de98957f4f80e068b57e6d99e">
 setExitCode</a>(<span class="keywordtype">int</span> <a class=
 "code" href=
 "classcutehmi_1_1daemon_1_1Daemon.html#a66796815af9b76968be4146fc93fb7fb">
 exitCode</a>);</div>
-<div class="line"><a name="l00024" id="l00024"></a> <span class=
-"lineno">24</span>&nbsp;</div>
-<div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp; <span class="keywordtype">int</span>
-<a class="code" href=
-"classcutehmi_1_1daemon_1_1Daemon.html#a3f0f869bd133a909ba32fc7c6e7c6e58">
-exec</a>();</div>
 <div class="line"><a name="l00026" id="l00026"></a> <span class=
 "lineno">26</span>&nbsp;</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp; <a class="code" href=
+"lineno">27</span>&nbsp; <span class="keywordtype">int</span>
+<a class="code" href=
+"classcutehmi_1_1daemon_1_1Daemon.html#a3f0f869bd133a909ba32fc7c6e7c6e58">
+exec</a>();</div>
+<div class="line"><a name="l00028" id="l00028"></a> <span class=
+"lineno">28</span>&nbsp;</div>
+<div class="line"><a name="l00029" id="l00029"></a> <span class=
+"lineno">29</span>&nbsp; <a class="code" href=
 "structcutehmi_1_1daemon_1_1CoreData.html">CoreData</a> * <a class=
 "code" href=
 "classcutehmi_1_1daemon_1_1Daemon.html#a0621abda468746a91162df1de3c980af">
 data</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00028" id="l00028"></a> <span class=
-"lineno">28</span>&nbsp;</div>
-<div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp; <span class=
-"keyword">private</span>:</div>
 <div class="line"><a name="l00030" id="l00030"></a> <span class=
-"lineno">30</span>&nbsp; <span class="keywordtype">void</span>
-_init();</div>
+"lineno">30</span>&nbsp;</div>
 <div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp;</div>
+"lineno">31</span>&nbsp; <span class=
+"keyword">private</span>:</div>
 <div class="line"><a name="l00032" id="l00032"></a> <span class=
 "lineno">32</span>&nbsp; <span class="keywordtype">void</span>
-_exec();</div>
+_init();</div>
 <div class="line"><a name="l00033" id="l00033"></a> <span class=
 "lineno">33</span>&nbsp;</div>
 <div class="line"><a name="l00034" id="l00034"></a> <span class=
 "lineno">34</span>&nbsp; <span class="keywordtype">void</span>
-_destroy();</div>
+_exec();</div>
 <div class="line"><a name="l00035" id="l00035"></a> <span class=
 "lineno">35</span>&nbsp;</div>
 <div class="line"><a name="l00036" id="l00036"></a> <span class=
-"lineno">36</span>&nbsp; <a class="code" href=
+"lineno">36</span>&nbsp; <span class="keywordtype">void</span>
+_destroy();</div>
+<div class="line"><a name="l00037" id="l00037"></a> <span class=
+"lineno">37</span>&nbsp;</div>
+<div class="line"><a name="l00038" id="l00038"></a> <span class=
+"lineno">38</span>&nbsp; <a class="code" href=
 "structcutehmi_1_1daemon_1_1CoreData.html">CoreData</a> *
 m_data;</div>
-<div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00039" id="l00039"></a> <span class=
+"lineno">39</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/utility/functional/function.html">
 std::function&lt;int(CoreData &amp;)&gt;</a> &amp; m_core;</div>
-<div class="line"><a name="l00038" id="l00038"></a> <span class=
-"lineno">38</span>&nbsp; <span class="keywordtype">int</span>
+<div class="line"><a name="l00040" id="l00040"></a> <span class=
+"lineno">40</span>&nbsp; <span class="keywordtype">int</span>
 m_exitCode;</div>
-<div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp; <a class="code" href=
+<div class="line"><a name="l00041" id="l00041"></a> <span class=
+"lineno">41</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1daemon_1_1__Daemon.html">_Daemon</a> *
 _daemon;</div>
-<div class="line"><a name="l00040" id="l00040"></a> <span class=
-"lineno">40</span>&nbsp;};</div>
-<div class="line"><a name="l00041" id="l00041"></a> <span class=
-"lineno">41</span>&nbsp;</div>
 <div class="line"><a name="l00042" id="l00042"></a> <span class=
-"lineno">42</span>&nbsp;}</div>
+"lineno">42</span>&nbsp;};</div>
 <div class="line"><a name="l00043" id="l00043"></a> <span class=
-"lineno">43</span>&nbsp;}</div>
+"lineno">43</span>&nbsp;</div>
 <div class="line"><a name="l00044" id="l00044"></a> <span class=
-"lineno">44</span>&nbsp;</div>
+"lineno">44</span>&nbsp;}</div>
 <div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp;<span class=
-"preprocessor">#endif</span></div>
+"lineno">45</span>&nbsp;}</div>
 <div class="line"><a name="l00046" id="l00046"></a> <span class=
 "lineno">46</span>&nbsp;</div>
 <div class="line"><a name="l00047" id="l00047"></a> <span class=
-"lineno">47</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
-2018, Michal Policht. All rights reserved.</span></div>
+"lineno">47</span>&nbsp;<span class=
+"preprocessor">#endif</span></div>
 <div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp;<span class="comment">//(c)MP: This Source
+"lineno">48</span>&nbsp;</div>
+<div class="line"><a name="l00049" id="l00049"></a> <span class=
+"lineno">49</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+2018, Michal Policht. All rights reserved.</span></div>
+<div class="line"><a name="l00050" id="l00050"></a> <span class=
+"lineno">50</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
@@ -348,7 +358,7 @@ cutehmi::daemon::Daemon::setExitCode</a></div>
 "classcutehmi_1_1daemon_1_1Daemon.html#a0621abda468746a91162df1de3c980af">
 cutehmi::daemon::Daemon::data</a></div>
 <div class="ttdeci">CoreData * data() const</div>
-<div class="ttdef"><b>Definition:</b> Daemon.cpp:36</div>
+<div class="ttdef"><b>Definition:</b> Daemon.cpp:38</div>
 </div>
 <div class="ttc" id="structcutehmi_1_1daemon_1_1CoreData_html">
 <div class="ttname"><a href=
@@ -360,6 +370,14 @@ cutehmi::daemon::Daemon::data</a></div>
 "classcutehmi_1_1daemon_1_1__Daemon.html">cutehmi::daemon::_Daemon</a></div>
 <div class="ttdoc">Unix-specific daemon helper.</div>
 <div class="ttdef"><b>Definition:</b> Daemon_unix.hpp:17</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1daemon_1_1Daemon_html_a4b010b93694733d083aad06415a916bd">
+<div class="ttname"><a href=
+"classcutehmi_1_1daemon_1_1Daemon.html#a4b010b93694733d083aad06415a916bd">
+cutehmi::daemon::Daemon::EXIT_AGAIN</a></div>
+<div class="ttdeci">static constexpr int EXIT_AGAIN</div>
+<div class="ttdef"><b>Definition:</b> Daemon.hpp:16</div>
 </div>
 </div>
 <!-- fragment --></div>
