@@ -77,6 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../extensions_list.html"><span>Extensions</span></a></li>
 <li><a href="../tools_list.html"><span>Tools</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
+<li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li class="current"><a href=
 "namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
@@ -463,8 +464,71 @@ Namespaces</h2>
 <tr class="separator:ae3b13288afce025ac92a12a65589f8e6">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
+<tr class="memitem:ac270c61a5679c0acabe415ceac264cfc">
+<td class="memItemLeft" align="right" valign="top">CUTEHMI_API
+void&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"namespacecutehmi.html#ac270c61a5679c0acabe415ceac264cfc">destroySingletonInstances</a>
+()</td>
+</tr>
+<tr class="memdesc:ac270c61a5679c0acabe415ceac264cfc">
+<td class="mdescLeft">&nbsp;</td>
+<td class="mdescRight">Destroy singleton instances. <a href=
+"#ac270c61a5679c0acabe415ceac264cfc">More...</a><br /></td>
+</tr>
+<tr class="separator:ac270c61a5679c0acabe415ceac264cfc">
+<td class="memSeparator" colspan="2">&nbsp;</td>
+</tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ac270c61a5679c0acabe415ceac264cfc" name=
+"ac270c61a5679c0acabe415ceac264cfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#ac270c61a5679c0acabe415ceac264cfc">◆&nbsp;</a></span>destroySingletonInstances()</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tr>
+<td class="memname">void cutehmi::destroySingletonInstances</td>
+<td>(</td>
+<td class="paramname"></td>
+<td>)</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="memdoc">
+<p>Destroy singleton instances.</p>
+<p>This function is provided to satisfy the requirement that
+QApplication has to be first created and last destroyed <a class=
+"elRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qobject.html">QObject</a>. It destroys
+all singletons that inherit after <a class="el" href=
+"classcutehmi_1_1Singleton.html" title=
+"Singleton template. ">Singleton</a> class template. Once this
+function is called singletons become unusable.</p>
+<dl class="section note">
+<dt>Note</dt>
+<dd>Only frontend applications, which instantiate QApplication
+should take care about this function.</dd>
+</dl>
+<dl class="principles">
+<dt><b><a class="el" href=
+"principles.html#_principles000001">Principle:</a></b></dt>
+<dd>
+<b>"cutehmi::destroySingletonInstances-determined_destruction_order"</b><br />
+
+<a class="el" href="classcutehmi_1_1Singleton.html" title=
+"Singleton template. ">Singleton</a> instances will be destroyed in
+reverse order as they were instantiated, that is singletons for
+which <a class="el" href=
+"classcutehmi_1_1Singleton.html#a9ea1159ae0fd584ee86839d55b0ea350"
+title="Get instance. ">Singleton::Instance()</a> function has been
+called first will be destroyed last.</dd>
+</dl>
+</div>
+</div>
 <a id="ae3b13288afce025ac92a12a65589f8e6" name=
 "ae3b13288afce025ac92a12a65589f8e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href=

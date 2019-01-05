@@ -28,11 +28,13 @@ var NAVTREE =
     [ "Extensions", "../extensions_list.html", null ],
     [ "Tools", "../tools_list.html", null ],
     [ "CuteHMI - [Core]", "index.html", null ],
+    [ "Principles", "principles.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [

@@ -77,6 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 "../extensions_list.html"><span>Extensions</span></a></li>
 <li><a href="../tools_list.html"><span>Tools</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
+<li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
 <li>
@@ -173,108 +174,113 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_CUTEHMI_HPP</span></div>
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
-"lineno">23</span>&nbsp;{</div>
+"lineno">23</span>&nbsp; <span class="comment">// This class
+hopefully is going to be removed, but verify
+destroySingletonInstances() if it's going to inherit after
+Singleton.</span></div>
 <div class="line"><a name="l00024" id="l00024"></a> <span class=
-"lineno">24</span>&nbsp; Q_OBJECT</div>
+"lineno">24</span>&nbsp;{</div>
 <div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp;</div>
+"lineno">25</span>&nbsp; Q_OBJECT</div>
 <div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp; <span class="keyword">public</span>:</div>
+"lineno">26</span>&nbsp;</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
+"lineno">27</span>&nbsp; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028" id="l00028"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1CuteHMI.html#ae6f04cafab43efd4cdf04c9dd8bfe9e4">27</a></span>&nbsp;
+"classcutehmi_1_1CuteHMI.html#ae6f04cafab43efd4cdf04c9dd8bfe9e4">28</a></span>&nbsp;
 Q_PROPERTY(<a class="code" href=
 "classcutehmi_1_1PopupBridge.html">PopupBridge</a> * popupBridge
 READ popupBridge CONSTANT)</div>
-<div class="line"><a name="l00028" id="l00028"></a> <span class=
+<div class="line"><a name="l00029" id="l00029"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1CuteHMI.html#a0bed9169f79123b6c2f4077a6fd8cdb8">28</a></span>&nbsp;
+"classcutehmi_1_1CuteHMI.html#a0bed9169f79123b6c2f4077a6fd8cdb8">29</a></span>&nbsp;
 Q_PROPERTY(<a class="code" href=
 "classcutehmi_1_1NotificationManager.html">NotificationManager</a>
 * notificationManager READ notificationManager CONSTANT)</div>
-<div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp;</div>
-<div class="line"><a name="l00052" id="l00052"></a> <span class=
-"lineno">52</span>&nbsp; static <a class="code" href=
-"namespaceCuteHMI.html">CuteHMI</a> &amp; Instance();</div>
+<div class="line"><a name="l00030" id="l00030"></a> <span class=
+"lineno">30</span>&nbsp;</div>
 <div class="line"><a name="l00053" id="l00053"></a> <span class=
-"lineno">53</span>&nbsp;</div>
-<div class="line"><a name="l00062" id="l00062"></a> <span class=
-"lineno">62</span>&nbsp; static <span class=
-"keywordtype">void</span> Destroy();</div>
+"lineno">53</span>&nbsp; static <a class="code" href=
+"namespaceCuteHMI.html">CuteHMI</a> &amp; Instance();</div>
+<div class="line"><a name="l00054" id="l00054"></a> <span class=
+"lineno">54</span>&nbsp;</div>
 <div class="line"><a name="l00063" id="l00063"></a> <span class=
-"lineno">63</span>&nbsp;</div>
-<div class="line"><a name="l00068" id="l00068"></a> <span class=
-"lineno">68</span>&nbsp; <a class="code" href=
+"lineno">63</span>&nbsp; static <span class=
+"keywordtype">void</span> Destroy();</div>
+<div class="line"><a name="l00064" id="l00064"></a> <span class=
+"lineno">64</span>&nbsp;</div>
+<div class="line"><a name="l00069" id="l00069"></a> <span class=
+"lineno">69</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1PopupBridge.html">PopupBridge</a> * popupBridge()
 const;</div>
-<div class="line"><a name="l00069" id="l00069"></a> <span class=
-"lineno">69</span>&nbsp;</div>
-<div class="line"><a name="l00074" id="l00074"></a> <span class=
-"lineno">74</span>&nbsp; <a class="code" href=
+<div class="line"><a name="l00070" id="l00070"></a> <span class=
+"lineno">70</span>&nbsp;</div>
+<div class="line"><a name="l00075" id="l00075"></a> <span class=
+"lineno">75</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1NotificationManager.html">NotificationManager</a>
 * notificationManager() const;</div>
-<div class="line"><a name="l00075" id="l00075"></a> <span class=
-"lineno">75</span>&nbsp;</div>
 <div class="line"><a name="l00076" id="l00076"></a> <span class=
-"lineno">76</span>&nbsp; protected:</div>
-<div class="line"><a name="l00080" id="l00080"></a> <span class=
-"lineno">80</span>&nbsp; <a class="code" href=
-"namespaceCuteHMI.html">CuteHMI</a>();</div>
+"lineno">76</span>&nbsp;</div>
+<div class="line"><a name="l00077" id="l00077"></a> <span class=
+"lineno">77</span>&nbsp; protected:</div>
 <div class="line"><a name="l00081" id="l00081"></a> <span class=
-"lineno">81</span>&nbsp;</div>
-<div class="line"><a name="l00088" id="l00088"></a> <span class=
-"lineno">88</span>&nbsp; static <a class="codeRef" doxygen=
+"lineno">81</span>&nbsp; <a class="code" href=
+"namespaceCuteHMI.html">CuteHMI</a>();</div>
+<div class="line"><a name="l00082" id="l00082"></a> <span class=
+"lineno">82</span>&nbsp;</div>
+<div class="line"><a name="l00089" id="l00089"></a> <span class=
+"lineno">89</span>&nbsp; static <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/namespacestd.html">std</a>::unique_ptr&lt;<a class="code"
 href="namespaceCuteHMI.html">CuteHMI</a>&gt; &amp;
 InstancePtr();</div>
-<div class="line"><a name="l00089" id="l00089"></a> <span class=
-"lineno">89</span>&nbsp;</div>
 <div class="line"><a name="l00090" id="l00090"></a> <span class=
-"lineno">90</span>&nbsp; private:</div>
+"lineno">90</span>&nbsp;</div>
 <div class="line"><a name="l00091" id="l00091"></a> <span class=
-"lineno">91</span>&nbsp; struct Members</div>
+"lineno">91</span>&nbsp; private:</div>
 <div class="line"><a name="l00092" id="l00092"></a> <span class=
-"lineno">92</span>&nbsp; {</div>
+"lineno">92</span>&nbsp; struct Members</div>
 <div class="line"><a name="l00093" id="l00093"></a> <span class=
-"lineno">93</span>&nbsp; <a class="codeRef" doxygen=
-"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
-href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;PopupBridge&gt;</a>
-popupBridge;</div>
+"lineno">93</span>&nbsp; {</div>
 <div class="line"><a name="l00094" id="l00094"></a> <span class=
 "lineno">94</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;PopupBridge&gt;</a>
+popupBridge;</div>
+<div class="line"><a name="l00095" id="l00095"></a> <span class=
+"lineno">95</span>&nbsp; <a class="codeRef" doxygen=
+"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
+href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;NotificationManager&gt;</a>
 notificationManager;</div>
-<div class="line"><a name="l00095" id="l00095"></a> <span class=
-"lineno">95</span>&nbsp; };</div>
 <div class="line"><a name="l00096" id="l00096"></a> <span class=
-"lineno">96</span>&nbsp;</div>
+"lineno">96</span>&nbsp; };</div>
 <div class="line"><a name="l00097" id="l00097"></a> <span class=
-"lineno">97</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> m;</div>
+"lineno">97</span>&nbsp;</div>
 <div class="line"><a name="l00098" id="l00098"></a> <span class=
-"lineno">98</span>&nbsp;};</div>
+"lineno">98</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> m;</div>
 <div class="line"><a name="l00099" id="l00099"></a> <span class=
-"lineno">99</span>&nbsp;</div>
+"lineno">99</span>&nbsp;};</div>
 <div class="line"><a name="l00100" id="l00100"></a> <span class=
-"lineno">100</span>&nbsp;}</div>
+"lineno">100</span>&nbsp;</div>
 <div class="line"><a name="l00101" id="l00101"></a> <span class=
-"lineno">101</span>&nbsp;</div>
+"lineno">101</span>&nbsp;}</div>
 <div class="line"><a name="l00102" id="l00102"></a> <span class=
-"lineno">102</span>&nbsp;<span class=
-"preprocessor">#endif</span></div>
+"lineno">102</span>&nbsp;</div>
 <div class="line"><a name="l00103" id="l00103"></a> <span class=
-"lineno">103</span>&nbsp;</div>
+"lineno">103</span>&nbsp;<span class=
+"preprocessor">#endif</span></div>
 <div class="line"><a name="l00104" id="l00104"></a> <span class=
-"lineno">104</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
-2019, Michal Policht. All rights reserved.</span></div>
+"lineno">104</span>&nbsp;</div>
 <div class="line"><a name="l00105" id="l00105"></a> <span class=
-"lineno">105</span>&nbsp;<span class="comment">//(c)MP: This Source
+"lineno">105</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+2019, Michal Policht. All rights reserved.</span></div>
+<div class="line"><a name="l00106" id="l00106"></a> <span class=
+"lineno">106</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>

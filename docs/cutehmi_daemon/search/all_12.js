@@ -151,6 +151,7 @@ var searchData=
   ['removerow',['removeRow',['http://doc.qt.io/qt-5/qabstractitemmodel.html#removeRow',1,'QAbstractItemModel']]],
   ['removerows',['removeRows',['http://doc.qt.io/qt-5/qabstractitemmodel.html#removeRows',1,'QAbstractItemModel::removeRows()'],['http://doc.qt.io/qt-5/qidentityproxymodel.html#removeRows',1,'QIdentityProxyModel::removeRows()'],['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#removeRows',1,'QSortFilterProxyModel::removeRows()'],['http://doc.qt.io/qt-5/qstringlistmodel.html#removeRows',1,'QStringListModel::removeRows()']]],
   ['removeserver',['removeServer',['http://doc.qt.io/qt-5/qlocalserver.html#removeServer',1,'QLocalServer']]],
+  ['removesingletondestroycallback',['removeSingletonDestroyCallback',['../../CuteHMI.2/namespacecutehmi_1_1internal.html#a48f3806aca0b0421cd8b9a72b3b09f98',1,'cutehmi::internal']]],
   ['removestalelockfile',['removeStaleLockFile',['http://doc.qt.io/qt-5/qlockfile.html#removeStaleLockFile',1,'QLockFile']]],
   ['removestate',['removeState',['http://doc.qt.io/qt-5/qstatemachine.html#removeState',1,'QStateMachine']]],
   ['removetransition',['removeTransition',['http://doc.qt.io/qt-5/qstate.html#removeTransition',1,'QState']]],

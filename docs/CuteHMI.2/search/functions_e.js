@@ -79,7 +79,7 @@ var searchData=
   ['not_5feof',['not_eof',['https://en.cppreference.com/w/cpp/string/char_traits/not_eof.html',1,'std::char_traits']]],
   ['notationdeclarations',['notationDeclarations',['http://doc.qt.io/qt-5/qxmlstreamreader.html#notationDeclarations',1,'QXmlStreamReader']]],
   ['notationname',['notationName',['http://doc.qt.io/qt-5/qxmlstreamentitydeclaration.html#notationName',1,'QXmlStreamEntityDeclaration']]],
-  ['note',['note',['../classcutehmi_1_1PopupBridge.html#a8584e82656cb84251c08e3caad76c41d',1,'cutehmi::PopupBridge::note()'],['../classcutehmi_1_1Notification.html#a900b85df6b081d2e21f54563dfd0f9c0',1,'cutehmi::Notification::Note()']]],
+  ['note',['Note',['../classcutehmi_1_1Notification.html#a900b85df6b081d2e21f54563dfd0f9c0',1,'cutehmi::Notification::Note()'],['../classcutehmi_1_1PopupBridge.html#a8584e82656cb84251c08e3caad76c41d',1,'cutehmi::PopupBridge::note()']]],
   ['notification',['Notification',['../classcutehmi_1_1Notification.html#ae066f10a1549c6aeb6cb42613d7aea67',1,'cutehmi::Notification']]],
   ['notificationlistmodel',['NotificationListModel',['../classcutehmi_1_1NotificationListModel.html#a79afbafd6af2e275ddb1814d875d1740',1,'cutehmi::NotificationListModel']]],
   ['notificationmanager',['notificationManager',['../classcutehmi_1_1CuteHMI.html#acffea0321f92ec4246f154881f89943a',1,'cutehmi::CuteHMI::notificationManager()'],['../classcutehmi_1_1NotificationManager.html#adf6162d1877df5dbeb01a98856b4c516',1,'cutehmi::NotificationManager::NotificationManager()']]],
