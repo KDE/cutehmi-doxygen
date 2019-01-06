@@ -153,6 +153,22 @@ Status](https://travis-ci.org/michpolicht/CuteHMI.svg?branch=master)](https://tr
 | [![Build
 Status](https://travis-ci.org/michpolicht/CuteHMI.svg?branch=1)](https://travis-ci.org/michpolicht/CuteHMI/branches)
 | alpha | [//]: # ()</div>
+<h2>Master milestones</h2>
+<ul>
+<li>Replace XML project description files by pure QML.</li>
+<li>Implement <em>cutehmi_daemon</em> tool enabling one to run QML
+projects in daemon mode.</li>
+<li>Modules and QML extensions are going to be unified as
+extensions.</li>
+<li>Modbus extension should use QSerialBus module.</li>
+<li>Modbus extension should provide database backend.</li>
+</ul>
+<h2>Secondary goals</h2>
+<ul>
+<li>Implement extension for Bitcoin Cash payment services.</li>
+<li>Implement extension to deal with GPIO chips (notably on
+Raspberry Pi machines).</li>
+</ul>
 <h2>Compiling</h2>
 <ol type="1">
 <li>Get the Qt toolkit. Open-source and commercial editions can be
@@ -202,18 +218,6 @@ items' results, so if the library is installed after the project
 has been configured with Qbs, it will not show up. You can use
 <code>--force-probe-execution</code> option to force Qbs to not use
 cached results.</p>
-<h2>Running example</h2>
-<p>To run <em>SampleProject</em> example with <em>QtCreator</em>
-click "Projects" -&gt; "Build &amp; Run" -&gt; "Run" and in the
-"Command line arguments" box type:
-<code>--project="examples/SampleProject/SampleProject.cutehmi.xml"</code>.</p>
-<p>If anything goes wrong during loading, first check debug output
-and verify that paths are correct.</p>
-<p>Something similar to this should show up on screen.</p>
-<div class="image"><img src="examples_SampleProject.png" alt=
-"examples_SampleProject.png" />
-<div class="caption">SampleProject screenshot</div>
-</div>
 <h2>Internals</h2>
 <p>Directory structure of the project is organized as follows.</p>
 <ul>
@@ -224,29 +228,30 @@ bother).</li>
 <li><a class="el" href="md_doc__r_e_a_d_m_e.html">doc</a> - a place
 where documentation shall be.</li>
 <li><em>examples</em> - self-explanatory.</li>
+<li><a class="el" href=
+"md_extensions__r_e_a_d_m_e.html">extensions</a> - libraries and
+QML extensions.</li>
 <li><a class="el" href="md_external__r_e_a_d_m_e.html">external</a>
 - directory containing "external" libraries.</li>
 <li><em>extra</em> - various stuff related to the project, such as
 T-shirts.</li>
-<li>modules - the heart of the project.</li>
+<li>modules - to be replaced by extensions.</li>
 <li><em>qbs</em> - Qbs modules and imports.</li>
-<li>QML - QML extensions (secondary heart of the project).</li>
+<li>QML - to be replaced by extensions.</li>
 <li><a class="el" href="md_tools__r_e_a_d_m_e.html">tools</a> -
-end-user applications (tertiary heart of the project).</li>
+end-user applications.</li>
 </ul>
 <div class="image"><img src="general_dependencies.png" alt=
 "general_dependencies.png" />
 <div class="caption">Dependencies between tools, modules, QML and
 external libraries</div>
 </div>
-<p>The concept is simple. Three most important directories are
-modules, QML and <a class="el" href=
-"md_tools__r_e_a_d_m_e.html">tools</a>. Modules are basically
-libraries, which provide various functionalities in modular
-fashion. These can be utilized by QML extensions or end-user
-applications. End-user applications may of course utilize QML
-extensions also, as this is one of the main features offered by Qt.
-Some modules may depend on <a class="el" href=
+<p>Two most important directories are <a class="el" href=
+"md_extensions__r_e_a_d_m_e.html">extensions</a> and <a class="el"
+href="md_tools__r_e_a_d_m_e.html">tools</a>. Extensions combine
+functionality of QML extensions and standard libraries. They can be
+utilized by end-user applications, but they can be also linked with
+each other. Some extensions may depend on <a class="el" href=
 "md_external__r_e_a_d_m_e.html">external</a> libraries.</p>
 <h2>Quick links</h2>
 <ul>
