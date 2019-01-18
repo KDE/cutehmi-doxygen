@@ -26,16 +26,16 @@ var hierarchy =
           [ "cutehmi::ErrorException", "classcutehmi_1_1ErrorException.html", null ]
         ] ],
         [ "cutehmi::ExceptionMixin< NoAdvertiserException >", "classcutehmi_1_1ExceptionMixin.html", [
-          [ "cutehmi::PopupBridge::NoAdvertiserException", "classcutehmi_1_1PopupBridge_1_1NoAdvertiserException.html", null ]
+          [ "cutehmi::Dialogist::NoAdvertiserException", "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html", null ]
         ] ]
       ] ]
     ] ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
       [ "cutehmi::CuteHMI", "classcutehmi_1_1CuteHMI.html", null ],
+      [ "cutehmi::Dialog", "classcutehmi_1_1Dialog.html", null ],
+      [ "cutehmi::Dialogist", "classcutehmi_1_1Dialogist.html", null ],
       [ "cutehmi::Notification", "classcutehmi_1_1Notification.html", null ],
-      [ "cutehmi::NotificationManager", "classcutehmi_1_1NotificationManager.html", null ],
-      [ "cutehmi::PopupBridge", "classcutehmi_1_1PopupBridge.html", null ],
-      [ "cutehmi::Prompt", "classcutehmi_1_1Prompt.html", null ],
+      [ "cutehmi::Notifier", "classcutehmi_1_1Notifier.html", null ],
       [ "cutehmi::Worker", "classcutehmi_1_1Worker.html", null ],
       [ "QAbstractItemModel", "http://doc.qt.io/qt-5/qabstractitemmodel.html", [
         [ "QAbstractListModel", "http://doc.qt.io/qt-5/qabstractlistmodel.html", [

@@ -176,11 +176,11 @@ obtained from <a href="https://www.qt.io/">https://www.qt.io/</a>.
 Qt can also be shipped with Linux distribution.</li>
 <li>Open <code>CuteHMI.qbs</code> file with <em>QtCreator</em> and
 simply build it.</li>
-<li>All modules dependent on external libraries will be disabled,
-if these libraries could not be found. To make the process of
-finding the libraries and installing them under Windows easier, a
-set of Makefiles is provided, which allows the libraries to be
-build from sources. Check out <a class="el" href=
+<li>All extensions dependent on external libraries will be
+disabled, if these libraries could not be found. To make the
+process of finding the libraries and installing them under Windows
+easier, a set of Makefiles is provided, which allows the libraries
+to be build from sources. Check out <a class="el" href=
 "md_external__r_e_a_d_m_e.html">external</a> libraries for more
 details.</li>
 </ol>
@@ -235,15 +235,13 @@ QML extensions.</li>
 - directory containing "external" libraries.</li>
 <li><em>extra</em> - various stuff related to the project, such as
 T-shirts.</li>
-<li>modules - to be replaced by extensions.</li>
 <li><em>qbs</em> - Qbs modules and imports.</li>
-<li>QML - to be replaced by extensions.</li>
 <li><a class="el" href="md_tools__r_e_a_d_m_e.html">tools</a> -
 end-user applications.</li>
 </ul>
 <div class="image"><img src="general_dependencies.png" alt=
 "general_dependencies.png" />
-<div class="caption">Dependencies between tools, modules, QML and
+<div class="caption">Dependencies between tools, extensions and
 external libraries</div>
 </div>
 <p>Two most important directories are <a class="el" href=

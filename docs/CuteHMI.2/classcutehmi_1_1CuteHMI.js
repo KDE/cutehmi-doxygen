@@ -1,8 +1,8 @@
 var classcutehmi_1_1CuteHMI =
 [
     [ "CuteHMI", "classcutehmi_1_1CuteHMI.html#aaf2416a7a9997611852afa2a0a447c35", null ],
-    [ "notificationManager", "classcutehmi_1_1CuteHMI.html#acffea0321f92ec4246f154881f89943a", null ],
-    [ "popupBridge", "classcutehmi_1_1CuteHMI.html#a8ea9271f39701eda1da288825614fc41", null ],
-    [ "notificationManager", "classcutehmi_1_1CuteHMI.html#a0bed9169f79123b6c2f4077a6fd8cdb8", null ],
-    [ "popupBridge", "classcutehmi_1_1CuteHMI.html#ae6f04cafab43efd4cdf04c9dd8bfe9e4", null ]
+    [ "dialogist", "classcutehmi_1_1CuteHMI.html#a40f539236fd9bd7723bf028cc001589a", null ],
+    [ "notifier", "classcutehmi_1_1CuteHMI.html#a2de001522ef395dbe91e4f055eb24e90", null ],
+    [ "dialogist", "classcutehmi_1_1CuteHMI.html#ae63be322ca2bf31ad3e4a963d3fa16cf", null ],
+    [ "notifier", "classcutehmi_1_1CuteHMI.html#a87a8fba2759e000b5218c19ad6b484e2", null ]
 ];

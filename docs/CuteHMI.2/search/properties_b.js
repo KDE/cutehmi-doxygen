@@ -5,5 +5,5 @@ var searchData=
   ['namespaceprocessing',['namespaceProcessing',['http://doc.qt.io/qt-5/qxmlstreamreader.html#namespaceProcessing-prop',1,'QXmlStreamReader']]],
   ['networkaccessible',['networkAccessible',['http://doc.qt.io/qt-5/qnetworkaccessmanager.html#networkAccessible-prop',1,'QNetworkAccessManager']]],
   ['neutral',['neutral',['../classCuteHMI_1_1Palette.html#a92bdede674ac041280c62c49453097c6',1,'CuteHMI::Palette']]],
-  ['notificationmanager',['notificationManager',['../classcutehmi_1_1CuteHMI.html#a0bed9169f79123b6c2f4077a6fd8cdb8',1,'cutehmi::CuteHMI']]]
+  ['notifier',['notifier',['../classcutehmi_1_1CuteHMI.html#a87a8fba2759e000b5218c19ad6b484e2',1,'cutehmi::CuteHMI']]]
 ];

@@ -15,10 +15,8 @@ var searchData=
   ['pointer_5fsafety',['pointer_safety',['https://en.cppreference.com/w/cpp/memory/gc/pointer_safety.html',1,'std']]],
   ['pointer_5ftraits',['pointer_traits',['https://en.cppreference.com/w/cpp/memory/pointer_traits.html',1,'std']]],
   ['poisson_5fdistribution',['poisson_distribution',['https://en.cppreference.com/w/cpp/numeric/random/poisson_distribution.html',1,'std']]],
-  ['popupbridge',['PopupBridge',['../../CuteHMI.2/classcutehmi_1_1PopupBridge.html',1,'cutehmi']]],
   ['priority_5fqueue',['priority_queue',['https://en.cppreference.com/w/cpp/container/priority_queue.html',1,'std']]],
   ['promise',['promise',['https://en.cppreference.com/w/cpp/thread/promise.html',1,'std']]],
-  ['prompt',['Prompt',['../../CuteHMI.2/classcutehmi_1_1Prompt.html',1,'cutehmi']]],
   ['propitem',['PropItem',['../../CuteHMI.2/classCuteHMI_1_1PropItem.html',1,'CuteHMI']]],
   ['ptrdiff_5ft',['ptrdiff_t',['https://en.cppreference.com/w/cpp/types/ptrdiff_t.html',1,'std']]]
 ];

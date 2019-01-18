@@ -6,5 +6,5 @@ var searchData=
   ['basecolor',['baseColor',['../../CuteHMI.2/classCuteHMI_1_1Element.html#a210fcf210f415322cb0c3ef6c331768e',1,'CuteHMI::Element']]],
   ['blankcolor',['blankColor',['../../CuteHMI.2/classCuteHMI_1_1Element.html#a6733e8c8df2f5c0a9e629c332791008d',1,'CuteHMI::Element']]],
   ['bottompadding',['bottomPadding',['../../CuteHMI.2/classCuteHMI_1_1PropItem.html#a6c1cc32d173d91a6e9c1e19d4e37c3db',1,'CuteHMI::PropItem']]],
-  ['buttons',['buttons',['../../CuteHMI.2/classcutehmi_1_1Prompt.html#a7f3e49512b7c4d32627dbd6e81753f1e',1,'cutehmi::Prompt']]]
+  ['buttons',['buttons',['../../CuteHMI.2/classcutehmi_1_1Dialog.html#a3797ef29a79e70dc3a83ee9c818aca97',1,'cutehmi::Dialog']]]
 ];

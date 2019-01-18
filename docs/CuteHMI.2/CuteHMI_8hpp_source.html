@@ -145,10 +145,10 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_CUTEHMI_HPP</span></div>
 "internal/common.hpp"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;<span class="preprocessor">#include
-"PopupBridge.hpp"</span></div>
+"Dialogist.hpp"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
 "lineno">6</span>&nbsp;<span class="preprocessor">#include
-"NotificationManager.hpp"</span></div>
+"Notifier.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
 "lineno">7</span>&nbsp;</div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
@@ -188,16 +188,16 @@ Singleton.</span></div>
 "lineno">27</span>&nbsp; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00028" id="l00028"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1CuteHMI.html#ae6f04cafab43efd4cdf04c9dd8bfe9e4">28</a></span>&nbsp;
+"classcutehmi_1_1CuteHMI.html#ae63be322ca2bf31ad3e4a963d3fa16cf">28</a></span>&nbsp;
 Q_PROPERTY(<a class="code" href=
-"classcutehmi_1_1PopupBridge.html">PopupBridge</a> * popupBridge
-READ popupBridge CONSTANT)</div>
+"classcutehmi_1_1Dialogist.html">Dialogist</a> * dialogist READ
+dialogist CONSTANT)</div>
 <div class="line"><a name="l00029" id="l00029"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1CuteHMI.html#a0bed9169f79123b6c2f4077a6fd8cdb8">29</a></span>&nbsp;
+"classcutehmi_1_1CuteHMI.html#a87a8fba2759e000b5218c19ad6b484e2">29</a></span>&nbsp;
 Q_PROPERTY(<a class="code" href=
-"classcutehmi_1_1NotificationManager.html">NotificationManager</a>
-* notificationManager READ notificationManager CONSTANT)</div>
+"classcutehmi_1_1Notifier.html">Notifier</a> * notifier READ
+notifier CONSTANT)</div>
 <div class="line"><a name="l00030" id="l00030"></a> <span class=
 "lineno">30</span>&nbsp;</div>
 <div class="line"><a name="l00053" id="l00053"></a> <span class=
@@ -212,14 +212,14 @@ Q_PROPERTY(<a class="code" href=
 "lineno">64</span>&nbsp;</div>
 <div class="line"><a name="l00069" id="l00069"></a> <span class=
 "lineno">69</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1PopupBridge.html">PopupBridge</a> * popupBridge()
+"classcutehmi_1_1Dialogist.html">Dialogist</a> * dialogist()
 const;</div>
 <div class="line"><a name="l00070" id="l00070"></a> <span class=
 "lineno">70</span>&nbsp;</div>
 <div class="line"><a name="l00075" id="l00075"></a> <span class=
 "lineno">75</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1NotificationManager.html">NotificationManager</a>
-* notificationManager() const;</div>
+"classcutehmi_1_1Notifier.html">Notifier</a> * notifier()
+const;</div>
 <div class="line"><a name="l00076" id="l00076"></a> <span class=
 "lineno">76</span>&nbsp;</div>
 <div class="line"><a name="l00077" id="l00077"></a> <span class=
@@ -248,14 +248,14 @@ InstancePtr();</div>
 "lineno">94</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;PopupBridge&gt;</a>
-popupBridge;</div>
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialogist&gt;</a>
+dialogist;</div>
 <div class="line"><a name="l00095" id="l00095"></a> <span class=
 "lineno">95</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;NotificationManager&gt;</a>
-notificationManager;</div>
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Notifier&gt;</a>
+notifier;</div>
 <div class="line"><a name="l00096" id="l00096"></a> <span class=
 "lineno">96</span>&nbsp; };</div>
 <div class="line"><a name="l00097" id="l00097"></a> <span class=
@@ -293,6 +293,12 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "classcutehmi_1_1MPtr.html">cutehmi::MPtr&lt; Members
 &gt;</a></div>
 </div>
+<div class="ttc" id="classcutehmi_1_1Notifier_html">
+<div class="ttname"><a href=
+"classcutehmi_1_1Notifier.html">cutehmi::Notifier</a></div>
+<div class="ttdoc">Notification manager.</div>
+<div class="ttdef"><b>Definition:</b> Notifier.hpp:17</div>
+</div>
 <div class="ttc" id="namespaceCuteHMI_html">
 <div class="ttname"><a href=
 "namespaceCuteHMI.html">CuteHMI</a></div>
@@ -307,22 +313,15 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "namespacecutehmi.html">cutehmi</a></div>
 <div class="ttdef"><b>Definition:</b> CuteHMI.hpp:10</div>
 </div>
-<div class="ttc" id="classcutehmi_1_1PopupBridge_html">
-<div class="ttname"><a href=
-"classcutehmi_1_1PopupBridge.html">cutehmi::PopupBridge</a></div>
-<div class="ttdoc">Popup bridge.</div>
-<div class="ttdef"><b>Definition:</b> PopupBridge.hpp:16</div>
-</div>
-<div class="ttc" id="classcutehmi_1_1NotificationManager_html">
-<div class="ttname"><a href=
-"classcutehmi_1_1NotificationManager.html">cutehmi::NotificationManager</a></div>
-<div class="ttdoc">Notification manager.</div>
-<div class="ttdef"><b>Definition:</b>
-NotificationManager.hpp:17</div>
-</div>
 <div class="ttc" id="unique_ptr_html">
 <div class="ttname"><a href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a></div>
+</div>
+<div class="ttc" id="classcutehmi_1_1Dialogist_html">
+<div class="ttname"><a href=
+"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></div>
+<div class="ttdoc">Dialogist.</div>
+<div class="ttdef"><b>Definition:</b> Dialogist.hpp:16</div>
 </div>
 </div>
 <!-- fragment --></div>

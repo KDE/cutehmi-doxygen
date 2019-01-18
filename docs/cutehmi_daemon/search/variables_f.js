@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['question',['QUESTION',['../../CuteHMI.2/classcutehmi_1_1Prompt.html#aa0caa7840dc3406f03ff7c4a23c9098ba026db9f3fb62623d710e1354f8eafcee',1,'cutehmi::Prompt']]]
+  ['question',['QUESTION',['../../CuteHMI.2/classcutehmi_1_1Dialog.html#a7bbf889846b2a52883780ec5e085ec3aa23f511072bd733b96bada6fb7cd9202e',1,'cutehmi::Dialog']]]
 ];
