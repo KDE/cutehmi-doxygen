@@ -150,262 +150,218 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_DIALOGIST_HPP</span></div>
 "lineno">6</span>&nbsp;<span class="preprocessor">#include
 "ExceptionMixin.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
-"lineno">7</span>&nbsp;</div>
+"lineno">7</span>&nbsp;<span class="preprocessor">#include
+"Singleton.hpp"</span></div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
-"lineno">8</span>&nbsp;<span class="preprocessor">#include
-&lt;QObject&gt;</span></div>
+"lineno">8</span>&nbsp;</div>
 <div class="line"><a name="l00009" id="l00009"></a> <span class=
 "lineno">9</span>&nbsp;<span class="preprocessor">#include
-&lt;QMutexLocker&gt;</span></div>
+&lt;QObject&gt;</span></div>
 <div class="line"><a name="l00010" id="l00010"></a> <span class=
-"lineno">10</span>&nbsp;</div>
+"lineno">10</span>&nbsp;<span class="preprocessor">#include
+&lt;QMutexLocker&gt;</span></div>
 <div class="line"><a name="l00011" id="l00011"></a> <span class=
-"lineno">11</span>&nbsp;<span class="keyword">namespace</span>
-<a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
+"lineno">11</span>&nbsp;</div>
 <div class="line"><a name="l00012" id="l00012"></a> <span class=
-"lineno">12</span>&nbsp;</div>
-<div class="line"><a name="l00016" id="l00016"></a> <span class=
+"lineno">12</span>&nbsp;<span class="keyword">namespace</span>
+<a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
+<div class="line"><a name="l00013" id="l00013"></a> <span class=
+"lineno">13</span>&nbsp;</div>
+<div class="line"><a name="l00017" id="l00017"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1Dialogist.html">16</a></span>&nbsp;<span class=
+"classcutehmi_1_1Dialogist.html">17</a></span>&nbsp;<span class=
 "keyword">class</span> CUTEHMI_API <a class="code" href=
 "classcutehmi_1_1Dialogist.html">Dialogist</a>:</div>
-<div class="line"><a name="l00017" id="l00017"></a> <span class=
-"lineno">17</span>&nbsp; <span class="keyword">public</span>
+<div class="line"><a name="l00018" id="l00018"></a> <span class=
+"lineno">18</span>&nbsp; <span class="keyword">public</span>
 <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
-<div class="line"><a name="l00018" id="l00018"></a> <span class=
-"lineno">18</span>&nbsp;{</div>
+href="http://doc.qt.io/qt-5/qobject.html">QObject</a>,</div>
 <div class="line"><a name="l00019" id="l00019"></a> <span class=
-"lineno">19</span>&nbsp; Q_OBJECT</div>
+"lineno">19</span>&nbsp; <span class="keyword">public</span>
+<a class="code" href=
+"classcutehmi_1_1Singleton.html">Singleton</a>&lt;Dialogist&gt;</div>
 <div class="line"><a name="l00020" id="l00020"></a> <span class=
-"lineno">20</span>&nbsp;</div>
+"lineno">20</span>&nbsp;{</div>
 <div class="line"><a name="l00021" id="l00021"></a> <span class=
-"lineno">21</span>&nbsp; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00025" id="l00025"></a> <span class=
+"lineno">21</span>&nbsp; Q_OBJECT</div>
+<div class="line"><a name="l00022" id="l00022"></a> <span class=
+"lineno">22</span>&nbsp;</div>
+<div class="line"><a name="l00023" id="l00023"></a> <span class=
 "lineno"><a class="line" href=
-"classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">25</a></span>&nbsp;
+"classcutehmi_1_1Dialogist.html#a6fac347ebc68fac79be64ccbb2f1d0b7">23</a></span>&nbsp;
+<span class="keyword">friend</span> <span class=
+"keyword">class</span> <a class="code" href=
+"classcutehmi_1_1Singleton.html">Singleton</a>&lt;<a class="code"
+href="classcutehmi_1_1Dialogist.html">Dialogist</a>&gt;;</div>
+<div class="line"><a name="l00024" id="l00024"></a> <span class=
+"lineno">24</span>&nbsp;</div>
+<div class="line"><a name="l00025" id="l00025"></a> <span class=
+"lineno">25</span>&nbsp; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029" id="l00029"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">29</a></span>&nbsp;
 <span class="keyword">class</span> CUTEHMI_API <a class="code"
 href="classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">NoAdvertiserException</a>:</div>
-<div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp; <span class="keyword">public</span>
+<div class="line"><a name="l00030" id="l00030"></a> <span class=
+"lineno">30</span>&nbsp; <span class="keyword">public</span>
 <a class="code" href=
 "classcutehmi_1_1ExceptionMixin.html">ExceptionMixin</a>&lt;NoAdvertiserException&gt;</div>
-<div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp; {</div>
-<div class="line"><a name="l00028" id="l00028"></a> <span class=
-"lineno">28</span>&nbsp; <span class="keyword">typedef</span>
+<div class="line"><a name="l00031" id="l00031"></a> <span class=
+"lineno">31</span>&nbsp; {</div>
+<div class="line"><a name="l00032" id="l00032"></a> <span class=
+"lineno">32</span>&nbsp; <span class="keyword">typedef</span>
 <a class="code" href=
 "classcutehmi_1_1ExceptionMixin.html">ExceptionMixin&lt;NoAdvertiserException&gt;</a>
 <a class="code" href=
 "classcutehmi_1_1ExceptionMixin.html">Parent</a>;</div>
-<div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp;</div>
-<div class="line"><a name="l00030" id="l00030"></a> <span class=
-"lineno">30</span>&nbsp; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp; <span class="keyword">explicit</span>
+<div class="line"><a name="l00033" id="l00033"></a> <span class=
+"lineno">33</span>&nbsp;</div>
+<div class="line"><a name="l00034" id="l00034"></a> <span class=
+"lineno">34</span>&nbsp; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00035" id="l00035"></a> <span class=
+"lineno">35</span>&nbsp; <span class="keyword">explicit</span>
 <a class="code" href=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">NoAdvertiserException</a>(<a class="code"
 href="classcutehmi_1_1Dialog.html">Dialog</a> &amp; dialog);</div>
-<div class="line"><a name="l00032" id="l00032"></a> <span class=
-"lineno">32</span>&nbsp;</div>
-<div class="line"><a name="l00033" id="l00033"></a> <span class=
-"lineno">33</span>&nbsp; <a class="code" href=
+<div class="line"><a name="l00036" id="l00036"></a> <span class=
+"lineno">36</span>&nbsp;</div>
+<div class="line"><a name="l00037" id="l00037"></a> <span class=
+"lineno">37</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">NoAdvertiserException</a>(<span class="keyword">const</span>
 <a class="code" href=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">NoAdvertiserException</a>
 &amp; other);</div>
-<div class="line"><a name="l00034" id="l00034"></a> <span class=
-"lineno">34</span>&nbsp;</div>
-<div class="line"><a name="l00035" id="l00035"></a> <span class=
-"lineno">35</span>&nbsp; <a class="code" href=
+<div class="line"><a name="l00038" id="l00038"></a> <span class=
+"lineno">38</span>&nbsp;</div>
+<div class="line"><a name="l00039" id="l00039"></a> <span class=
+"lineno">39</span>&nbsp; <a class="code" href=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">NoAdvertiserException</a>
 &amp; operator =(<span class="keyword">const</span> <a class="code"
 href=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">NoAdvertiserException</a>
 &amp; other);</div>
-<div class="line"><a name="l00036" id="l00036"></a> <span class=
-"lineno">36</span>&nbsp;</div>
-<div class="line"><a name="l00041" id="l00041"></a> <span class=
-"lineno">41</span>&nbsp; <span class="keyword">const</span>
+<div class="line"><a name="l00040" id="l00040"></a> <span class=
+"lineno">40</span>&nbsp;</div>
+<div class="line"><a name="l00045" id="l00045"></a> <span class=
+"lineno">45</span>&nbsp; <span class="keyword">const</span>
 <a class="code" href="classcutehmi_1_1Dialog.html">Dialog</a> *
 dialog() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00042" id="l00042"></a> <span class=
-"lineno">42</span>&nbsp;</div>
-<div class="line"><a name="l00043" id="l00043"></a> <span class=
-"lineno">43</span>&nbsp; <span class=
-"keyword">private</span>:</div>
-<div class="line"><a name="l00044" id="l00044"></a> <span class=
-"lineno">44</span>&nbsp; <span class="keyword">struct</span>
-Members</div>
-<div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp; {</div>
 <div class="line"><a name="l00046" id="l00046"></a> <span class=
-"lineno">46</span>&nbsp; <a class="codeRef" doxygen=
+"lineno">46</span>&nbsp;</div>
+<div class="line"><a name="l00047" id="l00047"></a> <span class=
+"lineno">47</span>&nbsp; <span class=
+"keyword">private</span>:</div>
+<div class="line"><a name="l00048" id="l00048"></a> <span class=
+"lineno">48</span>&nbsp; <span class="keyword">struct</span>
+Members</div>
+<div class="line"><a name="l00049" id="l00049"></a> <span class=
+"lineno">49</span>&nbsp; {</div>
+<div class="line"><a name="l00050" id="l00050"></a> <span class=
+"lineno">50</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialog&gt;</a>
 dialog;</div>
-<div class="line"><a name="l00047" id="l00047"></a> <span class=
-"lineno">47</span>&nbsp; };</div>
-<div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp;</div>
-<div class="line"><a name="l00049" id="l00049"></a> <span class=
-"lineno">49</span>&nbsp; <a class="code" href=
-"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> m;</div>
-<div class="line"><a name="l00050" id="l00050"></a> <span class=
-"lineno">50</span>&nbsp; };</div>
 <div class="line"><a name="l00051" id="l00051"></a> <span class=
-"lineno">51</span>&nbsp;</div>
+"lineno">51</span>&nbsp; };</div>
 <div class="line"><a name="l00052" id="l00052"></a> <span class=
-"lineno">52</span>&nbsp; <span class="keyword">explicit</span>
+"lineno">52</span>&nbsp;</div>
+<div class="line"><a name="l00053" id="l00053"></a> <span class=
+"lineno">53</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> m;</div>
+<div class="line"><a name="l00054" id="l00054"></a> <span class=
+"lineno">54</span>&nbsp; };</div>
+<div class="line"><a name="l00055" id="l00055"></a> <span class=
+"lineno">55</span>&nbsp;</div>
+<div class="line"><a name="l00065" id="l00065"></a> <span class=
+"lineno">65</span>&nbsp; Q_INVOKABLE <span class=
+"keywordtype">void</span> advertise(<a class="code" href=
+"classcutehmi_1_1Dialog.html">Dialog</a> * dialog_l);</div>
+<div class="line"><a name="l00066" id="l00066"></a> <span class=
+"lineno">66</span>&nbsp;</div>
+<div class="line"><a name="l00073" id="l00073"></a> <span class=
+"lineno">73</span>&nbsp; Q_INVOKABLE <span class=
+"keywordtype">void</span> resetAdvertiser(<a class="codeRef"
+doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *
+advertiser);</div>
+<div class="line"><a name="l00074" id="l00074"></a> <span class=
+"lineno">74</span>&nbsp;</div>
+<div class="line"><a name="l00075" id="l00075"></a> <span class=
+"lineno">75</span>&nbsp; signals:</div>
+<div class="line"><a name="l00082" id="l00082"></a> <span class=
+"lineno">82</span>&nbsp; <span class="keywordtype">void</span>
+dialogRequested(<a class="codeRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>
+dialog);</div>
+<div class="line"><a name="l00083" id="l00083"></a> <span class=
+"lineno">83</span>&nbsp;</div>
+<div class="line"><a name="l00084" id="l00084"></a> <span class=
+"lineno">84</span>&nbsp; <span class=
+"keyword">protected</span>:</div>
+<div class="line"><a name="l00085" id="l00085"></a> <span class=
+"lineno">85</span>&nbsp; <span class="keyword">explicit</span>
 <a class="code" href=
 "classcutehmi_1_1Dialogist.html">Dialogist</a>(<a class="codeRef"
 doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent =
 <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00053" id="l00053"></a> <span class=
-"lineno">53</span>&nbsp;</div>
-<div class="line"><a name="l00063" id="l00063"></a> <span class=
-"lineno">63</span>&nbsp; Q_INVOKABLE <span class=
-"keywordtype">void</span> advertise(<a class="code" href=
-"classcutehmi_1_1Dialog.html">Dialog</a> * dialog_l);</div>
-<div class="line"><a name="l00064" id="l00064"></a> <span class=
-"lineno">64</span>&nbsp;</div>
-<div class="line"><a name="l00071" id="l00071"></a> <span class=
-"lineno">71</span>&nbsp; Q_INVOKABLE <span class=
-"keywordtype">void</span> resetAdvertiser(<a class="codeRef"
-doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qobject.html">QObject</a> *
-advertiser);</div>
-<div class="line"><a name="l00072" id="l00072"></a> <span class=
-"lineno">72</span>&nbsp;</div>
-<div class="line"><a name="l00079" id="l00079"></a> <span class=
-"lineno">79</span>&nbsp; <a class="codeRef" doxygen=
-"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
-href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialog&gt;</a>
-note(<span class="keyword">const</span> <a class="codeRef" doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp; text,
-Dialog::Buttons buttons = <a class="code" href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa7edc58db9129a3ad40a4427f9f24dfaf">
-Dialog::BUTTON_OK</a>);</div>
-<div class="line"><a name="l00080" id="l00080"></a> <span class=
-"lineno">80</span>&nbsp;</div>
+<div class="line"><a name="l00086" id="l00086"></a> <span class=
+"lineno">86</span>&nbsp;</div>
 <div class="line"><a name="l00087" id="l00087"></a> <span class=
-"lineno">87</span>&nbsp; <a class="codeRef" doxygen=
-"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
-href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialog&gt;</a>
-warning(<span class="keyword">const</span> <a class="codeRef"
-doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp; text,
-Dialog::Buttons buttons = <a class="code" href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa7edc58db9129a3ad40a4427f9f24dfaf">
-Dialog::BUTTON_OK</a>);</div>
+"lineno"><a class="line" href=
+"structcutehmi_1_1Dialogist_1_1Members.html">87</a></span>&nbsp;
+<span class="keyword">struct</span> <a class="code" href=
+"structcutehmi_1_1Dialogist_1_1Members.html">Members</a></div>
 <div class="line"><a name="l00088" id="l00088"></a> <span class=
-"lineno">88</span>&nbsp;</div>
-<div class="line"><a name="l00095" id="l00095"></a> <span class=
-"lineno">95</span>&nbsp; <a class="codeRef" doxygen=
-"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
-href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialog&gt;</a>
-question(<span class="keyword">const</span> <a class="codeRef"
-doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp; text,
-Dialog::Buttons buttons = Dialog::Buttons{<a class="code" href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa90540d4ec6ea77bb829a063333420449">Dialog::BUTTON_YES</a>,
-<a class="code" href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa17e926f3b4ae4c23c00b4ea9a3c9d590">
-Dialog::BUTTON_NO</a>});</div>
-<div class="line"><a name="l00096" id="l00096"></a> <span class=
-"lineno">96</span>&nbsp;</div>
-<div class="line"><a name="l00103" id="l00103"></a> <span class=
-"lineno">103</span>&nbsp; <a class="codeRef" doxygen=
-"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
-href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialog&gt;</a>
-critical(<span class="keyword">const</span> <a class="codeRef"
-doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qstring.html">QString</a> &amp; text,
-Dialog::Buttons buttons = <a class="code" href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa7edc58db9129a3ad40a4427f9f24dfaf">
-Dialog::BUTTON_OK</a>);</div>
-<div class="line"><a name="l00104" id="l00104"></a> <span class=
-"lineno">104</span>&nbsp;</div>
-<div class="line"><a name="l00111" id="l00111"></a> <span class=
-"lineno">111</span>&nbsp; <a class="codeRef" doxygen=
-"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
-href=
-"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;Dialog&gt;</a>
-critical(<span class="keyword">const</span> <a class="code" href=
-"structcutehmi_1_1ErrorInfo.html">ErrorInfo</a> &amp; <a class=
-"code" href=
-"namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">errorInfo</a>,
-Dialog::Buttons buttons = <a class="code" href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa7edc58db9129a3ad40a4427f9f24dfaf">
-Dialog::BUTTON_OK</a>);</div>
-<div class="line"><a name="l00112" id="l00112"></a> <span class=
-"lineno">112</span>&nbsp;</div>
-<div class="line"><a name="l00113" id="l00113"></a> <span class=
-"lineno">113</span>&nbsp; signals:</div>
-<div class="line"><a name="l00120" id="l00120"></a> <span class=
-"lineno">120</span>&nbsp; <span class="keywordtype">void</span>
-dialogRequested(<a class="codeRef" doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qvariant.html">QVariant</a>
-dialog);</div>
-<div class="line"><a name="l00121" id="l00121"></a> <span class=
-"lineno">121</span>&nbsp;</div>
-<div class="line"><a name="l00122" id="l00122"></a> <span class=
-"lineno">122</span>&nbsp; <span class=
-"keyword">private</span>:</div>
-<div class="line"><a name="l00123" id="l00123"></a> <span class=
-"lineno">123</span>&nbsp; <span class="keyword">struct</span>
-Members</div>
-<div class="line"><a name="l00124" id="l00124"></a> <span class=
-"lineno">124</span>&nbsp; {</div>
-<div class="line"><a name="l00125" id="l00125"></a> <span class=
-"lineno">125</span>&nbsp; <a class="codeRef" doxygen=
+"lineno">88</span>&nbsp; {</div>
+<div class="line"><a name="l00089" id="l00089"></a> <span class=
+"lineno"><a class="line" href=
+"structcutehmi_1_1Dialogist_1_1Members.html#a7add63884ba6efa1338ceeae024670b2">
+89</a></span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qmutex.html">QMutex</a> requestMutex
 {};</div>
-<div class="line"><a name="l00126" id="l00126"></a> <span class=
-"lineno">126</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00090" id="l00090"></a> <span class=
+"lineno"><a class="line" href=
+"structcutehmi_1_1Dialogist_1_1Members.html#a964512692e493f56d495826715effbd5">
+90</a></span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * advertiser
 {<span class="keyword">nullptr</span>};</div>
-<div class="line"><a name="l00127" id="l00127"></a> <span class=
-"lineno">127</span>&nbsp; };</div>
-<div class="line"><a name="l00128" id="l00128"></a> <span class=
-"lineno">128</span>&nbsp;</div>
-<div class="line"><a name="l00129" id="l00129"></a> <span class=
-"lineno">129</span>&nbsp; MPtr&lt;Members&gt; m;</div>
-<div class="line"><a name="l00130" id="l00130"></a> <span class=
-"lineno">130</span>&nbsp;};</div>
-<div class="line"><a name="l00131" id="l00131"></a> <span class=
-"lineno">131</span>&nbsp;</div>
-<div class="line"><a name="l00132" id="l00132"></a> <span class=
-"lineno">132</span>&nbsp;}</div>
-<div class="line"><a name="l00133" id="l00133"></a> <span class=
-"lineno">133</span>&nbsp;</div>
-<div class="line"><a name="l00134" id="l00134"></a> <span class=
-"lineno">134</span>&nbsp;<span class=
+<div class="line"><a name="l00091" id="l00091"></a> <span class=
+"lineno">91</span>&nbsp; };</div>
+<div class="line"><a name="l00092" id="l00092"></a> <span class=
+"lineno">92</span>&nbsp;</div>
+<div class="line"><a name="l00093" id="l00093"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1Dialogist.html#a9a6e853ddf7932f2ceeae15aed42c284">93</a></span>&nbsp;
+<a class="code" href=
+"classcutehmi_1_1MPtr.html">MPtr&lt;Members&gt;</a> <a class="code"
+href=
+"classcutehmi_1_1Dialogist.html#a9a6e853ddf7932f2ceeae15aed42c284">m</a>;</div>
+<div class="line"><a name="l00094" id="l00094"></a> <span class=
+"lineno">94</span>&nbsp;};</div>
+<div class="line"><a name="l00095" id="l00095"></a> <span class=
+"lineno">95</span>&nbsp;</div>
+<div class="line"><a name="l00096" id="l00096"></a> <span class=
+"lineno">96</span>&nbsp;}</div>
+<div class="line"><a name="l00097" id="l00097"></a> <span class=
+"lineno">97</span>&nbsp;</div>
+<div class="line"><a name="l00098" id="l00098"></a> <span class=
+"lineno">98</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00135" id="l00135"></a> <span class=
-"lineno">135</span>&nbsp;</div>
-<div class="line"><a name="l00136" id="l00136"></a> <span class=
-"lineno">136</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+<div class="line"><a name="l00099" id="l00099"></a> <span class=
+"lineno">99</span>&nbsp;</div>
+<div class="line"><a name="l00100" id="l00100"></a> <span class=
+"lineno">100</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
 2019, Michal Policht. All rights reserved.</span></div>
-<div class="line"><a name="l00137" id="l00137"></a> <span class=
-"lineno">137</span>&nbsp;<span class="comment">//(c)MP: This Source
+<div class="line"><a name="l00101" id="l00101"></a> <span class=
+"lineno">101</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
@@ -414,55 +370,47 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "http://doc.qt.io/qt-5/qmutex.html">QMutex</a></div>
 </div>
 <div class="ttc" id=
-"namespacecutehmi_html_ae3b13288afce025ac92a12a65589f8e6">
-<div class="ttname"><a href=
-"namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">cutehmi::errorInfo</a></div>
-<div class="ttdeci">ErrorInfo errorInfo(ERR err)</div>
-<div class="ttdoc">Get error info.</div>
-<div class="ttdef"><b>Definition:</b> ErrorInfo.hpp:36</div>
-</div>
-<div class="ttc" id=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException_html">
 <div class="ttname"><a href=
 "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html">cutehmi::Dialogist::NoAdvertiserException</a></div>
 <div class="ttdoc">No advertiser exception.</div>
-<div class="ttdef"><b>Definition:</b> Dialogist.hpp:25</div>
+<div class="ttdef"><b>Definition:</b> Dialogist.hpp:29</div>
 </div>
 <div class="ttc" id="classcutehmi_1_1MPtr_html">
 <div class="ttname"><a href=
 "classcutehmi_1_1MPtr.html">cutehmi::MPtr&lt; Members
 &gt;</a></div>
 </div>
-<div class="ttc" id=
-"classcutehmi_1_1Dialog_html_a66851fd2528176015d6eb9752d7c722fa17e926f3b4ae4c23c00b4ea9a3c9d590">
+<div class="ttc" id="structcutehmi_1_1Dialogist_1_1Members_html">
 <div class="ttname"><a href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa17e926f3b4ae4c23c00b4ea9a3c9d590">
-cutehmi::Dialog::BUTTON_NO</a></div>
-<div class="ttdef"><b>Definition:</b> Dialog.hpp:54</div>
+"structcutehmi_1_1Dialogist_1_1Members.html">cutehmi::Dialogist::Members</a></div>
+<div class="ttdef"><b>Definition:</b> Dialogist.hpp:87</div>
 </div>
 <div class="ttc" id="qobject_html">
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
 </div>
+<div class="ttc" id="classcutehmi_1_1Singleton_html">
+<div class="ttname"><a href=
+"classcutehmi_1_1Singleton.html">cutehmi::Singleton</a></div>
+<div class="ttdoc">Singleton template.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:19</div>
+</div>
 <div class="ttc" id="namespacecutehmi_html">
 <div class="ttname"><a href=
 "namespacecutehmi.html">cutehmi</a></div>
-<div class="ttdef"><b>Definition:</b> CuteHMI.hpp:10</div>
-</div>
-<div class="ttc" id="qstring_html">
-<div class="ttname"><a href=
-"http://doc.qt.io/qt-5/qstring.html">QString</a></div>
+<div class="ttdef"><b>Definition:</b> Dialog.hpp:14</div>
 </div>
 <div class="ttc" id="unique_ptr_html">
 <div class="ttname"><a href=
 "https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a></div>
 </div>
 <div class="ttc" id=
-"classcutehmi_1_1Dialog_html_a66851fd2528176015d6eb9752d7c722fa7edc58db9129a3ad40a4427f9f24dfaf">
+"classcutehmi_1_1Dialogist_html_a9a6e853ddf7932f2ceeae15aed42c284">
 <div class="ttname"><a href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa7edc58db9129a3ad40a4427f9f24dfaf">
-cutehmi::Dialog::BUTTON_OK</a></div>
-<div class="ttdef"><b>Definition:</b> Dialog.hpp:41</div>
+"classcutehmi_1_1Dialogist.html#a9a6e853ddf7932f2ceeae15aed42c284">cutehmi::Dialogist::m</a></div>
+<div class="ttdeci">MPtr&lt; Members &gt; m</div>
+<div class="ttdef"><b>Definition:</b> Dialogist.hpp:93</div>
 </div>
 <div class="ttc" id="classcutehmi_1_1Dialog_html">
 <div class="ttname"><a href=
@@ -470,24 +418,11 @@ cutehmi::Dialog::BUTTON_OK</a></div>
 <div class="ttdoc">Dialog message.</div>
 <div class="ttdef"><b>Definition:</b> Dialog.hpp:19</div>
 </div>
-<div class="ttc" id="structcutehmi_1_1ErrorInfo_html">
-<div class="ttname"><a href=
-"structcutehmi_1_1ErrorInfo.html">cutehmi::ErrorInfo</a></div>
-<div class="ttdoc">Error info.</div>
-<div class="ttdef"><b>Definition:</b> ErrorInfo.hpp:17</div>
-</div>
-<div class="ttc" id=
-"classcutehmi_1_1Dialog_html_a66851fd2528176015d6eb9752d7c722fa90540d4ec6ea77bb829a063333420449">
-<div class="ttname"><a href=
-"classcutehmi_1_1Dialog.html#a66851fd2528176015d6eb9752d7c722fa90540d4ec6ea77bb829a063333420449">
-cutehmi::Dialog::BUTTON_YES</a></div>
-<div class="ttdef"><b>Definition:</b> Dialog.hpp:52</div>
-</div>
 <div class="ttc" id="classcutehmi_1_1Dialogist_html">
 <div class="ttname"><a href=
 "classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></div>
 <div class="ttdoc">Dialogist.</div>
-<div class="ttdef"><b>Definition:</b> Dialogist.hpp:16</div>
+<div class="ttdef"><b>Definition:</b> Dialogist.hpp:17</div>
 </div>
 <div class="ttc" id="classcutehmi_1_1ExceptionMixin_html">
 <div class="ttname"><a href=

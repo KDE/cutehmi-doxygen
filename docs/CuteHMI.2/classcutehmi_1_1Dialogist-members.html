@@ -264,23 +264,6 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 "mlabel">virtual</span></td>
 </tr>
 <tr>
-<td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html#a745db5eb203147673438ad7351218c99">critical</a>(const
-QString &amp;text, Dialog::Buttons buttons=Dialog::BUTTON_OK)</td>
-<td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
-<td class="entry"></td>
-</tr>
-<tr class="even">
-<td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html#a7fecff6d8116a25faf48c150a529003b">critical</a>(const
-ErrorInfo &amp;errorInfo, Dialog::Buttons
-buttons=Dialog::BUTTON_OK)</td>
-<td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
-<td class="entry"></td>
-</tr>
-<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#customEvent">customEvent</a>(QEvent
@@ -301,6 +284,14 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
 <tr>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html#a667d420ad04fa93527f7e99c10d0aa8e">Destroy</a>()</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html">cutehmi::Singleton&lt; Dialogist
+&gt;</a></td>
+<td class="entry"><span class="mlabel">static</span></td>
+</tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#destroyed">destroyed</a>(QObject
@@ -310,15 +301,16 @@ href="http://doc.qt.io/qt-5/qobject.html#destroyed">destroyed</a>(QObject
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="el" href=
 "classcutehmi_1_1Dialogist.html#ae46d44b327c3987ae3d5fa34d307d50b">Dialogist</a>(QObject
 *parent=nullptr)</td>
 <td class="entry"><a class="el" href=
 "classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
-<td class="entry"><span class="mlabel">explicit</span></td>
+<td class="entry"><span class="mlabel">explicit</span><span class=
+"mlabel">protected</span></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="el" href=
 "classcutehmi_1_1Dialogist.html#a351851fcb0449e3b676c326411bc645a">dialogRequested</a>(QVariant
 dialog)</td>
@@ -326,7 +318,7 @@ dialog)</td>
 "classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
 <td class="entry"><span class="mlabel">signal</span></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnect">disconnect</a>(const
@@ -337,7 +329,7 @@ char *method)</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">static</span></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnect-1">disconnect</a>(const
@@ -348,7 +340,7 @@ QObject *sender, const QMetaMethod &amp;signal, const QObject
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">static</span></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnect-2">disconnect</a>(const
@@ -359,7 +351,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnect-3">disconnect</a>(const
@@ -369,7 +361,7 @@ QObject *receiver, const char *method) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnect-4">disconnect</a>(const
@@ -379,7 +371,7 @@ QMetaObject::Connection &amp;connection)</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">static</span></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnect-5">disconnect</a>(const
@@ -390,7 +382,7 @@ QObject *sender, PointerToMemberFunction signal, const QObject
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">static</span></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#disconnectNotify">disconnectNotify</a>(const
@@ -401,7 +393,7 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">protected</span><span class=
 "mlabel">virtual</span></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectInfo-1">
@@ -411,7 +403,7 @@ dumpObjectInfo</a>()</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#dumpObjectInfo">dumpObjectInfo</a>()
@@ -421,7 +413,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject-obsolete.html#dumpObjectTree-1">
@@ -431,7 +423,7 @@ dumpObjectTree</a>()</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#dumpObjectTree">dumpObjectTree</a>()
@@ -441,7 +433,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#dynamicPropertyNames">dynamicPropertyNames</a>()
@@ -451,7 +443,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#event">event</a>(QEvent
@@ -461,7 +453,7 @@ href="http://doc.qt.io/qt-5/qobject.html#event">event</a>(QEvent
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">virtual</span></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#eventFilter">eventFilter</a>(QObject
@@ -471,7 +463,7 @@ href="http://doc.qt.io/qt-5/qobject.html#eventFilter">eventFilter</a>(QObject
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">virtual</span></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#findChild">findChild</a>(const
@@ -481,7 +473,7 @@ QString &amp;name, Qt::FindChildOptions options) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#findChildren">findChildren</a>(const
@@ -491,7 +483,7 @@ QString &amp;name, Qt::FindChildOptions options) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#findChildren-1">findChildren</a>(const
@@ -501,7 +493,7 @@ QRegExp &amp;regExp, Qt::FindChildOptions options) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#findChildren-2">findChildren</a>(const
@@ -512,7 +504,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#inherits">inherits</a>(const
@@ -522,7 +514,7 @@ char *className) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#installEventFilter">installEventFilter</a>(QObject
@@ -532,7 +524,24 @@ href="http://doc.qt.io/qt-5/qobject.html#installEventFilter">installEventFilter<
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
+<tr>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html#a9ea1159ae0fd584ee86839d55b0ea350">Instance</a>()</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html">cutehmi::Singleton&lt; Dialogist
+&gt;</a></td>
+<td class="entry"><span class="mlabel">static</span></td>
+</tr>
 <tr class="even">
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html#a57117815869b69075ead9c5538d104a1">InstancePtr</a>()</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html">cutehmi::Singleton&lt; Dialogist
+&gt;</a></td>
+<td class="entry"><span class="mlabel">protected</span><span class=
+"mlabel">static</span></td>
+</tr>
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#isSignalConnected">isSignalConnected</a>(const
@@ -542,7 +551,7 @@ QMetaMethod &amp;signal) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">protected</span></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#isWidgetType">isWidgetType</a>()
@@ -552,7 +561,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#isWindowType">isWindowType</a>()
@@ -562,7 +571,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#killTimer">killTimer</a>(int
@@ -571,6 +580,13 @@ id)</td>
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
+</tr>
+<tr>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Dialogist.html#a9a6e853ddf7932f2ceeae15aed42c284">m</a></td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
 </tr>
 <tr class="even">
 <td class="entry"><a class="elRef" doxygen=
@@ -594,11 +610,27 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 </tr>
 <tr class="even">
 <td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html#ad41d747ae3c5e8ab04a45ff367288b5f">note</a>(const
-QString &amp;text, Dialog::Buttons buttons=Dialog::BUTTON_OK)</td>
+"classcutehmi_1_1NonCopyable.html#a2f6c564c09a9df54babff815d8dea1c6">
+NonCopyable</a>()=default</td>
 <td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
-<td class="entry"></td>
+"classcutehmi_1_1NonCopyable.html">cutehmi::NonCopyable</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
+</tr>
+<tr>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1NonCopyable.html#acc656e9b1dacece5c579fe89e6383411">
+NonCopyable</a>(NonCopyable &amp;&amp;other)=default</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1NonCopyable.html">cutehmi::NonCopyable</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
+</tr>
+<tr class="even">
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1NonMovable.html#a91e73eb6e174aad94d4ac342562d4db6">
+NonMovable</a>()=default</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1NonMovable.html">cutehmi::NonMovable</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
 </tr>
 <tr>
 <td class="entry"><a class="elRef" doxygen=
@@ -630,6 +662,14 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
 <tr class="even">
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1NonCopyable.html#aaa4060adfa465315584ed3407380fdbd">
+cutehmi::operator=</a>(NonCopyable &amp;&amp;other)=default</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1NonCopyable.html">cutehmi::NonCopyable</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
+</tr>
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#parent">parent</a>()
@@ -639,7 +679,7 @@ const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr>
+<tr class="even">
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#property">property</a>(const
@@ -649,7 +689,7 @@ char *name) const</td>
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
-<tr class="even">
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#QObject">QObject</a>(QObject
@@ -657,16 +697,6 @@ href="http://doc.qt.io/qt-5/qobject.html#QObject">QObject</a>(QObject
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
-<td class="entry"></td>
-</tr>
-<tr>
-<td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html#a3193a571dd5d79d7e429d45d28d29d3f">question</a>(const
-QString &amp;text, Dialog::Buttons
-buttons=Dialog::Buttons{Dialog::BUTTON_YES,
-Dialog::BUTTON_NO})</td>
-<td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
 <td class="entry"></td>
 </tr>
 <tr class="even">
@@ -758,6 +788,22 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"></td>
 </tr>
 <tr>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html#a8149413207ab4dbec0c0c3f5d320c196">Singleton</a>()</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html">cutehmi::Singleton&lt; Dialogist
+&gt;</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
+</tr>
+<tr class="even">
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Dialogist.html#a6fac347ebc68fac79be64ccbb2f1d0b7">Singleton&lt;
+Dialogist &gt;</a> class</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
+<td class="entry"><span class="mlabel">friend</span></td>
+</tr>
+<tr>
 <td class="entry"><a class="elRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html#startTimer">startTimer</a>(int
@@ -820,11 +866,11 @@ href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 </tr>
 <tr>
 <td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html#afe60e335cdeec81b8e429ca085fa1ebb">warning</a>(const
-QString &amp;text, Dialog::Buttons buttons=Dialog::BUTTON_OK)</td>
+"classcutehmi_1_1NonCopyable.html#a0928f59060965f8b1f460dcb92cc7a99">
+~NonCopyable</a>()=default</td>
 <td class="entry"><a class="el" href=
-"classcutehmi_1_1Dialogist.html">cutehmi::Dialogist</a></td>
-<td class="entry"></td>
+"classcutehmi_1_1NonCopyable.html">cutehmi::NonCopyable</a></td>
+<td class="entry"><span class="mlabel">protected</span></td>
 </tr>
 <tr class="even">
 <td class="entry"><a class="elRef" doxygen=
@@ -834,6 +880,15 @@ href="http://doc.qt.io/qt-5/qobject.html#dtor.QObject">~QObject</a>()</td>
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td>
 <td class="entry"><span class="mlabel">virtual</span></td>
+</tr>
+<tr>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html#a02491067068592067f7f37eff2e23974">~Singleton</a>()</td>
+<td class="entry"><a class="el" href=
+"classcutehmi_1_1Singleton.html">cutehmi::Singleton&lt; Dialogist
+&gt;</a></td>
+<td class="entry"><span class="mlabel">protected</span><span class=
+"mlabel">virtual</span></td>
 </tr>
 </table>
 </div>

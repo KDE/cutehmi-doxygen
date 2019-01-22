@@ -193,56 +193,65 @@ str</a>;</div>
 <div class="line"><a name="l00022" id="l00022"></a> <span class=
 "lineno">22</span>&nbsp;</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp; <a class="codeRef" doxygen=
+"lineno">27</span>&nbsp; <span class="keyword">static</span>
+<span class="keywordtype">int</span> RegisterMetaType()
+noexcept;</div>
+<div class="line"><a name="l00028" id="l00028"></a> <span class=
+"lineno">28</span>&nbsp;</div>
+<div class="line"><a name="l00033" id="l00033"></a> <span class=
+"lineno">33</span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> toString()
-<span class="keyword">const</span>;</div>
-<div class="line"><a name="l00028" id="l00028"></a> <span class=
-"lineno">28</span>&nbsp;};</div>
-<div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp;</div>
+const;</div>
+<div class="line"><a name="l00034" id="l00034"></a> <span class=
+"lineno">34</span>&nbsp;};</div>
 <div class="line"><a name="l00035" id="l00035"></a> <span class=
-"lineno">35</span>&nbsp;<span class="keyword">template</span>
-&lt;<span class="keyword">typename</span> ERR&gt;</div>
-<div class="line"><a name="l00036" id="l00036"></a> <span class=
+"lineno">35</span>&nbsp;</div>
+<div class="line"><a name="l00042" id="l00042"></a> <span class=
+"lineno">42</span>&nbsp;template &lt;typename ERR&gt;</div>
+<div class="line"><a name="l00043" id="l00043"></a> <span class=
 "lineno"><a class="line" href=
-"namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">36</a></span>&nbsp;<a class="code"
+"namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">43</a></span>&nbsp;<a class="code"
 href="structcutehmi_1_1ErrorInfo.html">ErrorInfo</a> <a class=
 "code" href=
 "namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">errorInfo</a>(ERR
 err)</div>
-<div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp;{</div>
-<div class="line"><a name="l00038" id="l00038"></a> <span class=
-"lineno">38</span>&nbsp; <span class="keywordflow">return</span>
+<div class="line"><a name="l00044" id="l00044"></a> <span class=
+"lineno">44</span>&nbsp;{</div>
+<div class="line"><a name="l00045" id="l00045"></a> <span class=
+"lineno">45</span>&nbsp; <a class="code" href=
+"structcutehmi_1_1ErrorInfo.html#a42865f9524759f2a48f9bd3a755b9420">
+ErrorInfo::RegisterMetaType</a>();</div>
+<div class="line"><a name="l00046" id="l00046"></a> <span class=
+"lineno">46</span>&nbsp; <span class="keywordflow">return</span>
 <a class="code" href=
 "structcutehmi_1_1ErrorInfo.html">ErrorInfo</a>{err.<a class="code"
 href=
 "structcutehmi_1_1ErrorInfo.html#ae0156ec3ed8365be22bb1b4d1d100ec5">code</a>(),
 <span class="keyword">typeid</span>(ERR).name(), err.str()};</div>
-<div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp;}</div>
-<div class="line"><a name="l00040" id="l00040"></a> <span class=
-"lineno">40</span>&nbsp;</div>
-<div class="line"><a name="l00041" id="l00041"></a> <span class=
-"lineno">41</span>&nbsp;}</div>
-<div class="line"><a name="l00042" id="l00042"></a> <span class=
-"lineno">42</span>&nbsp;</div>
-<div class="line"><a name="l00043" id="l00043"></a> <span class=
-"lineno">43</span>&nbsp;Q_DECLARE_METATYPE(<a class="code" href=
-"structcutehmi_1_1ErrorInfo.html">cutehmi::ErrorInfo</a>)</div>
-<div class="line"><a name="l00044" id="l00044"></a> <span class=
-"lineno">44</span>&nbsp;</div>
-<div class="line"><a name="l00045" id="l00045"></a> <span class=
-"lineno">45</span>&nbsp;<span class=
-"preprocessor">#endif</span></div>
-<div class="line"><a name="l00046" id="l00046"></a> <span class=
-"lineno">46</span>&nbsp;</div>
 <div class="line"><a name="l00047" id="l00047"></a> <span class=
-"lineno">47</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
-2019, Michal Policht. All rights reserved.</span></div>
+"lineno">47</span>&nbsp;}</div>
 <div class="line"><a name="l00048" id="l00048"></a> <span class=
-"lineno">48</span>&nbsp;<span class="comment">//(c)MP: This Source
+"lineno">48</span>&nbsp;</div>
+<div class="line"><a name="l00049" id="l00049"></a> <span class=
+"lineno">49</span>&nbsp;}</div>
+<div class="line"><a name="l00050" id="l00050"></a> <span class=
+"lineno">50</span>&nbsp;</div>
+<div class="line"><a name="l00051" id="l00051"></a> <span class=
+"lineno">51</span>&nbsp;Q_DECLARE_METATYPE(<a class="code" href=
+"structcutehmi_1_1ErrorInfo.html">cutehmi::ErrorInfo</a>)</div>
+<div class="line"><a name="l00052" id="l00052"></a> <span class=
+"lineno">52</span>&nbsp;</div>
+<div class="line"><a name="l00053" id="l00053"></a> <span class=
+"lineno">53</span>&nbsp;<span class=
+"preprocessor">#endif</span></div>
+<div class="line"><a name="l00054" id="l00054"></a> <span class=
+"lineno">54</span>&nbsp;</div>
+<div class="line"><a name="l00055" id="l00055"></a> <span class=
+"lineno">55</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+2019, Michal Policht. All rights reserved.</span></div>
+<div class="line"><a name="l00056" id="l00056"></a> <span class=
+"lineno">56</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
@@ -252,7 +261,17 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "namespacecutehmi.html#ae3b13288afce025ac92a12a65589f8e6">cutehmi::errorInfo</a></div>
 <div class="ttdeci">ErrorInfo errorInfo(ERR err)</div>
 <div class="ttdoc">Get error info.</div>
-<div class="ttdef"><b>Definition:</b> ErrorInfo.hpp:36</div>
+<div class="ttdef"><b>Definition:</b> ErrorInfo.hpp:43</div>
+</div>
+<div class="ttc" id=
+"structcutehmi_1_1ErrorInfo_html_a42865f9524759f2a48f9bd3a755b9420">
+<div class="ttname"><a href=
+"structcutehmi_1_1ErrorInfo.html#a42865f9524759f2a48f9bd3a755b9420">
+cutehmi::ErrorInfo::RegisterMetaType</a></div>
+<div class="ttdeci">static int RegisterMetaType() noexcept</div>
+<div class="ttdoc">Register this class as meta type and return its
+metatype type id.</div>
+<div class="ttdef"><b>Definition:</b> ErrorInfo.cpp:5</div>
 </div>
 <div class="ttc" id=
 "structcutehmi_1_1ErrorInfo_html_addce052016813ca52f624921f8046c7f">
@@ -266,7 +285,7 @@ cutehmi::ErrorInfo::str</a></div>
 <div class="ttc" id="namespacecutehmi_html">
 <div class="ttname"><a href=
 "namespacecutehmi.html">cutehmi</a></div>
-<div class="ttdef"><b>Definition:</b> CuteHMI.hpp:10</div>
+<div class="ttdef"><b>Definition:</b> Dialog.hpp:14</div>
 </div>
 <div class="ttc" id=
 "structcutehmi_1_1ErrorInfo_html_a8cf2fe1e015f8c5e6409eb8fda22bde2">

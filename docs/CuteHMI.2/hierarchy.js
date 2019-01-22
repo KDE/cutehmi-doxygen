@@ -10,11 +10,20 @@ var hierarchy =
         [ "CuteHMI::NumberDisplay", "classCuteHMI_1_1NumberDisplay.html", null ]
       ] ]
     ] ],
+    [ "cutehmi::Dialogist::Members", "structcutehmi_1_1Dialogist_1_1Members.html", null ],
     [ "cutehmi::NonCopyable", "classcutehmi_1_1NonCopyable.html", [
-      [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ]
+      [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ],
+      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1Singleton.html", [
+        [ "cutehmi::Dialogist", "classcutehmi_1_1Dialogist.html", null ]
+      ] ],
+      [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1Singleton.html", [
+        [ "cutehmi::Notifier", "classcutehmi_1_1Notifier.html", null ]
+      ] ]
     ] ],
     [ "cutehmi::NonMovable", "classcutehmi_1_1NonMovable.html", [
-      [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ]
+      [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ],
+      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1Singleton.html", null ],
+      [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1Singleton.html", null ]
     ] ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1Worker_1_1WorkEvent.html", null ]
@@ -31,7 +40,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
-      [ "cutehmi::CuteHMI", "classcutehmi_1_1CuteHMI.html", null ],
       [ "cutehmi::Dialog", "classcutehmi_1_1Dialog.html", null ],
       [ "cutehmi::Dialogist", "classcutehmi_1_1Dialogist.html", null ],
       [ "cutehmi::Notification", "classcutehmi_1_1Notification.html", null ],
@@ -49,6 +57,9 @@ var hierarchy =
     [ "QtObject", null, [
       [ "CuteHMI::ColorSet", "classCuteHMI_1_1ColorSet.html", null ],
       [ "CuteHMI::Palette", "classCuteHMI_1_1Palette.html", null ]
+    ] ],
+    [ "std::unique_ptr< cutehmi::Dialogist::Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
+      [ "cutehmi::MPtr< cutehmi::Dialogist::Members >", "classcutehmi_1_1MPtr.html", null ]
     ] ],
     [ "std::unique_ptr< Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
       [ "cutehmi::MPtr< Members >", "classcutehmi_1_1MPtr.html", null ]

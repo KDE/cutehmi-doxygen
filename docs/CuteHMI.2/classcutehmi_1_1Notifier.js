@@ -7,6 +7,7 @@ var classcutehmi_1_1Notifier =
     [ "maxNotificationsChanged", "classcutehmi_1_1Notifier.html#af461fdacad53d966724930b3ce9d43a9", null ],
     [ "model", "classcutehmi_1_1Notifier.html#a370b7e08ed1e5ee7a7abec6e19634868", null ],
     [ "setMaxNotifications", "classcutehmi_1_1Notifier.html#a98ef04ef244b73582844938d6d416808", null ],
+    [ "Singleton< Notifier >", "classcutehmi_1_1Notifier.html#a3b622a7382088d8fe59f96206290a916", null ],
     [ "maxNotifications", "classcutehmi_1_1Notifier.html#a8fb5822ae64721e6b043e2ed6b0a8898", null ],
     [ "model", "classcutehmi_1_1Notifier.html#a9d395150be8eae3df09b68c460d634cd", null ]
 ];

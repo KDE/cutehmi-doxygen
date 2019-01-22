@@ -85,6 +85,7 @@ var searchData=
   ['adopt_5flock_5ft',['adopt_lock_t',['https://en.cppreference.com/w/cpp/thread/lock_tag_t.html',1,'std']]],
   ['advance',['advance',['https://en.cppreference.com/w/cpp/iterator/advance.html',1,'std']]],
   ['advertise',['advertise',['../classcutehmi_1_1Dialogist.html#ab220f7cd832c25e963e0d1f7a8af021e',1,'cutehmi::Dialogist']]],
+  ['advertiser',['advertiser',['../structcutehmi_1_1Dialogist_1_1Members.html#a964512692e493f56d495826715effbd5',1,'cutehmi::Dialogist::Members']]],
   ['alarm',['alarm',['../classCuteHMI_1_1Element.html#aee8d0fb1f5e262b12fc3e77ec992b8ad',1,'CuteHMI::Element::alarm()'],['../classCuteHMI_1_1Palette.html#aff2607afdd3166c64a7faec3da116e81',1,'CuteHMI::Palette::alarm()']]],
   ['algorithm',['algorithm',['http://doc.qt.io/qt-5/qsslkey.html#algorithm',1,'QSslKey']]],
   ['aliases',['aliases',['http://doc.qt.io/qt-5/qtextcodec.html#aliases',1,'QTextCodec::aliases()'],['http://doc.qt.io/qt-5/qmimetype.html#aliases',1,'QMimeType::aliases()']]],

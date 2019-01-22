@@ -111,4 +111,5 @@ var menudata={children:[
 {text:"t",url:"functions_prop.html#index_t"},
 {text:"u",url:"functions_prop.html#index_u"},
 {text:"v",url:"functions_prop.html#index_v"},
-{text:"w",url:"functions_prop.html#index_w"}]}]}]}]}
+{text:"w",url:"functions_prop.html#index_w"}]},
+{text:"Related Functions",url:"functions_rela.html"}]}]}]}

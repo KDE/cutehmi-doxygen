@@ -14,6 +14,8 @@ var NAVTREEINDEX0 =
 "classcutehmi_1_1daemon_1_1EngineThread.html":[5,0,0,0,3],
 "classcutehmi_1_1daemon_1_1EngineThread.html#a45fc0c1f47b65670af959b4f891b3af9":[5,0,0,0,3,1],
 "classcutehmi_1_1daemon_1_1EngineThread.html#ab597b1c6c4e81733ec8c47f270652658":[5,0,0,0,3,0],
+"classcutehmi_1_1daemon_1_1Exception.html":[5,0,0,0,4],
+"classcutehmi_1_1daemon_1_1Exception.html#ae45c005f1d69d8ac0fc7450e04a37c50":[5,0,0,0,4,0],
 "classcutehmi_1_1daemon_1_1__Daemon.html":[5,0,0,0,0],
 "classcutehmi_1_1daemon_1_1__Daemon.html#a282639efb55c7cb89373cef004430a77":[5,0,0,0,0,4],
 "classcutehmi_1_1daemon_1_1__Daemon.html#aace2de425b680f26112d77cdef6cba62":[5,0,0,0,0,1],

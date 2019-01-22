@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['https://en.cppreference.com/w/cpp/numeric/random/lognormal_distribution/params.html',1,'std::lognormal_distribution::m()'],['https://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',1,'std::fisher_f_distribution::m()']]],
+  ['m',['m',['../../CuteHMI.2/classcutehmi_1_1Dialogist.html#a9a6e853ddf7932f2ceeae15aed42c284',1,'cutehmi::Dialogist::m()'],['https://en.cppreference.com/w/cpp/numeric/random/lognormal_distribution/params.html',1,'std::lognormal_distribution::m()'],['https://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',1,'std::fisher_f_distribution::m()']]],
   ['machine',['machine',['http://doc.qt.io/qt-5/qabstractstate.html#machine',1,'QAbstractState::machine()'],['http://doc.qt.io/qt-5/qabstracttransition.html#machine',1,'QAbstractTransition::machine()']]],
   ['machinehostname',['machineHostName',['http://doc.qt.io/qt-5/qsysinfo.html#machineHostName',1,'QSysInfo']]],
   ['macversion',['macVersion',['http://doc.qt.io/qt-5/qsysinfo-obsolete.html#macVersion',1,'QSysInfo']]],
@@ -76,6 +76,7 @@ var searchData=
   ['measurementsystem',['measurementSystem',['http://doc.qt.io/qt-5/qlocale.html#measurementSystem',1,'QLocale']]],
   ['mega',['mega',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['mem_5ffn',['mem_fn',['https://en.cppreference.com/w/cpp/utility/functional/mem_fn.html',1,'std']]],
+  ['members',['Members',['../../CuteHMI.2/structcutehmi_1_1Dialogist_1_1Members.html',1,'cutehmi::Dialogist']]],
   ['memchr',['memchr',['https://en.cppreference.com/w/cpp/string/byte/memchr.html',1,'std']]],
   ['memcmp',['memcmp',['https://en.cppreference.com/w/cpp/string/byte/memcmp.html',1,'std']]],
   ['memcpy',['memcpy',['https://en.cppreference.com/w/cpp/string/byte/memcpy.html',1,'std']]],
@@ -170,6 +171,7 @@ var searchData=
   ['movetopright',['moveTopRight',['http://doc.qt.io/qt-5/qrect.html#moveTopRight',1,'QRect::moveTopRight()'],['http://doc.qt.io/qt-5/qrectf.html#moveTopRight',1,'QRectF::moveTopRight()']]],
   ['movetothread',['moveToThread',['http://doc.qt.io/qt-5/qobject.html#moveToThread',1,'QObject']]],
   ['mptr',['MPtr',['../../CuteHMI.2/classcutehmi_1_1MPtr.html',1,'cutehmi']]],
+  ['mptr_3c_20cutehmi_3a_3adialogist_3a_3amembers_20_3e',['MPtr&lt; cutehmi::Dialogist::Members &gt;',['../../CuteHMI.2/classcutehmi_1_1MPtr.html',1,'MPtr&lt; cutehmi::Dialogist::Members &gt;'],['../../CuteHMI.2/classcutehmi_1_1MPtr.html',1,'cutehmi::MPtr&lt; cutehmi::Dialogist::Members &gt;']]],
   ['mptr_3c_20members_20_3e',['MPtr&lt; Members &gt;',['../../CuteHMI.2/classcutehmi_1_1MPtr.html',1,'']]],
   ['msec',['msec',['http://doc.qt.io/qt-5/qtime.html#msec',1,'QTime']]],
   ['msecssincereference',['msecsSinceReference',['http://doc.qt.io/qt-5/qelapsedtimer.html#msecsSinceReference',1,'QElapsedTimer']]],
