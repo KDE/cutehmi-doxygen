@@ -468,14 +468,19 @@ should take care about this function.</dd>
 function, which destroys all singletons, that inherit after this
 class, at once.</dd>
 </dl>
-<p>{<a class="el" href="classcutehmi_1_1Singleton.html" title=
-"Singleton template. ">cutehmi::Singleton</a>-singleton_class_will_not_call_Destroy_from_destructor}
+<dl class="assumptions">
+<dt><b><a class="el" href=
+"assumptions.html#_assumptions000001">Assumption:</a></b></dt>
+<dd>
+<b>"cutehmi::Singleton-singleton_class_will_not_call_Destroy_from_destructor"</b><br />
+
 <a class="el" href="classcutehmi_1_1Singleton.html" title=
 "Singleton template. ">Singleton</a> class can not call <a class=
 "el" href=
 "classcutehmi_1_1Singleton.html#a667d420ad04fa93527f7e99c10d0aa8e"
 title="Destroy instance. ">Destroy()</a> functions from its
-destructor (neither its own nor of another class).</p>
+destructor (neither its own nor of another class).</dd>
+</dl>
 <dl class="section see">
 <dt>See also</dt>
 <dd><a class="el" href=

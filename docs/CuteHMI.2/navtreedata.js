@@ -29,6 +29,7 @@ var NAVTREE =
     [ "Tools", "../tools_list.html", null ],
     [ "CuteHMI - [Core]", "index.html", null ],
     [ "Principles", "principles.html", null ],
+    [ "Assumptions", "assumptions.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -58,7 +59,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../extensions_list.html",
-"functions_w.html"
+"functions_vars.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
