@@ -10,8 +10,8 @@
 <meta name="generator" content="Doxygen 1.8.14" />
 <meta name="viewport" content=
 "width=device-width, initial-scale=1" />
-<title>CuteHMI - CuteHMI (CuteHMI.2):
-include/cutehmi/internal/singleton.hpp Source File</title>
+<title>CuteHMI - CuteHMI (CuteHMI.2): include/cutehmi/Singleton.hpp
+Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="jquery.js">
 </script>
@@ -126,7 +126,7 @@ frameborder="0" name="MSearchResults" id=
 "MSearchResults"></iframe></div>
 <div class="header">
 <div class="headertitle">
-<div class="title">singleton.hpp</div>
+<div class="title">Singleton.hpp</div>
 </div>
 </div>
 <!--header-->
@@ -134,77 +134,284 @@ frameborder="0" name="MSearchResults" id=
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
-H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_INTERNAL_SINGLETON_HPP</span></div>
+H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_SINGLETON_HPP</span></div>
 <div class="line"><a name="l00002" id="l00002"></a> <span class=
 "lineno">2</span>&nbsp;<span class="preprocessor">#define
-H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_INTERNAL_SINGLETON_HPP</span></div>
+H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_SINGLETON_HPP</span></div>
 <div class="line"><a name="l00003" id="l00003"></a> <span class=
 "lineno">3</span>&nbsp;</div>
 <div class="line"><a name="l00004" id="l00004"></a> <span class=
 "lineno">4</span>&nbsp;<span class="preprocessor">#include
-"platform.hpp"</span></div>
+"NonCopyable.hpp"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
-"lineno">5</span>&nbsp;</div>
+"lineno">5</span>&nbsp;<span class="preprocessor">#include
+"NonMovable.hpp"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
-"lineno">6</span>&nbsp;</div>
+"lineno">6</span>&nbsp;<span class="preprocessor">#include
+"internal/common.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
-"lineno">7</span>&nbsp;<span class="keyword">namespace</span>
-<a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
+"lineno">7</span>&nbsp;<span class="preprocessor">#include
+"internal/singleton.hpp"</span></div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
-"lineno"><a class="line" href=
-"namespacecutehmi_1_1internal.html">8</a></span>&nbsp;<span class=
-"keyword">namespace</span> internal {</div>
+"lineno">8</span>&nbsp;</div>
 <div class="line"><a name="l00009" id="l00009"></a> <span class=
-"lineno">9</span>&nbsp;</div>
+"lineno">9</span>&nbsp;<span class="preprocessor">#include
+&lt;functional&gt;</span></div>
 <div class="line"><a name="l00010" id="l00010"></a> <span class=
-"lineno"><a class="line" href=
-"namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">
-10</a></span>&nbsp;<span class="keyword">typedef</span>
-void(*<a class="code" href=
-"namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">singletonDestroyCallback</a>)();</div>
+"lineno">10</span>&nbsp;<span class="preprocessor">#include
+&lt;memory&gt;</span></div>
 <div class="line"><a name="l00011" id="l00011"></a> <span class=
 "lineno">11</span>&nbsp;</div>
 <div class="line"><a name="l00012" id="l00012"></a> <span class=
-"lineno">12</span>&nbsp;CUTEHMI_PRIVATE <span class=
-"keywordtype">void</span> <a class="code" href=
-"namespacecutehmi_1_1internal.html#aece84dfd57a9e6173f3420ca639f4a9c">
-destroySingletonInstances</a>();</div>
+"lineno">12</span>&nbsp;<span class="keyword">namespace</span>
+<a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
 <div class="line"><a name="l00013" id="l00013"></a> <span class=
 "lineno">13</span>&nbsp;</div>
-<div class="line"><a name="l00014" id="l00014"></a> <span class=
-"lineno">14</span>&nbsp;CUTEHMI_PRIVATE <span class=
-"keywordtype">void</span> <a class="code" href=
-"namespacecutehmi_1_1internal.html#afc0937e7676fd6e99d5953d5c1d76de8">
-storeSingletonDestroyCallback</a>(<a class="code" href=
-"namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">singletonDestroyCallback</a>
-callback);</div>
-<div class="line"><a name="l00015" id="l00015"></a> <span class=
-"lineno">15</span>&nbsp;</div>
-<div class="line"><a name="l00016" id="l00016"></a> <span class=
-"lineno">16</span>&nbsp;CUTEHMI_PRIVATE <span class=
-"keywordtype">void</span> <a class="code" href=
-"namespacecutehmi_1_1internal.html#a48f3806aca0b0421cd8b9a72b3b09f98">
-removeSingletonDestroyCallback</a>(<a class="code" href=
-"namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">singletonDestroyCallback</a>
-callback);</div>
-<div class="line"><a name="l00017" id="l00017"></a> <span class=
-"lineno">17</span>&nbsp;</div>
 <div class="line"><a name="l00018" id="l00018"></a> <span class=
-"lineno">18</span>&nbsp;}</div>
+"lineno">18</span>&nbsp;<span class="keyword">template</span>
+&lt;<span class="keyword">class</span> C&gt;</div>
 <div class="line"><a name="l00019" id="l00019"></a> <span class=
-"lineno">19</span>&nbsp;}</div>
+"lineno"><a class="line" href=
+"classcutehmi_1_1_singleton.html">19</a></span>&nbsp;<span class=
+"keyword">class</span> <a class="code" href=
+"classcutehmi_1_1_singleton.html">Singleton</a>:</div>
 <div class="line"><a name="l00020" id="l00020"></a> <span class=
-"lineno">20</span>&nbsp;</div>
+"lineno">20</span>&nbsp; <span class="keyword">public</span>
+<a class="code" href=
+"classcutehmi_1_1_non_copyable.html">NonCopyable</a>,</div>
 <div class="line"><a name="l00021" id="l00021"></a> <span class=
-"lineno">21</span>&nbsp;<span class=
-"preprocessor">#endif</span></div>
+"lineno">21</span>&nbsp; <span class="keyword">public</span>
+<a class="code" href=
+"classcutehmi_1_1_non_movable.html">NonMovable</a></div>
 <div class="line"><a name="l00022" id="l00022"></a> <span class=
-"lineno">22</span>&nbsp;</div>
+"lineno">22</span>&nbsp;{</div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
-"lineno">23</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+"lineno">23</span>&nbsp; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00037" id="l00037"></a> <span class=
+"lineno">37</span>&nbsp; <span class="keyword">static</span> C
+&amp; <a class="code" href=
+"classcutehmi_1_1_singleton.html#a9ea1159ae0fd584ee86839d55b0ea350">
+Instance</a>();</div>
+<div class="line"><a name="l00038" id="l00038"></a> <span class=
+"lineno">38</span>&nbsp;</div>
+<div class="line"><a name="l00053" id="l00053"></a> <span class=
+"lineno">53</span>&nbsp; <span class="keyword">static</span>
+<span class="keywordtype">void</span> <a class="code" href=
+"classcutehmi_1_1_singleton.html#a667d420ad04fa93527f7e99c10d0aa8e">
+Destroy</a>();</div>
+<div class="line"><a name="l00054" id="l00054"></a> <span class=
+"lineno">54</span>&nbsp;</div>
+<div class="line"><a name="l00055" id="l00055"></a> <span class=
+"lineno">55</span>&nbsp; <span class=
+"keyword">protected</span>:</div>
+<div class="line"><a name="l00056" id="l00056"></a> <span class=
+"lineno">56</span>&nbsp; <span class="comment">// shield the
+constructor and destructor to prevent outside sources</span></div>
+<div class="line"><a name="l00057" id="l00057"></a> <span class=
+"lineno">57</span>&nbsp; <span class="comment">// from creating or
+destroying a Singleton instance.</span></div>
+<div class="line"><a name="l00058" id="l00058"></a> <span class=
+"lineno">58</span>&nbsp;</div>
+<div class="line"><a name="l00062" id="l00062"></a> <span class=
+"lineno">62</span>&nbsp; <a class="code" href=
+"classcutehmi_1_1_singleton.html#a8149413207ab4dbec0c0c3f5d320c196">
+Singleton</a>();</div>
+<div class="line"><a name="l00063" id="l00063"></a> <span class=
+"lineno">63</span>&nbsp;</div>
+<div class="line"><a name="l00067" id="l00067"></a> <span class=
+"lineno">67</span>&nbsp; <span class="keyword">virtual</span>
+<a class="code" href=
+"classcutehmi_1_1_singleton.html#a02491067068592067f7f37eff2e23974">
+~Singleton</a>();</div>
+<div class="line"><a name="l00068" id="l00068"></a> <span class=
+"lineno">68</span>&nbsp;</div>
+<div class="line"><a name="l00075" id="l00075"></a> <span class=
+"lineno">75</span>&nbsp; <span class="keyword">static</span>
+<a class="codeRef" doxygen=
+"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
+href=
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;C&gt;</a>
+&amp; <a class="code" href=
+"classcutehmi_1_1_singleton.html#a57117815869b69075ead9c5538d104a1">
+InstancePtr</a>();</div>
+<div class="line"><a name="l00076" id="l00076"></a> <span class=
+"lineno">76</span>&nbsp;};</div>
+<div class="line"><a name="l00077" id="l00077"></a> <span class=
+"lineno">77</span>&nbsp;</div>
+<div class="line"><a name="l00089" id="l00089"></a> <span class=
+"lineno">89</span>&nbsp;CUTEHMI_API <span class=
+"keywordtype">void</span> <a class="code" href=
+"namespacecutehmi.html#ac270c61a5679c0acabe415ceac264cfc">destroySingletonInstances</a>();</div>
+<div class="line"><a name="l00090" id="l00090"></a> <span class=
+"lineno">90</span>&nbsp;</div>
+<div class="line"><a name="l00091" id="l00091"></a> <span class=
+"lineno">91</span>&nbsp;</div>
+<div class="line"><a name="l00092" id="l00092"></a> <span class=
+"lineno">92</span>&nbsp;<span class="keyword">template</span>
+&lt;<span class="keyword">class</span> C&gt;</div>
+<div class="line"><a name="l00093" id="l00093"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1_singleton.html#a8149413207ab4dbec0c0c3f5d320c196">
+93</a></span>&nbsp;<a class="code" href=
+"classcutehmi_1_1_singleton.html#a8149413207ab4dbec0c0c3f5d320c196">Singleton&lt;C&gt;::Singleton</a>()</div>
+<div class="line"><a name="l00094" id="l00094"></a> <span class=
+"lineno">94</span>&nbsp;{</div>
+<div class="line"><a name="l00095" id="l00095"></a> <span class=
+"lineno">95</span>&nbsp; <a class="code" href=
+"namespacecutehmi_1_1internal.html#afc0937e7676fd6e99d5953d5c1d76de8">
+internal::storeSingletonDestroyCallback</a>(&amp; <a class="code"
+href=
+"classcutehmi_1_1_singleton.html">Singleton&lt;C&gt;::Destroy</a>);</div>
+<div class="line"><a name="l00096" id="l00096"></a> <span class=
+"lineno">96</span>&nbsp;}</div>
+<div class="line"><a name="l00097" id="l00097"></a> <span class=
+"lineno">97</span>&nbsp;</div>
+<div class="line"><a name="l00098" id="l00098"></a> <span class=
+"lineno">98</span>&nbsp;<span class="keyword">template</span>
+&lt;<span class="keyword">class</span> C&gt;</div>
+<div class="line"><a name="l00099" id="l00099"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1_singleton.html#a02491067068592067f7f37eff2e23974">
+99</a></span>&nbsp;<a class="code" href=
+"classcutehmi_1_1_singleton.html#a02491067068592067f7f37eff2e23974">Singleton&lt;C&gt;::~Singleton</a>()</div>
+<div class="line"><a name="l00100" id="l00100"></a> <span class=
+"lineno">100</span>&nbsp;{</div>
+<div class="line"><a name="l00101" id="l00101"></a> <span class=
+"lineno">101</span>&nbsp; <a class="code" href=
+"namespacecutehmi_1_1internal.html#a48f3806aca0b0421cd8b9a72b3b09f98">
+internal::removeSingletonDestroyCallback</a>(&amp; <a class="code"
+href=
+"classcutehmi_1_1_singleton.html">Singleton&lt;C&gt;::Destroy</a>);</div>
+<div class="line"><a name="l00102" id="l00102"></a> <span class=
+"lineno">102</span>&nbsp;}</div>
+<div class="line"><a name="l00103" id="l00103"></a> <span class=
+"lineno">103</span>&nbsp;</div>
+<div class="line"><a name="l00104" id="l00104"></a> <span class=
+"lineno">104</span>&nbsp;<span class="keyword">template</span>
+&lt;<span class="keyword">class</span> C&gt;</div>
+<div class="line"><a name="l00105" id="l00105"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1_singleton.html#a9ea1159ae0fd584ee86839d55b0ea350">
+105</a></span>&nbsp;C &amp; <a class="code" href=
+"classcutehmi_1_1_singleton.html#a9ea1159ae0fd584ee86839d55b0ea350">
+Singleton&lt;C&gt;::Instance</a>()</div>
+<div class="line"><a name="l00106" id="l00106"></a> <span class=
+"lineno">106</span>&nbsp;{</div>
+<div class="line"><a name="l00107" id="l00107"></a> <span class=
+"lineno">107</span>&nbsp; <span class=
+"comment">//&lt;CuteHMI-2.workaround target="std"
+cause="design"&gt;</span></div>
+<div class="line"><a name="l00108" id="l00108"></a> <span class=
+"lineno">108</span>&nbsp; <span class="comment">// Function
+std::unique_ptr::reset() sets internal pointer to nullptr and only
+after that it will delete its contents. This</span></div>
+<div class="line"><a name="l00109" id="l00109"></a> <span class=
+"lineno">109</span>&nbsp; <span class="comment">// causes error,
+when managed object still needs to be accessed through
+std::unique_ptr::get() function by members of managed</span></div>
+<div class="line"><a name="l00110" id="l00110"></a> <span class=
+"lineno">110</span>&nbsp; <span class="comment">// object during
+their destruction. Workaround is to use additional raw pointer. In
+general this prevents std::unique_ptr from</span></div>
+<div class="line"><a name="l00111" id="l00111"></a> <span class=
+"lineno">111</span>&nbsp; <span class="comment">// being used in
+inconsistent state (calling std::unique_ptr::get() while inside
+std::unique_ptr::reset()).</span></div>
+<div class="line"><a name="l00112" id="l00112"></a> <span class=
+"lineno">112</span>&nbsp; <span class="keyword">static</span> C *
+instancePtr = InstancePtr().get();</div>
+<div class="line"><a name="l00113" id="l00113"></a> <span class=
+"lineno">113</span>&nbsp; <span class="keywordflow">return</span>
+*instancePtr;</div>
+<div class="line"><a name="l00114" id="l00114"></a> <span class=
+"lineno">114</span>&nbsp; <span class=
+"comment">//&lt;/CuteHMI-2.workaround&gt;</span></div>
+<div class="line"><a name="l00115" id="l00115"></a> <span class=
+"lineno">115</span>&nbsp;}</div>
+<div class="line"><a name="l00116" id="l00116"></a> <span class=
+"lineno">116</span>&nbsp;</div>
+<div class="line"><a name="l00117" id="l00117"></a> <span class=
+"lineno">117</span>&nbsp;<span class="keyword">template</span>
+&lt;<span class="keyword">class</span> C&gt;</div>
+<div class="line"><a name="l00118" id="l00118"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1_singleton.html#a667d420ad04fa93527f7e99c10d0aa8e">
+118</a></span>&nbsp;<span class="keywordtype">void</span> <a class=
+"code" href=
+"classcutehmi_1_1_singleton.html#a667d420ad04fa93527f7e99c10d0aa8e">
+Singleton&lt;C&gt;::Destroy</a>()</div>
+<div class="line"><a name="l00119" id="l00119"></a> <span class=
+"lineno">119</span>&nbsp;{</div>
+<div class="line"><a name="l00120" id="l00120"></a> <span class=
+"lineno">120</span>&nbsp; <span class=
+"comment">//&lt;CuteHMI-2.workaround&gt;</span></div>
+<div class="line"><a name="l00121" id="l00121"></a> <span class=
+"lineno">121</span>&nbsp; <span class="comment">// A bit paranoic,
+but if Instance() wasn't called before, it would point to nullptr.
+What if it is used by a dtor of one of the</span></div>
+<div class="line"><a name="l00122" id="l00122"></a> <span class=
+"lineno">122</span>&nbsp; <span class="comment">// members of
+managed object? After InstancePtr().reset(),
+std::unique_ptr::reset() first sets internal pointer to nullptr,
+then</span></div>
+<div class="line"><a name="l00123" id="l00123"></a> <span class=
+"lineno">123</span>&nbsp; <span class="comment">// calls destructor
+(hence Instance() would point to nullptr during
+destruction).</span></div>
+<div class="line"><a name="l00124" id="l00124"></a> <span class=
+"lineno">124</span>&nbsp; Instance();</div>
+<div class="line"><a name="l00125" id="l00125"></a> <span class=
+"lineno">125</span>&nbsp; <span class=
+"comment">//&lt;/CuteHMI-2.workaround&gt;</span></div>
+<div class="line"><a name="l00126" id="l00126"></a> <span class=
+"lineno">126</span>&nbsp; InstancePtr().reset();</div>
+<div class="line"><a name="l00127" id="l00127"></a> <span class=
+"lineno">127</span>&nbsp;}</div>
+<div class="line"><a name="l00128" id="l00128"></a> <span class=
+"lineno">128</span>&nbsp;</div>
+<div class="line"><a name="l00129" id="l00129"></a> <span class=
+"lineno">129</span>&nbsp;<span class="keyword">template</span>
+&lt;<span class="keyword">class</span> C&gt;</div>
+<div class="line"><a name="l00130" id="l00130"></a> <span class=
+"lineno"><a class="line" href=
+"classcutehmi_1_1_singleton.html#a57117815869b69075ead9c5538d104a1">
+130</a></span>&nbsp;<a class="codeRef" doxygen=
+"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
+href=
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;C&gt;</a>
+&amp; <a class="code" href=
+"classcutehmi_1_1_singleton.html#a57117815869b69075ead9c5538d104a1">
+Singleton&lt;C&gt;::InstancePtr</a>()</div>
+<div class="line"><a name="l00131" id="l00131"></a> <span class=
+"lineno">131</span>&nbsp;{</div>
+<div class="line"><a name="l00132" id="l00132"></a> <span class=
+"lineno">132</span>&nbsp; <span class="keyword">static</span>
+<a class="codeRef" doxygen=
+"/home/cutebot/devel/CuteHMI/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
+href=
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;C&gt;</a>
+instance(<span class="keyword">new</span> C);</div>
+<div class="line"><a name="l00133" id="l00133"></a> <span class=
+"lineno">133</span>&nbsp; <span class="keywordflow">return</span>
+instance;</div>
+<div class="line"><a name="l00134" id="l00134"></a> <span class=
+"lineno">134</span>&nbsp;}</div>
+<div class="line"><a name="l00135" id="l00135"></a> <span class=
+"lineno">135</span>&nbsp;</div>
+<div class="line"><a name="l00136" id="l00136"></a> <span class=
+"lineno">136</span>&nbsp;}</div>
+<div class="line"><a name="l00137" id="l00137"></a> <span class=
+"lineno">137</span>&nbsp;</div>
+<div class="line"><a name="l00138" id="l00138"></a> <span class=
+"lineno">138</span>&nbsp;<span class=
+"preprocessor">#endif</span></div>
+<div class="line"><a name="l00139" id="l00139"></a> <span class=
+"lineno">139</span>&nbsp;</div>
+<div class="line"><a name="l00140" id="l00140"></a> <span class=
+"lineno">140</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
 2019, Michal Policht. All rights reserved.</span></div>
-<div class="line"><a name="l00024" id="l00024"></a> <span class=
-"lineno">24</span>&nbsp;<span class="comment">//(c)MP: This Source
+<div class="line"><a name="l00141" id="l00141"></a> <span class=
+"lineno">141</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
@@ -219,12 +426,19 @@ callback)</div>
 <div class="ttdef"><b>Definition:</b> singleton.cpp:77</div>
 </div>
 <div class="ttc" id=
-"namespacecutehmi_1_1internal_html_a61750750434b3f41817b27233d52e529">
+"namespacecutehmi_html_ac270c61a5679c0acabe415ceac264cfc">
 <div class="ttname"><a href=
-"namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">
-cutehmi::internal::singletonDestroyCallback</a></div>
-<div class="ttdeci">void(* singletonDestroyCallback)()</div>
-<div class="ttdef"><b>Definition:</b> singleton.hpp:10</div>
+"namespacecutehmi.html#ac270c61a5679c0acabe415ceac264cfc">cutehmi::destroySingletonInstances</a></div>
+<div class="ttdeci">CUTEHMI_API void
+destroySingletonInstances()</div>
+<div class="ttdoc">Destroy singleton instances.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.cpp:5</div>
+</div>
+<div class="ttc" id="classcutehmi_1_1_non_movable_html">
+<div class="ttname"><a href=
+"classcutehmi_1_1_non_movable.html">cutehmi::NonMovable</a></div>
+<div class="ttdoc">Non-movable object.</div>
+<div class="ttdef"><b>Definition:</b> NonMovable.hpp:10</div>
 </div>
 <div class="ttc" id=
 "namespacecutehmi_1_1internal_html_afc0937e7676fd6e99d5953d5c1d76de8">
@@ -242,13 +456,66 @@ callback)</div>
 <div class="ttdef"><b>Definition:</b> Dialog.hpp:14</div>
 </div>
 <div class="ttc" id=
-"namespacecutehmi_1_1internal_html_aece84dfd57a9e6173f3420ca639f4a9c">
+"classcutehmi_1_1_singleton_html_a8149413207ab4dbec0c0c3f5d320c196">
 <div class="ttname"><a href=
-"namespacecutehmi_1_1internal.html#aece84dfd57a9e6173f3420ca639f4a9c">
-cutehmi::internal::destroySingletonInstances</a></div>
-<div class="ttdeci">CUTEHMI_PRIVATE void
-destroySingletonInstances()</div>
-<div class="ttdef"><b>Definition:</b> singleton.cpp:55</div>
+"classcutehmi_1_1_singleton.html#a8149413207ab4dbec0c0c3f5d320c196">
+cutehmi::Singleton::Singleton</a></div>
+<div class="ttdeci">Singleton()</div>
+<div class="ttdoc">Default constructor.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:93</div>
+</div>
+<div class="ttc" id="unique_ptr_html">
+<div class="ttname"><a href=
+"https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a></div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1_singleton_html_a667d420ad04fa93527f7e99c10d0aa8e">
+<div class="ttname"><a href=
+"classcutehmi_1_1_singleton.html#a667d420ad04fa93527f7e99c10d0aa8e">
+cutehmi::Singleton::Destroy</a></div>
+<div class="ttdeci">static void Destroy()</div>
+<div class="ttdoc">Destroy instance.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:118</div>
+</div>
+<div class="ttc" id="classcutehmi_1_1_non_copyable_html">
+<div class="ttname"><a href=
+"classcutehmi_1_1_non_copyable.html">cutehmi::NonCopyable</a></div>
+<div class="ttdoc">Non-copyable object.</div>
+<div class="ttdef"><b>Definition:</b> NonCopyable.hpp:10</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1_singleton_html_a02491067068592067f7f37eff2e23974">
+<div class="ttname"><a href=
+"classcutehmi_1_1_singleton.html#a02491067068592067f7f37eff2e23974">
+cutehmi::Singleton::~Singleton</a></div>
+<div class="ttdeci">virtual ~Singleton()</div>
+<div class="ttdoc">Destructor.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:99</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1_singleton_html_a9ea1159ae0fd584ee86839d55b0ea350">
+<div class="ttname"><a href=
+"classcutehmi_1_1_singleton.html#a9ea1159ae0fd584ee86839d55b0ea350">
+cutehmi::Singleton::Instance</a></div>
+<div class="ttdeci">static C &amp; Instance()</div>
+<div class="ttdoc">Get instance.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:105</div>
+</div>
+<div class="ttc" id="classcutehmi_1_1_singleton_html">
+<div class="ttname"><a href=
+"classcutehmi_1_1_singleton.html">cutehmi::Singleton</a></div>
+<div class="ttdoc">Singleton template.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:19</div>
+</div>
+<div class="ttc" id=
+"classcutehmi_1_1_singleton_html_a57117815869b69075ead9c5538d104a1">
+<div class="ttname"><a href=
+"classcutehmi_1_1_singleton.html#a57117815869b69075ead9c5538d104a1">
+cutehmi::Singleton::InstancePtr</a></div>
+<div class="ttdeci">static std::unique_ptr&lt; C &gt; &amp;
+InstancePtr()</div>
+<div class="ttdoc">Get instance pointer.</div>
+<div class="ttdef"><b>Definition:</b> Singleton.hpp:130</div>
 </div>
 </div>
 <!-- fragment --></div>
@@ -262,9 +529,7 @@ destroySingletonInstances()</div>
 "dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>
 <li class="navelem"><a class="el" href=
 "dir_af47cb53463d2a51ba0770599d092505.html">cutehmi</a></li>
-<li class="navelem"><a class="el" href=
-"dir_3fd6af9039fa90256eb5fa0e1cba862c.html">internal</a></li>
-<li class="navelem"><b>singleton.hpp</b></li>
+<li class="navelem"><b>Singleton.hpp</b></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>

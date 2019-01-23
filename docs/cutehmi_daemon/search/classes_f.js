@@ -4,7 +4,7 @@ var searchData=
   ['ofstream',['ofstream',['https://en.cppreference.com/w/cpp/io/basic_ofstream.html',1,'std']]],
   ['once_5fflag',['once_flag',['https://en.cppreference.com/w/cpp/thread/once_flag.html',1,'std']]],
   ['optional',['optional',['https://en.cppreference.com/w/cpp/experimental/optional.html',1,'std::experimental']]],
-  ['options',['Options',['../structcutehmi_1_1daemon_1_1CoreData_1_1Options.html',1,'cutehmi::daemon::CoreData']]],
+  ['options',['Options',['../structcutehmi_1_1daemon_1_1_core_data_1_1_options.html',1,'cutehmi::daemon::CoreData']]],
   ['ostream',['ostream',['https://en.cppreference.com/w/cpp/io/basic_ostream.html',1,'std']]],
   ['ostream_5fiterator',['ostream_iterator',['https://en.cppreference.com/w/cpp/iterator/ostream_iterator.html',1,'std']]],
   ['ostreambuf_5fiterator',['ostreambuf_iterator',['https://en.cppreference.com/w/cpp/iterator/ostreambuf_iterator.html',1,'std']]],

@@ -4,5 +4,5 @@ var searchData=
   ['nameserver',['nameserver',['http://doc.qt.io/qt-5/qdnslookup.html#nameserver-prop',1,'QDnsLookup']]],
   ['namespaceprocessing',['namespaceProcessing',['http://doc.qt.io/qt-5/qxmlstreamreader.html#namespaceProcessing-prop',1,'QXmlStreamReader']]],
   ['networkaccessible',['networkAccessible',['http://doc.qt.io/qt-5/qnetworkaccessmanager.html#networkAccessible-prop',1,'QNetworkAccessManager']]],
-  ['neutral',['neutral',['../../CuteHMI.2/classCuteHMI_1_1Palette.html#a92bdede674ac041280c62c49453097c6',1,'CuteHMI::Palette']]]
+  ['neutral',['neutral',['../../CuteHMI.2/class_cute_h_m_i_1_1_palette.html#a92bdede674ac041280c62c49453097c6',1,'CuteHMI::Palette']]]
 ];

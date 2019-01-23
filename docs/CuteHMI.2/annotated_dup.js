@@ -1,5 +1,5 @@
 var annotated_dup =
 [
     [ "cutehmi", "namespacecutehmi.html", "namespacecutehmi" ],
-    [ "CuteHMI", "namespaceCuteHMI.html", "namespaceCuteHMI" ]
+    [ "CuteHMI", "namespace_cute_h_m_i.html", "namespace_cute_h_m_i" ]
 ];

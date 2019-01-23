@@ -3,7 +3,7 @@ var searchData=
   ['package',['Package',['http://doc.qt.io/qt-5/qml-package.html',1,'']]],
   ['packaged_5ftask',['packaged_task',['https://en.cppreference.com/w/cpp/thread/packaged_task.html',1,'std']]],
   ['pair',['pair',['https://en.cppreference.com/w/cpp/utility/pair.html',1,'std']]],
-  ['palette',['Palette',['../classCuteHMI_1_1Palette.html',1,'CuteHMI']]],
+  ['palette',['Palette',['../class_cute_h_m_i_1_1_palette.html',1,'CuteHMI']]],
   ['pattern',['pattern',['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::moneypunct_byname::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_put::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_base::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::moneypunct::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_get::pattern']]],
   ['peta',['peta',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['pico',['pico',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
@@ -17,6 +17,6 @@ var searchData=
   ['poisson_5fdistribution',['poisson_distribution',['https://en.cppreference.com/w/cpp/numeric/random/poisson_distribution.html',1,'std']]],
   ['priority_5fqueue',['priority_queue',['https://en.cppreference.com/w/cpp/container/priority_queue.html',1,'std']]],
   ['promise',['promise',['https://en.cppreference.com/w/cpp/thread/promise.html',1,'std']]],
-  ['propitem',['PropItem',['../classCuteHMI_1_1PropItem.html',1,'CuteHMI']]],
+  ['propitem',['PropItem',['../class_cute_h_m_i_1_1_prop_item.html',1,'CuteHMI']]],
   ['ptrdiff_5ft',['ptrdiff_t',['https://en.cppreference.com/w/cpp/types/ptrdiff_t.html',1,'std']]]
 ];

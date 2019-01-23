@@ -1,70 +1,70 @@
 var hierarchy =
 [
     [ "Canvas", null, [
-      [ "CuteHMI::PropItem", "classCuteHMI_1_1PropItem.html", null ]
+      [ "CuteHMI::PropItem", "class_cute_h_m_i_1_1_prop_item.html", null ]
     ] ],
-    [ "cutehmi::Error", "structcutehmi_1_1Error.html", null ],
-    [ "cutehmi::ErrorInfo", "structcutehmi_1_1ErrorInfo.html", null ],
+    [ "cutehmi::Error", "structcutehmi_1_1_error.html", null ],
+    [ "cutehmi::ErrorInfo", "structcutehmi_1_1_error_info.html", null ],
     [ "Item", null, [
-      [ "CuteHMI::Element", "classCuteHMI_1_1Element.html", [
-        [ "CuteHMI::NumberDisplay", "classCuteHMI_1_1NumberDisplay.html", null ]
+      [ "CuteHMI::Element", "class_cute_h_m_i_1_1_element.html", [
+        [ "CuteHMI::NumberDisplay", "class_cute_h_m_i_1_1_number_display.html", null ]
       ] ]
     ] ],
-    [ "cutehmi::Dialogist::Members", "structcutehmi_1_1Dialogist_1_1Members.html", null ],
-    [ "cutehmi::NonCopyable", "classcutehmi_1_1NonCopyable.html", [
-      [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ],
-      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1Singleton.html", [
-        [ "cutehmi::Dialogist", "classcutehmi_1_1Dialogist.html", null ]
+    [ "cutehmi::Dialogist::Members", "structcutehmi_1_1_dialogist_1_1_members.html", null ],
+    [ "cutehmi::NonCopyable", "classcutehmi_1_1_non_copyable.html", [
+      [ "cutehmi::Singleton< C >", "classcutehmi_1_1_singleton.html", null ],
+      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1_singleton.html", [
+        [ "cutehmi::Dialogist", "classcutehmi_1_1_dialogist.html", null ]
       ] ],
-      [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1Singleton.html", [
-        [ "cutehmi::Notifier", "classcutehmi_1_1Notifier.html", null ]
+      [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", [
+        [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ]
       ] ]
     ] ],
-    [ "cutehmi::NonMovable", "classcutehmi_1_1NonMovable.html", [
-      [ "cutehmi::Singleton< C >", "classcutehmi_1_1Singleton.html", null ],
-      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1Singleton.html", null ],
-      [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1Singleton.html", null ]
+    [ "cutehmi::NonMovable", "classcutehmi_1_1_non_movable.html", [
+      [ "cutehmi::Singleton< C >", "classcutehmi_1_1_singleton.html", null ],
+      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1_singleton.html", null ],
+      [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
-      [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1Worker_1_1WorkEvent.html", null ]
+      [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", null ]
     ] ],
     [ "QException", "http://doc.qt.io/qt-5/qexception.html", [
-      [ "cutehmi::Exception", "classcutehmi_1_1Exception.html", [
-        [ "cutehmi::ExceptionMixin< DERIVED >", "classcutehmi_1_1ExceptionMixin.html", null ],
-        [ "cutehmi::ExceptionMixin< ErrorException >", "classcutehmi_1_1ExceptionMixin.html", [
-          [ "cutehmi::ErrorException", "classcutehmi_1_1ErrorException.html", null ]
+      [ "cutehmi::Exception", "classcutehmi_1_1_exception.html", [
+        [ "cutehmi::ExceptionMixin< DERIVED >", "classcutehmi_1_1_exception_mixin.html", null ],
+        [ "cutehmi::ExceptionMixin< ErrorException >", "classcutehmi_1_1_exception_mixin.html", [
+          [ "cutehmi::ErrorException", "classcutehmi_1_1_error_exception.html", null ]
         ] ],
-        [ "cutehmi::ExceptionMixin< NoAdvertiserException >", "classcutehmi_1_1ExceptionMixin.html", [
-          [ "cutehmi::Dialogist::NoAdvertiserException", "classcutehmi_1_1Dialogist_1_1NoAdvertiserException.html", null ]
+        [ "cutehmi::ExceptionMixin< NoAdvertiserException >", "classcutehmi_1_1_exception_mixin.html", [
+          [ "cutehmi::Dialogist::NoAdvertiserException", "classcutehmi_1_1_dialogist_1_1_no_advertiser_exception.html", null ]
         ] ]
       ] ]
     ] ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
-      [ "cutehmi::Dialog", "classcutehmi_1_1Dialog.html", null ],
-      [ "cutehmi::Dialogist", "classcutehmi_1_1Dialogist.html", null ],
-      [ "cutehmi::Notification", "classcutehmi_1_1Notification.html", null ],
-      [ "cutehmi::Notifier", "classcutehmi_1_1Notifier.html", null ],
-      [ "cutehmi::Worker", "classcutehmi_1_1Worker.html", null ],
+      [ "cutehmi::Dialog", "classcutehmi_1_1_dialog.html", null ],
+      [ "cutehmi::Dialogist", "classcutehmi_1_1_dialogist.html", null ],
+      [ "cutehmi::Notification", "classcutehmi_1_1_notification.html", null ],
+      [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ],
+      [ "cutehmi::Worker", "classcutehmi_1_1_worker.html", null ],
       [ "QAbstractItemModel", "http://doc.qt.io/qt-5/qabstractitemmodel.html", [
         [ "QAbstractListModel", "http://doc.qt.io/qt-5/qabstractlistmodel.html", [
-          [ "cutehmi::NotificationListModel", "classcutehmi_1_1NotificationListModel.html", null ]
+          [ "cutehmi::NotificationListModel", "classcutehmi_1_1_notification_list_model.html", null ]
         ] ]
       ] ],
       [ "QQmlExtensionPlugin", "http://doc.qt.io/qt-5/qqmlextensionplugin.html", [
-        [ "cutehmi::internal::QMLPlugin", "classcutehmi_1_1internal_1_1QMLPlugin.html", null ]
+        [ "cutehmi::internal::QMLPlugin", "classcutehmi_1_1internal_1_1_q_m_l_plugin.html", null ]
       ] ]
     ] ],
     [ "QtObject", null, [
-      [ "CuteHMI::ColorSet", "classCuteHMI_1_1ColorSet.html", null ],
-      [ "CuteHMI::Palette", "classCuteHMI_1_1Palette.html", null ]
+      [ "CuteHMI::ColorSet", "class_cute_h_m_i_1_1_color_set.html", null ],
+      [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ]
     ] ],
     [ "std::unique_ptr< cutehmi::Dialogist::Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< cutehmi::Dialogist::Members >", "classcutehmi_1_1MPtr.html", null ]
+      [ "cutehmi::MPtr< cutehmi::Dialogist::Members >", "classcutehmi_1_1_m_ptr.html", null ]
     ] ],
     [ "std::unique_ptr< Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< Members >", "classcutehmi_1_1MPtr.html", null ]
+      [ "cutehmi::MPtr< Members >", "classcutehmi_1_1_m_ptr.html", null ]
     ] ],
     [ "std::unique_ptr< T, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1MPtr.html", null ]
+      [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1_m_ptr.html", null ]
     ] ]
 ];

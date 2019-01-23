@@ -10,5 +10,5 @@ var searchData=
   ['sortflags',['SortFlags',['http://doc.qt.io/qt-5/qdir.html#SortFlag-enum',1,'QDir']]],
   ['ssloptions',['SslOptions',['http://doc.qt.io/qt-5/qssl.html#SslOption-enum',1,'QSsl']]],
   ['stateflags',['StateFlags',['http://doc.qt.io/qt-5/qnetworkconfiguration.html#StateFlag-enum',1,'QNetworkConfiguration']]],
-  ['str',['str',['../structcutehmi_1_1ErrorInfo.html#addce052016813ca52f624921f8046c7f',1,'cutehmi::ErrorInfo']]]
+  ['str',['str',['../structcutehmi_1_1_error_info.html#addce052016813ca52f624921f8046c7f',1,'cutehmi::ErrorInfo']]]
 ];
