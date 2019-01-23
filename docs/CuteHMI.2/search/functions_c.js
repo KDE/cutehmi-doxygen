@@ -69,6 +69,7 @@ var searchData=
   ['log10',['log10',['https://en.cppreference.com/w/cpp/numeric/math/log10.html',1,'std']]],
   ['log1p',['log1p',['https://en.cppreference.com/w/cpp/numeric/math/log1p.html',1,'std']]],
   ['logb',['logb',['https://en.cppreference.com/w/cpp/numeric/math/logb.html',1,'std']]],
+  ['loggingcategory',['loggingCategory',['../namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi']]],
   ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error']]],
   ['lognormal_5fdistribution',['lognormal_distribution',['https://en.cppreference.com/w/cpp/numeric/random/lognormal_distribution/lognormal_distribution.html',1,'std::lognormal_distribution']]],
   ['longdayname',['longDayName',['http://doc.qt.io/qt-5/qdate.html#longDayName',1,'QDate']]],

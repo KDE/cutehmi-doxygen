@@ -80,6 +80,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
+<li class="current"><a href=
+"files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -95,6 +97,12 @@ onblur="searchBox.OnSearchFieldFocus(false)" onkeyup=
 "search/close.png" alt="" name=
 "MSearchCloseImg" /></a></span></div>
 </li>
+</ul>
+</div>
+<div id="navrow2" class="tabs2">
+<ul class="tablist">
+<li><a href="files.html"><span>File&nbsp;List</span></a></li>
+<li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
 </ul>
 </div>
 </div>
@@ -130,7 +138,8 @@ frameborder="0" name="MSearchResults" id=
 </div>
 </div>
 <!--header-->
-<div class="contents">
+<div class="contents"><a href="logging_8hpp.html">Go to the
+documentation of this file.</a>
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
@@ -142,60 +151,112 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_LOGGING_HPP</span></div>
 "lineno">3</span>&nbsp;</div>
 <div class="line"><a name="l00004" id="l00004"></a> <span class=
 "lineno">4</span>&nbsp;<span class="preprocessor">#include
-"loggingMacros.hpp"</span></div>
+"<a class="code" href=
+"logging_macros_8hpp.html">loggingMacros.hpp</a>"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;<span class="preprocessor">#include
-"internal/platform.hpp"</span></div>
+"<a class="code" href=
+"platform_8hpp.html">internal/platform.hpp</a>"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
 "lineno">6</span>&nbsp;</div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
-"lineno">7</span>&nbsp;CUTEHMI_API
-Q_DECLARE_LOGGING_CATEGORY(cutehmi_2_loggingCategory)</div>
+"lineno">7</span>&nbsp;<span class=
+"comment">//&lt;CuteHMI-4.workaround target="Doxygen"
+cause="bug"&gt;</span></div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
-"lineno">8</span>&nbsp;</div>
+"lineno">8</span>&nbsp;<span class="comment">// Doxygen does not
+expand Q_DECLARE_LOGGING_CATEGORY macro properly and messes up
+documentation appearing after the macro.</span></div>
 <div class="line"><a name="l00009" id="l00009"></a> <span class=
-"lineno">9</span>&nbsp;<span class="keyword">namespace</span>
-<a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
+"lineno">9</span>&nbsp;<span class="comment">// Adding semicolon
+after the macro resolves the issue.</span></div>
 <div class="line"><a name="l00010" id="l00010"></a> <span class=
-"lineno">10</span>&nbsp;</div>
-<div class="line"><a name="l00015" id="l00015"></a> <span class=
-"lineno">15</span>&nbsp;<span class="keyword">inline</span></div>
-<div class="line"><a name="l00016" id="l00016"></a> <span class=
-"lineno">16</span>&nbsp;<span class="keyword">const</span>
+"lineno">10</span>&nbsp;<a class="code" href=
+"platform_8hpp.html#a716bad563b8fc15d6d4bedbd91d6fb19">CUTEHMI_API</a>
+<a class="code" href=
+"logging_8hpp.html#af0707747342e557fc5af58b76bf59c2a">Q_DECLARE_LOGGING_CATEGORY</a>(cutehmi_2_loggingCategory);</div>
+<div class="line"><a name="l00011" id="l00011"></a> <span class=
+"lineno">11</span>&nbsp;<span class=
+"comment">//&lt;/CuteHMI-4.workaround&gt;</span></div>
+<div class="line"><a name="l00012" id="l00012"></a> <span class=
+"lineno">12</span>&nbsp;</div>
+<div class="line"><a name="l00013" id="l00013"></a> <span class=
+"lineno">13</span>&nbsp;<span class="keyword">namespace</span>
+<a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
+<div class="line"><a name="l00014" id="l00014"></a> <span class=
+"lineno">14</span>&nbsp;</div>
+<div class="line"><a name="l00019" id="l00019"></a> <span class=
+"lineno">19</span>&nbsp;<span class="keyword">inline</span></div>
+<div class="line"><a name="l00020" id="l00020"></a> <span class=
+"lineno"><a class="line" href=
+"namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a">20</a></span>&nbsp;<span class="keyword">const</span>
 <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qloggingcategory.html">QLoggingCategory</a>
-&amp; loggingCategory()</div>
-<div class="line"><a name="l00017" id="l00017"></a> <span class=
-"lineno">17</span>&nbsp;{</div>
-<div class="line"><a name="l00018" id="l00018"></a> <span class=
-"lineno">18</span>&nbsp; <span class="keywordflow">return</span>
-cutehmi_2_loggingCategory();</div>
-<div class="line"><a name="l00019" id="l00019"></a> <span class=
-"lineno">19</span>&nbsp;}</div>
-<div class="line"><a name="l00020" id="l00020"></a> <span class=
-"lineno">20</span>&nbsp;</div>
+&amp; <a class="code" href=
+"namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a">loggingCategory</a>()</div>
 <div class="line"><a name="l00021" id="l00021"></a> <span class=
-"lineno">21</span>&nbsp;}</div>
+"lineno">21</span>&nbsp;{</div>
 <div class="line"><a name="l00022" id="l00022"></a> <span class=
-"lineno">22</span>&nbsp;</div>
+"lineno">22</span>&nbsp; <span class="keywordflow">return</span>
+cutehmi_2_loggingCategory();</div>
 <div class="line"><a name="l00023" id="l00023"></a> <span class=
-"lineno">23</span>&nbsp;<span class=
-"preprocessor">#endif</span></div>
+"lineno">23</span>&nbsp;}</div>
 <div class="line"><a name="l00024" id="l00024"></a> <span class=
 "lineno">24</span>&nbsp;</div>
 <div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
-2019, Michal Policht. All rights reserved.</span></div>
+"lineno">25</span>&nbsp;}</div>
 <div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp;<span class="comment">//(c)MP: This Source
+"lineno">26</span>&nbsp;</div>
+<div class="line"><a name="l00027" id="l00027"></a> <span class=
+"lineno">27</span>&nbsp;<span class=
+"preprocessor">#endif</span></div>
+<div class="line"><a name="l00028" id="l00028"></a> <span class=
+"lineno">28</span>&nbsp;</div>
+<div class="line"><a name="l00029" id="l00029"></a> <span class=
+"lineno">29</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+2019, Michal Policht. All rights reserved.</span></div>
+<div class="line"><a name="l00030" id="l00030"></a> <span class=
+"lineno">30</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="ttc" id=
+"platform_8hpp_html_a716bad563b8fc15d6d4bedbd91d6fb19">
+<div class="ttname"><a href=
+"platform_8hpp.html#a716bad563b8fc15d6d4bedbd91d6fb19">CUTEHMI_API</a></div>
+<div class="ttdeci">#define CUTEHMI_API</div>
+<div class="ttdef"><b>Definition:</b> platform.hpp:23</div>
+</div>
+<div class="ttc" id="platform_8hpp_html">
+<div class="ttname"><a href=
+"platform_8hpp.html">platform.hpp</a></div>
+</div>
+<div class="ttc" id=
+"namespacecutehmi_html_a9264aa5971ce85aa88dd714237fe7d1a">
+<div class="ttname"><a href=
+"namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a">cutehmi::loggingCategory</a></div>
+<div class="ttdeci">const QLoggingCategory &amp;
+loggingCategory()</div>
+<div class="ttdoc">Logging category of the extension.</div>
+<div class="ttdef"><b>Definition:</b> logging.hpp:20</div>
+</div>
+<div class="ttc" id="logging_macros_8hpp_html">
+<div class="ttname"><a href=
+"logging_macros_8hpp.html">loggingMacros.hpp</a></div>
+<div class="ttdoc">Logging macros.</div>
+</div>
 <div class="ttc" id="namespacecutehmi_html">
 <div class="ttname"><a href=
 "namespacecutehmi.html">cutehmi</a></div>
 <div class="ttdef"><b>Definition:</b> Dialog.hpp:14</div>
+</div>
+<div class="ttc" id=
+"logging_8hpp_html_af0707747342e557fc5af58b76bf59c2a">
+<div class="ttname"><a href=
+"logging_8hpp.html#af0707747342e557fc5af58b76bf59c2a">Q_DECLARE_LOGGING_CATEGORY</a></div>
+<div class="ttdeci">CUTEHMI_API
+Q_DECLARE_LOGGING_CATEGORY(cutehmi_2_loggingCategory)</div>
 </div>
 <div class="ttc" id="qloggingcategory_html">
 <div class="ttname"><a href=
@@ -213,7 +274,8 @@ can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
 "dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>
 <li class="navelem"><a class="el" href=
 "dir_af47cb53463d2a51ba0770599d092505.html">cutehmi</a></li>
-<li class="navelem"><b>logging.hpp</b></li>
+<li class="navelem"><a class="el" href=
+"logging_8hpp.html">logging.hpp</a></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>

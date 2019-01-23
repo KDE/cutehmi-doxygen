@@ -52,6 +52,14 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
@@ -59,7 +67,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../extensions_list.html",
-"functions_vars.html"
+"classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

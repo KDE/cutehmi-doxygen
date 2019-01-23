@@ -80,6 +80,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
+<li class="current"><a href=
+"files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -95,6 +97,12 @@ onblur="searchBox.OnSearchFieldFocus(false)" onkeyup=
 "search/close.png" alt="" name=
 "MSearchCloseImg" /></a></span></div>
 </li>
+</ul>
+</div>
+<div id="navrow2" class="tabs2">
+<ul class="tablist">
+<li><a href="files.html"><span>File&nbsp;List</span></a></li>
+<li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
 </ul>
 </div>
 </div>
@@ -130,7 +138,8 @@ frameborder="0" name="MSearchResults" id=
 </div>
 </div>
 <!--header-->
-<div class="contents">
+<div class="contents"><a href="internal_2singleton_8hpp.html">Go to
+the documentation of this file.</a>
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
@@ -142,7 +151,8 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_INTERNAL_SINGLETON_HPP</span></div>
 "lineno">3</span>&nbsp;</div>
 <div class="line"><a name="l00004" id="l00004"></a> <span class=
 "lineno">4</span>&nbsp;<span class="preprocessor">#include
-"platform.hpp"</span></div>
+"<a class="code" href=
+"platform_8hpp.html">platform.hpp</a>"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;</div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
@@ -165,15 +175,17 @@ void(*<a class="code" href=
 <div class="line"><a name="l00011" id="l00011"></a> <span class=
 "lineno">11</span>&nbsp;</div>
 <div class="line"><a name="l00012" id="l00012"></a> <span class=
-"lineno">12</span>&nbsp;CUTEHMI_PRIVATE <span class=
-"keywordtype">void</span> <a class="code" href=
+"lineno">12</span>&nbsp;<a class="code" href=
+"platform_8hpp.html#add8859357da2363b0712b1f9e68218dd">CUTEHMI_PRIVATE</a>
+<span class="keywordtype">void</span> <a class="code" href=
 "namespacecutehmi_1_1internal.html#aece84dfd57a9e6173f3420ca639f4a9c">
 destroySingletonInstances</a>();</div>
 <div class="line"><a name="l00013" id="l00013"></a> <span class=
 "lineno">13</span>&nbsp;</div>
 <div class="line"><a name="l00014" id="l00014"></a> <span class=
-"lineno">14</span>&nbsp;CUTEHMI_PRIVATE <span class=
-"keywordtype">void</span> <a class="code" href=
+"lineno">14</span>&nbsp;<a class="code" href=
+"platform_8hpp.html#add8859357da2363b0712b1f9e68218dd">CUTEHMI_PRIVATE</a>
+<span class="keywordtype">void</span> <a class="code" href=
 "namespacecutehmi_1_1internal.html#afc0937e7676fd6e99d5953d5c1d76de8">
 storeSingletonDestroyCallback</a>(<a class="code" href=
 "namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">singletonDestroyCallback</a>
@@ -181,8 +193,9 @@ callback);</div>
 <div class="line"><a name="l00015" id="l00015"></a> <span class=
 "lineno">15</span>&nbsp;</div>
 <div class="line"><a name="l00016" id="l00016"></a> <span class=
-"lineno">16</span>&nbsp;CUTEHMI_PRIVATE <span class=
-"keywordtype">void</span> <a class="code" href=
+"lineno">16</span>&nbsp;<a class="code" href=
+"platform_8hpp.html#add8859357da2363b0712b1f9e68218dd">CUTEHMI_PRIVATE</a>
+<span class="keywordtype">void</span> <a class="code" href=
 "namespacecutehmi_1_1internal.html#a48f3806aca0b0421cd8b9a72b3b09f98">
 removeSingletonDestroyCallback</a>(<a class="code" href=
 "namespacecutehmi_1_1internal.html#a61750750434b3f41817b27233d52e529">singletonDestroyCallback</a>
@@ -208,6 +221,10 @@ callback);</div>
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>
+<div class="ttc" id="platform_8hpp_html">
+<div class="ttname"><a href=
+"platform_8hpp.html">platform.hpp</a></div>
+</div>
 <div class="ttc" id=
 "namespacecutehmi_1_1internal_html_a48f3806aca0b0421cd8b9a72b3b09f98">
 <div class="ttname"><a href=
@@ -242,6 +259,13 @@ callback)</div>
 <div class="ttdef"><b>Definition:</b> Dialog.hpp:14</div>
 </div>
 <div class="ttc" id=
+"platform_8hpp_html_add8859357da2363b0712b1f9e68218dd">
+<div class="ttname"><a href=
+"platform_8hpp.html#add8859357da2363b0712b1f9e68218dd">CUTEHMI_PRIVATE</a></div>
+<div class="ttdeci">#define CUTEHMI_PRIVATE</div>
+<div class="ttdef"><b>Definition:</b> platform.hpp:24</div>
+</div>
+<div class="ttc" id=
 "namespacecutehmi_1_1internal_html_aece84dfd57a9e6173f3420ca639f4a9c">
 <div class="ttname"><a href=
 "namespacecutehmi_1_1internal.html#aece84dfd57a9e6173f3420ca639f4a9c">
@@ -264,7 +288,8 @@ destroySingletonInstances()</div>
 "dir_af47cb53463d2a51ba0770599d092505.html">cutehmi</a></li>
 <li class="navelem"><a class="el" href=
 "dir_3fd6af9039fa90256eb5fa0e1cba862c.html">internal</a></li>
-<li class="navelem"><b>singleton.hpp</b></li>
+<li class="navelem"><a class="el" href=
+"internal_2singleton_8hpp.html">singleton.hpp</a></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>
