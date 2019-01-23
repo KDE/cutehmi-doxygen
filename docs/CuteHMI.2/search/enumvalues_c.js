@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['warning',['WARNING',['../classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aa28166ec3c94acfb6722ba0cc0c72223d',1,'cutehmi::Dialog::WARNING()'],['../classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65accfd003ae81c889f3c0a40991a52d73b',1,'cutehmi::Notification::WARNING()']]],
-  ['working',['WORKING',['../classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a89d036f09443b696bc2590c1e1fc159d',1,'cutehmi::Worker']]]
+  ['unemployed',['UNEMPLOYED',['../classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81aac760fdeafc4a2446960bccbb511ebf8',1,'cutehmi::Worker']]],
+  ['uninitialized',['UNINITIALIZED',['../structcutehmi_1_1_error.html#af321daa00c741246e8c9a21ea0435b96afe816648abbdc6f79ebb19f3d5b29574',1,'cutehmi::Error']]]
 ];

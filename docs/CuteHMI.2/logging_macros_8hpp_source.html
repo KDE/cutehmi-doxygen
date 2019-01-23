@@ -140,119 +140,119 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_LOGGINGMACROS_HPP</span></div>
 H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_LOGGINGMACROS_HPP</span></div>
 <div class="line"><a name="l00003" id="l00003"></a> <span class=
 "lineno">3</span>&nbsp;</div>
-<div class="line"><a name="l00004" id="l00004"></a> <span class=
-"lineno">4</span>&nbsp;<span class="preprocessor">#include
+<div class="line"><a name="l00021" id="l00021"></a> <span class=
+"lineno">21</span>&nbsp;<span class="preprocessor">#include
 &lt;QLoggingCategory&gt;</span></div>
-<div class="line"><a name="l00005" id="l00005"></a> <span class=
-"lineno">5</span>&nbsp;</div>
-<div class="line"><a name="l00006" id="l00006"></a> <span class=
-"lineno">6</span>&nbsp;<span class="preprocessor">#ifndef
+<div class="line"><a name="l00022" id="l00022"></a> <span class=
+"lineno">22</span>&nbsp;</div>
+<div class="line"><a name="l00023" id="l00023"></a> <span class=
+"lineno">23</span>&nbsp;<span class="preprocessor">#ifndef
 CUTEHMI_NDEBUG</span></div>
-<div class="line"><a name="l00007" id="l00007"></a> <span class=
-"lineno">7</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00024" id="l00024"></a> <span class=
+"lineno">24</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_DEBUG(EXPR) qCDebug(loggingCategory()).nospace().noquote()
 &lt;&lt; EXPR</span></div>
-<div class="line"><a name="l00008" id="l00008"></a> <span class=
-"lineno">8</span>&nbsp;<span class=
+<div class="line"><a name="l00025" id="l00025"></a> <span class=
+"lineno">25</span>&nbsp;<span class=
 "preprocessor">#else</span></div>
-<div class="line"><a name="l00009" id="l00009"></a> <span class=
-"lineno">9</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00026" id="l00026"></a> <span class=
+"lineno">26</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_DEBUG(EXPR) (void)0</span></div>
-<div class="line"><a name="l00010" id="l00010"></a> <span class=
-"lineno">10</span>&nbsp;<span class=
+<div class="line"><a name="l00027" id="l00027"></a> <span class=
+"lineno">27</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00011" id="l00011"></a> <span class=
-"lineno">11</span>&nbsp;</div>
-<div class="line"><a name="l00012" id="l00012"></a> <span class=
-"lineno">12</span>&nbsp;<span class="preprocessor">#ifndef
+<div class="line"><a name="l00028" id="l00028"></a> <span class=
+"lineno">28</span>&nbsp;</div>
+<div class="line"><a name="l00029" id="l00029"></a> <span class=
+"lineno">29</span>&nbsp;<span class="preprocessor">#ifndef
 CUTEHMI_NINFO</span></div>
-<div class="line"><a name="l00013" id="l00013"></a> <span class=
-"lineno">13</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00030" id="l00030"></a> <span class=
+"lineno">30</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_INFO(EXPR) qCInfo(loggingCategory()).nospace().noquote()
 &lt;&lt; EXPR</span></div>
-<div class="line"><a name="l00014" id="l00014"></a> <span class=
-"lineno">14</span>&nbsp;<span class=
+<div class="line"><a name="l00031" id="l00031"></a> <span class=
+"lineno">31</span>&nbsp;<span class=
 "preprocessor">#else</span></div>
-<div class="line"><a name="l00015" id="l00015"></a> <span class=
-"lineno">15</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00032" id="l00032"></a> <span class=
+"lineno">32</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_INFO(EXPR) (void)0</span></div>
-<div class="line"><a name="l00016" id="l00016"></a> <span class=
-"lineno">16</span>&nbsp;<span class=
+<div class="line"><a name="l00033" id="l00033"></a> <span class=
+"lineno">33</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00017" id="l00017"></a> <span class=
-"lineno">17</span>&nbsp;</div>
-<div class="line"><a name="l00018" id="l00018"></a> <span class=
-"lineno">18</span>&nbsp;<span class="preprocessor">#ifndef
+<div class="line"><a name="l00034" id="l00034"></a> <span class=
+"lineno">34</span>&nbsp;</div>
+<div class="line"><a name="l00035" id="l00035"></a> <span class=
+"lineno">35</span>&nbsp;<span class="preprocessor">#ifndef
 CUTEHMI_NWARNING</span></div>
-<div class="line"><a name="l00019" id="l00019"></a> <span class=
-"lineno">19</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00036" id="l00036"></a> <span class=
+"lineno">36</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_WARNING(EXPR)
 qCWarning(loggingCategory()).nospace().noquote() &lt;&lt;
 EXPR</span></div>
-<div class="line"><a name="l00020" id="l00020"></a> <span class=
-"lineno">20</span>&nbsp;<span class=
+<div class="line"><a name="l00037" id="l00037"></a> <span class=
+"lineno">37</span>&nbsp;<span class=
 "preprocessor">#else</span></div>
-<div class="line"><a name="l00021" id="l00021"></a> <span class=
-"lineno">21</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00038" id="l00038"></a> <span class=
+"lineno">38</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_WARNING(EXPR) (void)0</span></div>
-<div class="line"><a name="l00022" id="l00022"></a> <span class=
-"lineno">22</span>&nbsp;<span class=
+<div class="line"><a name="l00039" id="l00039"></a> <span class=
+"lineno">39</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00023" id="l00023"></a> <span class=
-"lineno">23</span>&nbsp;</div>
-<div class="line"><a name="l00024" id="l00024"></a> <span class=
-"lineno">24</span>&nbsp;<span class="preprocessor">#ifndef
+<div class="line"><a name="l00040" id="l00040"></a> <span class=
+"lineno">40</span>&nbsp;</div>
+<div class="line"><a name="l00041" id="l00041"></a> <span class=
+"lineno">41</span>&nbsp;<span class="preprocessor">#ifndef
 CUTEHMI_NCRITICAL</span></div>
-<div class="line"><a name="l00025" id="l00025"></a> <span class=
-"lineno">25</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00042" id="l00042"></a> <span class=
+"lineno">42</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_CRITICAL(EXPR)
 qCCritical(loggingCategory()).nospace().noquote() &lt;&lt;
 EXPR</span></div>
-<div class="line"><a name="l00026" id="l00026"></a> <span class=
-"lineno">26</span>&nbsp;<span class=
+<div class="line"><a name="l00043" id="l00043"></a> <span class=
+"lineno">43</span>&nbsp;<span class=
 "preprocessor">#else</span></div>
-<div class="line"><a name="l00027" id="l00027"></a> <span class=
-"lineno">27</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00044" id="l00044"></a> <span class=
+"lineno">44</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_CRITICAL(EXPR) (void)0</span></div>
-<div class="line"><a name="l00028" id="l00028"></a> <span class=
-"lineno">28</span>&nbsp;<span class=
+<div class="line"><a name="l00045" id="l00045"></a> <span class=
+"lineno">45</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00029" id="l00029"></a> <span class=
-"lineno">29</span>&nbsp;</div>
-<div class="line"><a name="l00030" id="l00030"></a> <span class=
-"lineno">30</span>&nbsp;<span class="preprocessor">#define
+<div class="line"><a name="l00046" id="l00046"></a> <span class=
+"lineno">46</span>&nbsp;</div>
+<div class="line"><a name="l00047" id="l00047"></a> <span class=
+"lineno">47</span>&nbsp;<span class="preprocessor">#define
 CUTEHMI_DIE(...) QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO,
 loggingCategory().categoryName()).fatal(__VA_ARGS__)</span></div>
-<div class="line"><a name="l00031" id="l00031"></a> <span class=
-"lineno">31</span>&nbsp;</div>
-<div class="line"><a name="l00032" id="l00032"></a> <span class=
-"lineno">32</span>&nbsp;<span class="preprocessor">#ifndef
+<div class="line"><a name="l00048" id="l00048"></a> <span class=
+"lineno">48</span>&nbsp;</div>
+<div class="line"><a name="l00049" id="l00049"></a> <span class=
+"lineno">49</span>&nbsp;<span class="preprocessor">#ifndef
 CUTEHMI_NDEBUG</span></div>
-<div class="line"><a name="l00033" id="l00033"></a> <span class=
-"lineno">33</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00050" id="l00050"></a> <span class=
+"lineno">50</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_ASSERT(EXPR, MSG) Q_ASSERT_X(EXPR, __FILE__,
 MSG)</span></div>
-<div class="line"><a name="l00034" id="l00034"></a> <span class=
-"lineno">34</span>&nbsp;<span class=
+<div class="line"><a name="l00051" id="l00051"></a> <span class=
+"lineno">51</span>&nbsp;<span class=
 "preprocessor">#else</span></div>
-<div class="line"><a name="l00035" id="l00035"></a> <span class=
-"lineno">35</span>&nbsp; <span class="preprocessor">#define
+<div class="line"><a name="l00052" id="l00052"></a> <span class=
+"lineno">52</span>&nbsp; <span class="preprocessor">#define
 CUTEHMI_ASSERT(EXPR, MSG) (void)0</span></div>
-<div class="line"><a name="l00036" id="l00036"></a> <span class=
-"lineno">36</span>&nbsp;<span class=
+<div class="line"><a name="l00053" id="l00053"></a> <span class=
+"lineno">53</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00037" id="l00037"></a> <span class=
-"lineno">37</span>&nbsp;</div>
-<div class="line"><a name="l00038" id="l00038"></a> <span class=
-"lineno">38</span>&nbsp;<span class=
+<div class="line"><a name="l00054" id="l00054"></a> <span class=
+"lineno">54</span>&nbsp;</div>
+<div class="line"><a name="l00055" id="l00055"></a> <span class=
+"lineno">55</span>&nbsp;<span class=
 "preprocessor">#endif</span></div>
-<div class="line"><a name="l00039" id="l00039"></a> <span class=
-"lineno">39</span>&nbsp;</div>
-<div class="line"><a name="l00040" id="l00040"></a> <span class=
-"lineno">40</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+<div class="line"><a name="l00056" id="l00056"></a> <span class=
+"lineno">56</span>&nbsp;</div>
+<div class="line"><a name="l00057" id="l00057"></a> <span class=
+"lineno">57</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
 2019, Michal Policht. All rights reserved.</span></div>
-<div class="line"><a name="l00041" id="l00041"></a> <span class=
-"lineno">41</span>&nbsp;<span class="comment">//(c)MP: This Source
+<div class="line"><a name="l00058" id="l00058"></a> <span class=
+"lineno">58</span>&nbsp;<span class="comment">//(c)MP: This Source
 Code Form is subject to the terms of the Mozilla Public License, v.
 2.0. If a copy of the MPL was not distributed with this file, You
 can obtain one at http://mozilla.org/MPL/2.0/.</span></div>

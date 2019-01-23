@@ -22,12 +22,12 @@ var classcutehmi_1_1_dialog =
       [ "NO_BUTTON", "classcutehmi_1_1_dialog.html#a66851fd2528176015d6eb9752d7c722fa09414fca14fb574fca2e247f85bfafdd", null ]
     ] ],
     [ "Type", "classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3a", [
-      [ "NOTE", "classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aab87e83846c14d7322c9a895f0143a953", null ],
+      [ "INFO", "classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aad7fd775a86719430c8fc82aca6b0e409", null ],
       [ "WARNING", "classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aa28166ec3c94acfb6722ba0cc0c72223d", null ],
       [ "CRITICAL", "classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aaeb661926db90c52e8da4c92fafb52f92", null ],
       [ "QUESTION", "classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aa23f511072bd733b96bada6fb7cd9202e", null ]
     ] ],
-    [ "Dialog", "classcutehmi_1_1_dialog.html#af4b69de224a584463200b3b652b19a9c", null ],
+    [ "Dialog", "classcutehmi_1_1_dialog.html#aced461aabc1102b2ddb28cc396b21a70", null ],
     [ "Dialog", "classcutehmi_1_1_dialog.html#a0a4bb04c34fb78e42e7b8b69aed4a186", null ],
     [ "Dialog", "classcutehmi_1_1_dialog.html#a877a4baf2f25a4c63f535e3ea684c4cb", null ],
     [ "~Dialog", "classcutehmi_1_1_dialog.html#aa16932da585810021a2540b626ca4199", null ],

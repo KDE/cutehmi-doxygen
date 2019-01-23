@@ -27,7 +27,7 @@ var NAVTREE =
     [ "Main Page", "../index.html", null ],
     [ "Extensions", "../extensions_list.html", null ],
     [ "Tools", "../tools_list.html", null ],
-    [ "CuteHMI - [Core]", "index.html", null ],
+    [ "CuteHMI", "index.html", null ],
     [ "Principles", "principles.html", null ],
     [ "Assumptions", "assumptions.html", null ],
     [ "Namespaces", "namespaces.html", [

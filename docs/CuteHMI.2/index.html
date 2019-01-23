@@ -10,7 +10,7 @@
 <meta name="generator" content="Doxygen 1.8.14" />
 <meta name="viewport" content=
 "width=device-width, initial-scale=1" />
-<title>CuteHMI - CuteHMI (CuteHMI.2): CuteHMI - [Core]</title>
+<title>CuteHMI - CuteHMI (CuteHMI.2): CuteHMI</title>
 <link href="tabs.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="jquery.js">
 </script>
@@ -127,13 +127,37 @@ frameborder="0" name="MSearchResults" id=
 <div class="header">
 <div class="headertitle">
 <div class="title"><a class="el" href=
-"namespace_cute_h_m_i.html">CuteHMI</a> - [Core]</div>
+"namespace_cute_h_m_i.html">CuteHMI</a></div>
 </div>
 </div>
 <!--header-->
 <div class="contents">
 <div class="textblock">
 <p>This module provides core functionality to other modules.</p>
+<p>It provides various utility classes and bridges that help other
+extensions and tools to communicate with each other.</p>
+<h2>Bridges</h2>
+<p><a class="el" href="logging_macros_8hpp_source.html">Logging
+macros</a> help deliver consistently looking logging messages to
+power users and developers.</p>
+<p>Messages that should show up in user interface can be delivered
+through Dialog and Notificatoin classes.</p>
+<h2>Utility classes</h2>
+<p>Singleton class template can be used to create singleton
+classes.</p>
+<p>Worker class can be helpful, when dealing with <a class="elRef"
+doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qt.html">Qt</a> database
+connections.</p>
+<p>MPtr can be helpful, when class uses PImpl idiom to maintain
+binary compatibility.</p>
+<p>Error, ErrorInfo, Exception and ExceptionMixin may be useful,
+when dealing with errors and exceptions.</p>
+<h2>Frontend tools</h2>
+<p>Frontend tools should take care about Notifier and Dialogist
+classes to deliver messages to the users. They should also call
+destroySingletonInstances() function.</p>
 </div>
 </div>
 <!-- contents --></div>

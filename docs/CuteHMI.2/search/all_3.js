@@ -283,6 +283,6 @@ var searchData=
   ['customevent',['customEvent',['http://doc.qt.io/qt-5/qobject.html#customEvent',1,'QObject']]],
   ['customtype',['customType',['http://doc.qt.io/qt-5/qeasingcurve.html#customType',1,'QEasingCurve']]],
   ['cutehmi',['cutehmi',['../namespacecutehmi.html',1,'cutehmi'],['../namespace_cute_h_m_i.html',1,'CuteHMI']]],
-  ['cutehmi_20_2d_20_5bcore_5d',['CuteHMI - [Core]',['../index.html',1,'']]],
+  ['cutehmi',['CuteHMI',['../index.html',1,'']]],
   ['internal',['internal',['../namespacecutehmi_1_1internal.html',1,'cutehmi']]]
 ];

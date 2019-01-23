@@ -302,7 +302,7 @@ var searchData=
   ['queryproxy',['queryProxy',['http://doc.qt.io/qt-5/qnetworkproxyfactory.html#queryProxy',1,'QNetworkProxyFactory']]],
   ['querytype',['queryType',['http://doc.qt.io/qt-5/qnetworkproxyquery.html#queryType',1,'QNetworkProxyQuery']]],
   ['queryvaluedelimiter',['queryValueDelimiter',['http://doc.qt.io/qt-5/qurlquery.html#queryValueDelimiter',1,'QUrlQuery']]],
-  ['question',['Question',['../classcutehmi_1_1_dialog.html#af0db264b30319384620bd145645bfabe',1,'cutehmi::Dialog::Question(const QString &amp;text, Dialog::Buttons buttons=Dialog::Buttons{Dialog::BUTTON_YES, Dialog::BUTTON_NO})'],['../classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aa23f511072bd733b96bada6fb7cd9202e',1,'cutehmi::Dialog::QUESTION()']]],
+  ['question',['QUESTION',['../classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aa23f511072bd733b96bada6fb7cd9202e',1,'cutehmi::Dialog::QUESTION()'],['../classcutehmi_1_1_dialog.html#af0db264b30319384620bd145645bfabe',1,'cutehmi::Dialog::Question(const QString &amp;text, Dialog::Buttons buttons=Dialog::Buttons{Dialog::BUTTON_YES, Dialog::BUTTON_NO})']]],
   ['queue',['queue',['https://en.cppreference.com/w/cpp/container/queue.html',1,'std::queue'],['https://en.cppreference.com/w/cpp/container/queue/queue.html',1,'std::queue::queue()']]],
   ['quick_5fexit',['quick_exit',['https://en.cppreference.com/w/cpp/utility/program/quick_exit.html',1,'std']]],
   ['quiet_5fnan',['quiet_NaN',['https://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',1,'std::numeric_limits']]],

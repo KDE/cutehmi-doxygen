@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ready',['READY',['../classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a2baa69eafc7204f3bd8648eba580c489',1,'cutehmi::Worker']]]
+  ['question',['QUESTION',['../classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aa23f511072bd733b96bada6fb7cd9202e',1,'cutehmi::Dialog']]]
 ];
