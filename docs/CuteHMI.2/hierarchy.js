@@ -3,6 +3,8 @@ var hierarchy =
     [ "Canvas", null, [
       [ "CuteHMI::PropItem", "class_cute_h_m_i_1_1_prop_item.html", null ]
     ] ],
+    [ "CuteHMI::Dialog", "class_cute_h_m_i_1_1_dialog.html", null ],
+    [ "CuteHMI::Dialogist", "class_cute_h_m_i_1_1_dialogist.html", null ],
     [ "cutehmi::Error", "structcutehmi_1_1_error.html", null ],
     [ "cutehmi::ErrorInfo", "structcutehmi_1_1_error_info.html", null ],
     [ "Item", null, [
@@ -25,6 +27,8 @@ var hierarchy =
       [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
+    [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
+    [ "CuteHMI::Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", null ]
     ] ],
