@@ -11,9 +11,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
-      [ "cutehmi::daemon::_Daemon", "classcutehmi_1_1daemon_1_1___daemon.html", null ],
-      [ "QThread", "http://doc.qt.io/qt-5/qthread.html", [
-        [ "cutehmi::daemon::EngineThread", "classcutehmi_1_1daemon_1_1_engine_thread.html", null ]
-      ] ]
+      [ "cutehmi::daemon::_Daemon", "classcutehmi_1_1daemon_1_1___daemon.html", null ]
     ] ]
 ];
