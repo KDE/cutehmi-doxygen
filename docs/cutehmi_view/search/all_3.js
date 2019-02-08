@@ -594,7 +594,7 @@ var searchData=
   ['customevent',['customEvent',['http://doc.qt.io/qt-5/qobject.html#customEvent',1,'QObject']]],
   ['customtype',['customType',['http://doc.qt.io/qt-5/qeasingcurve.html#customType',1,'QEasingCurve']]],
   ['cut',['cut',['http://doc.qt.io/qt-5/qlineedit.html#cut',1,'QLineEdit::cut()'],['http://doc.qt.io/qt-5/qplaintextedit.html#cut',1,'QPlainTextEdit::cut()'],['http://doc.qt.io/qt-5/qtextedit.html#cut',1,'QTextEdit::cut()']]],
-  ['cuteapp',['CuteApp',['../../CuteHMI/App.2/classcutehmi_1_1app_1_1_cute_app.html',1,'cutehmi::app::CuteApp'],['../../CuteHMI/App.2/class_cute_h_m_i_1_1_cute_app.html',1,'CuteHMI::CuteApp'],['../../CuteHMI/App.2/classcutehmi_1_1app_1_1_cute_app.html#a5f090ee193845c1c54abbf7a0dfccc67',1,'cutehmi::app::CuteApp::CuteApp()']]],
+  ['cuteapp',['CuteApp',['../../CuteHMI/App.2/classcutehmi_1_1app_1_1_cute_app.html',1,'cutehmi::app::CuteApp'],['../../CuteHMI/App.2/class_cute_h_m_i_1_1_app_1_1_cute_app.html',1,'CuteHMI::App::CuteApp'],['../../CuteHMI/App.2/classcutehmi_1_1app_1_1_cute_app.html#a5f090ee193845c1c54abbf7a0dfccc67',1,'cutehmi::app::CuteApp::CuteApp()']]],
   ['cuteapp_2ecpp',['CuteApp.cpp',['../../CuteHMI/App.2/_cute_app_8cpp.html',1,'']]],
   ['cuteapp_2ehpp',['CuteApp.hpp',['../../CuteHMI/App.2/_cute_app_8hpp.html',1,'']]],
   ['cuteappprovider',['CuteAppProvider',['../../CuteHMI/App.2/classcutehmi_1_1app_1_1internal_1_1_q_m_l_plugin.html#a9df1c9273738d18b2a31489288a1a26c',1,'cutehmi::app::internal::QMLPlugin']]],
