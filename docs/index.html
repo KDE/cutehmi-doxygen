@@ -182,42 +182,19 @@ process of finding the libraries and installing them under Windows
 easier, a set of Makefiles is provided, which allows the libraries
 to be build from sources. Check out <a class="el" href=
 "md_external__r_e_a_d_m_e.html">external</a> libraries for more
-details.</li>
+details. Each extension may provide individual documentation on how
+to build it.</li>
 </ol>
-<p>Under Linux one can run following commands to compile and
-install libmodbus library.</p>
-<div class="fragment">
-<div class="line">git clone
-git://github.com/stephane/libmodbus.git</div>
-<div class="line">cd libmodbus</div>
-<div class="line">git checkout
-f9358460ee1f62bcac716ad0444b3bbe7628b204</div>
-<div class="line">./autogen.sh</div>
-<div class="line">./configure</div>
-<div class="line">make &amp;&amp; sudo make install</div>
-</div>
-<!-- fragment -->
-<p>To install libssh on a Ubuntu-based system.</p>
-<div class="fragment">
-<div class="line">sudo apt-get -y install libssh-dev</div>
-</div>
-<!-- fragment -->
-<p>On Arch-based system.</p>
-<div class="fragment">
-<div class="line">pacman -S libssh</div>
-</div>
-<!-- fragment -->
-<p>To install PostgreSQL client library on Ubuntu-based system.</p>
-<div class="fragment">
-<div class="line">sudo apt-get -y install libpq-dev</div>
-</div>
-<!-- fragment -->
 <p>Remember that Qbs caches <a href=
 "http://doc.qt.io/qbs/qml-qbslanguageitems-probe.html">Probe</a>
 items' results, so if the library is installed after the project
 has been configured with Qbs, it will not show up. You can use
 <code>--force-probe-execution</code> option to force Qbs to not use
 cached results.</p>
+<h2>Examples</h2>
+<p>Refer to individual <a href=
+"https://michpolicht.github.io/CuteHMI_Doxygen/docs/tools_list.html">
+tool</a> on how to run examples.</p>
 <h2>Internals</h2>
 <p>Directory structure of the project is organized as follows.</p>
 <ul>

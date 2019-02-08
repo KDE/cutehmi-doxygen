@@ -146,9 +146,10 @@ example use following command.</p>
 --project="examples/CountDaemon/Main.qml"</div>
 </div>
 <!-- fragment -->
-<p>Read system logs to investigate whether daemon is running (e.g.
-<code>journalctl -n20</code> on a system with
-<em>systemd</em>).</p>
+<p>Fore debug builds use <code>cutehmi_daemon_debug</code> instead
+of <code>cutehmi_daemon</code>. Read system logs to investigate
+whether daemon is running (e.g. <code>journalctl -n20</code> on a
+system with <em>systemd</em>).</p>
 <p>One may use <code>--app</code> option to tell the program to
 work as a foreground process (this can be useful when testing
 projects).</p>
