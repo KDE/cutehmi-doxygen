@@ -120,7 +120,6 @@ var menudata={children:[
 {text:"All",url:"globals.html",children:[
 {text:"c",url:"globals.html#index_c"},
 {text:"o",url:"globals.html#index_o"},
-{text:"q",url:"globals.html#index_q"},
 {text:"s",url:"globals.html#index_s"}]},
 {text:"Functions",url:"globals_func.html"},
 {text:"Macros",url:"globals_defs.html"}]}]}]}

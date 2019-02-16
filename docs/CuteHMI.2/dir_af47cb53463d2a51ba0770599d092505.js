@@ -43,5 +43,6 @@ var dir_af47cb53463d2a51ba0770599d092505 =
     [ "Worker.hpp", "_worker_8hpp.html", [
       [ "Worker", "classcutehmi_1_1_worker.html", "classcutehmi_1_1_worker" ],
       [ "WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", "classcutehmi_1_1_worker_1_1_work_event" ]
-    ] ]
+    ] ],
+    [ "wrappers.hpp", "wrappers_8hpp.html", "wrappers_8hpp" ]
 ];

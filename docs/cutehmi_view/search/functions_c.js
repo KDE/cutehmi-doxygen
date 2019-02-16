@@ -144,7 +144,7 @@ var searchData=
   ['log1p',['log1p',['https://en.cppreference.com/w/cpp/numeric/math/log1p.html',1,'std']]],
   ['logb',['logb',['https://en.cppreference.com/w/cpp/numeric/math/logb.html',1,'std']]],
   ['loggedmessages',['loggedMessages',['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggedMessages',1,'QOpenGLDebugLogger']]],
-  ['loggingcategory',['loggingCategory',['../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../namespacecutehmi_1_1view.html#aaed2883d9f16056876969913a6f0762f',1,'cutehmi::view::loggingCategory()']]],
+  ['loggingcategory',['loggingCategory',['../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../../CuteHMI/App.2/namespacecutehmi_1_1app.html#abe45b6aab611ed5d880b2e57b4ce2be8',1,'cutehmi::app::loggingCategory()'],['../namespacecutehmi_1_1view.html#aaed2883d9f16056876969913a6f0762f',1,'cutehmi::view::loggingCategory()']]],
   ['loggingmode',['loggingMode',['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggingMode',1,'QOpenGLDebugLogger']]],
   ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error']]],
   ['logicaldotsperinch',['logicalDotsPerInch',['http://doc.qt.io/qt-5/qscreen.html#logicalDotsPerInch-prop',1,'QScreen']]],

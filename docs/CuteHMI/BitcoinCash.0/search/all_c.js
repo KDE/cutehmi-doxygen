@@ -79,7 +79,7 @@ var searchData=
   ['logb',['logb',['https://en.cppreference.com/w/cpp/numeric/math/logb.html',1,'std']]],
   ['logging_2ecpp',['logging.cpp',['../logging_8cpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/logging_8cpp.html',1,'(Global Namespace)']]],
   ['logging_2ehpp',['logging.hpp',['../logging_8hpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/logging_8hpp.html',1,'(Global Namespace)']]],
-  ['loggingcategory',['loggingCategory',['../../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi']]],
+  ['loggingcategory',['loggingCategory',['../../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../namespacecutehmi_1_1bitcoincash.html#aef9eaf3ad590b43493ef9c369eb449b7',1,'cutehmi::bitcoincash::loggingCategory()']]],
   ['loggingmacros_2ehpp',['loggingMacros.hpp',['../../../CuteHMI.2/logging_macros_8hpp.html',1,'']]],
   ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error'],['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error::logic_error()']]],
   ['logical_5fand',['logical_and',['https://en.cppreference.com/w/cpp/utility/functional/logical_and.html',1,'std']]],

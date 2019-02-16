@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['q_5fdeclare_5flogging_5fcategory',['Q_DECLARE_LOGGING_CATEGORY',['../logging_8hpp.html#a4ce09e89109cc7d5ee8412ed07a63242',1,'logging.hpp']]],
   ['qabstractanimation',['QAbstractAnimation',['http://doc.qt.io/qt-5/qabstractanimation.html#QAbstractAnimation',1,'QAbstractAnimation']]],
   ['qabstracteventdispatcher',['QAbstractEventDispatcher',['http://doc.qt.io/qt-5/qabstracteventdispatcher.html#QAbstractEventDispatcher',1,'QAbstractEventDispatcher']]],
   ['qabstractitemmodel',['QAbstractItemModel',['http://doc.qt.io/qt-5/qabstractitemmodel.html#QAbstractItemModel',1,'QAbstractItemModel']]],

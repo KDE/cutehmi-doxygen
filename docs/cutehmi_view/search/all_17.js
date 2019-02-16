@@ -153,6 +153,7 @@ var searchData=
   ['wraparound',['wrapAround',['http://doc.qt.io/qt-5/qcompleter.html#wrapAround-prop',1,'QCompleter::wrapAround()'],['http://doc.qt.io/qt-5/qcompleter.html#wrapAround-prop',1,'QCompleter::wrapAround() const']]],
   ['wrapmode',['wrapMode',['http://doc.qt.io/qt-5/qopengltexture.html#wrapMode',1,'QOpenGLTexture::wrapMode()'],['http://doc.qt.io/qt-5/qtextoption.html#wrapMode',1,'QTextOption::wrapMode()']]],
   ['wrappedevent',['WrappedEvent',['http://doc.qt.io/qt-5/qstatemachine-wrappedevent.html',1,'QStateMachine']]],
+  ['wrappers_2ehpp',['wrappers.hpp',['../../CuteHMI.2/wrappers_8hpp.html',1,'']]],
   ['wrapping',['wrapping',['http://doc.qt.io/qt-5/qabstractspinbox.html#wrapping-prop',1,'QAbstractSpinBox::wrapping()'],['http://doc.qt.io/qt-5/qdial.html#wrapping-prop',1,'QDial::wrapping()'],['http://doc.qt.io/qt-5/qabstractspinbox.html#wrapping-prop',1,'QAbstractSpinBox::wrapping()'],['http://doc.qt.io/qt-5/qdial.html#wrapping-prop',1,'QDial::wrapping()']]],
   ['wregex',['wregex',['https://en.cppreference.com/w/cpp/regex/basic_regex.html',1,'std::wregex'],['https://en.cppreference.com/w/cpp/regex/basic_regex/basic_regex.html',1,'std::wregex::wregex()']]],
   ['writablelocation',['writableLocation',['http://doc.qt.io/qt-5/qstandardpaths.html#writableLocation',1,'QStandardPaths']]],

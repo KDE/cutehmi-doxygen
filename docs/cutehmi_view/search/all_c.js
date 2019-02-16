@@ -151,7 +151,7 @@ var searchData=
   ['loggedmessages',['loggedMessages',['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggedMessages',1,'QOpenGLDebugLogger']]],
   ['logging_2ecpp',['logging.cpp',['../logging_8cpp.html',1,'(Global Namespace)'],['../../CuteHMI.2/logging_8cpp.html',1,'(Global Namespace)'],['../../CuteHMI/App.2/logging_8cpp.html',1,'(Global Namespace)']]],
   ['logging_2ehpp',['logging.hpp',['../logging_8hpp.html',1,'(Global Namespace)'],['../../CuteHMI.2/logging_8hpp.html',1,'(Global Namespace)'],['../../CuteHMI/App.2/logging_8hpp.html',1,'(Global Namespace)']]],
-  ['loggingcategory',['loggingCategory',['../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../namespacecutehmi_1_1view.html#aaed2883d9f16056876969913a6f0762f',1,'cutehmi::view::loggingCategory()']]],
+  ['loggingcategory',['loggingCategory',['../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../../CuteHMI/App.2/namespacecutehmi_1_1app.html#abe45b6aab611ed5d880b2e57b4ce2be8',1,'cutehmi::app::loggingCategory()'],['../namespacecutehmi_1_1view.html#aaed2883d9f16056876969913a6f0762f',1,'cutehmi::view::loggingCategory()']]],
   ['loggingmacros_2ehpp',['loggingMacros.hpp',['../../CuteHMI.2/logging_macros_8hpp.html',1,'']]],
   ['loggingmode',['loggingMode',['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggingMode-prop',1,'QOpenGLDebugLogger::loggingMode()'],['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggingMode',1,'QOpenGLDebugLogger::loggingMode() const']]],
   ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error'],['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error::logic_error()']]],

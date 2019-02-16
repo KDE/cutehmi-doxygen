@@ -121,7 +121,6 @@ var NAVTREEINDEX1 =
 "logging_8cpp.html":[8,0,1,0,7],
 "logging_8hpp.html":[8,0,0,0,8],
 "logging_8hpp.html#a9264aa5971ce85aa88dd714237fe7d1a":[8,0,0,0,8,0],
-"logging_8hpp.html#af0707747342e557fc5af58b76bf59c2a":[8,0,0,0,8,1],
 "logging_8hpp_source.html":[8,0,0,0,8],
 "logging_macros_8hpp.html":[8,0,0,0,9],
 "logging_macros_8hpp.html#a07e09cabdc081426a51a9f55341b139b":[8,0,0,0,9,5],
@@ -135,8 +134,8 @@ var NAVTREEINDEX1 =
 "metadata_8hpp_source.html":[8,0,0,0,10],
 "namespace_cute_h_m_i.html":[7,0,1],
 "namespace_cute_h_m_i.html":[6,0,1],
-"namespacecutehmi.html":[6,0,0],
 "namespacecutehmi.html":[7,0,0],
+"namespacecutehmi.html":[6,0,0],
 "namespacecutehmi_1_1internal.html":[7,0,0,0],
 "namespacecutehmi_1_1internal.html":[6,0,0,0],
 "namespacemembers.html":[6,1,0],
@@ -174,5 +173,9 @@ var NAVTREEINDEX1 =
 "structcutehmi_1_1_error_info.html#a8cf2fe1e015f8c5e6409eb8fda22bde2":[7,0,0,5,2],
 "structcutehmi_1_1_error_info.html#a939a45a0d5618100df4a120033ac1dbc":[7,0,0,5,0],
 "structcutehmi_1_1_error_info.html#addce052016813ca52f624921f8046c7f":[7,0,0,5,3],
-"structcutehmi_1_1_error_info.html#ae0156ec3ed8365be22bb1b4d1d100ec5":[7,0,0,5,1]
+"structcutehmi_1_1_error_info.html#ae0156ec3ed8365be22bb1b4d1d100ec5":[7,0,0,5,1],
+"wrappers_8hpp.html":[8,0,0,0,19],
+"wrappers_8hpp.html#a29f523795f3fbea04dc9205c6a22df61":[8,0,0,0,19,1],
+"wrappers_8hpp.html#af0d52205f5c0044ed8302f5e92c2eb8f":[8,0,0,0,19,0],
+"wrappers_8hpp_source.html":[8,0,0,0,19]
 };
