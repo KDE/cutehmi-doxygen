@@ -257,6 +257,49 @@ intrusive, but most straightforward way to generate skeleton for an
 extension. QtCreator also allows you to modify this property
 through <code>Properties:</code> box in the <code>Projects</code>
 mode.</p>
+<h2>Providing extension with a code</h2>
+<p>Next steps depend on what your extension is going to accomplish.
+<a class="elRef" doxygen=
+"/home/cutebot/devel/CuteHMI/extensions/CuteHMI.2/doxygen.tag:../../CuteHMI.2/"
+href="../../CuteHMI.2/namespace_cute_h_m_i.html">CuteHMI</a>
+extensions combine the functionality of libraries and QML
+extensions. Extension can be a pure QML runtime extension, a pure
+binary library, or it can be a mix of both.</p>
+<p>If you would like to provide a QML extension, then you should
+refer to documentation on <a href=
+"https://doc.qt.io/qt-5/qtqml-modules-qmldir.html">qmldir</a>
+files. You have to create <code>qmldir</code> file, but
+<code>qmltypes</code> file will be generated automatically for each
+extension thanks to <code>cutehmi.qmltypes</code> Qbs module
+dependecy, which is set for each <code>cutehmi.Extension</code>
+item by default.</p>
+<p>To make an extension that acts as a QML extension, but uses C++
+code, you may refer to <a href=
+"https://doc.qt.io/qt-5/qtqml-modules-cppplugins.html">Creating C++
+Plugins for QML</a>. You can ignore the creation of
+<code>.pro</code> files and simply add files to Qbs project. Key
+concepts to focus on is a class that extends <code><a class="elRef"
+doxygen=
+"/usr/share/qt5/doc/qtqml/qtqml.tags:http://doc.qt.io/qt-5/" href=
+"http://doc.qt.io/qt-5/qqmlextensionplugin.html">QQmlExtensionPlugin</a></code>,
+<code>qmlRegisterType</code> function template that exposes
+<code><a class="elRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qobject.html">QObject</a></code>
+derived classes and entries in <code>qmldir</code> file. You may
+also check out the tutorial <a href=
+"https://doc.qt.io/qt-5/qtqml-tutorials-extending-qml-example.html">
+Writing QML Extensions with C++</a>.</p>
+<p>To create an extension that behaves like a library (i.e. other
+extensions can be linked with it) you should refer to <a class=
+"elRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qt.html">Qt</a> documentation on
+<a href="https://doc.qt.io/qt-5/sharedlibrary.html">Creating Shared
+Libraries</a>. Note that mentioned <code>MYSHAREDLIB_EXPORT</code>
+macros are defined within <code>platform.hpp</code> according to a
+pattern <code>VENDORNAME_EXTENSIONNAME_API</code>. Again, you don't
+need to worry about <code>.pro</code> files.</p>
 </div>
 </div>
 <!-- contents --></div>
