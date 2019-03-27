@@ -131,8 +131,70 @@ frameborder="0" name="MSearchResults" id=
 they can be also used like standard libraries.</p>
 <h2>Creating custom extensions</h2>
 <p>Extension <a href=
-"CuteHMI/Skeleton.0/index.html">CuteHMI.Skeleton</a> can be used to
-boost the process of creating custom extensions.</p>
+"Templates/Skeleton.0/index.html">Templates.Skeleton</a> can be
+used to boost the process of creating custom extensions.</p>
+<h2>Directories</h2>
+<p>Directory structure of extensions follows standard QML
+extensions scheme. Directory name of the extension defines fully
+qualified extension <b>name</b> denoted as
+<b>VendorName.ExtensionName.MajorVersion</b>. As a reference we can
+take <code>Templates.Skeleton.0</code> extension.</p>
+<p>Fully qualified <b>name</b> consists of <b>base name</b>
+(<code>Templates.Skeleton</code>) and <b>major version suffix</b>
+(<code>.0</code>). <b>Base name</b> consists of two parts:
+<b>vendor name</b> (<code>Templates</code>) and <b>extension
+name</b> (<code>Skeleton</code>). It is allowed to omit
+<b>extension name</b> for a single extension from a specific
+vendor.</p>
+<p>Extension directories follow camel-case (PascalCase) rules in
+order to remain consistent with QML extension naming convention
+used by Qt. On the other hand following this convention within C++
+would be inconvenient in many places, so compromises have been
+made. Sometimes semantic members of extension directory name are
+lowercased. To express such intention, a pattern
+<b>VendorName.ExtensionName.MajorVersion</b> will be transformed
+according to the intention (i.e. <b>vendorname</b> represents
+lowercased <b>VendorName</b>).</p>
+<p>Typically each extension will have directory structure similar
+to this one.</p>
+<ul>
+<li><code>include</code> - public header files (available to other
+modules).
+<ul>
+<li><b>vendorname</b> - for example <code>templates</code>.
+<ul>
+<li><b>extensionname</b> - for example <code>skeleton</code>.
+<ul>
+<li><code>internal</code> - some headers need to be publicly
+available, but they are implementation detail. This directory is
+for such files.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>src</code> - private header files and implementation.
+<ul>
+<li><b>vendorname</b> - for example <code>templates</code>.
+<ul>
+<li><b>extensionname</b> - for example <code>skeleton</code>.
+<ul>
+<li><code>internal</code> - corresponds with <code>internal</code>
+subdirectory inside <code>include</code> directory.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>tests</code> - Tests.</li>
+<li><code>doc</code> - Documentation related files.</li>
+<li><code>dev</code> - Development notes.</li>
+</ul>
+<p>To keep things in order and avoid naming conflicts, C++
+namespaces should reflect above directory structure within
+<code>include</code> and <code>src</code> directories.</p>
 </div>
 </div>
 <!-- contents --></div>
