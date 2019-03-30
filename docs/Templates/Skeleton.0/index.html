@@ -11,7 +11,7 @@
 <meta name="viewport" content=
 "width=device-width, initial-scale=1" />
 <title>The Secret Order of Templates - Skeleton
-(Templates.Skeleton.0): CuteHMI - Skeleton</title>
+(Templates.Skeleton.0): Templates - Skeleton</title>
 <link href="tabs.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="jquery.js">
 </script>
@@ -127,10 +127,7 @@ frameborder="0" name="MSearchResults" id=
 "MSearchResults"></iframe></div>
 <div class="header">
 <div class="headertitle">
-<div class="title"><a class="elRef" doxygen=
-"/home/cutebot/devel/cutehmi/extensions/CuteHMI.2/doxygen.tag:../../CuteHMI.2/"
-href="../../CuteHMI.2/namespace_cute_h_m_i.html">CuteHMI</a> -
-Skeleton</div>
+<div class="title">Templates - Skeleton</div>
 </div>
 </div>
 <!--header-->
@@ -204,11 +201,9 @@ binary library, or it can be a mix of both.</p>
 <p>If you would like to provide a QML extension, then you should
 refer to documentation on <a href=
 "https://doc.qt.io/qt-5/qtqml-modules-qmldir.html">qmldir</a>
-files. You have to create <code>qmldir</code> file, but
-<code>qmltypes</code> file will be generated automatically for each
-extension thanks to <code>cutehmi.qmltypes</code> Qbs module
-dependecy, which is set for each <code>cutehmi.Extension</code>
-item by default.</p>
+files. You have to create <code>qmldir</code> file. You can use
+<code>cutehmi.qmltypes</code> Qbs module dependency to generate
+<code>plugins.qmltypes</code> file.</p>
 <p>To make an extension that acts as a QML extension, but uses C++
 code, you may refer to <a href=
 "https://doc.qt.io/qt-5/qtqml-modules-cppplugins.html">Creating C++

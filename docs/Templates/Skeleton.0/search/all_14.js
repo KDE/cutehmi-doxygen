@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['templates_20_2d_20skeleton',['Templates - Skeleton',['../index.html',1,'']]],
   ['skeleton',['skeleton',['../namespacetemplates_1_1skeleton.html',1,'templates']]],
   ['t',['t',['https://en.cppreference.com/w/cpp/numeric/random/binomial_distribution/params.html',1,'std::binomial_distribution']]],
   ['tag',['tag',['http://doc.qt.io/qt-5/qmetamethod.html#tag',1,'QMetaMethod']]],

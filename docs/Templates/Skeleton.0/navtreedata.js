@@ -27,7 +27,7 @@ var NAVTREE =
     [ "Main Page", "../../index.html", null ],
     [ "Extensions", "../../extensions_list.html", null ],
     [ "Tools", "../../tools_list.html", null ],
-    [ "CuteHMI - Skeleton", "index.html", null ],
+    [ "Templates - Skeleton", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cutehmi_20_2d_20skeleton',['CuteHMI - Skeleton',['../index.html',1,'']]]
+  ['templates_20_2d_20skeleton',['Templates - Skeleton',['../index.html',1,'']]]
 ];
