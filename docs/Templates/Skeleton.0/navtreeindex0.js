@@ -43,6 +43,7 @@ var NAVTREEINDEX0 =
 "namespacetemplates_1_1skeleton.html":[4,0,0,0],
 "pages.html":[],
 "platform_8hpp.html":[5,0,0,0,0,0,1],
+"platform_8hpp.html#a3f850f54efb035e6e6edd76d72030bde":[5,0,0,0,0,0,1,1],
 "platform_8hpp.html#aed04d2685b448f9497d721b1f6cfe5b8":[5,0,0,0,0,0,1,0],
 "platform_8hpp_source.html":[5,0,0,0,0,0,1]
 };
