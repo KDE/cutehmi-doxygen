@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['id',['id',['https://en.cppreference.com/w/cpp/thread/thread/id.html',1,'std::thread::id'],['https://en.cppreference.com/w/cpp/locale/locale/id.html',1,'std::locale::id']]],
+  ['id',['id',['https://en.cppreference.com/w/cpp/locale/locale/id.html',1,'std::locale::id'],['https://en.cppreference.com/w/cpp/thread/thread/id.html',1,'std::thread::id']]],
   ['ifstream',['ifstream',['https://en.cppreference.com/w/cpp/io/basic_ifstream.html',1,'std']]],
   ['independent_5fbits_5fengine',['independent_bits_engine',['https://en.cppreference.com/w/cpp/numeric/random/independent_bits_engine.html',1,'std']]],
+  ['initializer',['Initializer',['../classcutehmi_1_1_initializer.html',1,'cutehmi']]],
   ['initializer_5flist',['initializer_list',['https://en.cppreference.com/w/cpp/utility/initializer_list.html',1,'std']]],
   ['input_5fiterator_5ftag',['input_iterator_tag',['https://en.cppreference.com/w/cpp/iterator/iterator_tags.html',1,'std']]],
   ['insert_5fiterator',['insert_iterator',['https://en.cppreference.com/w/cpp/iterator/insert_iterator.html',1,'std']]],

@@ -5,6 +5,7 @@ var files_dup =
     [ "ColorSet.qml", "_color_set_8qml.html", [
       [ "ColorSet", "class_cute_h_m_i_1_1_color_set.html", "class_cute_h_m_i_1_1_color_set" ]
     ] ],
+    [ "cutehmi.init.cpp", "cutehmi_8init_8cpp.html", "cutehmi_8init_8cpp" ],
     [ "cutehmi.metadata.hpp", "cutehmi_8metadata_8hpp.html", "cutehmi_8metadata_8hpp" ],
     [ "Element.qml", "_element_8qml.html", [
       [ "Element", "class_cute_h_m_i_1_1_element.html", "class_cute_h_m_i_1_1_element" ]

@@ -7,6 +7,7 @@ var dir_070420f17504d212d9299b58a2ef8dff =
     [ "ErrorException.cpp", "_error_exception_8cpp.html", null ],
     [ "ErrorInfo.cpp", "_error_info_8cpp.html", null ],
     [ "Exception.cpp", "_exception_8cpp.html", null ],
+    [ "Initializer.cpp", "_initializer_8cpp.html", null ],
     [ "logging.cpp", "logging_8cpp.html", null ],
     [ "Notification.cpp", "_notification_8cpp.html", null ],
     [ "NotificationListModel.cpp", "_notification_list_model_8cpp.html", null ],

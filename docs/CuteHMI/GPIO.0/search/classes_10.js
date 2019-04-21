@@ -124,7 +124,7 @@ var searchData=
   ['qmimedata',['QMimeData',['http://doc.qt.io/qt-5/qmimedata.html',1,'']]],
   ['qmimedatabase',['QMimeDatabase',['http://doc.qt.io/qt-5/qmimedatabase.html',1,'']]],
   ['qmimetype',['QMimeType',['http://doc.qt.io/qt-5/qmimetype.html',1,'']]],
-  ['qmlplugin',['QMLPlugin',['../../../CuteHMI.2/classcutehmi_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::internal::QMLPlugin'],['../classcutehmi_1_1gpio_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::gpio::internal::QMLPlugin']]],
+  ['qmlplugin',['QMLPlugin',['../classcutehmi_1_1gpio_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::gpio::internal::QMLPlugin'],['../../../CuteHMI.2/classcutehmi_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::internal::QMLPlugin']]],
   ['qmodelindex',['QModelIndex',['http://doc.qt.io/qt-5/qmodelindex.html',1,'']]],
   ['qmultihash',['QMultiHash',['http://doc.qt.io/qt-5/qmultihash.html',1,'']]],
   ['qmultimap',['QMultiMap',['http://doc.qt.io/qt-5/qmultimap.html',1,'']]],

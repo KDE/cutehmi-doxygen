@@ -599,6 +599,7 @@ var searchData=
   ['cuteapp_2ehpp',['CuteApp.hpp',['../_cute_app_8hpp.html',1,'']]],
   ['cuteappprovider',['CuteAppProvider',['../classcutehmi_1_1app_1_1internal_1_1_q_m_l_plugin.html#a9df1c9273738d18b2a31489288a1a26c',1,'cutehmi::app::internal::QMLPlugin']]],
   ['cutehmi',['CuteHMI',['../namespace_cute_h_m_i.html',1,'CuteHMI'],['../namespacecutehmi.html',1,'cutehmi']]],
+  ['cutehmi_2einit_2ecpp',['cutehmi.init.cpp',['../../../CuteHMI.2/cutehmi_8init_8cpp.html',1,'']]],
   ['cutehmi_2emetadata_2ehpp',['cutehmi.metadata.hpp',['../cutehmi_8metadata_8hpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/cutehmi_8metadata_8hpp.html',1,'(Global Namespace)']]],
   ['cutehmi_5fapp_5f2_5fcurrent',['CUTEHMI_APP_2_CURRENT',['../cutehmi_8metadata_8hpp.html#aaae6f68d8497f383f9f54164bbffa9e4',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fapp_5fapi',['CUTEHMI_APP_API',['../platform_8hpp.html#aa1333a09cb1dc11f858629f23b98b6da',1,'platform.hpp']]],

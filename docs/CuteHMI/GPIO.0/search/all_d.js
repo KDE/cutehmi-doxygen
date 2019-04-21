@@ -176,7 +176,7 @@ var searchData=
   ['mptr',['MPtr',['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi']]],
   ['mptr_2ehpp',['MPtr.hpp',['../../../CuteHMI.2/_m_ptr_8hpp.html',1,'']]],
   ['mptr_3c_20cutehmi_3a_3adialogist_3a_3amembers_20_3e',['MPtr&lt; cutehmi::Dialogist::Members &gt;',['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi::MPtr&lt; cutehmi::Dialogist::Members &gt;'],['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'MPtr&lt; cutehmi::Dialogist::Members &gt;']]],
-  ['mptr_3c_20members_20_3e',['MPtr&lt; Members &gt;',['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'MPtr&lt; Members &gt;'],['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi::MPtr&lt; Members &gt;']]],
+  ['mptr_3c_20members_20_3e',['MPtr&lt; Members &gt;',['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi::MPtr&lt; Members &gt;'],['../../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'MPtr&lt; Members &gt;']]],
   ['msec',['msec',['http://doc.qt.io/qt-5/qtime.html#msec',1,'QTime']]],
   ['msecssincereference',['msecsSinceReference',['http://doc.qt.io/qt-5/qelapsedtimer.html#msecsSinceReference',1,'QElapsedTimer']]],
   ['msecssincestartofday',['msecsSinceStartOfDay',['http://doc.qt.io/qt-5/qtime.html#msecsSinceStartOfDay',1,'QTime']]],

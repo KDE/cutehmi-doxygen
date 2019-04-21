@@ -124,7 +124,7 @@ var searchData=
   ['qmimedata',['QMimeData',['http://doc.qt.io/qt-5/qmimedata.html',1,'QMimeData'],['http://doc.qt.io/qt-5/qmimedata.html#QMimeData',1,'QMimeData::QMimeData()']]],
   ['qmimedatabase',['QMimeDatabase',['http://doc.qt.io/qt-5/qmimedatabase.html',1,'QMimeDatabase'],['http://doc.qt.io/qt-5/qmimedatabase.html#QMimeDatabase',1,'QMimeDatabase::QMimeDatabase()']]],
   ['qmimetype',['QMimeType',['http://doc.qt.io/qt-5/qmimetype.html',1,'QMimeType'],['http://doc.qt.io/qt-5/qmimetype.html#QMimeType',1,'QMimeType::QMimeType()'],['http://doc.qt.io/qt-5/qmimetype.html#QMimeType-1',1,'QMimeType::QMimeType(const QMimeType &amp;other)']]],
-  ['qmlplugin',['QMLPlugin',['../../../CuteHMI.2/classcutehmi_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::internal::QMLPlugin'],['../classcutehmi_1_1bitcoincash_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::bitcoincash::internal::QMLPlugin']]],
+  ['qmlplugin',['QMLPlugin',['../classcutehmi_1_1bitcoincash_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::bitcoincash::internal::QMLPlugin'],['../../../CuteHMI.2/classcutehmi_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::internal::QMLPlugin']]],
   ['qmlplugin_2ecpp',['QMLPlugin.cpp',['../_q_m_l_plugin_8cpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/_q_m_l_plugin_8cpp.html',1,'(Global Namespace)']]],
   ['qmlplugin_2ehpp',['QMLPlugin.hpp',['../_q_m_l_plugin_8hpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/_q_m_l_plugin_8hpp.html',1,'(Global Namespace)']]],
   ['qmodelindex',['QModelIndex',['http://doc.qt.io/qt-5/qmodelindex.html',1,'QModelIndex'],['http://doc.qt.io/qt-5/qmodelindex.html#QModelIndex',1,'QModelIndex::QModelIndex()']]],

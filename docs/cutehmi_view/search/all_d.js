@@ -339,7 +339,7 @@ var searchData=
   ['mp_2elicense_2ehash_2einc',['MP.LICENSE.hash.inc',['../_m_p_8_l_i_c_e_n_s_e_8hash_8inc.html',1,'(Global Namespace)'],['../../CuteHMI.2/_m_p_8_l_i_c_e_n_s_e_8hash_8inc.html',1,'(Global Namespace)'],['../../CuteHMI/App.2/_m_p_8_l_i_c_e_n_s_e_8hash_8inc.html',1,'(Global Namespace)']]],
   ['mptr',['MPtr',['../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi']]],
   ['mptr_2ehpp',['MPtr.hpp',['../../CuteHMI.2/_m_ptr_8hpp.html',1,'']]],
-  ['mptr_3c_20cutehmi_3a_3adialogist_3a_3amembers_20_3e',['MPtr&lt; cutehmi::Dialogist::Members &gt;',['../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi::MPtr&lt; cutehmi::Dialogist::Members &gt;'],['../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'MPtr&lt; cutehmi::Dialogist::Members &gt;']]],
+  ['mptr_3c_20cutehmi_3a_3adialogist_3a_3amembers_20_3e',['MPtr&lt; cutehmi::Dialogist::Members &gt;',['../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'MPtr&lt; cutehmi::Dialogist::Members &gt;'],['../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'cutehmi::MPtr&lt; cutehmi::Dialogist::Members &gt;']]],
   ['mptr_3c_20members_20_3e',['MPtr&lt; Members &gt;',['../../CuteHMI.2/classcutehmi_1_1_m_ptr.html',1,'']]],
   ['msec',['msec',['http://doc.qt.io/qt-5/qtime.html#msec',1,'QTime']]],
   ['msecssincereference',['msecsSinceReference',['http://doc.qt.io/qt-5/qelapsedtimer.html#msecsSinceReference',1,'QElapsedTimer']]],

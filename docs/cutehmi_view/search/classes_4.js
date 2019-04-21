@@ -19,8 +19,10 @@ var searchData=
   ['exceptionmixin_3c_20errorexception_20_3e',['ExceptionMixin&lt; ErrorException &gt;',['../../CuteHMI.2/classcutehmi_1_1_exception_mixin.html',1,'']]],
   ['exceptionmixin_3c_20noadvertiserexception_20_3e',['ExceptionMixin&lt; NoAdvertiserException &gt;',['../../CuteHMI.2/classcutehmi_1_1_exception_mixin.html',1,'']]],
   ['exponential_5fdistribution',['exponential_distribution',['https://en.cppreference.com/w/cpp/numeric/random/exponential_distribution.html',1,'std']]],
+  ['extensioninitializer',['ExtensionInitializer',['../../CuteHMI.2/classcutehmi_1_1_extension_initializer.html',1,'cutehmi']]],
+  ['extensioninitializer_3c_20initializer_20_3e',['ExtensionInitializer&lt; Initializer &gt;',['../../CuteHMI.2/classcutehmi_1_1_extension_initializer.html',1,'']]],
   ['extent',['extent',['https://en.cppreference.com/w/cpp/types/extent.html',1,'std']]],
-  ['extern_5ftype',['extern_type',['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_utf8::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_utf8_utf16::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_byname::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_utf16::extern_type']]],
+  ['extern_5ftype',['extern_type',['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_utf8::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_byname::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_utf8_utf16::extern_type'],['https://en.cppreference.com/w/cpp/locale/codecvt.html',1,'std::codecvt_utf16::extern_type']]],
   ['extraselection',['ExtraSelection',['http://doc.qt.io/qt-5/qtextedit-extraselection.html',1,'QTextEdit']]],
   ['extreme_5fvalue_5fdistribution',['extreme_value_distribution',['https://en.cppreference.com/w/cpp/numeric/random/extreme_value_distribution.html',1,'std']]]
 ];

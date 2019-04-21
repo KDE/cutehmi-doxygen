@@ -28,6 +28,7 @@ var searchData=
   ['_7eenable_5fshared_5ffrom_5fthis',['~enable_shared_from_this',['https://en.cppreference.com/w/cpp/memory/enable_shared_from_this/~enable_shared_from_this.html',1,'std::enable_shared_from_this']]],
   ['_7eerror_5fcategory',['~error_category',['https://en.cppreference.com/w/cpp/error/error_category/~error_category.html',1,'std::error_category']]],
   ['_7eexception',['~exception',['https://en.cppreference.com/w/cpp/error/exception/~exception.html',1,'std::exception']]],
+  ['_7eextensioninitializer',['~ExtensionInitializer',['../../CuteHMI.2/classcutehmi_1_1_extension_initializer.html#a976916d8fb5744debafbe0f7b83195ac',1,'cutehmi::ExtensionInitializer::~ExtensionInitializer()'],['../../CuteHMI.2/classcutehmi_1_1_extension_initializer.html#a976916d8fb5744debafbe0f7b83195ac',1,'ExtensionInitializer&lt; Initializer &gt;::~ExtensionInitializer()']]],
   ['_7efilebuf',['~filebuf',['https://en.cppreference.com/w/cpp/io/basic_filebuf/~basic_filebuf.html',1,'std::filebuf']]],
   ['_7eforward_5flist',['~forward_list',['https://en.cppreference.com/w/cpp/container/forward_list/~forward_list.html',1,'std::forward_list']]],
   ['_7efunction',['~function',['https://en.cppreference.com/w/cpp/utility/functional/function/~function.html',1,'std::function']]],

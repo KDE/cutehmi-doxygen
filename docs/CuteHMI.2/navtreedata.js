@@ -67,7 +67,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../extensions_list.html",
-"classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5"
+"classcutehmi_1_1_notification.html#a33b5cc105a86ee78698040a552d812eb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

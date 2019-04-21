@@ -8,6 +8,8 @@ var namespacecutehmi =
     [ "ErrorInfo", "structcutehmi_1_1_error_info.html", "structcutehmi_1_1_error_info" ],
     [ "Exception", "classcutehmi_1_1_exception.html", "classcutehmi_1_1_exception" ],
     [ "ExceptionMixin", "classcutehmi_1_1_exception_mixin.html", "classcutehmi_1_1_exception_mixin" ],
+    [ "ExtensionInitializer", "classcutehmi_1_1_extension_initializer.html", "classcutehmi_1_1_extension_initializer" ],
+    [ "Initializer", "classcutehmi_1_1_initializer.html", "classcutehmi_1_1_initializer" ],
     [ "MPtr", "classcutehmi_1_1_m_ptr.html", "classcutehmi_1_1_m_ptr" ],
     [ "NonCopyable", "classcutehmi_1_1_non_copyable.html", "classcutehmi_1_1_non_copyable" ],
     [ "NonMovable", "classcutehmi_1_1_non_movable.html", "classcutehmi_1_1_non_movable" ],

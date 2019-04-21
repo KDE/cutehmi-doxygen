@@ -118,7 +118,6 @@ var searchData=
   ['registerfield',['registerField',['http://doc.qt.io/qt-5/qwizardpage.html#registerField',1,'QWizardPage']]],
   ['registerformat',['registerFormat',['http://doc.qt.io/qt-5/qsettings.html#registerFormat',1,'QSettings']]],
   ['registerhandler',['registerHandler',['http://doc.qt.io/qt-5/qabstracttextdocumentlayout.html#registerHandler',1,'QAbstractTextDocumentLayout']]],
-  ['registermetatype',['RegisterMetaType',['../../CuteHMI.2/structcutehmi_1_1_error_info.html#a42865f9524759f2a48f9bd3a755b9420',1,'cutehmi::ErrorInfo']]],
   ['registerrecognizer',['registerRecognizer',['http://doc.qt.io/qt-5/qgesturerecognizer.html#registerRecognizer',1,'QGestureRecognizer']]],
   ['registerresource',['registerResource',['http://doc.qt.io/qt-5/qresource.html#registerResource',1,'QResource::registerResource(const QString &amp;rccFileName, const QString &amp;mapRoot)'],['http://doc.qt.io/qt-5/qresource.html#registerResource-1',1,'QResource::registerResource(const uchar *rccData, const QString &amp;mapRoot)']]],
   ['registersocketnotifier',['registerSocketNotifier',['http://doc.qt.io/qt-5/qabstracteventdispatcher.html#registerSocketNotifier',1,'QAbstractEventDispatcher']]],

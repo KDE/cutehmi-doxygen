@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['worker_2ecpp',['Worker.cpp',['../_worker_8cpp.html',1,'']]],
-  ['worker_2ehpp',['Worker.hpp',['../_worker_8hpp.html',1,'']]],
-  ['wrappers_2ehpp',['wrappers.hpp',['../wrappers_8hpp.html',1,'']]]
+  ['singleton_2ecpp',['singleton.cpp',['../internal_2singleton_8cpp.html',1,'(Global Namespace)'],['../singleton_8cpp.html',1,'(Global Namespace)']]],
+  ['singleton_2ehpp',['singleton.hpp',['../internal_2singleton_8hpp.html',1,'(Global Namespace)'],['../singleton_8hpp.html',1,'(Global Namespace)']]]
 ];

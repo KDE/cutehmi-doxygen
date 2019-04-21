@@ -120,7 +120,7 @@ var searchData=
   ['numberdisplay_2eqml',['NumberDisplay.qml',['../../../CuteHMI.2/_number_display_8qml.html',1,'']]],
   ['numberflags',['numberFlags',['http://doc.qt.io/qt-5/qtextstream.html#numberFlags',1,'QTextStream::numberFlags() const'],['http://doc.qt.io/qt-5/qtextstream.html#NumberFlag-enum',1,'QTextStream::NumberFlags()']]],
   ['numberliteral',['numberLiteral',['http://doc.qt.io/qt-5/qqmlscriptstring.html#numberLiteral',1,'QQmlScriptString']]],
-  ['numberoptions',['numberOptions',['http://doc.qt.io/qt-5/qlocale.html#numberOptions',1,'QLocale::numberOptions() const'],['http://doc.qt.io/qt-5/qlocale.html#NumberOption-enum',1,'QLocale::NumberOptions()']]],
+  ['numberoptions',['NumberOptions',['http://doc.qt.io/qt-5/qlocale.html#NumberOption-enum',1,'QLocale::NumberOptions()'],['http://doc.qt.io/qt-5/qlocale.html#numberOptions',1,'QLocale::numberOptions() const']]],
   ['numeric_5flimits',['numeric_limits',['https://en.cppreference.com/w/cpp/types/numeric_limits.html',1,'std']]],
   ['numericmode',['numericMode',['http://doc.qt.io/qt-5/qcollator.html#numericMode',1,'QCollator']]],
   ['numpunct',['numpunct',['https://en.cppreference.com/w/cpp/locale/numpunct.html',1,'std::numpunct'],['https://en.cppreference.com/w/cpp/locale/numpunct/numpunct.html',1,'std::numpunct::numpunct()']]],

@@ -9,5 +9,6 @@ var searchData=
   ['errorinfo_2ehpp',['ErrorInfo.hpp',['../../CuteHMI.2/_error_info_8hpp.html',1,'']]],
   ['exception_2ecpp',['Exception.cpp',['../_exception_8cpp.html',1,'(Global Namespace)'],['../../CuteHMI.2/_exception_8cpp.html',1,'(Global Namespace)']]],
   ['exception_2ehpp',['Exception.hpp',['../_exception_8hpp.html',1,'(Global Namespace)'],['../../CuteHMI.2/_exception_8hpp.html',1,'(Global Namespace)']]],
-  ['exceptionmixin_2ehpp',['ExceptionMixin.hpp',['../../CuteHMI.2/_exception_mixin_8hpp.html',1,'']]]
+  ['exceptionmixin_2ehpp',['ExceptionMixin.hpp',['../../CuteHMI.2/_exception_mixin_8hpp.html',1,'']]],
+  ['extensioninitializer_2ehpp',['ExtensionInitializer.hpp',['../../CuteHMI.2/_extension_initializer_8hpp.html',1,'']]]
 ];
