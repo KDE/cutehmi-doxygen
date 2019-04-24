@@ -281,12 +281,16 @@ class cutehmi::ExtensionInitializer&lt; DERIVED &gt;</h3>
 This is achieved by subclassing the template and creating a global
 instance of a derived class, which is a subject of static
 initialization. This relies on following C++ principle.</p>
+<blockquote class="doxtable">
 <p>"If a variable with static storage duration has initialization
 or a destructor with side eﬀects, it shall not be eliminated even
 if it appears to be unused, except that a class object or its
-copy/move may be eliminated as speciﬁed in 11.9.5." – C++ Standard
-<a href="6.6.5.1/2%20N4810">basic.stc.static</a></p>
-<p>Extension initializer counts its own references and runs
+copy/move may be eliminated as speciﬁed in 11.9.5."</p>
+</blockquote>
+<div style="text-align:right; margin-right: 24px"><em>– C++
+Standard (6.6.5.1/2 N4810) [basic.stc.static]</em></div>
+<p><br />
+Extension initializer counts its own references and runs
 initialization and deinitialization code only once - for the first
 constructed and last destroyed instance.</p>
 <dl class="section note">
