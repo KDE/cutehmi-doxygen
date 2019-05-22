@@ -164,13 +164,12 @@ top level directory.</li>
 href="../../CuteHMI.2/namespace_cute_h_m_i.html">CuteHMI</a>
 directory: <code>mkdir ../build-temp</code> and <code>cd</code>
 into it.</li>
-<li>Execute Qbs: <code>qbs build -f
-../CuteHMI/ExtensionSkeleton.qbs --no-install -p ExtensionSkeleton
-products.CuteHMI.2.type:[]
-products.ExtensionSkeleton.extension:VendorName.ExtensionName.0
-products.VendorName.ExtensionName.0.type:[]</code> Replace
-<code>VendorName</code> and <code>ExtensionName</code> to match
-names of the extension.</li>
+<li>Execute Qbs: ‘qbs build -f ../CuteHMI/ExtensionSkeleton.qbs
+--no-install -p ExtensionSkeleton products.CuteHMI.2.type:’[]'
+products.ExtensionSkeleton.extension:&lt;VendorName&gt;.&lt;ExtensionName&gt;.&lt;0&gt;
+products.&lt;VendorName&gt;.&lt;ExtensionName&gt;.0.type:'[]'
+<code>Replace</code>&lt;VendorName&gt;<code>and</code>&lt;ExtensionName&gt;`
+to match names of the extension.</li>
 <li>Delete temporary build directory.</li>
 </ul>
 </li>
