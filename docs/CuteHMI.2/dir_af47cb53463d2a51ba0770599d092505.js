@@ -1,6 +1,7 @@
 var dir_af47cb53463d2a51ba0770599d092505 =
 [
     [ "internal", "dir_3fd6af9039fa90256eb5fa0e1cba862c.html", "dir_3fd6af9039fa90256eb5fa0e1cba862c" ],
+    [ "constants.hpp", "constants_8hpp.html", "constants_8hpp" ],
     [ "Dialog.hpp", "_dialog_8hpp.html", [
       [ "Dialog", "classcutehmi_1_1_dialog.html", "classcutehmi_1_1_dialog" ]
     ] ],
@@ -23,9 +24,11 @@ var dir_af47cb53463d2a51ba0770599d092505 =
     [ "ExtensionInitializer.hpp", "_extension_initializer_8hpp.html", [
       [ "ExtensionInitializer", "classcutehmi_1_1_extension_initializer.html", "classcutehmi_1_1_extension_initializer" ]
     ] ],
+    [ "functions.hpp", "functions_8hpp.html", "functions_8hpp" ],
     [ "Initializer.hpp", "_initializer_8hpp.html", [
       [ "Initializer", "classcutehmi_1_1_initializer.html", "classcutehmi_1_1_initializer" ]
     ] ],
+    [ "InplaceError.hpp", "_inplace_error_8hpp.html", "_inplace_error_8hpp" ],
     [ "logging.hpp", "logging_8hpp.html", "logging_8hpp" ],
     [ "loggingMacros.hpp", "logging_macros_8hpp.html", "logging_macros_8hpp" ],
     [ "metadata.hpp", "metadata_8hpp.html", null ],

@@ -131,7 +131,7 @@ var searchData=
   ['notificationlistmodel_2ecpp',['NotificationListModel.cpp',['../../CuteHMI.2/_notification_list_model_8cpp.html',1,'']]],
   ['notificationlistmodel_2ehpp',['NotificationListModel.hpp',['../../CuteHMI.2/_notification_list_model_8hpp.html',1,'']]],
   ['notificatoin',['Notificatoin',['../../CuteHMI.2/class_cute_h_m_i_1_1_notificatoin.html',1,'CuteHMI']]],
-  ['notifier',['Notifier',['../../CuteHMI.2/class_cute_h_m_i_1_1_notifier.html',1,'CuteHMI::Notifier'],['../../CuteHMI.2/classcutehmi_1_1_notifier.html',1,'cutehmi::Notifier'],['../../CuteHMI.2/classcutehmi_1_1_notifier.html#ae4c029ed0a15c50d73224d37d70f063b',1,'cutehmi::Notifier::Notifier()']]],
+  ['notifier',['Notifier',['../../CuteHMI.2/classcutehmi_1_1_notifier.html',1,'cutehmi::Notifier'],['../../CuteHMI.2/class_cute_h_m_i_1_1_notifier.html',1,'CuteHMI::Notifier'],['../../CuteHMI.2/classcutehmi_1_1_notifier.html#ae4c029ed0a15c50d73224d37d70f063b',1,'cutehmi::Notifier::Notifier()']]],
   ['notifier_2ecpp',['Notifier.cpp',['../../CuteHMI.2/_notifier_8cpp.html',1,'']]],
   ['notifier_2ehpp',['Notifier.hpp',['../../CuteHMI.2/_notifier_8hpp.html',1,'']]],
   ['notify',['notify',['http://doc.qt.io/qt-5/qcoreapplication.html#notify',1,'QCoreApplication::notify()'],['http://doc.qt.io/qt-5/qguiapplication.html#notify',1,'QGuiApplication::notify()'],['http://doc.qt.io/qt-5/qapplication.html#notify',1,'QApplication::notify()'],['../../CuteHMI/App.2/classcutehmi_1_1app_1_1_cute_app.html#aae44c4cd8e51bc6f2765d8c02fbfbabe',1,'cutehmi::app::CuteApp::notify()']]],

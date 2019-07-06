@@ -10,6 +10,7 @@ var namespacecutehmi =
     [ "ExceptionMixin", "classcutehmi_1_1_exception_mixin.html", "classcutehmi_1_1_exception_mixin" ],
     [ "ExtensionInitializer", "classcutehmi_1_1_extension_initializer.html", "classcutehmi_1_1_extension_initializer" ],
     [ "Initializer", "classcutehmi_1_1_initializer.html", "classcutehmi_1_1_initializer" ],
+    [ "InplaceError", "structcutehmi_1_1_inplace_error.html", "structcutehmi_1_1_inplace_error" ],
     [ "MPtr", "classcutehmi_1_1_m_ptr.html", "classcutehmi_1_1_m_ptr" ],
     [ "NonCopyable", "classcutehmi_1_1_non_copyable.html", "classcutehmi_1_1_non_copyable" ],
     [ "NonMovable", "classcutehmi_1_1_non_movable.html", "classcutehmi_1_1_non_movable" ],

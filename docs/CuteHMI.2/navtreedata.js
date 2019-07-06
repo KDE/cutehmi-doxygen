@@ -35,6 +35,7 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
@@ -67,7 +68,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../extensions_list.html",
-"classcutehmi_1_1_notification.html#a33b5cc105a86ee78698040a552d812eb"
+"classcutehmi_1_1_non_movable.html#a91e73eb6e174aad94d4ac342562d4db6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

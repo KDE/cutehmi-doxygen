@@ -5,6 +5,7 @@ var searchData=
   ['independent_5fbits_5fengine',['independent_bits_engine',['https://en.cppreference.com/w/cpp/numeric/random/independent_bits_engine.html',1,'std']]],
   ['initializer',['Initializer',['../../CuteHMI.2/classcutehmi_1_1_initializer.html',1,'cutehmi']]],
   ['initializer_5flist',['initializer_list',['https://en.cppreference.com/w/cpp/utility/initializer_list.html',1,'std']]],
+  ['inplaceerror',['InplaceError',['../../CuteHMI.2/structcutehmi_1_1_inplace_error.html',1,'cutehmi']]],
   ['input_5fiterator_5ftag',['input_iterator_tag',['https://en.cppreference.com/w/cpp/iterator/iterator_tags.html',1,'std']]],
   ['insert_5fiterator',['insert_iterator',['https://en.cppreference.com/w/cpp/iterator/insert_iterator.html',1,'std']]],
   ['int16_5ft',['int16_t',['https://en.cppreference.com/w/cpp/types/integer.html',1,'std']]],

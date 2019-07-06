@@ -8,7 +8,7 @@ var searchData=
   ['defer_5flock_5ft',['defer_lock_t',['https://en.cppreference.com/w/cpp/thread/lock_tag_t.html',1,'std']]],
   ['deque',['deque',['https://en.cppreference.com/w/cpp/container/deque.html',1,'std']]],
   ['dialog',['Dialog',['../../CuteHMI.2/classcutehmi_1_1_dialog.html',1,'cutehmi::Dialog'],['../../CuteHMI.2/class_cute_h_m_i_1_1_dialog.html',1,'CuteHMI::Dialog']]],
-  ['dialogist',['Dialogist',['../../CuteHMI.2/class_cute_h_m_i_1_1_dialogist.html',1,'CuteHMI::Dialogist'],['../../CuteHMI.2/classcutehmi_1_1_dialogist.html',1,'cutehmi::Dialogist']]],
+  ['dialogist',['Dialogist',['../../CuteHMI.2/classcutehmi_1_1_dialogist.html',1,'cutehmi::Dialogist'],['../../CuteHMI.2/class_cute_h_m_i_1_1_dialogist.html',1,'CuteHMI::Dialogist']]],
   ['discard_5fblock_5fengine',['discard_block_engine',['https://en.cppreference.com/w/cpp/numeric/random/discard_block_engine.html',1,'std']]],
   ['discrete_5fdistribution',['discrete_distribution',['https://en.cppreference.com/w/cpp/numeric/random/discrete_distribution.html',1,'std']]],
   ['divides',['divides',['https://en.cppreference.com/w/cpp/utility/functional/divides.html',1,'std']]],

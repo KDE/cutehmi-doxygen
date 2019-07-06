@@ -5,7 +5,9 @@ var hierarchy =
     ] ],
     [ "CuteHMI::Dialog", "class_cute_h_m_i_1_1_dialog.html", null ],
     [ "CuteHMI::Dialogist", "class_cute_h_m_i_1_1_dialogist.html", null ],
-    [ "cutehmi::Error", "structcutehmi_1_1_error.html", null ],
+    [ "cutehmi::Error", "structcutehmi_1_1_error.html", [
+      [ "cutehmi::InplaceError", "structcutehmi_1_1_inplace_error.html", null ]
+    ] ],
     [ "cutehmi::ErrorInfo", "structcutehmi_1_1_error_info.html", null ],
     [ "Item", null, [
       [ "CuteHMI::Element", "class_cute_h_m_i_1_1_element.html", [

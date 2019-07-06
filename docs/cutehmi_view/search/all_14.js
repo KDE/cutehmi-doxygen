@@ -463,7 +463,7 @@ var searchData=
   ['type_5finfo',['type_info',['https://en.cppreference.com/w/cpp/types/type_info.html',1,'std']]],
   ['type_5frole',['TYPE_ROLE',['../../CuteHMI.2/classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0ea09dbe86def0291a44772f3bd491089b6',1,'cutehmi::NotificationListModel']]],
   ['typechanged',['typeChanged',['http://doc.qt.io/qt-5/qdnslookup.html#typeChanged',1,'QDnsLookup::typeChanged()'],['../../CuteHMI.2/classcutehmi_1_1_dialog.html#ae404fbbbc942874e6d43dbfedd4d5149',1,'cutehmi::Dialog::typeChanged()'],['../../CuteHMI.2/classcutehmi_1_1_notification.html#a974d1dc6d95a7e17258dc05f100186f8',1,'cutehmi::Notification::typeChanged()']]],
-  ['typeflags',['TypeFlags',['http://doc.qt.io/qt-5/qmetatype.html#TypeFlag-enum',1,'QMetaType::TypeFlags()'],['http://doc.qt.io/qt-5/qmetatype.html#typeFlags',1,'QMetaType::typeFlags(int type)']]],
+  ['typeflags',['typeFlags',['http://doc.qt.io/qt-5/qmetatype.html#typeFlags',1,'QMetaType::typeFlags(int type)'],['http://doc.qt.io/qt-5/qmetatype.html#TypeFlag-enum',1,'QMetaType::TypeFlags()']]],
   ['typeinterpretation',['typeInterpretation',['http://doc.qt.io/qt-5/qpixelformat.html#typeInterpretation',1,'QPixelFormat']]],
   ['typename',['typeName',['http://doc.qt.io/qt-5/qmetamethod.html#typeName',1,'QMetaMethod::typeName()'],['http://doc.qt.io/qt-5/qmetaproperty.html#typeName',1,'QMetaProperty::typeName()'],['http://doc.qt.io/qt-5/qmetatype.html#typeName',1,'QMetaType::typeName()'],['http://doc.qt.io/qt-5/qvariant.html#typeName',1,'QVariant::typeName()']]],
   ['types',['Types',['http://doc.qt.io/qt-5/qopengldebugmessage.html#Type-enum',1,'QOpenGLDebugMessage']]],
