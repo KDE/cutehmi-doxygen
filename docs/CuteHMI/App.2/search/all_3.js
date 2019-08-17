@@ -607,6 +607,7 @@ var searchData=
   ['cutehmi_5fapp_5f2_5fcurrent',['CUTEHMI_APP_2_CURRENT',['../cutehmi_8metadata_8hpp.html#aaae6f68d8497f383f9f54164bbffa9e4',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fapp_5fapi',['CUTEHMI_APP_API',['../platform_8hpp.html#aa1333a09cb1dc11f858629f23b98b6da',1,'platform.hpp']]],
   ['cutehmi_5fapp_5fcutehmi_5ftype',['CUTEHMI_APP_CUTEHMI_TYPE',['../cutehmi_8metadata_8hpp.html#ad0cb7c76c3a515ab94566882a7380cbb',1,'cutehmi.metadata.hpp']]],
+  ['cutehmi_5fapp_5fdomain',['CUTEHMI_APP_DOMAIN',['../cutehmi_8metadata_8hpp.html#adcd9c4cf87d7cc376af1d9d7f87980ff',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fapp_5ffriendly_5fname',['CUTEHMI_APP_FRIENDLY_NAME',['../cutehmi_8metadata_8hpp.html#ae796830eadf6e64dc9ed26ae01f51fc5',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fapp_5fmajor',['CUTEHMI_APP_MAJOR',['../cutehmi_8metadata_8hpp.html#af0c0e79c0d635c777a24952f606f5917',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fapp_5fmicro',['CUTEHMI_APP_MICRO',['../cutehmi_8metadata_8hpp.html#a589dc466104459391a781c564c88f046',1,'cutehmi.metadata.hpp']]],

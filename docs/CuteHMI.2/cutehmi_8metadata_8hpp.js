@@ -2,6 +2,7 @@ var cutehmi_8metadata_8hpp =
 [
     [ "CUTEHMI_2_CURRENT", "cutehmi_8metadata_8hpp.html#ab62b01ac801e97dd8b947e27de645ecb", null ],
     [ "CUTEHMI_CUTEHMI_TYPE", "cutehmi_8metadata_8hpp.html#a4fb898e02e27d77e224dc585a64bd5ab", null ],
+    [ "CUTEHMI_DOMAIN", "cutehmi_8metadata_8hpp.html#a198685fa644a53635fae202f240319c6", null ],
     [ "CUTEHMI_FRIENDLY_NAME", "cutehmi_8metadata_8hpp.html#ae0e97a5eb1af00c65e4ebf54b385b5a3", null ],
     [ "CUTEHMI_MAJOR", "cutehmi_8metadata_8hpp.html#ac42f070be8aedb3a34f6c49d27891c88", null ],
     [ "CUTEHMI_MICRO", "cutehmi_8metadata_8hpp.html#adf98fc5f13e84931adf2cae0067046f1", null ],

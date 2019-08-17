@@ -293,6 +293,7 @@ var searchData=
   ['cutehmi_5ffilesystem_5f0_5fcurrent',['CUTEHMI_FILESYSTEM_0_CURRENT',['../cutehmi_8metadata_8hpp.html#a224ed647ada2bb863f0d407f1e866abb',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5ffilesystem_5fapi',['CUTEHMI_FILESYSTEM_API',['../platform_8hpp.html#a3e9b32b758dee95e25387e212e69eb29',1,'platform.hpp']]],
   ['cutehmi_5ffilesystem_5fcutehmi_5ftype',['CUTEHMI_FILESYSTEM_CUTEHMI_TYPE',['../cutehmi_8metadata_8hpp.html#a601915dbcd2ec587a472c1887d338490',1,'cutehmi.metadata.hpp']]],
+  ['cutehmi_5ffilesystem_5fdomain',['CUTEHMI_FILESYSTEM_DOMAIN',['../cutehmi_8metadata_8hpp.html#a0f0a3a00f3ba3aecad0695f9745f01a5',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5ffilesystem_5ffriendly_5fname',['CUTEHMI_FILESYSTEM_FRIENDLY_NAME',['../cutehmi_8metadata_8hpp.html#a26a21a295ca4d66a0129b1bbd36cfd8d',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5ffilesystem_5fmajor',['CUTEHMI_FILESYSTEM_MAJOR',['../cutehmi_8metadata_8hpp.html#a20b082bbf135054ee6a90b230f04dc26',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5ffilesystem_5fmicro',['CUTEHMI_FILESYSTEM_MICRO',['../cutehmi_8metadata_8hpp.html#a5c8d295679666f1eec2708bbab54d74f',1,'cutehmi.metadata.hpp']]],

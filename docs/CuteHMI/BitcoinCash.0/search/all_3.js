@@ -296,6 +296,7 @@ var searchData=
   ['cutehmi_5fbitcoincash_5f0_5fcurrent',['CUTEHMI_BITCOINCASH_0_CURRENT',['../cutehmi_8metadata_8hpp.html#a5d2dc3beeba3185cb184a98850193859',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fbitcoincash_5fapi',['CUTEHMI_BITCOINCASH_API',['../platform_8hpp.html#a25988d0850365735107f44e7c4c5f1aa',1,'platform.hpp']]],
   ['cutehmi_5fbitcoincash_5fcutehmi_5ftype',['CUTEHMI_BITCOINCASH_CUTEHMI_TYPE',['../cutehmi_8metadata_8hpp.html#a63c755825b3796bf56295edc75f9b44b',1,'cutehmi.metadata.hpp']]],
+  ['cutehmi_5fbitcoincash_5fdomain',['CUTEHMI_BITCOINCASH_DOMAIN',['../cutehmi_8metadata_8hpp.html#adbeff5042e9adc66d00ee0f934667c39',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fbitcoincash_5ffriendly_5fname',['CUTEHMI_BITCOINCASH_FRIENDLY_NAME',['../cutehmi_8metadata_8hpp.html#a9634b334be9f51b354b495cd3ad0c48b',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fbitcoincash_5fmajor',['CUTEHMI_BITCOINCASH_MAJOR',['../cutehmi_8metadata_8hpp.html#a96a51ede5efb1330c0d60db00b9a992b',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fbitcoincash_5fmicro',['CUTEHMI_BITCOINCASH_MICRO',['../cutehmi_8metadata_8hpp.html#a5b3d3d15710e6278f397de40442014e8',1,'cutehmi.metadata.hpp']]],

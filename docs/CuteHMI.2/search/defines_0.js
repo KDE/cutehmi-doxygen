@@ -7,6 +7,7 @@ var searchData=
   ['cutehmi_5fcutehmi_5ftype',['CUTEHMI_CUTEHMI_TYPE',['../cutehmi_8metadata_8hpp.html#a4fb898e02e27d77e224dc585a64bd5ab',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fdebug',['CUTEHMI_DEBUG',['../logging_macros_8hpp.html#a882383be55b18265be804edf50bfe540',1,'loggingMacros.hpp']]],
   ['cutehmi_5fdie',['CUTEHMI_DIE',['../logging_macros_8hpp.html#ae0dc847293f3e76f48a8c2e9c4a74c08',1,'loggingMacros.hpp']]],
+  ['cutehmi_5fdomain',['CUTEHMI_DOMAIN',['../cutehmi_8metadata_8hpp.html#a198685fa644a53635fae202f240319c6',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5ferror',['CUTEHMI_ERROR',['../_inplace_error_8hpp.html#aa72cf43028484c42b8b745185978df1f',1,'InplaceError.hpp']]],
   ['cutehmi_5ffriendly_5fname',['CUTEHMI_FRIENDLY_NAME',['../cutehmi_8metadata_8hpp.html#ae0e97a5eb1af00c65e4ebf54b385b5a3',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5finfo',['CUTEHMI_INFO',['../logging_macros_8hpp.html#a4de482a66311b7d08c80211b6808c8c8',1,'loggingMacros.hpp']]],

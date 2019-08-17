@@ -610,6 +610,7 @@ var searchData=
   ['cutehmi_5fdirs_5ftool_5finstall_5fdirname',['CUTEHMI_DIRS_TOOL_INSTALL_DIRNAME',['../cutehmi_8dirs_8hpp.html#a0b6ca49ad22542a11a883dd3cd9816b5',1,'cutehmi.dirs.hpp']]],
   ['cutehmi_5fview_5fcurrent',['CUTEHMI_VIEW_CURRENT',['../cutehmi_8metadata_8hpp.html#adac994ff6bda5fd09484953cf5d461d7',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fview_5fcutehmi_5ftype',['CUTEHMI_VIEW_CUTEHMI_TYPE',['../cutehmi_8metadata_8hpp.html#a5ae7068050b36eba59b93be1eb45fe43',1,'cutehmi.metadata.hpp']]],
+  ['cutehmi_5fview_5fdomain',['CUTEHMI_VIEW_DOMAIN',['../cutehmi_8metadata_8hpp.html#a2f43ed170091596c7f2f0723f307298d',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fview_5ffriendly_5fname',['CUTEHMI_VIEW_FRIENDLY_NAME',['../cutehmi_8metadata_8hpp.html#afd3e51059da7c9d03753b8e130e99ddd',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fview_5fmajor',['CUTEHMI_VIEW_MAJOR',['../cutehmi_8metadata_8hpp.html#a6975638422b4cea9761844aa81d233a1',1,'cutehmi.metadata.hpp']]],
   ['cutehmi_5fview_5fmicro',['CUTEHMI_VIEW_MICRO',['../cutehmi_8metadata_8hpp.html#a5d994bb1edfcdd70561baa375656e93d',1,'cutehmi.metadata.hpp']]],

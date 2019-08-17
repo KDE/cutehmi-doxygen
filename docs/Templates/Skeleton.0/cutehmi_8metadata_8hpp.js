@@ -2,6 +2,7 @@ var cutehmi_8metadata_8hpp =
 [
     [ "TEMPLATES_SKELETON_0_CURRENT", "cutehmi_8metadata_8hpp.html#a32b232a8f551076e7f63f2b111f5577d", null ],
     [ "TEMPLATES_SKELETON_CUTEHMI_TYPE", "cutehmi_8metadata_8hpp.html#aaf791d236e456dcebc490bea4ab442ce", null ],
+    [ "TEMPLATES_SKELETON_DOMAIN", "cutehmi_8metadata_8hpp.html#a06a6269bc3984c620c827563b50dbac2", null ],
     [ "TEMPLATES_SKELETON_FRIENDLY_NAME", "cutehmi_8metadata_8hpp.html#aa6b34ec8009bddedc8288fea9a46a6d7", null ],
     [ "TEMPLATES_SKELETON_MAJOR", "cutehmi_8metadata_8hpp.html#a9c2a034dfc10ac53504b0cf4c981b5d1", null ],
     [ "TEMPLATES_SKELETON_MICRO", "cutehmi_8metadata_8hpp.html#aa48bcd49fa15b9ed6190ddfa5bede15d", null ],
