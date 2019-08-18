@@ -682,14 +682,20 @@ value is returned instead of signed one.</p>
 </dl>
 <dl class="section return">
 <dt>Returns</dt>
-<dd>smallest number which added to <em>r</em> changes value of
-<em>r</em>. Always non-negative value is returned.</dd>
+<dd>value close to smallest number which added to <em>r</em>
+changes value of <em>r</em>. Always non-negative value is
+returned.</dd>
 </dl>
 <dl class="section see">
 <dt>See also</dt>
 <dd><a class="el" href=
 "namespacecutehmi.html#a39e00dc801fcf5781e964f7f7c23d49d" title=
 "Epsilon for a number. ">eps()</a>.</dd>
+</dl>
+<dl class="section note">
+<dt>Note</dt>
+<dd>This function may return value that is slightly larger than
+smallest value, that changes value of <em>r</em>.</dd>
 </dl>
 </div>
 </div>
@@ -1110,30 +1116,38 @@ called first will be destroyed last.</dd>
 </div>
 <div class="memdoc">
 <p>Epsilon for a number.</p>
-<p>Get epsilon for real number <em>r</em>, that means smallest
-number which added to <em>r</em> changes value of <em>r</em>.</p>
+<p>This function tries to find value close to epsilon for number
+<em>r</em>, that means smallest floating point number, which added
+to <em>r</em> changes value of <em>r</em>.</p>
 <dl class="params">
 <dt>Parameters</dt>
 <dd>
 <table class="params">
 <tr>
 <td class="paramname">r</td>
-<td>real number.</td>
+<td>real (floating point) number.</td>
 </tr>
 </table>
 </dd>
 </dl>
 <dl class="section return">
 <dt>Returns</dt>
-<dd>smallest number, which added to <em>r</em> changes value of
-<em>r</em>. If <em>r</em> is positive number, then returned number
-is also positive. Otherwise negative number is returned.</dd>
+<dd>value close to smallest number, which added to <em>r</em>
+changes value of <em>r</em>. If <em>r</em> is positive number, then
+returned number is also positive. Otherwise negative number is
+returned.</dd>
 </dl>
 <dl class="section see">
 <dt>See also</dt>
 <dd><a class="el" href=
 "namespacecutehmi.html#a9b0eaf5cd98937e36057e32224b1bd35" title=
 "Absolute epsilon for a number. ">absEps()</a>.</dd>
+</dl>
+<dl class="section note">
+<dt>Note</dt>
+<dd>This function may return value that is slightly larger (in
+terms of magnitude) than smallest value, that changes value of
+<em>r</em>.</dd>
 </dl>
 </div>
 </div>
