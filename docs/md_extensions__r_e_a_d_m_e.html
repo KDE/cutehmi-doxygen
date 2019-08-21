@@ -135,35 +135,44 @@ they can be also used like standard libraries.</p>
 used to boost the process of creating custom extensions.</p>
 <h2>Directories</h2>
 <p>Directory structure of extensions follows standard QML
-extensions scheme. Directory name of the extension defines fully
-qualified extension <b>name</b> denoted as
-<b>VendorName.ExtensionName.MajorVersion</b>. As a reference we can
-take <code>Templates.Skeleton.0</code> extension.</p>
-<p>Fully qualified <b>name</b> consists of <b>base name</b>
-(<code>Templates.Skeleton</code>) and <b>major version suffix</b>
-(<code>.0</code>). <b>Base name</b> consists of two parts:
-<b>vendor name</b> (<code>Templates</code>) and <b>extension
-name</b> (<code>Skeleton</code>). It is allowed to omit
-<b>extension name</b> for a single extension from a specific
-vendor.</p>
+extensions scheme. According to <a href=
+"https://doc.qt.io/qt-5/qtqml-modules-identifiedmodules.html#semantics-of-identified-modules">
+QML identified module rules</a> path of an extension relative to
+<code>extensions</code> directory defines module identifier, which
+is also extension <b>name</b> denoted as
+<b>BaseName.MajorVersion</b>. Typically <b>BaseName</b> consists of
+dot-separated <em>VendorName.ExtensionName</em> parts, but this is
+a convention rather than a requirement. Extension name must only
+contain <b>base name</b> and <b>major version</b> suffix. Base name
+parts have no special meaning.</p>
+<p>As a reference we can take <code>Templates.Skeleton.0</code>
+extension. Fully qualified <b>name</b> consists of <b>base name</b>
+(<code>Templates.Skeleton</code>) and <b>major version</b> suffix
+(<code>0</code>). <b>Base name</b> consists of two parts:
+<em>vendor name</em> (<code>Templates</code>) and <em>extension
+name</em> (<code>Skeleton</code>). It is allowed to omit
+<em>extension name</em> for a single extension from a specific
+vendor. It is also allowed to provide dot-separated <em>extension
+name</em> (e.g. <code>examples.Skeleton</code>); or do the same
+with <em>vendor</em> (e.g. <code>org.nokia</code>).</p>
 <p>Extension directories follow camel-case (PascalCase) rules in
 order to remain consistent with QML extension naming convention
 used by Qt. On the other hand following this convention within C++
 would be inconvenient in many places, so compromises have been
 made. Sometimes semantic members of extension directory name are
 lowercased. To express such intention, a pattern
-<b>VendorName.ExtensionName.MajorVersion</b> will be transformed
-according to the intention (i.e. <b>vendorname</b> represents
-lowercased <b>VendorName</b>).</p>
+<em>VendorName.ExtensionName.MajorVersion</em> will be transformed
+according to the intention (i.e. <em>vendorname</em> represents
+lowercased <em>VendorName</em>).</p>
 <p>Typically each extension will have directory structure similar
 to this one.</p>
 <ul>
 <li><code>include</code> - public header files (available to other
 modules).
 <ul>
-<li><b>vendorname</b> - for example <code>templates</code>.
+<li><em>vendorname</em> - for example <code>templates</code>.
 <ul>
-<li><b>extensionname</b> - for example <code>skeleton</code>.
+<li><em>extensionname</em> - for example <code>skeleton</code>.
 <ul>
 <li><code>internal</code> - some headers need to be publicly
 available, but they are implementation detail. This directory is
@@ -176,9 +185,9 @@ for such files.</li>
 </li>
 <li><code>src</code> - private header files and implementation.
 <ul>
-<li><b>vendorname</b> - for example <code>templates</code>.
+<li><em>vendorname</em> - for example <code>templates</code>.
 <ul>
-<li><b>extensionname</b> - for example <code>skeleton</code>.
+<li><em>extensionname</em> - for example <code>skeleton</code>.
 <ul>
 <li><code>internal</code> - corresponds with <code>internal</code>
 subdirectory inside <code>include</code> directory.</li>

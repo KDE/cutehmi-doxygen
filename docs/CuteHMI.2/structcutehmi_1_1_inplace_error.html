@@ -188,6 +188,11 @@ int <a class="el" href=
 href=
 "structcutehmi_1_1_error.html#af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e">Error::FAIL</a>)</td>
 </tr>
+<tr class="memdesc:a48ce1fd4966dd5ab7e721ec1f6079894">
+<td class="mdescLeft">&nbsp;</td>
+<td class="mdescRight">Constructor. <a href=
+"#a48ce1fd4966dd5ab7e721ec1f6079894">More...</a><br /></td>
+</tr>
 <tr class="separator:a48ce1fd4966dd5ab7e721ec1f6079894">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
@@ -199,6 +204,11 @@ href="http://doc.qt.io/qt-5/qstring.html">QString</a>&nbsp;</td>
 <td class="memItemRight" valign="bottom"><a class="el" href=
 "structcutehmi_1_1_inplace_error.html#a0066a218e442df9f2f46a052f13156c3">
 str</a> () const</td>
+</tr>
+<tr class="memdesc:a0066a218e442df9f2f46a052f13156c3">
+<td class="mdescLeft">&nbsp;</td>
+<td class="mdescRight">Get error string. <a href=
+"#a0066a218e442df9f2f46a052f13156c3">More...</a><br /></td>
 </tr>
 <tr class="separator:a0066a218e442df9f2f46a052f13156c3">
 <td class="memSeparator" colspan="2">&nbsp;</td>
@@ -433,6 +443,8 @@ inherited from <a class="el" href=
 <h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p>In-place error.</p>
+<p>This class can be more conveniently used with CUTEHMI_ERROR
+macro.</p>
 <dl class="section remark">
 <dt>Remarks</dt>
 <dd>This class is registered as metatype by <a class="el" href=
@@ -494,7 +506,43 @@ Error::FAIL</a></code>&nbsp;</td>
 </tr>
 </table>
 </div>
-<div class="memdoc"></div>
+<div class="memdoc">
+<p>Constructor.</p>
+<dl class="params">
+<dt>Parameters</dt>
+<dd>
+<table class="params">
+<tr>
+<td class="paramname">message</td>
+<td>error message.</td>
+</tr>
+<tr>
+<td class="paramname">file</td>
+<td>file name, where error occurred.</td>
+</tr>
+<tr>
+<td class="paramname">line</td>
+<td>line at which error occurred.</td>
+</tr>
+<tr>
+<td class="paramname">function</td>
+<td>function inside which error occurred.</td>
+</tr>
+<tr>
+<td class="paramname">code</td>
+<td>error code.</td>
+</tr>
+</table>
+</dd>
+</dl>
+<dl class="section note">
+<dt>Note</dt>
+<dd>It is not intended to use this constructor directly. To
+conveniently create an instance of this class a CUTEHMI_ERROR
+macro, which takes only message as an argument, should be
+used.</dd>
+</dl>
+</div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0066a218e442df9f2f46a052f13156c3" name=
@@ -516,7 +564,13 @@ cutehmi::InplaceError::str</td>
 </tr>
 </table>
 </div>
-<div class="memdoc"></div>
+<div class="memdoc">
+<p>Get error string.</p>
+<dl class="section return">
+<dt>Returns</dt>
+<dd>error string.</dd>
+</dl>
+</div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4310d915668446e302d2279e3f7049d7" name=
