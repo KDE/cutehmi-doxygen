@@ -402,149 +402,166 @@ repairing() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00071" id="l00071"></a> <span class=
 "lineno">71</span>&nbsp;</div>
 <div class="line"><a name="l00072" id="l00072"></a> <span class=
-"lineno">72</span>&nbsp; signals:</div>
+"lineno">72</span>&nbsp; <a class="codeRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qstate.html">QState</a> &amp;
+evacuating();</div>
 <div class="line"><a name="l00073" id="l00073"></a> <span class=
-"lineno">73</span>&nbsp; <span class="keywordtype">void</span>
-statusChanged();</div>
+"lineno">73</span>&nbsp;</div>
 <div class="line"><a name="l00074" id="l00074"></a> <span class=
-"lineno">74</span>&nbsp;</div>
+"lineno">74</span>&nbsp; <span class="keyword">const</span>
+<a class="codeRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qstate.html">QState</a> &amp;
+evacuating() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00075" id="l00075"></a> <span class=
-"lineno">75</span>&nbsp; <span class=
-"keyword">private</span>:</div>
+"lineno">75</span>&nbsp;</div>
 <div class="line"><a name="l00076" id="l00076"></a> <span class=
-"lineno">76</span>&nbsp; <span class="keyword">struct</span>
-Members</div>
+"lineno">76</span>&nbsp; signals:</div>
 <div class="line"><a name="l00077" id="l00077"></a> <span class=
-"lineno">77</span>&nbsp; {</div>
+"lineno">77</span>&nbsp; <span class="keywordtype">void</span>
+statusChanged();</div>
 <div class="line"><a name="l00078" id="l00078"></a> <span class=
-"lineno">78</span>&nbsp; <span class="keyword">enum</span>
+"lineno">78</span>&nbsp;</div>
+<div class="line"><a name="l00079" id="l00079"></a> <span class=
+"lineno">79</span>&nbsp; <span class=
+"keyword">private</span>:</div>
+<div class="line"><a name="l00080" id="l00080"></a> <span class=
+"lineno">80</span>&nbsp; <span class="keyword">struct</span>
+Members</div>
+<div class="line"><a name="l00081" id="l00081"></a> <span class=
+"lineno">81</span>&nbsp; {</div>
+<div class="line"><a name="l00082" id="l00082"></a> <span class=
+"lineno">82</span>&nbsp; <span class="keyword">enum</span>
 MainStateNames : <a class="codeRef" doxygen=
 "/home/cutebot/devel/cutehmi/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a>
 {</div>
-<div class="line"><a name="l00079" id="l00079"></a> <span class=
-"lineno">79</span>&nbsp; STOPPED = 0,</div>
-<div class="line"><a name="l00080" id="l00080"></a> <span class=
-"lineno">80</span>&nbsp; INTERRUPTED,</div>
-<div class="line"><a name="l00081" id="l00081"></a> <span class=
-"lineno">81</span>&nbsp; STARTING,</div>
-<div class="line"><a name="l00082" id="l00082"></a> <span class=
-"lineno">82</span>&nbsp; STARTED,</div>
 <div class="line"><a name="l00083" id="l00083"></a> <span class=
-"lineno">83</span>&nbsp; STOPPING,</div>
+"lineno">83</span>&nbsp; STOPPED = 0,</div>
 <div class="line"><a name="l00084" id="l00084"></a> <span class=
-"lineno">84</span>&nbsp; BROKEN,</div>
+"lineno">84</span>&nbsp; INTERRUPTED,</div>
 <div class="line"><a name="l00085" id="l00085"></a> <span class=
-"lineno">85</span>&nbsp; REPAIRING</div>
+"lineno">85</span>&nbsp; STARTING,</div>
 <div class="line"><a name="l00086" id="l00086"></a> <span class=
-"lineno">86</span>&nbsp; };</div>
+"lineno">86</span>&nbsp; STARTED,</div>
 <div class="line"><a name="l00087" id="l00087"></a> <span class=
-"lineno">87</span>&nbsp;</div>
+"lineno">87</span>&nbsp; STOPPING,</div>
 <div class="line"><a name="l00088" id="l00088"></a> <span class=
-"lineno">88</span>&nbsp; <span class="keyword">typedef</span>
+"lineno">88</span>&nbsp; BROKEN,</div>
+<div class="line"><a name="l00089" id="l00089"></a> <span class=
+"lineno">89</span>&nbsp; REPAIRING,</div>
+<div class="line"><a name="l00090" id="l00090"></a> <span class=
+"lineno">90</span>&nbsp; EVACUATING</div>
+<div class="line"><a name="l00091" id="l00091"></a> <span class=
+"lineno">91</span>&nbsp; };</div>
+<div class="line"><a name="l00092" id="l00092"></a> <span class=
+"lineno">92</span>&nbsp;</div>
+<div class="line"><a name="l00093" id="l00093"></a> <span class=
+"lineno">93</span>&nbsp; <span class="keyword">typedef</span>
 <a class="codeRef" doxygen=
 "/home/cutebot/devel/cutehmi/doc/tags/cppreference.com/cppreference-doxygen-web.tag.xml:https://en.cppreference.com/w/"
 href=
 "https://en.cppreference.com/w/cpp/container/array.html">std::array&lt;QState,
-7&gt;</a> MainStatesContainer;</div>
-<div class="line"><a name="l00089" id="l00089"></a> <span class=
-"lineno">89</span>&nbsp;</div>
-<div class="line"><a name="l00090" id="l00090"></a> <span class=
-"lineno">90</span>&nbsp; MainStatesContainer mainStates;</div>
-<div class="line"><a name="l00091" id="l00091"></a> <span class=
-"lineno">91</span>&nbsp; <a class="codeRef" doxygen=
+8&gt;</a> MainStatesContainer;</div>
+<div class="line"><a name="l00094" id="l00094"></a> <span class=
+"lineno">94</span>&nbsp;</div>
+<div class="line"><a name="l00095" id="l00095"></a> <span class=
+"lineno">95</span>&nbsp; MainStatesContainer mainStates;</div>
+<div class="line"><a name="l00096" id="l00096"></a> <span class=
+"lineno">96</span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstring.html">QString</a> status;</div>
-<div class="line"><a name="l00092" id="l00092"></a> <span class=
-"lineno">92</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00097" id="l00097"></a> <span class=
+"lineno">97</span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstate.html">QState</a> * idling;</div>
-<div class="line"><a name="l00093" id="l00093"></a> <span class=
-"lineno">93</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00098" id="l00098"></a> <span class=
+"lineno">98</span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstate.html">QState</a> *
 yielding;</div>
-<div class="line"><a name="l00094" id="l00094"></a> <span class=
-"lineno">94</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00099" id="l00099"></a> <span class=
+"lineno">99</span>&nbsp; <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstate.html">QState</a> * active;</div>
-<div class="line"><a name="l00095" id="l00095"></a> <span class=
-"lineno">95</span>&nbsp;</div>
-<div class="line"><a name="l00096" id="l00096"></a> <span class=
-"lineno">96</span>&nbsp; Members():</div>
-<div class="line"><a name="l00097" id="l00097"></a> <span class=
-"lineno">97</span>&nbsp; mainStates{},</div>
-<div class="line"><a name="l00098" id="l00098"></a> <span class=
-"lineno">98</span>&nbsp; idling(<span class="keyword">new</span>
-<a class="codeRef" doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qstate.html">QState</a>(&amp;
-mainStates[STARTED])),</div>
-<div class="line"><a name="l00099" id="l00099"></a> <span class=
-"lineno">99</span>&nbsp; yielding(<span class="keyword">new</span>
-<a class="codeRef" doxygen=
-"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
-href="http://doc.qt.io/qt-5/qstate.html">QState</a>(&amp;
-mainStates[STARTED])),</div>
 <div class="line"><a name="l00100" id="l00100"></a> <span class=
-"lineno">100</span>&nbsp; active(<span class="keyword">new</span>
+"lineno">100</span>&nbsp;</div>
+<div class="line"><a name="l00101" id="l00101"></a> <span class=
+"lineno">101</span>&nbsp; Members():</div>
+<div class="line"><a name="l00102" id="l00102"></a> <span class=
+"lineno">102</span>&nbsp; mainStates{},</div>
+<div class="line"><a name="l00103" id="l00103"></a> <span class=
+"lineno">103</span>&nbsp; idling(<span class="keyword">new</span>
+<a class="codeRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qstate.html">QState</a>(&amp;
+mainStates[STARTED])),</div>
+<div class="line"><a name="l00104" id="l00104"></a> <span class=
+"lineno">104</span>&nbsp; yielding(<span class="keyword">new</span>
+<a class="codeRef" doxygen=
+"/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
+href="http://doc.qt.io/qt-5/qstate.html">QState</a>(&amp;
+mainStates[STARTED])),</div>
+<div class="line"><a name="l00105" id="l00105"></a> <span class=
+"lineno">105</span>&nbsp; active(<span class="keyword">new</span>
 <a class="codeRef" doxygen=
 "/usr/share/qt5/doc/qtcore/qtcore.tags:http://doc.qt.io/qt-5/"
 href="http://doc.qt.io/qt-5/qstate.html">QState</a>(&amp;
 mainStates[STARTED]))</div>
-<div class="line"><a name="l00101" id="l00101"></a> <span class=
-"lineno">101</span>&nbsp; {</div>
-<div class="line"><a name="l00102" id="l00102"></a> <span class=
-"lineno">102</span>&nbsp; }</div>
-<div class="line"><a name="l00103" id="l00103"></a> <span class=
-"lineno">103</span>&nbsp; };</div>
-<div class="line"><a name="l00104" id="l00104"></a> <span class=
-"lineno">104</span>&nbsp;</div>
-<div class="line"><a name="l00105" id="l00105"></a> <span class=
-"lineno">105</span>&nbsp; <a class="codeRef" doxygen=
+<div class="line"><a name="l00106" id="l00106"></a> <span class=
+"lineno">106</span>&nbsp; {</div>
+<div class="line"><a name="l00107" id="l00107"></a> <span class=
+"lineno">107</span>&nbsp; }</div>
+<div class="line"><a name="l00108" id="l00108"></a> <span class=
+"lineno">108</span>&nbsp; };</div>
+<div class="line"><a name="l00109" id="l00109"></a> <span class=
+"lineno">109</span>&nbsp;</div>
+<div class="line"><a name="l00110" id="l00110"></a> <span class=
+"lineno">110</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/cutehmi/extensions/CuteHMI.2/doxygen.tag:../../CuteHMI.2/"
 href=
 "../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">MPtr&lt;Members&gt;</a>
 m;</div>
-<div class="line"><a name="l00106" id="l00106"></a> <span class=
-"lineno">106</span>&nbsp;};</div>
-<div class="line"><a name="l00107" id="l00107"></a> <span class=
-"lineno">107</span>&nbsp;</div>
-<div class="line"><a name="l00108" id="l00108"></a> <span class=
-"lineno">108</span>&nbsp;}</div>
-<div class="line"><a name="l00109" id="l00109"></a> <span class=
-"lineno">109</span>&nbsp;}</div>
-<div class="line"><a name="l00110" id="l00110"></a> <span class=
-"lineno">110</span>&nbsp;}</div>
 <div class="line"><a name="l00111" id="l00111"></a> <span class=
-"lineno">111</span>&nbsp;</div>
+"lineno">111</span>&nbsp;};</div>
 <div class="line"><a name="l00112" id="l00112"></a> <span class=
-"lineno">112</span>&nbsp;<span class=
-"preprocessor">#endif</span></div>
+"lineno">112</span>&nbsp;</div>
 <div class="line"><a name="l00113" id="l00113"></a> <span class=
-"lineno">113</span>&nbsp;</div>
+"lineno">113</span>&nbsp;}</div>
 <div class="line"><a name="l00114" id="l00114"></a> <span class=
-"lineno">114</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
+"lineno">114</span>&nbsp;}</div>
+<div class="line"><a name="l00115" id="l00115"></a> <span class=
+"lineno">115</span>&nbsp;}</div>
+<div class="line"><a name="l00116" id="l00116"></a> <span class=
+"lineno">116</span>&nbsp;</div>
+<div class="line"><a name="l00117" id="l00117"></a> <span class=
+"lineno">117</span>&nbsp;<span class=
+"preprocessor">#endif</span></div>
+<div class="line"><a name="l00118" id="l00118"></a> <span class=
+"lineno">118</span>&nbsp;</div>
+<div class="line"><a name="l00119" id="l00119"></a> <span class=
+"lineno">119</span>&nbsp;<span class="comment">//(c)MP: Copyright ©
 2019, Michal Policht &lt;michpolicht@gmail.com&gt;. All rights
 reserved.</span></div>
-<div class="line"><a name="l00115" id="l00115"></a> <span class=
-"lineno">115</span>&nbsp;<span class="comment">//(c)MP: This file
+<div class="line"><a name="l00120" id="l00120"></a> <span class=
+"lineno">120</span>&nbsp;<span class="comment">//(c)MP: This file
 is a part of CuteHMI.</span></div>
-<div class="line"><a name="l00116" id="l00116"></a> <span class=
-"lineno">116</span>&nbsp;<span class="comment">//(c)MP: CuteHMI is
+<div class="line"><a name="l00121" id="l00121"></a> <span class=
+"lineno">121</span>&nbsp;<span class="comment">//(c)MP: CuteHMI is
 free software: you can redistribute it and/or modify it under the
 terms of the GNU Lesser General Public License as published by the
 Free Software Foundation, either version 3 of the License, or (at
 your option) any later version.</span></div>
-<div class="line"><a name="l00117" id="l00117"></a> <span class=
-"lineno">117</span>&nbsp;<span class="comment">//(c)MP: CuteHMI is
+<div class="line"><a name="l00122" id="l00122"></a> <span class=
+"lineno">122</span>&nbsp;<span class="comment">//(c)MP: CuteHMI is
 distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
 License for more details.</span></div>
-<div class="line"><a name="l00118" id="l00118"></a> <span class=
-"lineno">118</span>&nbsp;<span class="comment">//(c)MP: You should
+<div class="line"><a name="l00123" id="l00123"></a> <span class=
+"lineno">123</span>&nbsp;<span class="comment">//(c)MP: You should
 have received a copy of the GNU Lesser General Public License along
 with CuteHMI. If not, see
 &lt;https://www.gnu.org/licenses/&gt;.</span></div>
@@ -601,7 +618,7 @@ with CuteHMI. If not, see
 <div class="ttc" id="array_html">
 <div class="ttname"><a href=
 "https://en.cppreference.com/w/cpp/container/array.html">std::array&lt;
-QState, 7 &gt;</a></div>
+QState, 8 &gt;</a></div>
 </div>
 </div>
 <!-- fragment --></div>

@@ -5,6 +5,8 @@ var classcutehmi_1_1services_1_1internal_1_1_state_interface =
     [ "active", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#a538bb313948875beab2e6e2a0a9f62f7", null ],
     [ "borken", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#a90a3e0ee153004e5151413f041bca501", null ],
     [ "broken", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#ae86b7a704cef6a71b4d99dddea1dc9f9", null ],
+    [ "evacuating", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#a10710adb3f608b34766245586cb16195", null ],
+    [ "evacuating", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#aec750de30462fa8891207369ac1ba9d9", null ],
     [ "find", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#af8a165f4207b5b122b756f58a376c2ce", null ],
     [ "idling", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#a813111e2361a6c3e276b6063cb85d7f9", null ],
     [ "idling", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#ab70014572646c10e28b22e6200089b7e", null ],

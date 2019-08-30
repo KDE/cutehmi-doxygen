@@ -5,6 +5,7 @@ var classcutehmi_1_1services_1_1_serviceable =
     [ "~Serviceable", "classcutehmi_1_1services_1_1_serviceable.html#a487f7c9a2e17a9a651083064309a00af", null ],
     [ "Serviceable", "classcutehmi_1_1services_1_1_serviceable.html#ac49c071ab7ad645360cc31fa81f69620", null ],
     [ "configureBroken", "classcutehmi_1_1services_1_1_serviceable.html#a68430782f146590faf2497f1d869c0ca", null ],
+    [ "configureEvacuating", "classcutehmi_1_1services_1_1_serviceable.html#abd66ef626e678a7cab2a5727cf3664ea", null ],
     [ "configureRepairing", "classcutehmi_1_1services_1_1_serviceable.html#a9bd33b1c024f33b722aae52a3b7de824", null ],
     [ "configureStarted", "classcutehmi_1_1services_1_1_serviceable.html#a41a61096c07d952e72ce9e6fd3e28703", null ],
     [ "configureStarting", "classcutehmi_1_1services_1_1_serviceable.html#a85d06b15b9f7327758c1be6c9215e531", null ],
