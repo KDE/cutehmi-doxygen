@@ -223,6 +223,15 @@ maxActiveServicesChanged</a> ()</td>
 <tr class="separator:a6707d005b4d661dc1b2f61f20bc72a74">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
+<tr class="memitem:a6cba009e7764d9edee67b51c072550ac">
+<td class="memItemLeft" align="right" valign="top">void&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a6cba009e7764d9edee67b51c072550ac">
+repairIntervalChanged</a> ()</td>
+</tr>
+<tr class="separator:a6cba009e7764d9edee67b51c072550ac">
+<td class="memSeparator" colspan="2">&nbsp;</td>
+</tr>
 </table>
 <table class="memberdecls">
 <tr class="heading">
@@ -249,6 +258,26 @@ setMaxActiveServices</a> (int <a class="el" href=
 maxActiveServices</a>)</td>
 </tr>
 <tr class="separator:a6476e8a2b031bb5794d0b83c71ea250a">
+<td class="memSeparator" colspan="2">&nbsp;</td>
+</tr>
+<tr class="memitem:abcda4a8101c28bb1b3fac8aaf222e11e">
+<td class="memItemLeft" align="right" valign="top">int&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#abcda4a8101c28bb1b3fac8aaf222e11e">
+repairInterval</a> () const</td>
+</tr>
+<tr class="separator:abcda4a8101c28bb1b3fac8aaf222e11e">
+<td class="memSeparator" colspan="2">&nbsp;</td>
+</tr>
+<tr class="memitem:a20d7fe12bf82bfa7617de38b8839532b">
+<td class="memItemLeft" align="right" valign="top">void&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a20d7fe12bf82bfa7617de38b8839532b">
+setRepairInterval</a> (int <a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a94854c0bbb9cfa843ab084cc1cca57d1">
+repairInterval</a>)</td>
+</tr>
+<tr class="separator:a20d7fe12bf82bfa7617de38b8839532b">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
 <tr class="inherit_header pub_methods_qobject">
@@ -795,6 +824,16 @@ INITIAL_MAX_ACTIVE_SERVICES</a> = 1</td>
 <tr class="separator:a4aa02b8fc06e9240e5aa9f7c2ae4ed14">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
+<tr class="memitem:a81cb27133754a75c6b054a60357b1049">
+<td class="memItemLeft" align="right" valign="top">static constexpr
+int&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a81cb27133754a75c6b054a60357b1049">
+INITIAL_REPAIR_INTERVAL</a> = 10000</td>
+</tr>
+<tr class="separator:a81cb27133754a75c6b054a60357b1049">
+<td class="memSeparator" colspan="2">&nbsp;</td>
+</tr>
 </table>
 <table class="memberdecls">
 <tr class="heading">
@@ -1136,6 +1175,15 @@ Properties</h2>
 maxActiveServices</a></td>
 </tr>
 <tr class="separator:a16c4a9891e8de4ed0b9c7ffe9ed9ef39">
+<td class="memSeparator" colspan="2">&nbsp;</td>
+</tr>
+<tr class="memitem:a94854c0bbb9cfa843ab084cc1cca57d1">
+<td class="memItemLeft" align="right" valign="top">int&nbsp;</td>
+<td class="memItemRight" valign="bottom"><a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a94854c0bbb9cfa843ab084cc1cca57d1">
+repairInterval</a></td>
+</tr>
+<tr class="separator:a94854c0bbb9cfa843ab084cc1cca57d1">
 <td class="memSeparator" colspan="2">&nbsp;</td>
 </tr>
 <tr class="inherit_header properties_qobject">
@@ -1681,6 +1729,52 @@ cutehmi::services::ServiceManager::remove</td>
 </div>
 <div class="memdoc"></div>
 </div>
+<a id="abcda4a8101c28bb1b3fac8aaf222e11e" name=
+"abcda4a8101c28bb1b3fac8aaf222e11e"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#abcda4a8101c28bb1b3fac8aaf222e11e">◆&nbsp;</a></span>repairInterval()</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tr>
+<td class="memname">int
+cutehmi::services::ServiceManager::repairInterval</td>
+<td>(</td>
+<td class="paramname"></td>
+<td>)</td>
+<td>const</td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
+<a id="a6cba009e7764d9edee67b51c072550ac" name=
+"a6cba009e7764d9edee67b51c072550ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#a6cba009e7764d9edee67b51c072550ac">◆&nbsp;</a></span>repairIntervalChanged</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+<tr>
+<td class="mlabels-left">
+<table class="memname">
+<tr>
+<td class="memname">void
+cutehmi::services::ServiceManager::repairIntervalChanged</td>
+<td>(</td>
+<td class="paramname"></td>
+<td>)</td>
+<td></td>
+</tr>
+</table>
+</td>
+<td class="mlabels-right"><span class="mlabels"><span class=
+"mlabel">signal</span></span></td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
 <a id="a6476e8a2b031bb5794d0b83c71ea250a" name=
 "a6476e8a2b031bb5794d0b83c71ea250a"></a>
 <h2 class="memtitle"><span class="permalink"><a href=
@@ -1694,6 +1788,26 @@ cutehmi::services::ServiceManager::setMaxActiveServices</td>
 <td>(</td>
 <td class="paramtype">int&nbsp;</td>
 <td class="paramname"><em>maxActiveServices</em></td>
+<td>)</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
+<a id="a20d7fe12bf82bfa7617de38b8839532b" name=
+"a20d7fe12bf82bfa7617de38b8839532b"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#a20d7fe12bf82bfa7617de38b8839532b">◆&nbsp;</a></span>setRepairInterval()</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="memname">
+<tr>
+<td class="memname">void
+cutehmi::services::ServiceManager::setRepairInterval</td>
+<td>(</td>
+<td class="paramtype">int&nbsp;</td>
+<td class="paramname"><em>repairInterval</em></td>
 <td>)</td>
 <td></td>
 </tr>
@@ -1834,6 +1948,30 @@ cutehmi::services::ServiceManager::INITIAL_MAX_ACTIVE_SERVICES =
 </div>
 <div class="memdoc"></div>
 </div>
+<a id="a81cb27133754a75c6b054a60357b1049" name=
+"a81cb27133754a75c6b054a60357b1049"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#a81cb27133754a75c6b054a60357b1049">◆&nbsp;</a></span>INITIAL_REPAIR_INTERVAL</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+<tr>
+<td class="mlabels-left">
+<table class="memname">
+<tr>
+<td class="memname">constexpr int
+cutehmi::services::ServiceManager::INITIAL_REPAIR_INTERVAL =
+10000</td>
+</tr>
+</table>
+</td>
+<td class="mlabels-right"><span class="mlabels"><span class=
+"mlabel">static</span></span></td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="a16c4a9891e8de4ed0b9c7ffe9ed9ef39" name=
 "a16c4a9891e8de4ed0b9c7ffe9ed9ef39"></a>
@@ -1848,6 +1986,29 @@ cutehmi::services::ServiceManager::INITIAL_MAX_ACTIVE_SERVICES =
 <tr>
 <td class="memname">int
 cutehmi::services::ServiceManager::maxActiveServices</td>
+</tr>
+</table>
+</td>
+<td class="mlabels-right"><span class="mlabels"><span class=
+"mlabel">read</span><span class="mlabel">write</span></span></td>
+</tr>
+</table>
+</div>
+<div class="memdoc"></div>
+</div>
+<a id="a94854c0bbb9cfa843ab084cc1cca57d1" name=
+"a94854c0bbb9cfa843ab084cc1cca57d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href=
+"#a94854c0bbb9cfa843ab084cc1cca57d1">◆&nbsp;</a></span>repairInterval</h2>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+<tr>
+<td class="mlabels-left">
+<table class="memname">
+<tr>
+<td class="memname">int
+cutehmi::services::ServiceManager::repairInterval</td>
 </tr>
 </table>
 </td>

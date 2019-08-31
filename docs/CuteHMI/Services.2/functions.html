@@ -260,6 +260,9 @@ cutehmi::services::ServiceManager</a></li>
 <li>INITIAL_NAME : <a class="el" href=
 "classcutehmi_1_1services_1_1_service.html#a26e9b1c48e0d7cc7b5b8ec6679c3fd9b">
 cutehmi::services::Service</a></li>
+<li>INITIAL_REPAIR_INTERVAL : <a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a81cb27133754a75c6b054a60357b1049">
+cutehmi::services::ServiceManager</a></li>
 <li>INITIAL_REPAIR_TIMEOUT : <a class="el" href=
 "classcutehmi_1_1services_1_1_service.html#a6c8679fcbe2db7d0e726bb45764103ac">
 cutehmi::services::Service</a></li>
@@ -276,7 +279,7 @@ cutehmi::services::PollingTimer</a></li>
 "classcutehmi_1_1services_1_1_initializer.html#aa9ea4b47247b1e1340a3f01001ea8d7b">
 cutehmi::services::Initializer</a></li>
 <li>interrupted() : <a class="el" href=
-"classcutehmi_1_1services_1_1internal_1_1_state_interface.html#ac9010aab541e089caf2ae26cfc0486e0">
+"classcutehmi_1_1services_1_1internal_1_1_state_interface.html#a2e34afae468e26fc612f663294538d07">
 cutehmi::services::internal::StateInterface</a></li>
 <li>interval() : <a class="el" href=
 "classcutehmi_1_1services_1_1_polling_timer.html#a95b88fa7409f00ab36431003139d1e9b">
@@ -340,8 +343,14 @@ cutehmi::services::ServiceManager</a></li>
 <li>repairing() : <a class="el" href=
 "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#ace5cfe0cb5348e938d6dc45591390c18">
 cutehmi::services::internal::StateInterface</a></li>
-<li>repairTimeout() : <a class="el" href=
-"classcutehmi_1_1services_1_1_service.html#a334a88e65fb61bc725e8553fe3a15317">
+<li>repairInterval : <a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a94854c0bbb9cfa843ab084cc1cca57d1">
+cutehmi::services::ServiceManager</a></li>
+<li>repairIntervalChanged() : <a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a6cba009e7764d9edee67b51c072550ac">
+cutehmi::services::ServiceManager</a></li>
+<li>repairTimeout : <a class="el" href=
+"classcutehmi_1_1services_1_1_service.html#ab3ff2838cf20218e2cb3b1e559904ce2">
 cutehmi::services::Service</a></li>
 <li>repairTimeoutChanged() : <a class="el" href=
 "classcutehmi_1_1services_1_1_service.html#a87c9f68394de4feb4c46303e902bf034">
@@ -392,6 +401,9 @@ cutehmi::services::ServiceManager</a></li>
 <li>setName() : <a class="el" href=
 "classcutehmi_1_1services_1_1_service.html#aa10ff5193beb9f5acc1adf0bb5b677b9">
 cutehmi::services::Service</a></li>
+<li>setRepairInterval() : <a class="el" href=
+"classcutehmi_1_1services_1_1_service_manager.html#a20d7fe12bf82bfa7617de38b8839532b">
+cutehmi::services::ServiceManager</a></li>
 <li>setRepairTimeout() : <a class="el" href=
 "classcutehmi_1_1services_1_1_service.html#ac7062ddec84030d0033b7f9e288a6691">
 cutehmi::services::Service</a></li>
@@ -445,7 +457,7 @@ cutehmi::services::Service</a></li>
 "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#ae24d3f6f77b8207619a72360ac8fbd03">
 cutehmi::services::internal::StateInterface</a> , <a class="el"
 href=
-"classcutehmi_1_1services_1_1_service.html#a826d0449f38052a6034f738ca8faaad5">
+"classcutehmi_1_1services_1_1_service.html#abec6b729e69f9a2ac32df123563f12b7">
 cutehmi::services::Service</a></li>
 <li>STATUS_ROLE : <a class="el" href=
 "classcutehmi_1_1services_1_1_service_list_model.html#a6e93209ff24c3faa4ba35a0565bf5a48ad6e30580bd78d9a5e6749377c125eec2">
@@ -470,14 +482,14 @@ cutehmi::services::Service</a></li>
 <li>stopping() : <a class="el" href=
 "classcutehmi_1_1services_1_1internal_1_1_state_interface.html#aaa0d0e4d9dba1b743e77d546921ca5f8">
 cutehmi::services::internal::StateInterface</a></li>
-<li>stopTimeout : <a class="el" href=
-"classcutehmi_1_1services_1_1_service.html#a3f2aebb081cad3cc934e6ea6b1c59ca4">
+<li>stopTimeout() : <a class="el" href=
+"classcutehmi_1_1services_1_1_service.html#a36f56d42317b56ca6c9c0e6dbd4d8829">
 cutehmi::services::Service</a></li>
 <li>stopTimeoutChanged() : <a class="el" href=
 "classcutehmi_1_1services_1_1_service.html#a7cac6d41ecf8c5219d4be222a32649ab">
 cutehmi::services::Service</a></li>
-<li>subtimer : <a class="el" href=
-"classcutehmi_1_1services_1_1_polling_timer.html#a785f626e0156a7a409d626222fd0927c">
+<li>subtimer() : <a class="el" href=
+"classcutehmi_1_1services_1_1_polling_timer.html#a7d811d43543d5d54103d9c7e00270ac8">
 cutehmi::services::PollingTimer</a></li>
 </ul>
 <h3><a id="index_t" name="index_t"></a>- t -</h3>
