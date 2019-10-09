@@ -31,6 +31,7 @@ var dir_af47cb53463d2a51ba0770599d092505 =
     [ "InplaceError.hpp", "_inplace_error_8hpp.html", "_inplace_error_8hpp" ],
     [ "logging.hpp", "logging_8hpp.html", "logging_8hpp" ],
     [ "loggingMacros.hpp", "logging_macros_8hpp.html", "logging_macros_8hpp" ],
+    [ "macros.hpp", "macros_8hpp.html", "macros_8hpp" ],
     [ "metadata.hpp", "metadata_8hpp.html", null ],
     [ "MPtr.hpp", "_m_ptr_8hpp.html", "_m_ptr_8hpp" ],
     [ "NonCopyable.hpp", "_non_copyable_8hpp.html", [

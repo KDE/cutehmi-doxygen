@@ -12,6 +12,7 @@ var searchData=
   ['m33',['m33',['http://doc.qt.io/qt-5/qtransform.html#m33',1,'QTransform']]],
   ['machine',['machine',['http://doc.qt.io/qt-5/qabstractstate.html#machine',1,'QAbstractState::machine()'],['http://doc.qt.io/qt-5/qabstracttransition.html#machine',1,'QAbstractTransition::machine()']]],
   ['machinehostname',['machineHostName',['http://doc.qt.io/qt-5/qsysinfo.html#machineHostName',1,'QSysInfo']]],
+  ['macros_2ehpp',['macros.hpp',['../../CuteHMI.2/macros_8hpp.html',1,'']]],
   ['macversion',['macVersion',['http://doc.qt.io/qt-5/qsysinfo-obsolete.html#macVersion',1,'QSysInfo']]],
   ['magenta',['magenta',['http://doc.qt.io/qt-5/qcolor.html#magenta',1,'QColor']]],
   ['magentaf',['magentaF',['http://doc.qt.io/qt-5/qcolor.html#magentaF',1,'QColor']]],

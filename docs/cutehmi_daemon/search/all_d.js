@@ -3,6 +3,7 @@ var searchData=
   ['m',['m',['../../CuteHMI.2/classcutehmi_1_1_dialogist.html#a9a6e853ddf7932f2ceeae15aed42c284',1,'cutehmi::Dialogist::m()'],['https://en.cppreference.com/w/cpp/numeric/random/lognormal_distribution/params.html',1,'std::lognormal_distribution::m()'],['https://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',1,'std::fisher_f_distribution::m()']]],
   ['machine',['machine',['http://doc.qt.io/qt-5/qabstractstate.html#machine',1,'QAbstractState::machine()'],['http://doc.qt.io/qt-5/qabstracttransition.html#machine',1,'QAbstractTransition::machine()']]],
   ['machinehostname',['machineHostName',['http://doc.qt.io/qt-5/qsysinfo.html#machineHostName',1,'QSysInfo']]],
+  ['macros_2ehpp',['macros.hpp',['../../CuteHMI.2/macros_8hpp.html',1,'']]],
   ['macversion',['macVersion',['http://doc.qt.io/qt-5/qsysinfo-obsolete.html#macVersion',1,'QSysInfo']]],
   ['mailexchangerecords',['mailExchangeRecords',['http://doc.qt.io/qt-5/qdnslookup.html#mailExchangeRecords',1,'QDnsLookup']]],
   ['main',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
