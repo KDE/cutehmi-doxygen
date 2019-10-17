@@ -1,4 +1,0 @@
-var dir_af47cb53463d2a51ba0770599d092505 =
-[
-    [ "bitcoincash", "dir_6432cdd276e0244697c49220253cac97.html", "dir_6432cdd276e0244697c49220253cac97" ]
-];
