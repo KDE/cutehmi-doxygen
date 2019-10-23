@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['documentation_20directory',['Documentation directory',['../md_doc__r_e_a_d_m_e.html',1,'']]]
+  ['list_20of_20extensions',['List of extensions',['../extensions_list.html',1,'']]],
+  ['list_20of_20tools',['List of tools',['../tools_list.html',1,'']]]
 ];
