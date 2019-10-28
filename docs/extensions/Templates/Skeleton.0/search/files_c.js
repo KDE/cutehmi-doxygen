@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['singleton_2ecpp',['singleton.cpp',['../../../CuteHMI.2/internal_2singleton_8cpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/singleton_8cpp.html',1,'(Global Namespace)']]],
-  ['singleton_2ehpp',['singleton.hpp',['../../../CuteHMI.2/internal_2singleton_8hpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/singleton_8hpp.html',1,'(Global Namespace)']]]
+  ['worker_2ecpp',['Worker.cpp',['../../../CuteHMI.2/_worker_8cpp.html',1,'']]],
+  ['worker_2ehpp',['Worker.hpp',['../../../CuteHMI.2/_worker_8hpp.html',1,'']]],
+  ['wrappers_2ehpp',['wrappers.hpp',['../../../CuteHMI.2/wrappers_8hpp.html',1,'']]]
 ];

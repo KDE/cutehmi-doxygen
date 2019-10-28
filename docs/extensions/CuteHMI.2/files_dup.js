@@ -10,8 +10,8 @@ var files_dup =
     [ "Element.qml", "_element_8qml.html", [
       [ "Element", "class_cute_h_m_i_1_1_element.html", "class_cute_h_m_i_1_1_element" ]
     ] ],
-    [ "MP.LICENSE.dslash.inc", "_m_p_8_l_i_c_e_n_s_e_8dslash_8inc.html", null ],
-    [ "MP.LICENSE.hash.inc", "_m_p_8_l_i_c_e_n_s_e_8hash_8inc.html", null ],
+    [ "LICENSE.C.dslash.inc", "_l_i_c_e_n_s_e_8_c_8dslash_8inc.html", null ],
+    [ "LICENSE.C.hash.inc", "_l_i_c_e_n_s_e_8_c_8hash_8inc.html", null ],
     [ "NumberDisplay.qml", "_number_display_8qml.html", [
       [ "NumberDisplay", "class_cute_h_m_i_1_1_number_display.html", "class_cute_h_m_i_1_1_number_display" ]
     ] ],
