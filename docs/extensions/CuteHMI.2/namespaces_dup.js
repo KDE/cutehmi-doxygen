@@ -1,5 +1,5 @@
 var namespaces_dup =
 [
-    [ "cutehmi", "namespacecutehmi.html", "namespacecutehmi" ],
-    [ "CuteHMI", "namespace_cute_h_m_i.html", null ]
+    [ "CuteHMI", "namespace_cute_h_m_i.html", null ],
+    [ "cutehmi", "namespacecutehmi.html", "namespacecutehmi" ]
 ];

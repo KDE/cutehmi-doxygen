@@ -19,7 +19,7 @@ var searchData=
   ['codecvt_5futf8_5futf16',['codecvt_utf8_utf16',['https://en.cppreference.com/w/cpp/locale/codecvt_utf8_utf16.html',1,'std']]],
   ['collate',['collate',['https://en.cppreference.com/w/cpp/locale/collate.html',1,'std']]],
   ['collate_5fbyname',['collate_byname',['https://en.cppreference.com/w/cpp/locale/collate_byname.html',1,'std']]],
-  ['colorset',['ColorSet',['../class_cute_h_m_i_1_1_color_set.html',1,'CuteHMI']]],
+  ['colorset',['ColorSet',['../class_color_set.html',1,'']]],
   ['common_5ftype',['common_type',['https://en.cppreference.com/w/cpp/types/common_type.html',1,'std']]],
   ['complex',['complex',['https://en.cppreference.com/w/cpp/numeric/complex.html',1,'std']]],
   ['condition_5fvariable',['condition_variable',['https://en.cppreference.com/w/cpp/thread/condition_variable.html',1,'std']]],

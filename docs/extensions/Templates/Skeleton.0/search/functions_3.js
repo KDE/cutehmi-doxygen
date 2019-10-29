@@ -252,7 +252,7 @@ var searchData=
   ['currentreadchannel',['currentReadChannel',['http://doc.qt.io/qt-5/qiodevice.html#currentReadChannel',1,'QIODevice']]],
   ['currentrowchanged',['currentRowChanged',['http://doc.qt.io/qt-5/qitemselectionmodel.html#currentRowChanged',1,'QItemSelectionModel']]],
   ['currentsecssinceepoch',['currentSecsSinceEpoch',['http://doc.qt.io/qt-5/qdatetime.html#currentSecsSinceEpoch',1,'QDateTime']]],
-  ['currentstatecolorset',['currentStateColorSet',['../../../CuteHMI.2/class_cute_h_m_i_1_1_element.html#ad74c897b89fb5158001ddb8c3502c652',1,'CuteHMI::Element']]],
+  ['currentstatecolorset',['currentStateColorSet',['../../../CuteHMI.2/class_element.html#af8bf1aae12963383694465d62f7ad950',1,'Element']]],
   ['currentstringchunksize',['currentStringChunkSize',['http://doc.qt.io/qt-5/qcborstreamreader.html#currentStringChunkSize',1,'QCborStreamReader']]],
   ['currentthread',['currentThread',['http://doc.qt.io/qt-5/qthread.html#currentThread',1,'QThread']]],
   ['currentthreadid',['currentThreadId',['http://doc.qt.io/qt-5/qthread.html#currentThreadId',1,'QThread']]],

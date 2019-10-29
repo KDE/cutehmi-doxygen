@@ -9,7 +9,7 @@ var searchData=
   ['nativeorientation',['nativeOrientation',['http://doc.qt.io/qt-5/qscreen.html#nativeOrientation-prop',1,'QScreen']]],
   ['navigationbarvisible',['navigationBarVisible',['http://doc.qt.io/qt-5/qcalendarwidget.html#navigationBarVisible-prop',1,'QCalendarWidget']]],
   ['networkaccessible',['networkAccessible',['http://doc.qt.io/qt-5/qnetworkaccessmanager.html#networkAccessible-prop',1,'QNetworkAccessManager']]],
-  ['neutral',['neutral',['../../../CuteHMI.2/class_cute_h_m_i_1_1_palette.html#a92bdede674ac041280c62c49453097c6',1,'CuteHMI::Palette']]],
+  ['neutral',['neutral',['../../../CuteHMI.2/class_palette.html#a27cc68d4f33009011cf2fd2b9659a587',1,'Palette']]],
   ['normalgeometry',['normalGeometry',['http://doc.qt.io/qt-5/qwidget.html#normalGeometry-prop',1,'QWidget']]],
   ['notation',['notation',['http://doc.qt.io/qt-5/qdoublevalidator.html#notation-prop',1,'QDoubleValidator']]],
   ['notchesvisible',['notchesVisible',['http://doc.qt.io/qt-5/qdial.html#notchesVisible-prop',1,'QDial']]],

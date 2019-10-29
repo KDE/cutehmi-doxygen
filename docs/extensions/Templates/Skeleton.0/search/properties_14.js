@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['warning',['warning',['../../../CuteHMI.2/class_cute_h_m_i_1_1_element.html#a305af8c1a49b0c946a4430b98023cf9f',1,'CuteHMI::Element::warning()'],['../../../CuteHMI.2/class_cute_h_m_i_1_1_palette.html#a67f2ff1eb27ff1d6bd5b4559ccf92448',1,'CuteHMI::Palette::warning()']]]
+  ['warning',['warning',['../../../CuteHMI.2/class_element.html#af4a09ae56628c360eb2e2fc70cadf1ef',1,'Element::warning()'],['../../../CuteHMI.2/class_palette.html#acd6f2f6c752556148073cc2eabcebf14',1,'Palette::warning()']]]
 ];

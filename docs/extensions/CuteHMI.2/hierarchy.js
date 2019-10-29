@@ -1,7 +1,7 @@
 var hierarchy =
 [
     [ "Canvas", null, [
-      [ "CuteHMI::PropItem", "class_cute_h_m_i_1_1_prop_item.html", null ]
+      [ "PropItem", "class_prop_item.html", null ]
     ] ],
     [ "CuteHMI::Dialog", "class_cute_h_m_i_1_1_dialog.html", null ],
     [ "CuteHMI::Dialogist", "class_cute_h_m_i_1_1_dialogist.html", null ],
@@ -10,8 +10,8 @@ var hierarchy =
     ] ],
     [ "cutehmi::ErrorInfo", "structcutehmi_1_1_error_info.html", null ],
     [ "Item", null, [
-      [ "CuteHMI::Element", "class_cute_h_m_i_1_1_element.html", [
-        [ "CuteHMI::NumberDisplay", "class_cute_h_m_i_1_1_number_display.html", null ]
+      [ "Element", "class_element.html", [
+        [ "NumberDisplay", "class_number_display.html", null ]
       ] ]
     ] ],
     [ "cutehmi::Dialogist::Members", "structcutehmi_1_1_dialogist_1_1_members.html", null ],
@@ -65,8 +65,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "QtObject", null, [
-      [ "CuteHMI::ColorSet", "class_cute_h_m_i_1_1_color_set.html", null ],
-      [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ]
+      [ "ColorSet", "class_color_set.html", null ],
+      [ "Palette", "class_palette.html", null ]
     ] ],
     [ "std::unique_ptr< cutehmi::Dialogist::Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
       [ "cutehmi::MPtr< cutehmi::Dialogist::Members >", "classcutehmi_1_1_m_ptr.html", null ]

@@ -51,7 +51,7 @@ var searchData=
   ['unique_5fptr',['unique_ptr',['https://en.cppreference.com/w/cpp/memory/unique_ptr.html',1,'std::unique_ptr'],['https://en.cppreference.com/w/cpp/memory/unique_ptr/unique_ptr.html',1,'std::unique_ptr::unique_ptr()']]],
   ['unique_5fptr_3c_20qsocketnotifier_20_3e',['unique_ptr&lt; QSocketNotifier &gt;',['https://en.cppreference.com/w/cpp/memory/unique_ptr.html',1,'std']]],
   ['uniquekeys',['uniqueKeys',['http://doc.qt.io/qt-5/qmap.html#uniqueKeys',1,'QMap::uniqueKeys()'],['http://doc.qt.io/qt-5/qhash.html#uniqueKeys',1,'QHash::uniqueKeys()']]],
-  ['unit',['unit',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#adafbe4c1c472884ba3a33593d33d77db',1,'CuteHMI::NumberDisplay']]],
+  ['unit',['unit',['../../../extensions/CuteHMI.2/class_number_display.html#af8249a22f0ef6dc8e2472626d33fa728',1,'NumberDisplay']]],
   ['unitbuf',['unitbuf',['https://en.cppreference.com/w/cpp/io/manip/unitbuf.html',1,'std']]],
   ['unite',['unite',['http://doc.qt.io/qt-5/qmap.html#unite',1,'QMap::unite()'],['http://doc.qt.io/qt-5/qhash.html#unite',1,'QHash::unite()'],['http://doc.qt.io/qt-5/qset.html#unite',1,'QSet::unite()'],['http://doc.qt.io/qt-5/qrect-obsolete.html#unite',1,'QRect::unite()'],['http://doc.qt.io/qt-5/qrectf-obsolete.html#unite',1,'QRectF::unite()']]],
   ['united',['united',['http://doc.qt.io/qt-5/qrect.html#united',1,'QRect::united()'],['http://doc.qt.io/qt-5/qrectf.html#united',1,'QRectF::united()']]],

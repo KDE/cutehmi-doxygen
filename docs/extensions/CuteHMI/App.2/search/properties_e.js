@@ -2,7 +2,7 @@ var searchData=
 [
   ['pagesize',['pageSize',['http://doc.qt.io/qt-5/qtextdocument.html#pageSize-prop',1,'QTextDocument']]],
   ['pagestep',['pageStep',['http://doc.qt.io/qt-5/qabstractslider.html#pageStep-prop',1,'QAbstractSlider']]],
-  ['palette',['palette',['http://doc.qt.io/qt-5/qwidget.html#palette-prop',1,'QWidget::palette()'],['http://doc.qt.io/qt-5/qgraphicswidget.html#palette-prop',1,'QGraphicsWidget::palette()'],['http://doc.qt.io/qt-5/qgraphicsscene.html#palette-prop',1,'QGraphicsScene::palette()'],['../../../CuteHMI.2/class_cute_h_m_i_1_1_element.html#aa7c5e43e2ba686642ff9efdf8df0df48',1,'CuteHMI::Element::palette()']]],
+  ['palette',['palette',['http://doc.qt.io/qt-5/qwidget.html#palette-prop',1,'QWidget::palette()'],['http://doc.qt.io/qt-5/qgraphicswidget.html#palette-prop',1,'QGraphicsWidget::palette()'],['http://doc.qt.io/qt-5/qgraphicsscene.html#palette-prop',1,'QGraphicsScene::palette()'],['../../../CuteHMI.2/class_element.html#add20a9cd2b152fabeaef2bbae8f61879',1,'Element::palette()']]],
   ['parent',['parent',['http://doc.qt.io/qt-5/qgraphicsobject.html#parent-prop',1,'QGraphicsObject']]],
   ['parentmimetypes',['parentMimeTypes',['http://doc.qt.io/qt-5/qmimetype.html#parentMimeTypes-prop',1,'QMimeType']]],
   ['passwordmaskcharacter',['passwordMaskCharacter',['http://doc.qt.io/qt-5/qstylehints.html#passwordMaskCharacter-prop',1,'QStyleHints']]],
