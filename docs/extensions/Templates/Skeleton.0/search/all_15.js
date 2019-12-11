@@ -89,7 +89,7 @@ var searchData=
   ['uppercase',['uppercase',['https://en.cppreference.com/w/cpp/io/manip/uppercase.html',1,'std']]],
   ['url',['url',['http://doc.qt.io/qt-5/qqmlcomponent.html#url-prop',1,'QQmlComponent::url()'],['http://doc.qt.io/qt-5/qurl.html#url',1,'QUrl::url()'],['http://doc.qt.io/qt-5/qnetworkrequest.html#url',1,'QNetworkRequest::url()'],['http://doc.qt.io/qt-5/qnetworkcachemetadata.html#url',1,'QNetworkCacheMetaData::url()'],['http://doc.qt.io/qt-5/qnetworkproxyquery.html#url',1,'QNetworkProxyQuery::url()'],['http://doc.qt.io/qt-5/qnetworkreply.html#url',1,'QNetworkReply::url()'],['http://doc.qt.io/qt-5/qqmlerror.html#url',1,'QQmlError::url()'],['http://doc.qt.io/qt-5/qqmlcomponent.html#url-prop',1,'QQmlComponent::url()']]],
   ['urls',['urls',['http://doc.qt.io/qt-5/qmimedata.html#urls',1,'QMimeData']]],
-  ['usagepolicies',['usagePolicies',['http://doc.qt.io/qt-5/qnetworksession.html#usagePolicies',1,'QNetworkSession::usagePolicies() const const'],['http://doc.qt.io/qt-5/qnetworksession.html#UsagePolicy-enum',1,'QNetworkSession::UsagePolicies()']]],
+  ['usagepolicies',['UsagePolicies',['http://doc.qt.io/qt-5/qnetworksession.html#UsagePolicy-enum',1,'QNetworkSession::UsagePolicies()'],['http://doc.qt.io/qt-5/qnetworksession.html#usagePolicies',1,'QNetworkSession::usagePolicies() const const']]],
   ['usagepolicieschanged',['usagePoliciesChanged',['http://doc.qt.io/qt-5/qnetworksession.html#usagePoliciesChanged',1,'QNetworkSession']]],
   ['use_5fcount',['use_count',['https://en.cppreference.com/w/cpp/memory/weak_ptr/use_count.html',1,'std::weak_ptr']]],
   ['use_5ffacet',['use_facet',['https://en.cppreference.com/w/cpp/locale/use_facet.html',1,'std']]],

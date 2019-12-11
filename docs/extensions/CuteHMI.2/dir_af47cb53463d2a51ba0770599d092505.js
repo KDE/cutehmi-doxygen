@@ -21,10 +21,10 @@ var dir_af47cb53463d2a51ba0770599d092505 =
     [ "ExceptionMixin.hpp", "_exception_mixin_8hpp.html", [
       [ "ExceptionMixin", "classcutehmi_1_1_exception_mixin.html", "classcutehmi_1_1_exception_mixin" ]
     ] ],
-    [ "ExtensionInitializer.hpp", "_extension_initializer_8hpp.html", [
-      [ "ExtensionInitializer", "classcutehmi_1_1_extension_initializer.html", "classcutehmi_1_1_extension_initializer" ]
-    ] ],
     [ "functions.hpp", "functions_8hpp.html", "functions_8hpp" ],
+    [ "Init.hpp", "_init_8hpp.html", [
+      [ "Init", "classcutehmi_1_1_init.html", "classcutehmi_1_1_init" ]
+    ] ],
     [ "Initializer.hpp", "_initializer_8hpp.html", [
       [ "Initializer", "classcutehmi_1_1_initializer.html", "classcutehmi_1_1_initializer" ]
     ] ],

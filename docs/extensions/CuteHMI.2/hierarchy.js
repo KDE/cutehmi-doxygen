@@ -16,10 +16,10 @@ var hierarchy =
     ] ],
     [ "cutehmi::Dialogist::Members", "structcutehmi_1_1_dialogist_1_1_members.html", null ],
     [ "cutehmi::NonCopyable", "classcutehmi_1_1_non_copyable.html", [
-      [ "cutehmi::ExtensionInitializer< DERIVED >", "classcutehmi_1_1_extension_initializer.html", null ],
+      [ "cutehmi::Initializer< DERIVED >", "classcutehmi_1_1_initializer.html", null ],
       [ "cutehmi::Singleton< C >", "classcutehmi_1_1_singleton.html", null ],
-      [ "cutehmi::ExtensionInitializer< Initializer >", "classcutehmi_1_1_extension_initializer.html", [
-        [ "cutehmi::Initializer", "classcutehmi_1_1_initializer.html", null ]
+      [ "cutehmi::Initializer< Init >", "classcutehmi_1_1_initializer.html", [
+        [ "cutehmi::Init", "classcutehmi_1_1_init.html", null ]
       ] ],
       [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1_singleton.html", [
         [ "cutehmi::Dialogist", "classcutehmi_1_1_dialogist.html", null ]
