@@ -1,5 +1,5 @@
 var searchData=
 [
   ['valid',['valid',['http://doc.qt.io/qt-5/qmimetype.html#valid-prop',1,'QMimeType']]],
-  ['value',['value',['../../../extensions/CuteHMI.2/class_number_display.html#a6fac99d454b47a1c03c740971fc238b3',1,'NumberDisplay']]]
+  ['value',['value',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#af7ba31adcaee4ca7206f8761f034fbba',1,'CuteHMI::NumberDisplay']]]
 ];

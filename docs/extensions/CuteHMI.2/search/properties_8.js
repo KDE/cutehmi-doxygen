@@ -1,10 +1,10 @@
 var searchData=
 [
   ['iconname',['iconName',['http://doc.qt.io/qt-5/qmimetype.html#iconName-prop',1,'QMimeType']]],
-  ['inactive',['inactive',['../class_palette.html#ab8168a1b6692a13a0aba5e0414ec0c7c',1,'Palette']]],
+  ['inactive',['inactive',['../class_cute_h_m_i_1_1_palette.html#a43696ac8d85147af11f9f57803375944',1,'CuteHMI::Palette']]],
   ['informativetext',['informativeText',['../classcutehmi_1_1_dialog.html#a4afe28fe959addb7b42361177594a562',1,'cutehmi::Dialog']]],
   ['initialstate',['initialState',['http://doc.qt.io/qt-5/qstate.html#initialState-prop',1,'QState']]],
-  ['integralwidth',['integralWidth',['../class_number_display.html#a1f7d7950d45e616ada5b220e82f26c6f',1,'NumberDisplay']]],
+  ['integralwidth',['integralWidth',['../class_cute_h_m_i_1_1_number_display.html#a56fbb53c01d26bd3f5b26be437e1bb63',1,'CuteHMI::NumberDisplay']]],
   ['interval',['interval',['http://doc.qt.io/qt-5/qtimer.html#interval-prop',1,'QTimer']]],
   ['isdefault',['isDefault',['http://doc.qt.io/qt-5/qmimetype.html#isDefault-prop',1,'QMimeType']]],
   ['issortlocaleaware',['isSortLocaleAware',['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#isSortLocaleAware-prop',1,'QSortFilterProxyModel']]]

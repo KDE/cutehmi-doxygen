@@ -2,8 +2,8 @@ var searchData=
 [
   ['selectedindexes',['selectedIndexes',['http://doc.qt.io/qt-5/qitemselectionmodel.html#selectedIndexes-prop',1,'QItemSelectionModel']]],
   ['senderobject',['senderObject',['http://doc.qt.io/qt-5/qsignaltransition.html#senderObject-prop',1,'QSignalTransition']]],
-  ['shade',['shade',['../../../extensions/CuteHMI.2/class_color_set.html#a4bf7750f04f149fddaf32ae360575785',1,'ColorSet']]],
-  ['shadecolor',['shadeColor',['../../../extensions/CuteHMI.2/class_element.html#aec78ecc6c62bfd7dc1a004567da111bb',1,'Element']]],
+  ['shade',['shade',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_color_set.html#a3c3e1446fceec3e8b84252e3349f9245',1,'CuteHMI::ColorSet']]],
+  ['shadecolor',['shadeColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a29e8278e115ad56e1844346946c619a6',1,'CuteHMI::Element']]],
   ['signal',['signal',['http://doc.qt.io/qt-5/qsignaltransition.html#signal-prop',1,'QSignalTransition']]],
   ['singleshot',['singleShot',['http://doc.qt.io/qt-5/qtimer.html#singleShot-prop',1,'QTimer']]],
   ['socketoptions',['socketOptions',['http://doc.qt.io/qt-5/qlocalserver.html#socketOptions-prop',1,'QLocalServer']]],
@@ -15,7 +15,7 @@ var searchData=
   ['startvalue',['startValue',['http://doc.qt.io/qt-5/qvariantanimation.html#startValue-prop',1,'QVariantAnimation']]],
   ['state',['state',['http://doc.qt.io/qt-5/qabstractanimation.html#state-prop',1,'QAbstractAnimation']]],
   ['status',['status',['http://doc.qt.io/qt-5/qqmlcomponent.html#status-prop',1,'QQmlComponent']]],
-  ['stroke',['stroke',['../../../extensions/CuteHMI.2/class_color_set.html#a1eb302c3d488e3b6505042226125f50b',1,'ColorSet']]],
-  ['strokecolor',['strokeColor',['../../../extensions/CuteHMI.2/class_element.html#a9a157a3517cf80389f7ef73e3246ba84',1,'Element']]],
+  ['stroke',['stroke',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_color_set.html#a11c08823741df07517ee2902999bfec4',1,'CuteHMI::ColorSet']]],
+  ['strokecolor',['strokeColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a293464374cf02b49ffc17d4b958218ec',1,'CuteHMI::Element']]],
   ['suffixes',['suffixes',['http://doc.qt.io/qt-5/qmimetype.html#suffixes-prop',1,'QMimeType']]]
 ];

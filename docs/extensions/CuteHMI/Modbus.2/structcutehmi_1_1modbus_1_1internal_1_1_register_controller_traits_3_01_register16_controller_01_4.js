@@ -1,0 +1,4 @@
+var structcutehmi_1_1modbus_1_1internal_1_1_register_controller_traits_3_01_register16_controller_01_4 =
+[
+    [ "ValueType", "structcutehmi_1_1modbus_1_1internal_1_1_register_controller_traits_3_01_register16_controller_01_4.html#ac0aff9926f12414910f9fe1ee9cbac41", null ]
+];

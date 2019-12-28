@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['warning',['warning',['../../../extensions/CuteHMI.2/class_element.html#af4a09ae56628c360eb2e2fc70cadf1ef',1,'Element::warning()'],['../../../extensions/CuteHMI.2/class_palette.html#acd6f2f6c752556148073cc2eabcebf14',1,'Palette::warning()']]],
+  ['warning',['warning',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a305af8c1a49b0c946a4430b98023cf9f',1,'CuteHMI::Element::warning()'],['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_palette.html#a67f2ff1eb27ff1d6bd5b4559ccf92448',1,'CuteHMI::Palette::warning()']]],
   ['wascanceled',['wasCanceled',['http://doc.qt.io/qt-5/qprogressdialog.html#wasCanceled-prop',1,'QProgressDialog']]],
   ['whatsthis',['whatsThis',['http://doc.qt.io/qt-5/qwidget.html#whatsThis-prop',1,'QWidget::whatsThis()'],['http://doc.qt.io/qt-5/qaction.html#whatsThis-prop',1,'QAction::whatsThis()'],['http://doc.qt.io/qt-5/qshortcut.html#whatsThis-prop',1,'QShortcut::whatsThis()']]],
   ['wheelscrolllines',['wheelScrollLines',['http://doc.qt.io/qt-5/qstylehints.html#wheelScrollLines-prop',1,'QStyleHints::wheelScrollLines()'],['http://doc.qt.io/qt-5/qapplication.html#wheelScrollLines-prop',1,'QApplication::wheelScrollLines()']]],

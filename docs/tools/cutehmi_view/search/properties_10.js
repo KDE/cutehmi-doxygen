@@ -15,7 +15,7 @@ var searchData=
   ['resizemode',['resizeMode',['http://doc.qt.io/qt-5/qlistview.html#resizeMode-prop',1,'QListView']]],
   ['resolvesymlinks',['resolveSymlinks',['http://doc.qt.io/qt-5/qdirmodel.html#resolveSymlinks-prop',1,'QDirModel::resolveSymlinks()'],['http://doc.qt.io/qt-5/qfiledialog-obsolete.html#resolveSymlinks-prop',1,'QFileDialog::resolveSymlinks()'],['http://doc.qt.io/qt-5/qfilesystemmodel.html#resolveSymlinks-prop',1,'QFileSystemModel::resolveSymlinks()']]],
   ['response',['response',['../../../extensions/CuteHMI.2/classcutehmi_1_1_dialog.html#a8c9e17471502c84b046e4ae282f1eb31',1,'cutehmi::Dialog']]],
-  ['rightpadding',['rightPadding',['../../../extensions/CuteHMI.2/class_number_display.html#a68c25612f6d2917cc0a663cba598ea3a',1,'NumberDisplay::rightPadding()'],['../../../extensions/CuteHMI.2/class_prop_item.html#ac00ae0c1cd76bc6314f6ddea591816dc',1,'PropItem::rightPadding()']]],
+  ['rightpadding',['rightPadding',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#ada11a2dd2155149afc302c616adc7771',1,'CuteHMI::NumberDisplay::rightPadding()'],['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_prop_item.html#ae2a15117ff3d4da7db39c6e6cb97bd48',1,'CuteHMI::PropItem::rightPadding()']]],
   ['rootisdecorated',['rootIsDecorated',['http://doc.qt.io/qt-5/qtreeview.html#rootIsDecorated-prop',1,'QTreeView']]],
   ['rotation',['rotation',['http://doc.qt.io/qt-5/qgraphicsobject.html#rotation-prop',1,'QGraphicsObject']]],
   ['rotationangle',['rotationAngle',['http://doc.qt.io/qt-5/qpinchgesture.html#rotationAngle-prop',1,'QPinchGesture']]],

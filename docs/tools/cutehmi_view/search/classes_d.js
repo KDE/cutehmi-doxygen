@@ -20,7 +20,7 @@ var searchData=
   ['nullptr_5ft',['nullptr_t',['https://en.cppreference.com/w/cpp/types/nullptr_t.html',1,'std']]],
   ['num_5fget',['num_get',['https://en.cppreference.com/w/cpp/locale/num_get.html',1,'std']]],
   ['num_5fput',['num_put',['https://en.cppreference.com/w/cpp/locale/num_put.html',1,'std']]],
-  ['numberdisplay',['NumberDisplay',['../../../extensions/CuteHMI.2/class_number_display.html',1,'']]],
+  ['numberdisplay',['NumberDisplay',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_number_display.html',1,'CuteHMI']]],
   ['numeric_5flimits',['numeric_limits',['https://en.cppreference.com/w/cpp/types/numeric_limits.html',1,'std']]],
   ['numpunct',['numpunct',['https://en.cppreference.com/w/cpp/locale/numpunct.html',1,'std']]],
   ['numpunct_5fbyname',['numpunct_byname',['https://en.cppreference.com/w/cpp/locale/numpunct_byname.html',1,'std']]]
