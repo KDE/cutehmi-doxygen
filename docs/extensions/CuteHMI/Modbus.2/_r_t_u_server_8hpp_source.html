@@ -81,8 +81,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
-<li class="current"><a href=
-"files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -98,12 +96,6 @@ onblur="searchBox.OnSearchFieldFocus(false)" onkeyup=
 "search/close.png" alt="" name=
 "MSearchCloseImg" /></a></span></div>
 </li>
-</ul>
-</div>
-<div id="navrow2" class="tabs2">
-<ul class="tablist">
-<li><a href="files.html"><span>File&nbsp;List</span></a></li>
-<li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
 </ul>
 </div>
 </div>
@@ -139,8 +131,7 @@ frameborder="0" name="MSearchResults" id=
 </div>
 </div>
 <!--header-->
-<div class="contents"><a href="_r_t_u_server_8hpp.html">Go to the
-documentation of this file.</a>
+<div class="contents">
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
@@ -152,24 +143,18 @@ H_EXTENSIONS_CUTEHMI_MODBUS_2_INCLUDE_CUTEHMI_MODBUS_RTUSERVER_HPP</span></div>
 "lineno">3</span>&nbsp;</div>
 <div class="line"><a name="l00004" id="l00004"></a> <span class=
 "lineno">4</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_abstract_server_8hpp.html">AbstractServer.hpp</a>"</span></div>
+"AbstractServer.hpp"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_register_traits_8hpp.html">internal/RegisterTraits.hpp</a>"</span></div>
+"internal/RegisterTraits.hpp"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
 "lineno">6</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_qt_r_t_u_server_backend_8hpp.html">internal/QtRTUServerBackend.hpp</a>"</span></div>
+"internal/QtRTUServerBackend.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
 "lineno">7</span>&nbsp;</div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
 "lineno">8</span>&nbsp;<span class="preprocessor">#include
-&lt;<a class="codeRef" doxygen=
-"/home/cutebot/devel/cutehmi/extensions/CuteHMI.2/doxygen.tag:../../CuteHMI.2/"
-href=
-"../../CuteHMI.2/macros_8hpp.html">cutehmi/macros.hpp</a>&gt;</span></div>
+&lt;cutehmi/macros.hpp&gt;</span></div>
 <div class="line"><a name="l00009" id="l00009"></a> <span class=
 "lineno">9</span>&nbsp;</div>
 <div class="line"><a name="l00010" id="l00010"></a> <span class=
@@ -191,9 +176,7 @@ modbus {</div>
 <div class="line"><a name="l00016" id="l00016"></a> <span class=
 "lineno"><a class="line" href=
 "classcutehmi_1_1modbus_1_1_r_t_u_server.html">16</a></span>&nbsp;<span class="keyword">class</span>
-<a class="code" href=
-"platform_8hpp.html#abefadd4dd107868f0d65f1eab2a6ca1a">CUTEHMI_MODBUS_API</a>
-<a class="code" href=
+CUTEHMI_MODBUS_API <a class="code" href=
 "classcutehmi_1_1modbus_1_1_r_t_u_server.html">RTUServer</a>:</div>
 <div class="line"><a name="l00017" id="l00017"></a> <span class=
 "lineno">17</span>&nbsp; <span class="keyword">public</span>
@@ -648,10 +631,6 @@ cutehmi::modbus::internal::RTUServerConfig::INITIAL_INPUT_REGISTERS_ADDRESS_RANG
 INITIAL_INPUT_REGISTERS_ADDRESS_RANGE_MIN</div>
 <div class="ttdef"><b>Definition:</b> RTUServerConfig.hpp:37</div>
 </div>
-<div class="ttc" id="_qt_r_t_u_server_backend_8hpp_html">
-<div class="ttname"><a href=
-"_qt_r_t_u_server_backend_8hpp.html">QtRTUServerBackend.hpp</a></div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1modbus_1_1internal_1_1_r_t_u_server_config_html_a1ce21e154f19db7f5a0a9c47e71ce724">
 <div class="ttname"><a href=
@@ -659,13 +638,6 @@ INITIAL_INPUT_REGISTERS_ADDRESS_RANGE_MIN</div>
 cutehmi::modbus::internal::RTUServerConfig::MAX_SLAVE_ADDRESS</a></div>
 <div class="ttdeci">static constexpr int MAX_SLAVE_ADDRESS</div>
 <div class="ttdef"><b>Definition:</b> RTUServerConfig.hpp:24</div>
-</div>
-<div class="ttc" id=
-"platform_8hpp_html_abefadd4dd107868f0d65f1eab2a6ca1a">
-<div class="ttname"><a href=
-"platform_8hpp.html#abefadd4dd107868f0d65f1eab2a6ca1a">CUTEHMI_MODBUS_API</a></div>
-<div class="ttdeci">#define CUTEHMI_MODBUS_API</div>
-<div class="ttdef"><b>Definition:</b> platform.hpp:27</div>
 </div>
 <div class="ttc" id="classcutehmi_1_1modbus_1_1_r_t_u_server_html">
 <div class="ttname"><a href=
@@ -698,10 +670,6 @@ cutehmi::modbus::internal::RTUServerConfig::MIN_SLAVE_ADDRESS</a></div>
 <div class="ttc" id="qobject_html">
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/qobject.html">QObject</a></div>
-</div>
-<div class="ttc" id="_register_traits_8hpp_html">
-<div class="ttname"><a href=
-"_register_traits_8hpp.html">RegisterTraits.hpp</a></div>
 </div>
 <div class="ttc" id="namespacecutehmi_html">
 <div class="ttname"><a href=
@@ -764,14 +732,6 @@ cutehmi::modbus::internal::QtRTUServerBackend</a></div>
 <div class="ttdoc">TCP server backend.</div>
 <div class="ttdef"><b>Definition:</b>
 QtRTUServerBackend.hpp:15</div>
-</div>
-<div class="ttc" id="macros_8hpp_html">
-<div class="ttname"><a href=
-"../../CuteHMI.2/macros_8hpp.html">macros.hpp</a></div>
-</div>
-<div class="ttc" id="_abstract_server_8hpp_html">
-<div class="ttname"><a href=
-"_abstract_server_8hpp.html">AbstractServer.hpp</a></div>
 </div>
 <div class="ttc" id=
 "classcutehmi_1_1modbus_1_1internal_1_1_qt_r_t_u_server_html_a23d9f6f92ead7731c2d1135ed6313bb2">
@@ -852,8 +812,7 @@ INITIAL_COILS_ADDRESS_RANGE_MAX</div>
 "dir_af47cb53463d2a51ba0770599d092505.html">cutehmi</a></li>
 <li class="navelem"><a class="el" href=
 "dir_47f47e8e6cff06f8cf9f03573f2a2556.html">modbus</a></li>
-<li class="navelem"><a class="el" href=
-"_r_t_u_server_8hpp.html">RTUServer.hpp</a></li>
+<li class="navelem"><b>RTUServer.hpp</b></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>

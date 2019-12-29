@@ -49,13 +49,6 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];

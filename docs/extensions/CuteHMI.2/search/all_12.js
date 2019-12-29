@@ -53,7 +53,6 @@ var searchData=
   ['readlinedata',['readLineData',['http://doc.qt.io/qt-5/qiodevice.html#readLineData',1,'QIODevice::readLineData()'],['http://doc.qt.io/qt-5/qfiledevice.html#readLineData',1,'QFileDevice::readLineData()'],['http://doc.qt.io/qt-5/qabstractsocket.html#readLineData',1,'QAbstractSocket::readLineData()'],['http://doc.qt.io/qt-5/qsctpsocket.html#readLineData',1,'QSctpSocket::readLineData()']]],
   ['readlineinto',['readLineInto',['http://doc.qt.io/qt-5/qtextstream.html#readLineInto',1,'QTextStream']]],
   ['readlink',['readLink',['http://doc.qt.io/qt-5/qfile-obsolete.html#readLink',1,'QFile::readLink() const const'],['http://doc.qt.io/qt-5/qfile-obsolete.html#readLink-1',1,'QFile::readLink(const QString &amp;fileName)'],['http://doc.qt.io/qt-5/qfileinfo-obsolete.html#readLink',1,'QFileInfo::readLink()']]],
-  ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['readnext',['readNext',['http://doc.qt.io/qt-5/qxmlstreamreader.html#readNext',1,'QXmlStreamReader']]],
   ['readnextstartelement',['readNextStartElement',['http://doc.qt.io/qt-5/qxmlstreamreader.html#readNextStartElement',1,'QXmlStreamReader']]],
   ['readongadget',['readOnGadget',['http://doc.qt.io/qt-5/qmetaproperty.html#readOnGadget',1,'QMetaProperty']]],

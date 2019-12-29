@@ -82,8 +82,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
-<li class="current"><a href=
-"files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -99,12 +97,6 @@ onblur="searchBox.OnSearchFieldFocus(false)" onkeyup=
 "search/close.png" alt="" name=
 "MSearchCloseImg" /></a></span></div>
 </li>
-</ul>
-</div>
-<div id="navrow2" class="tabs2">
-<ul class="tablist">
-<li><a href="files.html"><span>File&nbsp;List</span></a></li>
-<li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
 </ul>
 </div>
 </div>
@@ -140,9 +132,7 @@ frameborder="0" name="MSearchResults" id=
 </div>
 </div>
 <!--header-->
-<div class="contents"><a href=
-"_register_controller_mixin_8hpp.html">Go to the documentation of
-this file.</a>
+<div class="contents">
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
@@ -154,16 +144,13 @@ H_EXTENSIONS_CUTEHMI_MODBUS_2_INCLUDE_CUTEHMI_MODBUS_INTERNAL_REGISTERCONTROLLER
 "lineno">3</span>&nbsp;</div>
 <div class="line"><a name="l00004" id="l00004"></a> <span class=
 "lineno">4</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"common_8hpp.html">common.hpp</a>"</span></div>
+"common.hpp"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"functions_8hpp.html">functions.hpp</a>"</span></div>
+"functions.hpp"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
 "lineno">6</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_register_controller_traits_8hpp.html">RegisterControllerTraits.hpp</a>"</span></div>
+"RegisterControllerTraits.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
 "lineno">7</span>&nbsp;<span class="preprocessor">#include
 "../AbstractDevice.hpp"</span></div>
@@ -326,7 +313,7 @@ value;</div>
 "lineno">51</span>&nbsp; <a class="codeRef" doxygen=
 "/home/cutebot/devel/cutehmi/extensions/CuteHMI.2/doxygen.tag:../../CuteHMI.2/"
 href=
-"../../CuteHMI.2/logging_macros_8hpp.html#a07e09cabdc081426a51a9f55341b139b">
+"../../CuteHMI.2/group__cutehmi-logging_macros.html#ga07e09cabdc081426a51a9f55341b139b">
 CUTEHMI_WARNING</a>(<span class="stringliteral">"Attempting to set
 value, but no device has been assigned to the
 controller."</span>);</div>
@@ -826,6 +813,13 @@ License for more details.</span></div>
 have received a copy of the GNU Lesser General Public License along
 with CuteHMI. If not, see
 &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="ttc" id=
+"group__cutehmi-logging_macros_html_ga07e09cabdc081426a51a9f55341b139b">
+<div class="ttname"><a href=
+"../../CuteHMI.2/group__cutehmi-logging_macros.html#ga07e09cabdc081426a51a9f55341b139b">
+CUTEHMI_WARNING</a></div>
+<div class="ttdeci">#define CUTEHMI_WARNING(EXPR)</div>
+</div>
 <div class="ttc" id="quuid_html">
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/quuid.html">QUuid</a></div>
@@ -873,9 +867,6 @@ RegisterControllerMixin.hpp:46</div>
 <div class="ttname"><a href=
 "http://doc.qt.io/qt-5/qtimerevent.html">QTimerEvent</a></div>
 </div>
-<div class="ttc" id="common_8hpp_html">
-<div class="ttname"><a href="common_8hpp.html">common.hpp</a></div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1modbus_1_1internal_1_1_register_controller_mixin_html_ac9bc35196f2c09a462f12f87fefcef04">
 <div class="ttname"><a href=
@@ -913,10 +904,6 @@ RegisterControllerTraits.hpp:15</div>
 <div class="ttdeci">bool toBool(bool defaultValue) const
 const</div>
 </div>
-<div class="ttc" id="functions_8hpp_html">
-<div class="ttname"><a href=
-"functions_8hpp.html">functions.hpp</a></div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1modbus_1_1internal_1_1_register_controller_mixin_html_a233e9d5bcd4e23252184cd5b1fd057fd">
 <div class="ttname"><a href=
@@ -953,17 +940,6 @@ RegisterControllerMixin.hpp:95</div>
 "http://doc.qt.io/qt-5/qjsonobject.html#value">QJsonObject::value</a></div>
 <div class="ttdeci">QJsonValue value(const QString &amp;key) const
 const</div>
-</div>
-<div class="ttc" id="_register_controller_traits_8hpp_html">
-<div class="ttname"><a href=
-"_register_controller_traits_8hpp.html">RegisterControllerTraits.hpp</a></div>
-</div>
-<div class="ttc" id=
-"logging_macros_8hpp_html_a07e09cabdc081426a51a9f55341b139b">
-<div class="ttname"><a href=
-"../../CuteHMI.2/logging_macros_8hpp.html#a07e09cabdc081426a51a9f55341b139b">
-CUTEHMI_WARNING</a></div>
-<div class="ttdeci">#define CUTEHMI_WARNING(EXPR)</div>
 </div>
 <div class="ttc" id="quuid_html_fromString">
 <div class="ttname"><a href=
@@ -1008,8 +984,7 @@ cutehmi::modbus::AbstractDevice::Function</a></div>
 "dir_47f47e8e6cff06f8cf9f03573f2a2556.html">modbus</a></li>
 <li class="navelem"><a class="el" href=
 "dir_99db7361d6c60e8849362f724e3dd39b.html">internal</a></li>
-<li class="navelem"><a class="el" href=
-"_register_controller_mixin_8hpp.html">RegisterControllerMixin.hpp</a></li>
+<li class="navelem"><b>RegisterControllerMixin.hpp</b></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>

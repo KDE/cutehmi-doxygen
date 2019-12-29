@@ -81,8 +81,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
-<li class="current"><a href=
-"files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -98,12 +96,6 @@ onblur="searchBox.OnSearchFieldFocus(false)" onkeyup=
 "search/close.png" alt="" name=
 "MSearchCloseImg" /></a></span></div>
 </li>
-</ul>
-</div>
-<div id="navrow2" class="tabs2">
-<ul class="tablist">
-<li><a href="files.html"><span>File&nbsp;List</span></a></li>
-<li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
 </ul>
 </div>
 </div>
@@ -139,8 +131,7 @@ frameborder="0" name="MSearchResults" id=
 </div>
 </div>
 <!--header-->
-<div class="contents"><a href="_dummy_client_8hpp.html">Go to the
-documentation of this file.</a>
+<div class="contents">
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
@@ -155,28 +146,21 @@ H_EXTENSIONS_CUTEHMI_MODBUS_2_INCLUDE_CUTEHMI_MODBUS_DUMMYCLIENT_HPP</span></div
 "internal/common.hpp"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_dummy_client_config_8hpp.html">internal/DummyClientConfig.hpp</a>"</span></div>
+"internal/DummyClientConfig.hpp"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
 "lineno">6</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_dummy_client_backend_8hpp.html">internal/DummyClientBackend.hpp</a>"</span></div>
+"internal/DummyClientBackend.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
 "lineno">7</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_polling_iterator_8hpp.html">internal/PollingIterator.hpp</a>"</span></div>
+"internal/PollingIterator.hpp"</span></div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
 "lineno">8</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_abstract_client_8hpp.html">AbstractClient.hpp</a>"</span></div>
+"AbstractClient.hpp"</span></div>
 <div class="line"><a name="l00009" id="l00009"></a> <span class=
 "lineno">9</span>&nbsp;</div>
 <div class="line"><a name="l00010" id="l00010"></a> <span class=
 "lineno">10</span>&nbsp;<span class="preprocessor">#include
-&lt;<a class="codeRef" doxygen=
-"/home/cutebot/devel/cutehmi/extensions/CuteHMI/Services.2/doxygen.tag:../Services.2/"
-href=
-"../Services.2/_polling_timer_8hpp.html">cutehmi/services/PollingTimer.hpp</a>&gt;</span></div>
+&lt;cutehmi/services/PollingTimer.hpp&gt;</span></div>
 <div class="line"><a name="l00011" id="l00011"></a> <span class=
 "lineno">11</span>&nbsp;</div>
 <div class="line"><a name="l00012" id="l00012"></a> <span class=
@@ -200,9 +184,7 @@ modbus {</div>
 <div class="line"><a name="l00027" id="l00027"></a> <span class=
 "lineno"><a class="line" href=
 "classcutehmi_1_1modbus_1_1_dummy_client.html">27</a></span>&nbsp;<span class="keyword">class</span>
-<a class="code" href=
-"platform_8hpp.html#abefadd4dd107868f0d65f1eab2a6ca1a">CUTEHMI_MODBUS_API</a>
-<a class="code" href=
+CUTEHMI_MODBUS_API <a class="code" href=
 "classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>:</div>
 <div class="line"><a name="l00028" id="l00028"></a> <span class=
 "lineno">28</span>&nbsp; <span class="keyword">public</span>
@@ -422,17 +404,6 @@ with CuteHMI. If not, see
 "../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">cutehmi::MPtr&lt;
 Members &gt;</a></div>
 </div>
-<div class="ttc" id="_polling_iterator_8hpp_html">
-<div class="ttname"><a href=
-"_polling_iterator_8hpp.html">PollingIterator.hpp</a></div>
-</div>
-<div class="ttc" id=
-"platform_8hpp_html_abefadd4dd107868f0d65f1eab2a6ca1a">
-<div class="ttname"><a href=
-"platform_8hpp.html#abefadd4dd107868f0d65f1eab2a6ca1a">CUTEHMI_MODBUS_API</a></div>
-<div class="ttdeci">#define CUTEHMI_MODBUS_API</div>
-<div class="ttdef"><b>Definition:</b> platform.hpp:27</div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1modbus_1_1_abstract_client_html">
 <div class="ttname"><a href=
@@ -476,28 +447,12 @@ cutehmi::modbus::internal::DummyClientConfig::INITIAL_OPEN_LATENCY</a></div>
 <div class="ttdef"><b>Definition:</b>
 DummyClientConfig.hpp:19</div>
 </div>
-<div class="ttc" id="_abstract_client_8hpp_html">
-<div class="ttname"><a href=
-"_abstract_client_8hpp.html">AbstractClient.hpp</a></div>
-</div>
-<div class="ttc" id="_polling_timer_8hpp_html">
-<div class="ttname"><a href=
-"../Services.2/_polling_timer_8hpp.html">PollingTimer.hpp</a></div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config_html">
 <div class="ttname"><a href=
 "classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html">cutehmi::modbus::internal::DummyClientConfig</a></div>
 <div class="ttdef"><b>Definition:</b>
 DummyClientConfig.hpp:13</div>
-</div>
-<div class="ttc" id="_dummy_client_config_8hpp_html">
-<div class="ttname"><a href=
-"_dummy_client_config_8hpp.html">DummyClientConfig.hpp</a></div>
-</div>
-<div class="ttc" id="_dummy_client_backend_8hpp_html">
-<div class="ttname"><a href=
-"_dummy_client_backend_8hpp.html">DummyClientBackend.hpp</a></div>
 </div>
 <div class="ttc" id="qthread_html">
 <div class="ttname"><a href=
@@ -524,8 +479,7 @@ DummyClientBackend.hpp:12</div>
 "dir_af47cb53463d2a51ba0770599d092505.html">cutehmi</a></li>
 <li class="navelem"><a class="el" href=
 "dir_47f47e8e6cff06f8cf9f03573f2a2556.html">modbus</a></li>
-<li class="navelem"><a class="el" href=
-"_dummy_client_8hpp.html">DummyClient.hpp</a></li>
+<li class="navelem"><b>DummyClient.hpp</b></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>

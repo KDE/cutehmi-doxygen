@@ -30,6 +30,7 @@ var NAVTREE =
     [ "CuteHMI", "index.html", null ],
     [ "Principles", "principles.html", null ],
     [ "Assumptions", "assumptions.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -53,14 +54,6 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
@@ -68,7 +61,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../extensions_list.html",
-"classcutehmi_1_1_non_movable.html#a91e73eb6e174aad94d4ac342562d4db6"
+"functions_prop.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['logging_20macros',['Logging macros',['../../../CuteHMI.2/group__cutehmi-logging_macros.html',1,'']]],
   ['labs',['labs',['https://en.cppreference.com/w/cpp/numeric/math/abs.html',1,'std']]],
   ['lambda',['lambda',['https://en.cppreference.com/w/cpp/numeric/random/exponential_distribution/lambda.html',1,'std::exponential_distribution']]],
   ['language',['language',['http://doc.qt.io/qt-5/qlocale.html#language',1,'QLocale']]],
@@ -33,10 +34,6 @@ var searchData=
   ['lexicographical_5fcompare',['lexicographical_compare',['https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare.html',1,'std']]],
   ['lgamma',['lgamma',['https://en.cppreference.com/w/cpp/numeric/math/lgamma.html',1,'std']]],
   ['librarypaths',['libraryPaths',['http://doc.qt.io/qt-5/qcoreapplication.html#libraryPaths',1,'QCoreApplication']]],
-  ['license_2eanyone_2edslash_2einc',['LICENSE.ANYONE.dslash.inc',['../_l_i_c_e_n_s_e_8_a_n_y_o_n_e_8dslash_8inc.html',1,'']]],
-  ['license_2eanyone_2ehash_2einc',['LICENSE.ANYONE.hash.inc',['../_l_i_c_e_n_s_e_8_a_n_y_o_n_e_8hash_8inc.html',1,'']]],
-  ['license_2ec_2edslash_2einc',['LICENSE.C.dslash.inc',['../../../CuteHMI.2/_l_i_c_e_n_s_e_8_c_8dslash_8inc.html',1,'']]],
-  ['license_2ec_2ehash_2einc',['LICENSE.C.hash.inc',['../../../CuteHMI.2/_l_i_c_e_n_s_e_8_c_8hash_8inc.html',1,'']]],
   ['licensedproducts',['licensedProducts',['http://doc.qt.io/qt-5/qlibraryinfo-obsolete.html#licensedProducts',1,'QLibraryInfo']]],
   ['licensee',['licensee',['http://doc.qt.io/qt-5/qlibraryinfo-obsolete.html#licensee',1,'QLibraryInfo']]],
   ['line',['line',['../../../CuteHMI.2/structcutehmi_1_1_inplace_error.html#a607b7b35af9e508dccfc6368ebea0070',1,'cutehmi::InplaceError::line()'],['http://doc.qt.io/qt-5/qqmlerror.html#line',1,'QQmlError::line()']]],
@@ -81,10 +78,7 @@ var searchData=
   ['log10',['log10',['https://en.cppreference.com/w/cpp/numeric/math/log10.html',1,'std']]],
   ['log1p',['log1p',['https://en.cppreference.com/w/cpp/numeric/math/log1p.html',1,'std']]],
   ['logb',['logb',['https://en.cppreference.com/w/cpp/numeric/math/logb.html',1,'std']]],
-  ['logging_2ecpp',['logging.cpp',['../logging_8cpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/logging_8cpp.html',1,'(Global Namespace)']]],
-  ['logging_2ehpp',['logging.hpp',['../logging_8hpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/logging_8hpp.html',1,'(Global Namespace)']]],
   ['loggingcategory',['loggingCategory',['../../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../namespacetemplates_1_1skeleton.html#aba4cd52b7add26cc1e46bd2faa1b7c35',1,'templates::skeleton::loggingCategory()']]],
-  ['loggingmacros_2ehpp',['loggingMacros.hpp',['../../../CuteHMI.2/logging_macros_8hpp.html',1,'']]],
   ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error'],['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error::logic_error()']]],
   ['logical_5fand',['logical_and',['https://en.cppreference.com/w/cpp/utility/functional/logical_and.html',1,'std']]],
   ['logical_5fnot',['logical_not',['https://en.cppreference.com/w/cpp/utility/functional/logical_not.html',1,'std']]],

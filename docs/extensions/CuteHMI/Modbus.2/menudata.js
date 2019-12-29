@@ -123,9 +123,4 @@ var menudata={children:[
 {text:"s",url:"functions_prop.html#index_s"},
 {text:"v",url:"functions_prop.html#index_v"},
 {text:"w",url:"functions_prop.html#index_w"}]},
-{text:"Related Functions",url:"functions_rela.html"}]}]},
-{text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"},
-{text:"File Members",url:"globals.html",children:[
-{text:"All",url:"globals.html"},
-{text:"Macros",url:"globals_defs.html"}]}]}]}
+{text:"Related Functions",url:"functions_rela.html"}]}]}]}

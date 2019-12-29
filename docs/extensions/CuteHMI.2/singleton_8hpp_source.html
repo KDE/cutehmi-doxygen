@@ -78,10 +78,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="../../tools_list.html"><span>Tools</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="modules.html"><span>Modules</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li><a href="annotated.html"><span>Classes</span></a></li>
-<li class="current"><a href=
-"files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -97,12 +96,6 @@ onblur="searchBox.OnSearchFieldFocus(false)" onkeyup=
 "search/close.png" alt="" name=
 "MSearchCloseImg" /></a></span></div>
 </li>
-</ul>
-</div>
-<div id="navrow2" class="tabs2">
-<ul class="tablist">
-<li><a href="files.html"><span>File&nbsp;List</span></a></li>
-<li><a href="globals.html"><span>File&nbsp;Members</span></a></li>
 </ul>
 </div>
 </div>
@@ -138,8 +131,7 @@ frameborder="0" name="MSearchResults" id=
 </div>
 </div>
 <!--header-->
-<div class="contents"><a href="singleton_8hpp.html">Go to the
-documentation of this file.</a>
+<div class="contents">
 <div class="fragment">
 <div class="line"><a name="l00001" id="l00001"></a> <span class=
 "lineno">1</span>&nbsp;<span class="preprocessor">#ifndef
@@ -151,20 +143,16 @@ H_EXTENSIONS_CUTEHMI_2_INCLUDE_CUTEHMI_SINGLETON_HPP</span></div>
 "lineno">3</span>&nbsp;</div>
 <div class="line"><a name="l00004" id="l00004"></a> <span class=
 "lineno">4</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_non_copyable_8hpp.html">NonCopyable.hpp</a>"</span></div>
+"NonCopyable.hpp"</span></div>
 <div class="line"><a name="l00005" id="l00005"></a> <span class=
 "lineno">5</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"_non_movable_8hpp.html">NonMovable.hpp</a>"</span></div>
+"NonMovable.hpp"</span></div>
 <div class="line"><a name="l00006" id="l00006"></a> <span class=
 "lineno">6</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"common_8hpp.html">internal/common.hpp</a>"</span></div>
+"internal/common.hpp"</span></div>
 <div class="line"><a name="l00007" id="l00007"></a> <span class=
 "lineno">7</span>&nbsp;<span class="preprocessor">#include
-"<a class="code" href=
-"internal_2singleton_8hpp.html">internal/singleton.hpp</a>"</span></div>
+"internal/singleton.hpp"</span></div>
 <div class="line"><a name="l00008" id="l00008"></a> <span class=
 "lineno">8</span>&nbsp;</div>
 <div class="line"><a name="l00009" id="l00009"></a> <span class=
@@ -252,9 +240,8 @@ InstancePtr</a>();</div>
 <div class="line"><a name="l00078" id="l00078"></a> <span class=
 "lineno">78</span>&nbsp;</div>
 <div class="line"><a name="l00090" id="l00090"></a> <span class=
-"lineno">90</span>&nbsp;<a class="code" href=
-"platform_8hpp.html#a716bad563b8fc15d6d4bedbd91d6fb19">CUTEHMI_API</a>
-<span class="keywordtype">void</span> <a class="code" href=
+"lineno">90</span>&nbsp;CUTEHMI_API <span class=
+"keywordtype">void</span> <a class="code" href=
 "namespacecutehmi.html#ac270c61a5679c0acabe415ceac264cfc">destroySingletonInstances</a>();</div>
 <div class="line"><a name="l00091" id="l00091"></a> <span class=
 "lineno">91</span>&nbsp;</div>
@@ -446,13 +433,6 @@ have received a copy of the GNU Lesser General Public License along
 with CuteHMI. If not, see
 &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="ttc" id=
-"platform_8hpp_html_a716bad563b8fc15d6d4bedbd91d6fb19">
-<div class="ttname"><a href=
-"platform_8hpp.html#a716bad563b8fc15d6d4bedbd91d6fb19">CUTEHMI_API</a></div>
-<div class="ttdeci">#define CUTEHMI_API</div>
-<div class="ttdef"><b>Definition:</b> platform.hpp:27</div>
-</div>
-<div class="ttc" id=
 "namespacecutehmi_1_1internal_html_a48f3806aca0b0421cd8b9a72b3b09f98">
 <div class="ttname"><a href=
 "namespacecutehmi_1_1internal.html#a48f3806aca0b0421cd8b9a72b3b09f98">
@@ -461,10 +441,6 @@ cutehmi::internal::removeSingletonDestroyCallback</a></div>
 removeSingletonDestroyCallback(singletonDestroyCallback
 callback)</div>
 <div class="ttdef"><b>Definition:</b> singleton.cpp:77</div>
-</div>
-<div class="ttc" id="_non_movable_8hpp_html">
-<div class="ttname"><a href=
-"_non_movable_8hpp.html">NonMovable.hpp</a></div>
 </div>
 <div class="ttc" id=
 "namespacecutehmi_html_ac270c61a5679c0acabe415ceac264cfc">
@@ -480,9 +456,6 @@ destroySingletonInstances()</div>
 "classcutehmi_1_1_non_movable.html">cutehmi::NonMovable</a></div>
 <div class="ttdoc">Non-movable object.</div>
 <div class="ttdef"><b>Definition:</b> NonMovable.hpp:9</div>
-</div>
-<div class="ttc" id="common_8hpp_html">
-<div class="ttname"><a href="common_8hpp.html">common.hpp</a></div>
 </div>
 <div class="ttc" id=
 "namespacecutehmi_1_1internal_html_afc0937e7676fd6e99d5953d5c1d76de8">
@@ -536,10 +509,6 @@ cutehmi::Singleton::~Singleton</a></div>
 <div class="ttdoc">Destructor.</div>
 <div class="ttdef"><b>Definition:</b> Singleton.hpp:100</div>
 </div>
-<div class="ttc" id="_non_copyable_8hpp_html">
-<div class="ttname"><a href=
-"_non_copyable_8hpp.html">NonCopyable.hpp</a></div>
-</div>
 <div class="ttc" id=
 "classcutehmi_1_1_singleton_html_a9ea1159ae0fd584ee86839d55b0ea350">
 <div class="ttname"><a href=
@@ -548,10 +517,6 @@ cutehmi::Singleton::Instance</a></div>
 <div class="ttdeci">static C &amp; Instance()</div>
 <div class="ttdoc">Get instance.</div>
 <div class="ttdef"><b>Definition:</b> Singleton.hpp:106</div>
-</div>
-<div class="ttc" id="internal_2singleton_8hpp_html">
-<div class="ttname"><a href=
-"internal_2singleton_8hpp.html">singleton.hpp</a></div>
 </div>
 <div class="ttc" id="classcutehmi_1_1_singleton_html">
 <div class="ttname"><a href=
@@ -581,8 +546,7 @@ InstancePtr()</div>
 "dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>
 <li class="navelem"><a class="el" href=
 "dir_af47cb53463d2a51ba0770599d092505.html">cutehmi</a></li>
-<li class="navelem"><a class="el" href=
-"singleton_8hpp.html">Singleton.hpp</a></li>
+<li class="navelem"><b>Singleton.hpp</b></li>
 <li class="footer">Generated by <a href=
 "http://www.doxygen.org/index.html"><img class="footer" src=
 "doxygen.png" alt="doxygen" /></a> 1.8.14</li>

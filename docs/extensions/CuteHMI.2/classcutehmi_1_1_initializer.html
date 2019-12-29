@@ -78,10 +78,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li><a href="../../tools_list.html"><span>Tools</span></a></li>
 <li><a href="index.html"><span>Overview</span></a></li>
 <li><a href="pages.html"><span>Related&nbsp;Pages</span></a></li>
+<li><a href="modules.html"><span>Modules</span></a></li>
 <li><a href="namespaces.html"><span>Namespaces</span></a></li>
 <li class="current"><a href=
 "annotated.html"><span>Classes</span></a></li>
-<li><a href="files.html"><span>Files</span></a></li>
 <li>
 <div id="MSearchBox" class="MSearchBoxInactive"><span class=
 "left"><img id="MSearchSelect" src="search/mag_sel.png"
@@ -149,8 +149,7 @@ Template Reference</div>
 </div>
 <!--header-->
 <div class="contents">
-<p><a class="el" href="classcutehmi_1_1_initializer.html" title=
-"Initializer template. ">Initializer</a> template. <a href=
+<p>Initializer template. <a href=
 "classcutehmi_1_1_initializer.html#details">More...</a></p>
 <p><code>#include &lt;<a class="el" href=
 "_initializer_8hpp_source.html">Initializer.hpp</a>&gt;</code></p>
@@ -275,14 +274,11 @@ operator=</a> (<a class="el" href=
 <div class="textblock">
 <h3>template&lt;class DERIVED&gt;<br />
 class cutehmi::Initializer&lt; DERIVED &gt;</h3>
-<p><a class="el" href="classcutehmi_1_1_initializer.html" title=
-"Initializer template. ">Initializer</a> template.</p>
-<p><a class="el" href="classcutehmi_1_1_initializer.html" title=
-"Initializer template. ">Initializer</a> can be used to initialize
-an extension. This is achieved by subclassing the template and
-creating a global instance of a derived class, which is a subject
-of static initialization. This relies on following C++
-principle.</p>
+<p>Initializer template.</p>
+<p>Initializer can be used to initialize an extension. This is
+achieved by subclassing the template and creating a global instance
+of a derived class, which is a subject of static initialization.
+This relies on following C++ principle.</p>
 <blockquote class="doxtable">
 <p>"If a variable with static storage duration has initialization
 or a destructor with side eﬀects, it shall not be eliminated even
@@ -292,10 +288,9 @@ copy/move may be eliminated as speciﬁed in 11.9.5."</p>
 <div style="text-align:right; margin-right: 24px"><em>– C++
 Standard (6.6.5.1/2 N4810) [basic.stc.static]</em></div>
 <p><br />
-<a class="el" href="classcutehmi_1_1_initializer.html" title=
-"Initializer template. ">Initializer</a> counts its own references
-and runs initialization and deinitialization code only once - for
-the first constructed and last destroyed instance.</p>
+Initializer counts its own references and runs initialization and
+deinitialization code only once - for the first constructed and
+last destroyed instance.</p>
 <dl class="section note">
 <dt>Note</dt>
 <dd>Special care must be taken for static builds, because a global

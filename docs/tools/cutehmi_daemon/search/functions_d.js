@@ -6,7 +6,6 @@ var searchData=
   ['machineuniqueid',['machineUniqueId',['http://doc.qt.io/qt-5/qsysinfo.html#machineUniqueId',1,'QSysInfo']]],
   ['macversion',['macVersion',['http://doc.qt.io/qt-5/qsysinfo-obsolete.html#macVersion',1,'QSysInfo']]],
   ['mailexchangerecords',['mailExchangeRecords',['http://doc.qt.io/qt-5/qdnslookup.html#mailExchangeRecords',1,'QDnsLookup']]],
-  ['main',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
   ['majorversion',['majorVersion',['http://doc.qt.io/qt-5/qversionnumber.html#majorVersion',1,'QVersionNumber::majorVersion()'],['http://doc.qt.io/qt-5/qoperatingsystemversion.html#majorVersion',1,'QOperatingSystemVersion::majorVersion()']]],
   ['make_5fexception_5fptr',['make_exception_ptr',['https://en.cppreference.com/w/cpp/error/make_exception_ptr.html',1,'std']]],
   ['make_5fheap',['make_heap',['https://en.cppreference.com/w/cpp/algorithm/make_heap.html',1,'std']]],

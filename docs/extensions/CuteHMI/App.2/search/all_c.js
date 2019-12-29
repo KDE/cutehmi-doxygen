@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['logging_20macros',['Logging macros',['../../../CuteHMI.2/group__cutehmi-logging_macros.html',1,'']]],
   ['labelalignment',['labelAlignment',['http://doc.qt.io/qt-5/qformlayout.html#labelAlignment-prop',1,'QFormLayout::labelAlignment()'],['http://doc.qt.io/qt-5/qformlayout.html#labelAlignment-prop',1,'QFormLayout::labelAlignment() const const']]],
   ['labelforfield',['labelForField',['http://doc.qt.io/qt-5/qformlayout.html#labelForField',1,'QFormLayout::labelForField(QWidget *field) const const'],['http://doc.qt.io/qt-5/qformlayout.html#labelForField-1',1,'QFormLayout::labelForField(QLayout *field) const const']]],
   ['labeltext',['labelText',['http://doc.qt.io/qt-5/qinputdialog.html#labelText-prop',1,'QInputDialog::labelText()'],['http://doc.qt.io/qt-5/qprogressdialog.html#labelText-prop',1,'QProgressDialog::labelText()'],['http://doc.qt.io/qt-5/qfiledialog.html#labelText',1,'QFileDialog::labelText()'],['http://doc.qt.io/qt-5/qinputdialog.html#labelText-prop',1,'QInputDialog::labelText()'],['http://doc.qt.io/qt-5/qprogressdialog.html#labelText-prop',1,'QProgressDialog::labelText()']]],
@@ -77,8 +78,6 @@ var searchData=
   ['lexicographical_5fcompare',['lexicographical_compare',['https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare.html',1,'std']]],
   ['lgamma',['lgamma',['https://en.cppreference.com/w/cpp/numeric/math/lgamma.html',1,'std']]],
   ['librarypaths',['libraryPaths',['http://doc.qt.io/qt-5/qcoreapplication.html#libraryPaths',1,'QCoreApplication']]],
-  ['license_2ec_2edslash_2einc',['LICENSE.C.dslash.inc',['../_l_i_c_e_n_s_e_8_c_8dslash_8inc.html',1,'(Global Namespace)'],['../../../CuteHMI.2/_l_i_c_e_n_s_e_8_c_8dslash_8inc.html',1,'(Global Namespace)']]],
-  ['license_2ec_2ehash_2einc',['LICENSE.C.hash.inc',['../_l_i_c_e_n_s_e_8_c_8hash_8inc.html',1,'(Global Namespace)'],['../../../CuteHMI.2/_l_i_c_e_n_s_e_8_c_8hash_8inc.html',1,'(Global Namespace)']]],
   ['licensedproducts',['licensedProducts',['http://doc.qt.io/qt-5/qlibraryinfo-obsolete.html#licensedProducts',1,'QLibraryInfo']]],
   ['licensee',['licensee',['http://doc.qt.io/qt-5/qlibraryinfo-obsolete.html#licensee',1,'QLibraryInfo']]],
   ['light',['light',['http://doc.qt.io/qt-5/qcolor-obsolete.html#light',1,'QColor::light()'],['http://doc.qt.io/qt-5/qpalette.html#light',1,'QPalette::light()']]],
@@ -154,10 +153,7 @@ var searchData=
   ['log1p',['log1p',['https://en.cppreference.com/w/cpp/numeric/math/log1p.html',1,'std']]],
   ['logb',['logb',['https://en.cppreference.com/w/cpp/numeric/math/logb.html',1,'std']]],
   ['loggedmessages',['loggedMessages',['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggedMessages',1,'QOpenGLDebugLogger']]],
-  ['logging_2ecpp',['logging.cpp',['../logging_8cpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/logging_8cpp.html',1,'(Global Namespace)']]],
-  ['logging_2ehpp',['logging.hpp',['../logging_8hpp.html',1,'(Global Namespace)'],['../../../CuteHMI.2/logging_8hpp.html',1,'(Global Namespace)']]],
   ['loggingcategory',['loggingCategory',['../../../CuteHMI.2/namespacecutehmi.html#a9264aa5971ce85aa88dd714237fe7d1a',1,'cutehmi::loggingCategory()'],['../namespacecutehmi_1_1app.html#abe45b6aab611ed5d880b2e57b4ce2be8',1,'cutehmi::app::loggingCategory()']]],
-  ['loggingmacros_2ehpp',['loggingMacros.hpp',['../../../CuteHMI.2/logging_macros_8hpp.html',1,'']]],
   ['loggingmode',['loggingMode',['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggingMode-prop',1,'QOpenGLDebugLogger::loggingMode()'],['http://doc.qt.io/qt-5/qopengldebuglogger.html#loggingMode',1,'QOpenGLDebugLogger::loggingMode() const const']]],
   ['logic_5ferror',['logic_error',['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error'],['https://en.cppreference.com/w/cpp/error/logic_error.html',1,'std::logic_error::logic_error()']]],
   ['logical_5fand',['logical_and',['https://en.cppreference.com/w/cpp/utility/functional/logical_and.html',1,'std']]],

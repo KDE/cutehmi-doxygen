@@ -51,13 +51,6 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
     ] ]
   ] ]
 ];
@@ -65,10 +58,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../../extensions_list.html",
-"classcutehmi_1_1modbus_1_1_abstract_device.html",
-"classcutehmi_1_1modbus_1_1_input_register_controller.html#a19c2348e4a7bba2ab966d572c056ce2c",
-"classcutehmi_1_1modbus_1_1internal_1_1_data_container_polling.html#ac2a66b28e00e654e383616e030c65425",
-"cutehmi_8metadata_8hpp.html#a4f8a5baaf63a947ca15a926d55a8410d"
+"classcutehmi_1_1modbus_1_1_abstract_register_controller.html#abe6c0c627ed89ac99cf4b87fa85fecd6",
+"classcutehmi_1_1modbus_1_1_t_c_p_server.html#abc59eb3255190ecfc98e486602fca06c",
+"classcutehmi_1_1modbus_1_1internal_1_1_qt_t_c_p_server.html#aeb1a6bbf4cbde03d1266067f548f9b5e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
