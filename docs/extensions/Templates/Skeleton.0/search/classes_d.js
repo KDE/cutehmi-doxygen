@@ -6,7 +6,7 @@ var searchData=
   ['negative_5fbinomial_5fdistribution',['negative_binomial_distribution',['https://en.cppreference.com/w/cpp/numeric/random/negative_binomial_distribution.html',1,'std']]],
   ['nested_5fexception',['nested_exception',['https://en.cppreference.com/w/cpp/error/nested_exception.html',1,'std']]],
   ['new_5fhandler',['new_handler',['https://en.cppreference.com/w/cpp/memory/new/new_handler.html',1,'std']]],
-  ['noadvertiserexception',['NoAdvertiserException',['../../../CuteHMI.2/classcutehmi_1_1_dialogist_1_1_no_advertiser_exception.html',1,'cutehmi::Dialogist']]],
+  ['noadvertiserexception',['NoAdvertiserException',['../../../CuteHMI.2/classcutehmi_1_1_messenger_1_1_no_advertiser_exception.html',1,'cutehmi::Messenger']]],
   ['noncopyable',['NonCopyable',['../../../CuteHMI.2/classcutehmi_1_1_non_copyable.html',1,'cutehmi']]],
   ['nonmovable',['NonMovable',['../../../CuteHMI.2/classcutehmi_1_1_non_movable.html',1,'cutehmi']]],
   ['normal_5fdistribution',['normal_distribution',['https://en.cppreference.com/w/cpp/numeric/random/normal_distribution.html',1,'std']]],

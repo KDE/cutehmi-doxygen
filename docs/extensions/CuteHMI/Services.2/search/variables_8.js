@@ -1,7 +1,7 @@
 var searchData=
 [
   ['imageconversionflags',['ImageConversionFlags',['http://doc.qt.io/qt-5/qt.html#ImageConversionFlag-enum',1,'Qt']]],
-  ['info',['INFO',['../../../CuteHMI.2/classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aad7fd775a86719430c8fc82aca6b0e409',1,'cutehmi::Dialog::INFO()'],['../../../CuteHMI.2/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5',1,'cutehmi::Notification::INFO()']]],
+  ['info',['INFO',['../../../CuteHMI.2/classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18da8b72adad91e895a7483f7a2f565c09e0',1,'cutehmi::Message::INFO()'],['../../../CuteHMI.2/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5',1,'cutehmi::Notification::INFO()']]],
   ['initial_5finterval',['INITIAL_INTERVAL',['../classcutehmi_1_1services_1_1_polling_timer.html#a85af5966e0bdeff08593ab11fda7b122',1,'cutehmi::services::PollingTimer']]],
   ['initial_5fmax_5factive_5fservices',['INITIAL_MAX_ACTIVE_SERVICES',['../classcutehmi_1_1services_1_1_service_manager.html#a4aa02b8fc06e9240e5aa9f7c2ae4ed14',1,'cutehmi::services::ServiceManager']]],
   ['initial_5fname',['INITIAL_NAME',['../classcutehmi_1_1services_1_1_service.html#a26e9b1c48e0d7cc7b5b8ec6679c3fd9b',1,'cutehmi::services::Service']]],

@@ -17,6 +17,6 @@ var searchData=
   ['bottompadding',['bottomPadding',['../../../CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#af3ab5aa8faa2e9532b91f42e64b696de',1,'CuteHMI::NumberDisplay::bottomPadding()'],['../../../CuteHMI.2/class_cute_h_m_i_1_1_prop_item.html#a6c1cc32d173d91a6e9c1e19d4e37c3db',1,'CuteHMI::PropItem::bottomPadding()']]],
   ['bsptreedepth',['bspTreeDepth',['http://doc.qt.io/qt-5/qgraphicsscene.html#bspTreeDepth-prop',1,'QGraphicsScene']]],
   ['button',['button',['http://doc.qt.io/qt-5/qmouseeventtransition.html#button-prop',1,'QMouseEventTransition']]],
-  ['buttons',['buttons',['../../../CuteHMI.2/classcutehmi_1_1_dialog.html#a3797ef29a79e70dc3a83ee9c818aca97',1,'cutehmi::Dialog']]],
+  ['buttons',['buttons',['../../../CuteHMI.2/classcutehmi_1_1_message.html#a1807241f51844663840a180a113fa699',1,'cutehmi::Message']]],
   ['buttonsymbols',['buttonSymbols',['http://doc.qt.io/qt-5/qabstractspinbox.html#buttonSymbols-prop',1,'QAbstractSpinBox']]]
 ];

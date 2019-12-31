@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['button',['Button',['../classcutehmi_1_1_dialog.html#a66851fd2528176015d6eb9752d7c722f',1,'cutehmi::Dialog']]]
+  ['button',['Button',['../classcutehmi_1_1_message.html#ac42671a854e0bd2cc30b627750e14040',1,'cutehmi::Message']]]
 ];

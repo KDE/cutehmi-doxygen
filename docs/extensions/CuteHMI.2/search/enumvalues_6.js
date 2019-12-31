@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['no_5fbutton',['NO_BUTTON',['../classcutehmi_1_1_dialog.html#a66851fd2528176015d6eb9752d7c722fa09414fca14fb574fca2e247f85bfafdd',1,'cutehmi::Dialog']]]
+  ['no_5fbutton',['NO_BUTTON',['../classcutehmi_1_1_message.html#ac42671a854e0bd2cc30b627750e14040a9bc7cd60141474b2479554167e23872a',1,'cutehmi::Message']]]
 ];

@@ -3,7 +3,7 @@ var searchData=
   ['id',['Id',['http://doc.qt.io/qt-5/qaccessible.html#Id-typedef',1,'QAccessible']]],
   ['idle_5fmeasure_5finterval',['IDLE_MEASURE_INTERVAL',['../../../extensions/CuteHMI/App.2/classcutehmi_1_1app_1_1_cute_app.html#ad7792e1d882c5a00613001817374621c',1,'cutehmi::app::CuteApp']]],
   ['imageconversionflags',['ImageConversionFlags',['http://doc.qt.io/qt-5/qt.html#ImageConversionFlag-enum',1,'Qt']]],
-  ['info',['INFO',['../../../extensions/CuteHMI.2/classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aad7fd775a86719430c8fc82aca6b0e409',1,'cutehmi::Dialog::INFO()'],['../../../extensions/CuteHMI.2/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5',1,'cutehmi::Notification::INFO()']]],
+  ['info',['INFO',['../../../extensions/CuteHMI.2/classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18da8b72adad91e895a7483f7a2f565c09e0',1,'cutehmi::Message::INFO()'],['../../../extensions/CuteHMI.2/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5',1,'cutehmi::Notification::INFO()']]],
   ['infoflags',['InfoFlags',['http://doc.qt.io/qt-5/qtouchevent-touchpoint.html#InfoFlag-enum',1,'QTouchEvent::TouchPoint']]],
   ['inputdialogoptions',['InputDialogOptions',['http://doc.qt.io/qt-5/qinputdialog.html#InputDialogOption-enum',1,'QInputDialog']]],
   ['inputmethodhints',['InputMethodHints',['http://doc.qt.io/qt-5/qt.html#InputMethodHint-enum',1,'Qt']]],

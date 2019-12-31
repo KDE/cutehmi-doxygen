@@ -12,7 +12,7 @@ var searchData=
   ['indent',['indent',['http://doc.qt.io/qt-5/qlabel.html#indent-prop',1,'QLabel']]],
   ['indentation',['indentation',['http://doc.qt.io/qt-5/qtreeview.html#indentation-prop',1,'QTreeView']]],
   ['indentwidth',['indentWidth',['http://doc.qt.io/qt-5/qtextdocument.html#indentWidth-prop',1,'QTextDocument']]],
-  ['informativetext',['informativeText',['http://doc.qt.io/qt-5/qmessagebox.html#informativeText-prop',1,'QMessageBox::informativeText()'],['../../../extensions/CuteHMI.2/classcutehmi_1_1_dialog.html#a4afe28fe959addb7b42361177594a562',1,'cutehmi::Dialog::informativeText()']]],
+  ['informativetext',['informativeText',['http://doc.qt.io/qt-5/qmessagebox.html#informativeText-prop',1,'QMessageBox::informativeText()'],['../../../extensions/CuteHMI.2/classcutehmi_1_1_message.html#a9d33f0e22ae47b37d23e8522598aa24f',1,'cutehmi::Message::informativeText()']]],
   ['initialstate',['initialState',['http://doc.qt.io/qt-5/qstate.html#initialState-prop',1,'QState']]],
   ['inputdirection',['inputDirection',['http://doc.qt.io/qt-5/qinputmethod.html#inputDirection-prop',1,'QInputMethod']]],
   ['inputitemcliprectangle',['inputItemClipRectangle',['http://doc.qt.io/qt-5/qinputmethod.html#inputItemClipRectangle-prop',1,'QInputMethod']]],

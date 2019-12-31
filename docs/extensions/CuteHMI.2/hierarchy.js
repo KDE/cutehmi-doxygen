@@ -3,8 +3,6 @@ var hierarchy =
     [ "Canvas", null, [
       [ "CuteHMI::PropItem", "class_cute_h_m_i_1_1_prop_item.html", null ]
     ] ],
-    [ "CuteHMI::Dialog", "class_cute_h_m_i_1_1_dialog.html", null ],
-    [ "CuteHMI::Dialogist", "class_cute_h_m_i_1_1_dialogist.html", null ],
     [ "cutehmi::Error", "structcutehmi_1_1_error.html", [
       [ "cutehmi::InplaceError", "structcutehmi_1_1_inplace_error.html", null ]
     ] ],
@@ -14,15 +12,17 @@ var hierarchy =
         [ "CuteHMI::NumberDisplay", "class_cute_h_m_i_1_1_number_display.html", null ]
       ] ]
     ] ],
-    [ "cutehmi::Dialogist::Members", "structcutehmi_1_1_dialogist_1_1_members.html", null ],
+    [ "cutehmi::Messenger::Members", "structcutehmi_1_1_messenger_1_1_members.html", null ],
+    [ "CuteHMI::Message", "class_cute_h_m_i_1_1_message.html", null ],
+    [ "CuteHMI::Messenger", "class_cute_h_m_i_1_1_messenger.html", null ],
     [ "cutehmi::NonCopyable", "classcutehmi_1_1_non_copyable.html", [
       [ "cutehmi::Initializer< DERIVED >", "classcutehmi_1_1_initializer.html", null ],
       [ "cutehmi::Singleton< C >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Initializer< Init >", "classcutehmi_1_1_initializer.html", [
         [ "cutehmi::Init", "classcutehmi_1_1_init.html", null ]
       ] ],
-      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1_singleton.html", [
-        [ "cutehmi::Dialogist", "classcutehmi_1_1_dialogist.html", null ]
+      [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", [
+        [ "cutehmi::Messenger", "classcutehmi_1_1_messenger.html", null ]
       ] ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", [
         [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ]
@@ -30,7 +30,7 @@ var hierarchy =
     ] ],
     [ "cutehmi::NonMovable", "classcutehmi_1_1_non_movable.html", [
       [ "cutehmi::Singleton< C >", "classcutehmi_1_1_singleton.html", null ],
-      [ "cutehmi::Singleton< Dialogist >", "classcutehmi_1_1_singleton.html", null ],
+      [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
     [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
@@ -45,13 +45,13 @@ var hierarchy =
           [ "cutehmi::ErrorException", "classcutehmi_1_1_error_exception.html", null ]
         ] ],
         [ "cutehmi::ExceptionMixin< NoAdvertiserException >", "classcutehmi_1_1_exception_mixin.html", [
-          [ "cutehmi::Dialogist::NoAdvertiserException", "classcutehmi_1_1_dialogist_1_1_no_advertiser_exception.html", null ]
+          [ "cutehmi::Messenger::NoAdvertiserException", "classcutehmi_1_1_messenger_1_1_no_advertiser_exception.html", null ]
         ] ]
       ] ]
     ] ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
-      [ "cutehmi::Dialog", "classcutehmi_1_1_dialog.html", null ],
-      [ "cutehmi::Dialogist", "classcutehmi_1_1_dialogist.html", null ],
+      [ "cutehmi::Message", "classcutehmi_1_1_message.html", null ],
+      [ "cutehmi::Messenger", "classcutehmi_1_1_messenger.html", null ],
       [ "cutehmi::Notification", "classcutehmi_1_1_notification.html", null ],
       [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ],
       [ "cutehmi::Worker", "classcutehmi_1_1_worker.html", null ],
@@ -68,8 +68,8 @@ var hierarchy =
       [ "CuteHMI::ColorSet", "class_cute_h_m_i_1_1_color_set.html", null ],
       [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ]
     ] ],
-    [ "std::unique_ptr< cutehmi::Dialogist::Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< cutehmi::Dialogist::Members >", "classcutehmi_1_1_m_ptr.html", null ]
+    [ "std::unique_ptr< cutehmi::Messenger::Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
+      [ "cutehmi::MPtr< cutehmi::Messenger::Members >", "classcutehmi_1_1_m_ptr.html", null ]
     ] ],
     [ "std::unique_ptr< Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
       [ "cutehmi::MPtr< Members >", "classcutehmi_1_1_m_ptr.html", null ]

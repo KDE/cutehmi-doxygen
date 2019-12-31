@@ -18,5 +18,5 @@ var searchData=
   ['conversionmode',['ConversionMode',['http://doc.qt.io/qt-5/qhostaddress.html#ConversionModeFlag-enum',1,'QHostAddress']]],
   ['countfunction',['CountFunction',['http://doc.qt.io/qt-5/qqmllistproperty.html#CountFunction-typedef',1,'QQmlListProperty']]],
   ['createprocessargumentmodifier',['CreateProcessArgumentModifier',['http://doc.qt.io/qt-5/qprocess.html#CreateProcessArgumentModifier-typedef',1,'QProcess']]],
-  ['critical',['CRITICAL',['../../../CuteHMI.2/classcutehmi_1_1_dialog.html#a7bbf889846b2a52883780ec5e085ec3aaeb661926db90c52e8da4c92fafb52f92',1,'cutehmi::Dialog::CRITICAL()'],['../../../CuteHMI.2/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65af4da1a892db8cf99e8d4f6b7f6ca6886',1,'cutehmi::Notification::CRITICAL()']]]
+  ['critical',['CRITICAL',['../../../CuteHMI.2/classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18da91cf0a1966061cf0b5366de5002a7e35',1,'cutehmi::Message::CRITICAL()'],['../../../CuteHMI.2/classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65af4da1a892db8cf99e8d4f6b7f6ca6886',1,'cutehmi::Notification::CRITICAL()']]]
 ];

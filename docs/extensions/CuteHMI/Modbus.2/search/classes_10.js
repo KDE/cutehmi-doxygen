@@ -146,7 +146,7 @@ var searchData=
   ['qmimedata',['QMimeData',['http://doc.qt.io/qt-5/qmimedata.html',1,'']]],
   ['qmimedatabase',['QMimeDatabase',['http://doc.qt.io/qt-5/qmimedatabase.html',1,'']]],
   ['qmimetype',['QMimeType',['http://doc.qt.io/qt-5/qmimetype.html',1,'']]],
-  ['qmlplugin',['QMLPlugin',['../../Services.2/classcutehmi_1_1services_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::services::internal::QMLPlugin'],['../classcutehmi_1_1modbus_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::modbus::internal::QMLPlugin'],['../../../CuteHMI.2/classcutehmi_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::internal::QMLPlugin']]],
+  ['qmlplugin',['QMLPlugin',['../../Services.2/classcutehmi_1_1services_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::services::internal::QMLPlugin'],['../../../CuteHMI.2/classcutehmi_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::internal::QMLPlugin'],['../classcutehmi_1_1modbus_1_1internal_1_1_q_m_l_plugin.html',1,'cutehmi::modbus::internal::QMLPlugin']]],
   ['qmodbusclient',['QModbusClient',['http://doc.qt.io/qt-5/qmodbusclient.html',1,'']]],
   ['qmodbusdataunit',['QModbusDataUnit',['http://doc.qt.io/qt-5/qmodbusdataunit.html',1,'']]],
   ['qmodbusdevice',['QModbusDevice',['http://doc.qt.io/qt-5/qmodbusdevice.html',1,'']]],
