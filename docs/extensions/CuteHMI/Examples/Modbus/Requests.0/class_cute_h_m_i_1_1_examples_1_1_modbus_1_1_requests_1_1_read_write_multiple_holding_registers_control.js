@@ -1,4 +1,0 @@
-var class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_requests_1_1_read_write_multiple_holding_registers_control =
-[
-    [ "device", "class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_requests_1_1_read_write_multiple_holding_registers_control.html#a1ddb43b8543688edccb05f8b36b33215", null ]
-];

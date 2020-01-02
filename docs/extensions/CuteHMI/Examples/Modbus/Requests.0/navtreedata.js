@@ -26,19 +26,7 @@ var NAVTREE =
     [ "Main Page", "../../../../../index.html", null ],
     [ "Extensions", "../../../../../extensions_list.html", null ],
     [ "Tools", "../../../../../tools_list.html", null ],
-    [ "Modbus Requests Example", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
-    ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Properties", "functions_prop.html", null ]
-      ] ]
-    ] ]
+    [ "Modbus Requests Example", "index.html", null ]
   ] ]
 ];
 
