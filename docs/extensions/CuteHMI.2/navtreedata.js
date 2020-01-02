@@ -1,18 +1,17 @@
 /*
-@ @licstart  The following is the entire license notice for the
+@licstart  The following is the entire license notice for the
 JavaScript code in this file.
 
-Copyright (C) 1997-2017 by Dimitri van Heesch
+Copyright (C) 1997-2019 by Dimitri van Heesch
 
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
@@ -27,7 +26,12 @@ var NAVTREE =
     [ "Main Page", "../../index.html", null ],
     [ "Extensions", "../../extensions_list.html", null ],
     [ "Tools", "../../tools_list.html", null ],
-    [ "CuteHMI", "index.html", null ],
+    [ "CuteHMI", "index.html", [
+      [ "Bridges", "index.html#autotoc_md1", null ],
+      [ "Utility classes", "index.html#autotoc_md2", null ],
+      [ "QML components", "index.html#autotoc_md3", null ],
+      [ "Frontend tools", "index.html#autotoc_md4", null ]
+    ] ],
     [ "Principles", "principles.html", null ],
     [ "Assumptions", "assumptions.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -61,7 +65,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../extensions_list.html",
-"functions_prop.html"
+"functions_o.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

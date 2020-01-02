@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['documentation_20directory',['Documentation directory',['../index.html',1,'']]]
+  ['documentation_20directory_0',['Documentation directory',['../index.html',1,'']]]
 ];

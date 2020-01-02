@@ -1,7 +1,5 @@
 var namespaces_dup =
 [
-    [ "CuteHMI", null, [
-      [ "Modbus", "namespace_cute_h_m_i_1_1_modbus.html", null ]
-    ] ],
+    [ "CuteHMI", "namespace_cute_h_m_i.html", "namespace_cute_h_m_i" ],
     [ "cutehmi", "namespacecutehmi.html", "namespacecutehmi" ]
 ];

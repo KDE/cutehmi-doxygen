@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "CuteHMI::App::CuteApp", "class_cute_h_m_i_1_1_app_1_1_cute_app.html", null ],
+    [ "CuteApp", "class_cute_h_m_i_1_1_app_1_1_cute_app.html", null ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
       [ "QCoreApplication", "http://doc.qt.io/qt-5/qcoreapplication.html", [
         [ "QGuiApplication", "http://doc.qt.io/qt-5/qguiapplication.html", [

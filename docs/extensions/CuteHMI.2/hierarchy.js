@@ -13,8 +13,11 @@ var hierarchy =
       ] ]
     ] ],
     [ "cutehmi::Messenger::Members", "structcutehmi_1_1_messenger_1_1_members.html", null ],
-    [ "CuteHMI::Message", "class_cute_h_m_i_1_1_message.html", null ],
-    [ "CuteHMI::Messenger", "class_cute_h_m_i_1_1_messenger.html", null ],
+    [ "Message", "class_cute_h_m_i_1_1_message.html", null ],
+    [ "Messenger", "class_cute_h_m_i_1_1_messenger.html", null ],
+    [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1_m_ptr.html", null ],
+    [ "cutehmi::MPtr< cutehmi::Messenger::Members >", "classcutehmi_1_1_m_ptr.html", null ],
+    [ "cutehmi::MPtr< Members >", "classcutehmi_1_1_m_ptr.html", null ],
     [ "cutehmi::NonCopyable", "classcutehmi_1_1_non_copyable.html", [
       [ "cutehmi::Initializer< DERIVED >", "classcutehmi_1_1_initializer.html", null ],
       [ "cutehmi::Singleton< C >", "classcutehmi_1_1_singleton.html", null ],
@@ -33,8 +36,8 @@ var hierarchy =
       [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
-    [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
-    [ "CuteHMI::Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
+    [ "Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
+    [ "Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", null ]
     ] ],
@@ -67,14 +70,5 @@ var hierarchy =
     [ "QtObject", null, [
       [ "CuteHMI::ColorSet", "class_cute_h_m_i_1_1_color_set.html", null ],
       [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ]
-    ] ],
-    [ "std::unique_ptr< cutehmi::Messenger::Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< cutehmi::Messenger::Members >", "classcutehmi_1_1_m_ptr.html", null ]
-    ] ],
-    [ "std::unique_ptr< Members, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< Members >", "classcutehmi_1_1_m_ptr.html", null ]
-    ] ],
-    [ "std::unique_ptr< T, DELETER >", "https://en.cppreference.com/w/cpp/memory/unique_ptr.html", [
-      [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1_m_ptr.html", null ]
     ] ]
 ];
