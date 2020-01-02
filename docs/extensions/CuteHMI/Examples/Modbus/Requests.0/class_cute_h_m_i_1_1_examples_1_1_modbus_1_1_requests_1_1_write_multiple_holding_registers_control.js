@@ -1,0 +1,4 @@
+var class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_requests_1_1_write_multiple_holding_registers_control =
+[
+    [ "device", "class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_requests_1_1_write_multiple_holding_registers_control.html#a125d697a5872c7c51d9e29f2ccf2b02c", null ]
+];
