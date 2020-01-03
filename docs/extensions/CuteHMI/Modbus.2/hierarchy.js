@@ -1,6 +1,12 @@
 var hierarchy =
 [
     [ "cutehmi::modbus::internal::DataContainer< T, N >", "classcutehmi_1_1modbus_1_1internal_1_1_data_container.html", null ],
+    [ "Item", null, [
+      [ "CuteHMI::Modbus::CoilItem", "class_cute_h_m_i_1_1_modbus_1_1_coil_item.html", null ],
+      [ "CuteHMI::Modbus::DiscreteInputItem", "class_cute_h_m_i_1_1_modbus_1_1_discrete_input_item.html", null ],
+      [ "CuteHMI::Modbus::HoldingRegisterItem", "class_cute_h_m_i_1_1_modbus_1_1_holding_register_item.html", null ],
+      [ "CuteHMI::Modbus::InputRegisterItem", "class_cute_h_m_i_1_1_modbus_1_1_input_register_item.html", null ]
+    ] ],
     [ "cutehmi::modbus::internal::DataContainer< T, N >::KeysIterator", "classcutehmi_1_1modbus_1_1internal_1_1_data_container_1_1_keys_iterator.html", null ],
     [ "cutehmi::NonCopyable", "../../CuteHMI.2/classcutehmi_1_1_non_copyable.html", [
       [ "cutehmi::modbus::internal::IterableTasks", "classcutehmi_1_1modbus_1_1internal_1_1_iterable_tasks.html", [

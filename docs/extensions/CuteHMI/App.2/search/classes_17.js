@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['yocto_11848',['yocto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
-  ['yotta_11849',['yotta',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]]
+  ['yocto_11874',['yocto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
+  ['yotta_11875',['yotta',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]]
 ];
