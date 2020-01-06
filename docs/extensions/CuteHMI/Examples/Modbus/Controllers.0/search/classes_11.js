@@ -31,7 +31,7 @@ var searchData=
   ['regex_5ftraits_6165',['regex_traits',['https://en.cppreference.com/w/cpp/regex/regex_traits.html',1,'std']]],
   ['register1_6166',['Register1',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_register1.html',1,'cutehmi::modbus']]],
   ['register16_6167',['Register16',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_register16.html',1,'cutehmi::modbus']]],
-  ['register16controller_6168',['Register16Controller',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_register16_controller.html',1,'cutehmi::modbus']]],
+  ['register16controller_6168',['Register16Controller',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_register16_controller.html',1,'CuteHMI::Modbus::Register16Controller'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_register16_controller.html',1,'cutehmi::modbus::Register16Controller']]],
   ['register1controller_6169',['Register1Controller',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_register1_controller.html',1,'cutehmi::modbus']]],
   ['registercontrollermixin_6170',['RegisterControllerMixin',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_register_controller_mixin.html',1,'cutehmi::modbus::internal']]],
   ['registercontrollermixin_3c_20register16controller_20_3e_6171',['RegisterControllerMixin&lt; Register16Controller &gt;',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_register_controller_mixin.html',1,'']]],
@@ -57,9 +57,9 @@ var searchData=
   ['remove_5fvolatile_6191',['remove_volatile',['https://en.cppreference.com/w/cpp/types/remove_cv.html',1,'std']]],
   ['result_5fof_6192',['result_of',['https://en.cppreference.com/w/cpp/types/result_of.html',1,'std']]],
   ['reverse_5fiterator_6193',['reverse_iterator',['https://en.cppreference.com/w/cpp/iterator/reverse_iterator.html',1,'std']]],
-  ['rtuclient_6194',['RTUClient',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html',1,'cutehmi::modbus']]],
+  ['rtuclient_6194',['RTUClient',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_r_t_u_client.html',1,'CuteHMI::Modbus::RTUClient'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html',1,'cutehmi::modbus::RTUClient']]],
   ['rtuclientconfig_6195',['RTUClientConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_r_t_u_client_config.html',1,'cutehmi::modbus::internal']]],
-  ['rtuserver_6196',['RTUServer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html',1,'cutehmi::modbus']]],
+  ['rtuserver_6196',['RTUServer',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_r_t_u_server.html',1,'CuteHMI::Modbus::RTUServer'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html',1,'cutehmi::modbus::RTUServer']]],
   ['rtuserverconfig_6197',['RTUServerConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_r_t_u_server_config.html',1,'cutehmi::modbus::internal']]],
   ['runtime_5ferror_6198',['runtime_error',['https://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

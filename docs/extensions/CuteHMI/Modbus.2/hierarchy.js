@@ -1,6 +1,15 @@
 var hierarchy =
 [
+    [ "AbstractClient", "class_cute_h_m_i_1_1_modbus_1_1_abstract_client.html", null ],
+    [ "AbstractDevice", "class_cute_h_m_i_1_1_modbus_1_1_abstract_device.html", null ],
+    [ "AbstractRegisterController", "class_cute_h_m_i_1_1_modbus_1_1_abstract_register_controller.html", null ],
+    [ "AbstractServer", "class_cute_h_m_i_1_1_modbus_1_1_abstract_server.html", null ],
+    [ "CoilController", "class_cute_h_m_i_1_1_modbus_1_1_coil_controller.html", null ],
     [ "cutehmi::modbus::internal::DataContainer< T, N >", "classcutehmi_1_1modbus_1_1internal_1_1_data_container.html", null ],
+    [ "DiscreteInputController", "class_cute_h_m_i_1_1_modbus_1_1_discrete_input_controller.html", null ],
+    [ "DummyClient", "class_cute_h_m_i_1_1_modbus_1_1_dummy_client.html", null ],
+    [ "HoldingRegisterController", "class_cute_h_m_i_1_1_modbus_1_1_holding_register_controller.html", null ],
+    [ "InputRegisterController", "class_cute_h_m_i_1_1_modbus_1_1_input_register_controller.html", null ],
     [ "Item", null, [
       [ "CuteHMI::Modbus::CoilItem", "class_cute_h_m_i_1_1_modbus_1_1_coil_item.html", null ],
       [ "CuteHMI::Modbus::DiscreteInputItem", "class_cute_h_m_i_1_1_modbus_1_1_discrete_input_item.html", null ],
@@ -113,6 +122,7 @@ var hierarchy =
       [ "cutehmi::modbus::internal::HoldingRegister", "classcutehmi_1_1modbus_1_1internal_1_1_holding_register.html", null ],
       [ "cutehmi::modbus::internal::InputRegister", "classcutehmi_1_1modbus_1_1internal_1_1_input_register.html", null ]
     ] ],
+    [ "Register16Controller", "class_cute_h_m_i_1_1_modbus_1_1_register16_controller.html", null ],
     [ "cutehmi::modbus::internal::RegisterControllerMixin< DERIVED >", "classcutehmi_1_1modbus_1_1internal_1_1_register_controller_mixin.html", null ],
     [ "cutehmi::modbus::internal::RegisterControllerMixin< Register16Controller >", "classcutehmi_1_1modbus_1_1internal_1_1_register_controller_mixin.html", [
       [ "cutehmi::modbus::Register16Controller", "classcutehmi_1_1modbus_1_1_register16_controller.html", null ]
@@ -132,7 +142,11 @@ var hierarchy =
     [ "cutehmi::modbus::internal::RegisterTraits< internal::DiscreteInput >", "structcutehmi_1_1modbus_1_1internal_1_1_register_traits.html", null ],
     [ "cutehmi::modbus::internal::RegisterTraits< internal::HoldingRegister >", "structcutehmi_1_1modbus_1_1internal_1_1_register_traits.html", null ],
     [ "cutehmi::modbus::internal::RegisterTraits< internal::InputRegister >", "structcutehmi_1_1modbus_1_1internal_1_1_register_traits.html", null ],
+    [ "RTUClient", "class_cute_h_m_i_1_1_modbus_1_1_r_t_u_client.html", null ],
+    [ "RTUServer", "class_cute_h_m_i_1_1_modbus_1_1_r_t_u_server.html", null ],
     [ "cutehmi::services::Serviceable", "../Services.2/classcutehmi_1_1services_1_1_serviceable.html", [
       [ "cutehmi::modbus::AbstractDevice", "classcutehmi_1_1modbus_1_1_abstract_device.html", null ]
-    ] ]
+    ] ],
+    [ "TCPClient", "class_cute_h_m_i_1_1_modbus_1_1_t_c_p_client.html", null ],
+    [ "TCPServer", "class_cute_h_m_i_1_1_modbus_1_1_t_c_p_server.html", null ]
 ];

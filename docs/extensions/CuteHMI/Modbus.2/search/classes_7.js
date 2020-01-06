@@ -6,7 +6,7 @@ var searchData=
   ['hecto_5545',['hecto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['high_5fresolution_5fclock_5546',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',1,'std::chrono']]],
   ['holdingregister_5547',['HoldingRegister',['../classcutehmi_1_1modbus_1_1internal_1_1_holding_register.html',1,'cutehmi::modbus::internal']]],
-  ['holdingregistercontroller_5548',['HoldingRegisterController',['../classcutehmi_1_1modbus_1_1_holding_register_controller.html',1,'cutehmi::modbus']]],
+  ['holdingregistercontroller_5548',['HoldingRegisterController',['../classcutehmi_1_1modbus_1_1_holding_register_controller.html',1,'cutehmi::modbus::HoldingRegisterController'],['../class_cute_h_m_i_1_1_modbus_1_1_holding_register_controller.html',1,'HoldingRegisterController']]],
   ['holdingregisteritem_5549',['HoldingRegisterItem',['../class_cute_h_m_i_1_1_modbus_1_1_holding_register_item.html',1,'CuteHMI::Modbus']]],
   ['holdingregisterpolling_5550',['HoldingRegisterPolling',['../classcutehmi_1_1modbus_1_1internal_1_1_holding_register_polling.html',1,'cutehmi::modbus::internal']]],
   ['hours_5551',['hours',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]]

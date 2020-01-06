@@ -19,7 +19,7 @@ var searchData=
   ['codecvt_5futf8_5futf16_5436',['codecvt_utf8_utf16',['https://en.cppreference.com/w/cpp/locale/codecvt_utf8_utf16.html',1,'std']]],
   ['coil_5437',['Coil',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_coil.html',1,'cutehmi::modbus::internal']]],
   ['coilcontrol_5438',['CoilControl',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_client_server_1_1_coil_control.html',1,'CuteHMI::Examples::Modbus::ClientServer']]],
-  ['coilcontroller_5439',['CoilController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_coil_controller.html',1,'cutehmi::modbus']]],
+  ['coilcontroller_5439',['CoilController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_coil_controller.html',1,'cutehmi::modbus::CoilController'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_coil_controller.html',1,'CuteHMI::Modbus::CoilController']]],
   ['coilitem_5440',['CoilItem',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_coil_item.html',1,'CuteHMI::Modbus']]],
   ['coilpolling_5441',['CoilPolling',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_coil_polling.html',1,'cutehmi::modbus::internal']]],
   ['collate_5442',['collate',['https://en.cppreference.com/w/cpp/locale/collate.html',1,'std']]],

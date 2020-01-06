@@ -32,7 +32,6 @@
   <td id="projectlogo"><img alt="Logo" src="project_logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">CuteHMI - Modbus Controller Items (CuteHMI.Examples.Modbus.ControllerItems.0)
-   &#160;<span id="projectnumber">0.0.0</span>
    </div>
   </td>
  </tr>
@@ -112,8 +111,13 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><p>The purpose of this example is to demonstrate the use of controller items, which are especially useful, when dealing with <a class="elRef" href="http://doc.qt.io/qt-5/qt.html">Qt</a> Creator "Design" mode.</p>
 <p>Read a documentation on <a class="elRef" href="../../../../../doc/md_using-qt-creator-in-design-mode.html">Using Qt Creator in Design mode</a> to see how to set up environment for this example.</p>
-<p>In this example component <a class="el" href="_screen_8ui_8qml-example.html">Screen.ui.qml</a> is intended to be edited in "Design" mode.</p>
-<p>The example can be also run with <a href="../../../../../tools/cutehmi.view.2/index.html">cutehmi.view.2</a> tool. </p><div class="fragment"><div class="line">cutehmi.view.2 --extension=&quot;CuteHMI.Examples.Modbus.ControllerItems.0&quot;</div>
+<p>In this example component <a class="el" href="_screen_8ui_8qml-example.html">Screen.ui.qml</a> is intended to be edited in "Design" mode. This should look similar to the screenshot below.</p>
+<div class="image">
+<img src="design_mode.png" alt=""/>
+<div class="caption">
+Design mode</div></div>
+   <p>As one can observe <a class="elRef" href="../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_coil_item.html">CuteHMI::Modbus::CoilItem</a> and <a class="elRef" href="../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_item.html">CuteHMI::Modbus::HoldingRegisterItem</a> are created as child items of respective <a class="elRef" href="http://doc.qt.io/qt-5/qt.html">Qt</a> Quick controls, which they use as their delegates. Binding is established between controller and specified delegate property.</p>
+<p>The example can be run with <a href="../../../../../tools/cutehmi.view.2/index.html">cutehmi.view.2</a> tool. </p><div class="fragment"><div class="line">cutehmi.view.2 --extension=&quot;CuteHMI.Examples.Modbus.ControllerItems.0&quot;</div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['tcpclient_6275',['TCPClient',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_client.html',1,'cutehmi::modbus']]],
+  ['tcpclient_6275',['TCPClient',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_t_c_p_client.html',1,'CuteHMI::Modbus::TCPClient'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_client.html',1,'cutehmi::modbus::TCPClient']]],
   ['tcpclientconfig_6276',['TCPClientConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_t_c_p_client_config.html',1,'cutehmi::modbus::internal']]],
   ['tcpclientconfiguration_6277',['TCPClientConfiguration',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_requests_1_1_t_c_p_client_configuration.html',1,'CuteHMI::Examples::Modbus::Requests']]],
-  ['tcpserver_6278',['TCPServer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_server.html',1,'cutehmi::modbus']]],
+  ['tcpserver_6278',['TCPServer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_server.html',1,'cutehmi::modbus::TCPServer'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_t_c_p_server.html',1,'CuteHMI::Modbus::TCPServer']]],
   ['tcpserverconfig_6279',['TCPServerConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_t_c_p_server_config.html',1,'cutehmi::modbus::internal']]],
   ['tcpserverconfiguration_6280',['TCPServerConfiguration',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_requests_1_1_t_c_p_server_configuration.html',1,'CuteHMI::Examples::Modbus::Requests']]],
   ['tera_6281',['tera',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
