@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['background_10091',['background',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_color_set.html#a75e1a3a9e2ee6d009c0a23113f81e1f8',1,'CuteHMI::ColorSet::background()'],['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_palette.html#ac4fa4e5c474e2044f3c7320ef8db1fab',1,'CuteHMI::Palette::background()']]],
-  ['backgroundcolor_10092',['backgroundColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a7194ccd9491db73d900deadce12fc4f2',1,'CuteHMI::Element']]],
-  ['base_10093',['base',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_color_set.html#aab66e03dd4bb37e85c5f0b482b568ec6',1,'CuteHMI::ColorSet']]],
-  ['basecolor_10094',['baseColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a210fcf210f415322cb0c3ef6c331768e',1,'CuteHMI::Element']]],
-  ['blankcolor_10095',['blankColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a6733e8c8df2f5c0a9e629c332791008d',1,'CuteHMI::Element']]],
-  ['bottompadding_10096',['bottomPadding',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#af3ab5aa8faa2e9532b91f42e64b696de',1,'CuteHMI::NumberDisplay::bottomPadding()'],['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_prop_item.html#a6c1cc32d173d91a6e9c1e19d4e37c3db',1,'CuteHMI::PropItem::bottomPadding()']]],
-  ['buttons_10097',['buttons',['../../../extensions/CuteHMI.2/classcutehmi_1_1_message.html#a1807241f51844663840a180a113fa699',1,'cutehmi::Message']]]
+  ['background_10096',['background',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_color_set.html#a75e1a3a9e2ee6d009c0a23113f81e1f8',1,'CuteHMI::ColorSet::background()'],['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_palette.html#ac4fa4e5c474e2044f3c7320ef8db1fab',1,'CuteHMI::Palette::background()']]],
+  ['backgroundcolor_10097',['backgroundColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a7194ccd9491db73d900deadce12fc4f2',1,'CuteHMI::Element']]],
+  ['base_10098',['base',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_color_set.html#aab66e03dd4bb37e85c5f0b482b568ec6',1,'CuteHMI::ColorSet']]],
+  ['basecolor_10099',['baseColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a210fcf210f415322cb0c3ef6c331768e',1,'CuteHMI::Element']]],
+  ['blankcolor_10100',['blankColor',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_element.html#a6733e8c8df2f5c0a9e629c332791008d',1,'CuteHMI::Element']]],
+  ['bottompadding_10101',['bottomPadding',['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#af3ab5aa8faa2e9532b91f42e64b696de',1,'CuteHMI::NumberDisplay::bottomPadding()'],['../../../extensions/CuteHMI.2/class_cute_h_m_i_1_1_prop_item.html#a6c1cc32d173d91a6e9c1e19d4e37c3db',1,'CuteHMI::PropItem::bottomPadding()']]],
+  ['buttons_10102',['buttons',['../../../extensions/CuteHMI.2/classcutehmi_1_1_message.html#a1807241f51844663840a180a113fa699',1,'cutehmi::Message']]]
 ];

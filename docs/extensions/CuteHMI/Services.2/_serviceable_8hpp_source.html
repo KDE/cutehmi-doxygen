@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../../extensions_list.html"><span>Extensions</span></a></li>
       <li><a href="../../../tools_list.html"><span>Tools</span></a></li>
       <li><a href="index.html"><span>Overview</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -120,61 +121,61 @@ $(document).ready(function(){initNavTree('_serviceable_8hpp_source.html',''); in
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>services {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classcutehmi_1_1services_1_1_serviceable.html">   26</a></span>&#160;<span class="keyword">class </span>CUTEHMI_SERVICES_API <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcutehmi_1_1services_1_1_serviceable.html#a288263b5c46653d3258500c313bb0e87">   29</a></span>&#160;        <span class="keyword">typedef</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qhash.html">QHash&lt;QState *, QString&gt;</a> <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html#a288263b5c46653d3258500c313bb0e87">ServiceStatuses</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureStarted(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * active, <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * idling, <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * yielding) = 0;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureStarting(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * starting) = 0;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureStopping(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * stopping) = 0;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureBroken(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * broken) = 0;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureRepairing(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * repairing) = 0;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureEvacuating(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * evacuating) = 0;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToStarted() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToStopped() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToBroken() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToYielding() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToIdling() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcutehmi_1_1services_1_1_serviceable.html">   29</a></span>&#160;<span class="keyword">class </span>CUTEHMI_SERVICES_API <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classcutehmi_1_1services_1_1_serviceable.html#a288263b5c46653d3258500c313bb0e87">   32</a></span>&#160;        <span class="keyword">typedef</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qhash.html">QHash&lt;QState *, QString&gt;</a> <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html#a288263b5c46653d3258500c313bb0e87">ServiceStatuses</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureStarted(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * active, <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * idling, <span class="keyword">const</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * yielding) = 0;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureStarting(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * starting) = 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureStopping(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * stopping) = 0;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureBroken(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * broken) = 0;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureRepairing(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * repairing) = 0;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;ServiceStatuses&gt;</a> configureEvacuating(<a class="codeRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> * evacuating) = 0;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToStarted() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToStopped() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToBroken() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToYielding() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keyword">virtual</span> <a class="codeRef" href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr&lt;QAbstractTransition&gt;</a> transitionToIdling() <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a>(<span class="keyword">const</span> <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a> &amp; other) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a> &amp; operator =(<span class="keyword">const</span> <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a> &amp; other) = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;};</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a>(<span class="keyword">const</span> <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a> &amp; other) = <span class="keywordflow">default</span>;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a> &amp; operator =(<span class="keyword">const</span> <a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">Serviceable</a> &amp; other) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;};</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;Q_DECLARE_METATYPE(<a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">cutehmi::services::Serviceable</a> *)</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">//(c)C: Copyright © 2019, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;}</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;Q_DECLARE_METATYPE(<a class="code" href="classcutehmi_1_1services_1_1_serviceable.html">cutehmi::services::Serviceable</a> *)</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">//(c)C: Copyright © 2019-2020, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aqstate_html"><div class="ttname"><a href="http://doc.qt.io/qt-5/qstate.html">QState</a></div></div>
 <div class="ttc" id="anamespacecutehmi_html"><div class="ttname"><a href="namespacecutehmi.html">cutehmi</a></div></div>
-<div class="ttc" id="aclasscutehmi_1_1services_1_1_serviceable_html"><div class="ttname"><a href="classcutehmi_1_1services_1_1_serviceable.html">cutehmi::services::Serviceable</a></div><div class="ttdoc">Serviceable interface.</div><div class="ttdef"><b>Definition:</b> Serviceable.hpp:26</div></div>
-<div class="ttc" id="aclasscutehmi_1_1services_1_1_serviceable_html_a288263b5c46653d3258500c313bb0e87"><div class="ttname"><a href="classcutehmi_1_1services_1_1_serviceable.html#a288263b5c46653d3258500c313bb0e87">cutehmi::services::Serviceable::ServiceStatuses</a></div><div class="ttdeci">QHash&lt; QState *, QString &gt; ServiceStatuses</div><div class="ttdef"><b>Definition:</b> Serviceable.hpp:29</div></div>
+<div class="ttc" id="aclasscutehmi_1_1services_1_1_serviceable_html"><div class="ttname"><a href="classcutehmi_1_1services_1_1_serviceable.html">cutehmi::services::Serviceable</a></div><div class="ttdoc">Serviceable interface.</div><div class="ttdef"><b>Definition:</b> Serviceable.hpp:29</div></div>
+<div class="ttc" id="aclasscutehmi_1_1services_1_1_serviceable_html_a288263b5c46653d3258500c313bb0e87"><div class="ttname"><a href="classcutehmi_1_1services_1_1_serviceable.html#a288263b5c46653d3258500c313bb0e87">cutehmi::services::Serviceable::ServiceStatuses</a></div><div class="ttdeci">QHash&lt; QState *, QString &gt; ServiceStatuses</div><div class="ttdef"><b>Definition:</b> Serviceable.hpp:32</div></div>
 <div class="ttc" id="aqhash_html"><div class="ttname"><a href="http://doc.qt.io/qt-5/qhash.html">QHash</a></div></div>
 <div class="ttc" id="aunique_ptr_html"><div class="ttname"><a href="https://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a></div></div>
 <!-- start footer part -->

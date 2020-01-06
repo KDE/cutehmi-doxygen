@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['valid_10316',['valid',['http://doc.qt.io/qt-5/qmimetype.html#valid-prop',1,'QMimeType']]],
-  ['value_10317',['value',['../../../CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#af7ba31adcaee4ca7206f8761f034fbba',1,'CuteHMI::NumberDisplay']]]
+  ['valid_10321',['valid',['http://doc.qt.io/qt-5/qmimetype.html#valid-prop',1,'QMimeType']]],
+  ['value_10322',['value',['../../../CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#af7ba31adcaee4ca7206f8761f034fbba',1,'CuteHMI::NumberDisplay']]]
 ];

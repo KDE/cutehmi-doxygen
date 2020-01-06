@@ -27,7 +27,7 @@ var NAVTREE =
     [ "Extensions", "../../../extensions_list.html", null ],
     [ "Tools", "../../../tools_list.html", null ],
     [ "Services", "index.html", [
-      [ "Main classes", "index.html#autotoc_md1", null ]
+      [ "Major classes", "index.html#autotoc_md1", null ]
     ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],

@@ -25,6 +25,7 @@ var menudata={children:[
 {text:"Extensions",url:"../../extensions_list.html"},
 {text:"Tools",url:"../../tools_list.html"},
 {text:"Overview",url:"index.html"},
+{text:"Related Pages",url:"pages.html"},
 {text:"Namespaces",url:"namespaces.html",children:[
 {text:"Namespace List",url:"namespaces.html"},
 {text:"Namespace Members",url:"namespacemembers.html",children:[

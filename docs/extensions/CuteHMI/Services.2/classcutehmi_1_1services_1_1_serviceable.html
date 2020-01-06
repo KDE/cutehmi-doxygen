@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="../../../extensions_list.html"><span>Extensions</span></a></li>
       <li><a href="../../../tools_list.html"><span>Tools</span></a></li>
       <li><a href="index.html"><span>Overview</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -187,7 +188,11 @@ Protected Member Functions</h2></td></tr>
 <img src="standard_states.png" alt=""/>
 <div class="caption">
 State interface</div></div>
- <p>By adding custom states to the existing ones, implementing object can customize operations performed in each state according to its needs. </p>
+ <p>Implementing object can utilize the state machine according to its needs by:</p><ul>
+<li>defining when standard transitions take place (and likely trigger them)</li>
+<li>adding custom states to the standard ones</li>
+<li>connecting slots to <a class="elRef" href="http://doc.qt.io/qt-5/qstate.html">QState</a> signals (custom or standard ones)</li>
+</ul>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a288263b5c46653d3258500c313bb0e87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a288263b5c46653d3258500c313bb0e87">&#9670;&nbsp;</a></span>ServiceStatuses</h2>

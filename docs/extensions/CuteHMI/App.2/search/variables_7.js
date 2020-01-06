@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handle_21896',['HANDLE',['http://doc.qt.io/qt-5/qt.html#HANDLE-typedef',1,'Qt']]]
+  ['handle_21901',['HANDLE',['http://doc.qt.io/qt-5/qt.html#HANDLE-typedef',1,'Qt']]]
 ];
