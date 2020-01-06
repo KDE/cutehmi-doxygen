@@ -115,47 +115,47 @@ $(document).ready(function(){initNavTree('logging_macros_8hpp_source.html',''); 
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QLoggingCategory&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NDEBUG</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga882383be55b18265be804edf50bfe540">   31</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_DEBUG(EXPR) qCDebug(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">    #define CUTEHMI_DEBUG(EXPR) (void)0</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NINFO</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga4de482a66311b7d08c80211b6808c8c8">   42</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_INFO(EXPR) qCInfo(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    #define CUTEHMI_INFO(EXPR) (void)0</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NWARNING</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga07e09cabdc081426a51a9f55341b139b">   53</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_WARNING(EXPR) qCWarning(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">    #define CUTEHMI_WARNING(EXPR) (void)0</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NCRITICAL</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga69eaf61d6c8db12cdb244c34d6182b67">   64</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_CRITICAL(EXPR) qCCritical(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">    #define CUTEHMI_CRITICAL(EXPR) (void)0</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#gae0dc847293f3e76f48a8c2e9c4a74c08">   74</a></span>&#160;<span class="preprocessor">#define CUTEHMI_DIE(...) QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO, loggingCategory().categoryName()).fatal(__VA_ARGS__)</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NDEBUG</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga96f8f6f2de7fd76ea3ae892c10bbcbdd">   83</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_ASSERT(EXPR, MSG) Q_ASSERT_X(EXPR, __FILE__, MSG)</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">    #define CUTEHMI_ASSERT(EXPR, MSG) (void)0</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NDEBUG</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga882383be55b18265be804edf50bfe540">   33</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_DEBUG(EXPR) qCDebug(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">    #define CUTEHMI_DEBUG(EXPR) (void)0</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NINFO</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga4de482a66311b7d08c80211b6808c8c8">   44</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_INFO(EXPR) qCInfo(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">    #define CUTEHMI_INFO(EXPR) (void)0</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NWARNING</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga07e09cabdc081426a51a9f55341b139b">   55</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_WARNING(EXPR) qCWarning(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">    #define CUTEHMI_WARNING(EXPR) (void)0</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NCRITICAL</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga69eaf61d6c8db12cdb244c34d6182b67">   66</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_CRITICAL(EXPR) qCCritical(loggingCategory()).nospace().noquote() &lt;&lt; EXPR</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">    #define CUTEHMI_CRITICAL(EXPR) (void)0</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#gae0dc847293f3e76f48a8c2e9c4a74c08">   76</a></span>&#160;<span class="preprocessor">#define CUTEHMI_DIE(...) QMessageLogger(__FILE__, __LINE__, Q_FUNC_INFO, loggingCategory().categoryName()).fatal(__VA_ARGS__)</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#ifndef CUTEHMI_NDEBUG</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="group__cutehmi-logging_macros.html#ga96f8f6f2de7fd76ea3ae892c10bbcbdd">   85</a></span>&#160;<span class="preprocessor">    #define CUTEHMI_ASSERT(EXPR, MSG) Q_ASSERT_X(EXPR, __FILE__, MSG)</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">    #define CUTEHMI_ASSERT(EXPR, MSG) (void)0</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">//(c)C: Copyright © 2018-2019, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">//(c)C: Copyright © 2018-2020, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

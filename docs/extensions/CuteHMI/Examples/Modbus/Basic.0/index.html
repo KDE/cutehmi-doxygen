@@ -109,10 +109,14 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="title">Basic Modbus Example </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Baisc Modbus example. Example demonstrates basic usage of QML components provided by CuteHMI.Modbus.2 extension.</p>
+<div class="textblock"><p>Baisc Modbus example. Example demonstrates basic usage of QML components provided by <a href="../../../Modbus.2">CuteHMI.Modbus.2</a> extension.</p>
 <p>To run the example use <a href="../../../../../tools/cutehmi.view.2/index.html">cutehmi.view.2</a> tool. </p><div class="fragment"><div class="line">cutehmi.view.2 --extension=&quot;CuteHMI.Examples.Modbus.Basic.0&quot;</div>
 </div><!-- fragment --><p>Let's make a quick tour over <code>Main.qml</code> file.</p>
-<p>First relevant thing to notice is a configuration of a Modbus server. The server is given an IP address, a port and a slave address.</p>
+<p>First thing to notice are %CuteHMI imports.</p>
+<div class="fragment"><div class="line"><span class="keyword">import</span> <a class="code" href="namespace_cute_h_m_i.html">CuteHMI</a>.<a class="codeRef" href="../../../Modbus.2/namespace_cute_h_m_i_1_1_modbus.html">Modbus</a> 2.0</div>
+<div class="line">import <a class="code" href="namespace_cute_h_m_i.html">CuteHMI</a>.Services 2.0</div>
+</div><!-- fragment --><p> Example uses <a href="../../../Modbus.2">CuteHMI.Modbus.2</a> and <a href="../../../Services.2">CuteHMI.Services.2</a> extensions.</p>
+<p>Next thing to notice is a configuration of a Modbus server. The server is given an IP address, a port and a slave address.</p>
 <div class="fragment"><div class="line">        TCPServer {</div>
 <div class="line">            id: server</div>
 <div class="line"> </div>
@@ -161,13 +165,12 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line">                text: <span class="stringliteral">&quot;Client set coil&quot;</span></div>
 <div class="line">                onClicked: client.requestWriteCoil(10, <span class="keyword">true</span>)</div>
 <div class="line">            }</div>
-</div><!-- fragment --><p> Once the button is clicked it will send a request to write coil value at address 10. Now let's reset coil value to off on the server side.</p>
+</div><!-- fragment --><p> Once the button is clicked it will send a request to write coil value at address 10. This may look suspicious on a localhost, but the whole communication is done over TCP/IP protocol. Now let's reset coil value to off on the server side.</p>
 <div class="fragment"><div class="line">            Button {</div>
 <div class="line">                text: <span class="stringliteral">&quot;Server reset coil&quot;</span></div>
-<div class="line">                onClicked: client.requestWriteCoil(10, <span class="keyword">false</span>)</div>
+<div class="line">                onClicked: server.requestWriteCoil(10, <span class="keyword">false</span>)</div>
 <div class="line">            }</div>
-</div><!-- fragment --><p> This may look suspicious on a localhost, but the whole communication is done over TCP/IP protocol.</p>
-<p>Now let's introduce <a class="elRef" href="../../../Modbus.2/classcutehmi_1_1modbus_1_1_coil_controller.html">cutehmi::modbus::CoilController</a>. Controllers typically are a better mean of control as they allow for property binding.</p>
+</div><!-- fragment --><p> Now let's introduce <a class="elRef" href="../../../Modbus.2/classcutehmi_1_1modbus_1_1_coil_controller.html">cutehmi::modbus::CoilController</a>. Controllers typically are a better mean of control as they allow for property binding.</p>
 <div class="fragment"><div class="line">                CoilController {</div>
 <div class="line">                    id: coilController</div>
 <div class="line"> </div>
@@ -175,7 +178,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line">                    address: 10</div>
 <div class="line">                    onValueChanged: coilSwitch.checked = value</div>
 <div class="line">                }</div>
-</div><!-- fragment --><p> We assing a device using <em>id</em> of of the client. We also set up the same address as used by buttons. We use <code>onValueChanged</code> signal handler to update value of a corresponding switch once the value in the controller changes. The switch itself updates the value of a controller once the user changes its value.</p>
+</div><!-- fragment --><p> We assign a device using <em>id</em> of of the client. We also set up the same address as used by buttons. We use <code>onValueChanged</code> signal handler to update value of a corresponding switch once the value in the controller changes. The switch itself updates the value of a controller once the user changes its value.</p>
 <div class="fragment"><div class="line">                onCheckedChanged: coilController.value = checked</div>
 </div><!-- fragment --><p> Value of the coil can be binded to other properties as it is done with <code>active</code> property of status indicator.</p>
 <div class="fragment"><div class="line">                active: coilController.value</div>
@@ -187,7 +190,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line"> </div>
 <div class="line">            Button {</div>
 <div class="line">                text: <span class="stringliteral">&quot;Server reset holding register&quot;</span></div>
-<div class="line">                onClicked: client.requestWriteHoldingRegister(10, 0)</div>
+<div class="line">                onClicked: server.requestWriteHoldingRegister(10, 0)</div>
 <div class="line">            }</div>
 <div class="line"> </div>
 <div class="line">            SpinBox {</div>
@@ -216,6 +219,8 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!-- fragment --></div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespace_cute_h_m_i_1_1_modbus_html"><div class="ttname"><a href="../../../Modbus.2/namespace_cute_h_m_i_1_1_modbus.html">CuteHMI::Modbus</a></div></div>
+<div class="ttc" id="anamespace_cute_h_m_i_html"><div class="ttname"><a href="namespace_cute_h_m_i.html">CuteHMI</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
