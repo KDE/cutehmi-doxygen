@@ -12,6 +12,7 @@ var hierarchy =
     [ "cutehmi::NonMovable", "../../CuteHMI.2/classcutehmi_1_1_non_movable.html", [
       [ "cutehmi::Singleton< ServiceManager >", "../../CuteHMI.2/classcutehmi_1_1_singleton.html", null ]
     ] ],
+    [ "CuteHMI::Services::PollingTimer", "class_cute_h_m_i_1_1_services_1_1_polling_timer.html", null ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
       [ "cutehmi::services::internal::StateInterface", "classcutehmi_1_1services_1_1internal_1_1_state_interface.html", null ],
       [ "cutehmi::services::PollingTimer", "classcutehmi_1_1services_1_1_polling_timer.html", null ],
@@ -26,5 +27,7 @@ var hierarchy =
         [ "cutehmi::services::internal::QMLPlugin", "classcutehmi_1_1services_1_1internal_1_1_q_m_l_plugin.html", null ]
       ] ]
     ] ],
-    [ "cutehmi::services::Serviceable", "classcutehmi_1_1services_1_1_serviceable.html", null ]
+    [ "CuteHMI::Services::Service", "class_cute_h_m_i_1_1_services_1_1_service.html", null ],
+    [ "cutehmi::services::Serviceable", "classcutehmi_1_1services_1_1_serviceable.html", null ],
+    [ "CuteHMI::Services::ServiceManager", "class_cute_h_m_i_1_1_services_1_1_service_manager.html", null ]
 ];

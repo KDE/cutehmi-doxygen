@@ -2,7 +2,7 @@ var searchData=
 [
   ['tcpclient_6246',['TCPClient',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_t_c_p_client.html',1,'CuteHMI::Modbus::TCPClient'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_client.html',1,'cutehmi::modbus::TCPClient']]],
   ['tcpclientconfig_6247',['TCPClientConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_t_c_p_client_config.html',1,'cutehmi::modbus::internal']]],
-  ['tcpserver_6248',['TCPServer',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_t_c_p_server.html',1,'CuteHMI::Modbus::TCPServer'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_server.html',1,'cutehmi::modbus::TCPServer']]],
+  ['tcpserver_6248',['TCPServer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_server.html',1,'cutehmi::modbus::TCPServer'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_t_c_p_server.html',1,'CuteHMI::Modbus::TCPServer']]],
   ['tcpserverconfig_6249',['TCPServerConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_t_c_p_server_config.html',1,'cutehmi::modbus::internal']]],
   ['tera_6250',['tera',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['terminate_5fhandler_6251',['terminate_handler',['https://en.cppreference.com/w/cpp/error/terminate_handler.html',1,'std']]],

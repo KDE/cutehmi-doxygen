@@ -19,7 +19,7 @@ var searchData=
   ['discard_5fblock_5fengine_5476',['discard_block_engine',['https://en.cppreference.com/w/cpp/numeric/random/discard_block_engine.html',1,'std']]],
   ['discrete_5fdistribution_5477',['discrete_distribution',['https://en.cppreference.com/w/cpp/numeric/random/discrete_distribution.html',1,'std']]],
   ['discreteinput_5478',['DiscreteInput',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_discrete_input.html',1,'cutehmi::modbus::internal']]],
-  ['discreteinputcontroller_5479',['DiscreteInputController',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_discrete_input_controller.html',1,'CuteHMI::Modbus::DiscreteInputController'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_discrete_input_controller.html',1,'cutehmi::modbus::DiscreteInputController']]],
+  ['discreteinputcontroller_5479',['DiscreteInputController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_discrete_input_controller.html',1,'cutehmi::modbus::DiscreteInputController'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_discrete_input_controller.html',1,'CuteHMI::Modbus::DiscreteInputController']]],
   ['discreteinputitem_5480',['DiscreteInputItem',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_discrete_input_item.html',1,'CuteHMI::Modbus']]],
   ['discreteinputpolling_5481',['DiscreteInputPolling',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_discrete_input_polling.html',1,'cutehmi::modbus::internal']]],
   ['divides_5482',['divides',['https://en.cppreference.com/w/cpp/utility/functional/divides.html',1,'std']]],

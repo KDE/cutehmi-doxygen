@@ -15,7 +15,7 @@ var searchData=
   ['pointer_5fsafety_5187',['pointer_safety',['https://en.cppreference.com/w/cpp/memory/gc/pointer_safety.html',1,'std']]],
   ['pointer_5ftraits_5188',['pointer_traits',['https://en.cppreference.com/w/cpp/memory/pointer_traits.html',1,'std']]],
   ['poisson_5fdistribution_5189',['poisson_distribution',['https://en.cppreference.com/w/cpp/numeric/random/poisson_distribution.html',1,'std']]],
-  ['pollingtimer_5190',['PollingTimer',['../classcutehmi_1_1services_1_1_polling_timer.html',1,'cutehmi::services']]],
+  ['pollingtimer_5190',['PollingTimer',['../class_cute_h_m_i_1_1_services_1_1_polling_timer.html',1,'CuteHMI::Services::PollingTimer'],['../classcutehmi_1_1services_1_1_polling_timer.html',1,'cutehmi::services::PollingTimer']]],
   ['priority_5fqueue_5191',['priority_queue',['https://en.cppreference.com/w/cpp/container/priority_queue.html',1,'std']]],
   ['private_5192',['Private',['http://doc.qt.io/qt-5/qvariant-private.html',1,'QVariant']]],
   ['privateshared_5193',['PrivateShared',['http://doc.qt.io/qt-5/qvariant-privateshared.html',1,'QVariant']]],

@@ -37,5 +37,5 @@ var searchData=
   ['ctype_10653',['ctype',['https://en.cppreference.com/w/cpp/locale/ctype.html',1,'std']]],
   ['ctype_5fbase_10654',['ctype_base',['https://en.cppreference.com/w/cpp/locale/ctype_base.html',1,'std']]],
   ['ctype_5fbyname_10655',['ctype_byname',['https://en.cppreference.com/w/cpp/locale/ctype_byname.html',1,'std']]],
-  ['cuteapp_10656',['CuteApp',['../classcutehmi_1_1app_1_1_cute_app.html',1,'cutehmi::app::CuteApp'],['../class_cute_h_m_i_1_1_app_1_1_cute_app.html',1,'CuteApp']]]
+  ['cuteapp_10656',['CuteApp',['../classcutehmi_1_1app_1_1_cute_app.html',1,'cutehmi::app::CuteApp'],['../class_cute_h_m_i_1_1_app_1_1_cute_app.html',1,'CuteHMI::App::CuteApp']]]
 ];

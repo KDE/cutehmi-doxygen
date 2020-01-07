@@ -618,7 +618,7 @@ var searchData=
   ['customevent_1253',['customEvent',['http://doc.qt.io/qt-5/qobject.html#customEvent',1,'QObject']]],
   ['customtype_1254',['customType',['http://doc.qt.io/qt-5/qeasingcurve.html#customType',1,'QEasingCurve']]],
   ['cut_1255',['cut',['http://doc.qt.io/qt-5/qlineedit.html#cut',1,'QLineEdit::cut()'],['http://doc.qt.io/qt-5/qtextedit.html#cut',1,'QTextEdit::cut()'],['http://doc.qt.io/qt-5/qplaintextedit.html#cut',1,'QPlainTextEdit::cut()']]],
-  ['cuteapp_1256',['CuteApp',['../classcutehmi_1_1app_1_1_cute_app.html',1,'cutehmi::app::CuteApp'],['../class_cute_h_m_i_1_1_app_1_1_cute_app.html',1,'CuteApp'],['../classcutehmi_1_1app_1_1_cute_app.html#a5f090ee193845c1c54abbf7a0dfccc67',1,'cutehmi::app::CuteApp::CuteApp()']]],
+  ['cuteapp_1256',['CuteApp',['../classcutehmi_1_1app_1_1_cute_app.html',1,'cutehmi::app::CuteApp'],['../class_cute_h_m_i_1_1_app_1_1_cute_app.html',1,'CuteHMI::App::CuteApp'],['../classcutehmi_1_1app_1_1_cute_app.html#a5f090ee193845c1c54abbf7a0dfccc67',1,'cutehmi::app::CuteApp::CuteApp()']]],
   ['cuteappprovider_1257',['CuteAppProvider',['../classcutehmi_1_1app_1_1internal_1_1_q_m_l_plugin.html#a9df1c9273738d18b2a31489288a1a26c',1,'cutehmi::app::internal::QMLPlugin']]],
   ['cutehmi_1258',['CuteHMI',['../namespace_cute_h_m_i.html',1,'CuteHMI'],['../namespacecutehmi.html',1,'cutehmi']]],
   ['cutehmi_5fassert_1259',['CUTEHMI_ASSERT',['../../../CuteHMI.2/group__cutehmi-logging_macros.html#ga96f8f6f2de7fd76ea3ae892c10bbcbdd',1,]]],

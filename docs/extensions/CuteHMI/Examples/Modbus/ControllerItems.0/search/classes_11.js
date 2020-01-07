@@ -59,7 +59,7 @@ var searchData=
   ['reverse_5fiterator_6179',['reverse_iterator',['https://en.cppreference.com/w/cpp/iterator/reverse_iterator.html',1,'std']]],
   ['rtuclient_6180',['RTUClient',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_r_t_u_client.html',1,'CuteHMI::Modbus::RTUClient'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html',1,'cutehmi::modbus::RTUClient']]],
   ['rtuclientconfig_6181',['RTUClientConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_r_t_u_client_config.html',1,'cutehmi::modbus::internal']]],
-  ['rtuserver_6182',['RTUServer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html',1,'cutehmi::modbus::RTUServer'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_r_t_u_server.html',1,'CuteHMI::Modbus::RTUServer']]],
+  ['rtuserver_6182',['RTUServer',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_r_t_u_server.html',1,'CuteHMI::Modbus::RTUServer'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html',1,'cutehmi::modbus::RTUServer']]],
   ['rtuserverconfig_6183',['RTUServerConfig',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_r_t_u_server_config.html',1,'cutehmi::modbus::internal']]],
   ['runtime_5ferror_6184',['runtime_error',['https://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

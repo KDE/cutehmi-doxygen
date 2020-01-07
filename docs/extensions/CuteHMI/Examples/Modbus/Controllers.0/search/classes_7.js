@@ -7,7 +7,7 @@ var searchData=
   ['high_5fresolution_5fclock_5541',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',1,'std::chrono']]],
   ['holdingregister_5542',['HoldingRegister',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_holding_register.html',1,'cutehmi::modbus::internal']]],
   ['holdingregistercontrol_5543',['HoldingRegisterControl',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_controllers_1_1_holding_register_control.html',1,'CuteHMI::Examples::Modbus::Controllers']]],
-  ['holdingregistercontroller_5544',['HoldingRegisterController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_holding_register_controller.html',1,'cutehmi::modbus::HoldingRegisterController'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_controller.html',1,'CuteHMI::Modbus::HoldingRegisterController']]],
+  ['holdingregistercontroller_5544',['HoldingRegisterController',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_controller.html',1,'CuteHMI::Modbus::HoldingRegisterController'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_holding_register_controller.html',1,'cutehmi::modbus::HoldingRegisterController']]],
   ['holdingregisteritem_5545',['HoldingRegisterItem',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_item.html',1,'CuteHMI::Modbus']]],
   ['holdingregisterpolling_5546',['HoldingRegisterPolling',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_holding_register_polling.html',1,'cutehmi::modbus::internal']]],
   ['hours_5547',['hours',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]]

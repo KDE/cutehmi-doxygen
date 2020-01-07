@@ -303,7 +303,7 @@ var searchData=
   ['curveshape_643',['curveShape',['http://doc.qt.io/qt-5/qtimeline.html#curveShape-prop',1,'QTimeLine::curveShape()'],['http://doc.qt.io/qt-5/qtimeline.html#curveShape-prop',1,'QTimeLine::curveShape() const const']]],
   ['customevent_644',['customEvent',['http://doc.qt.io/qt-5/qobject.html#customEvent',1,'QObject']]],
   ['customtype_645',['customType',['http://doc.qt.io/qt-5/qeasingcurve.html#customType',1,'QEasingCurve']]],
-  ['cutehmi_646',['CuteHMI',['../../../CuteHMI.2/namespace_cute_h_m_i.html',1,'CuteHMI'],['../namespacecutehmi.html',1,'cutehmi']]],
+  ['cutehmi_646',['CuteHMI',['../namespace_cute_h_m_i.html',1,'CuteHMI'],['../namespacecutehmi.html',1,'cutehmi']]],
   ['cutehmi_5fassert_647',['CUTEHMI_ASSERT',['../../../CuteHMI.2/group__cutehmi-logging_macros.html#ga96f8f6f2de7fd76ea3ae892c10bbcbdd',1,]]],
   ['cutehmi_5fcritical_648',['CUTEHMI_CRITICAL',['../../../CuteHMI.2/group__cutehmi-logging_macros.html#ga69eaf61d6c8db12cdb244c34d6182b67',1,]]],
   ['cutehmi_5fdebug_649',['CUTEHMI_DEBUG',['../../../CuteHMI.2/group__cutehmi-logging_macros.html#ga882383be55b18265be804edf50bfe540',1,]]],
@@ -312,5 +312,5 @@ var searchData=
   ['cutehmi_5fwarning_652',['CUTEHMI_WARNING',['../../../CuteHMI.2/group__cutehmi-logging_macros.html#ga07e09cabdc081426a51a9f55341b139b',1,]]],
   ['internal_653',['internal',['../../../CuteHMI.2/namespacecutehmi_1_1internal.html',1,'cutehmi::internal'],['../namespacecutehmi_1_1services_1_1internal.html',1,'cutehmi::services::internal']]],
   ['messenger_654',['Messenger',['../../../CuteHMI.2/structcutehmi_1_1_messenger_1_1_members.html',1,'cutehmi']]],
-  ['services_655',['services',['../namespacecutehmi_1_1services.html',1,'cutehmi']]]
+  ['services_655',['Services',['../namespace_cute_h_m_i_1_1_services.html',1,'CuteHMI::Services'],['../namespacecutehmi_1_1services.html',1,'cutehmi::services']]]
 ];

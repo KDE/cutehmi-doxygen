@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['abstractclient_5367',['AbstractClient',['../classcutehmi_1_1modbus_1_1_abstract_client.html',1,'cutehmi::modbus::AbstractClient'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_client.html',1,'AbstractClient']]],
+  ['abstractclient_5367',['AbstractClient',['../classcutehmi_1_1modbus_1_1_abstract_client.html',1,'cutehmi::modbus::AbstractClient'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_client.html',1,'CuteHMI::Modbus::AbstractClient']]],
   ['abstractclientbackend_5368',['AbstractClientBackend',['../classcutehmi_1_1modbus_1_1internal_1_1_abstract_client_backend.html',1,'cutehmi::modbus::internal']]],
-  ['abstractdevice_5369',['AbstractDevice',['../classcutehmi_1_1modbus_1_1_abstract_device.html',1,'cutehmi::modbus::AbstractDevice'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_device.html',1,'AbstractDevice']]],
+  ['abstractdevice_5369',['AbstractDevice',['../classcutehmi_1_1modbus_1_1_abstract_device.html',1,'cutehmi::modbus::AbstractDevice'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_device.html',1,'CuteHMI::Modbus::AbstractDevice']]],
   ['abstractdevicebackend_5370',['AbstractDeviceBackend',['../classcutehmi_1_1modbus_1_1internal_1_1_abstract_device_backend.html',1,'cutehmi::modbus::internal']]],
-  ['abstractregistercontroller_5371',['AbstractRegisterController',['../classcutehmi_1_1modbus_1_1_abstract_register_controller.html',1,'cutehmi::modbus::AbstractRegisterController'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_register_controller.html',1,'AbstractRegisterController']]],
-  ['abstractserver_5372',['AbstractServer',['../classcutehmi_1_1modbus_1_1_abstract_server.html',1,'cutehmi::modbus::AbstractServer'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_server.html',1,'AbstractServer']]],
+  ['abstractregistercontroller_5371',['AbstractRegisterController',['../classcutehmi_1_1modbus_1_1_abstract_register_controller.html',1,'cutehmi::modbus::AbstractRegisterController'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_register_controller.html',1,'CuteHMI::Modbus::AbstractRegisterController']]],
+  ['abstractserver_5372',['AbstractServer',['../classcutehmi_1_1modbus_1_1_abstract_server.html',1,'cutehmi::modbus::AbstractServer'],['../class_cute_h_m_i_1_1_modbus_1_1_abstract_server.html',1,'CuteHMI::Modbus::AbstractServer']]],
   ['abstractserverbackend_5373',['AbstractServerBackend',['../classcutehmi_1_1modbus_1_1internal_1_1_abstract_server_backend.html',1,'cutehmi::modbus::internal']]],
   ['add_5fconst_5374',['add_const',['https://en.cppreference.com/w/cpp/types/add_cv.html',1,'std']]],
   ['add_5fcv_5375',['add_cv',['https://en.cppreference.com/w/cpp/types/add_cv.html',1,'std']]],

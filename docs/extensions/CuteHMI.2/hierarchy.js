@@ -13,8 +13,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "cutehmi::Messenger::Members", "structcutehmi_1_1_messenger_1_1_members.html", null ],
-    [ "Message", "class_cute_h_m_i_1_1_message.html", null ],
-    [ "Messenger", "class_cute_h_m_i_1_1_messenger.html", null ],
+    [ "CuteHMI::Message", "class_cute_h_m_i_1_1_message.html", null ],
+    [ "CuteHMI::Messenger", "class_cute_h_m_i_1_1_messenger.html", null ],
     [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1_m_ptr.html", null ],
     [ "cutehmi::MPtr< cutehmi::Messenger::Members >", "classcutehmi_1_1_m_ptr.html", null ],
     [ "cutehmi::MPtr< Members >", "classcutehmi_1_1_m_ptr.html", null ],
@@ -36,8 +36,8 @@ var hierarchy =
       [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
-    [ "Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
-    [ "Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
+    [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
+    [ "CuteHMI::Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", null ]
     ] ],

@@ -15,7 +15,7 @@ var searchData=
   ['notification_5725',['Notification',['../../../../../CuteHMI.2/classcutehmi_1_1_notification.html',1,'cutehmi']]],
   ['notificationlistmodel_5726',['NotificationListModel',['../../../../../CuteHMI.2/classcutehmi_1_1_notification_list_model.html',1,'cutehmi']]],
   ['notificatoin_5727',['Notificatoin',['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_notificatoin.html',1,'CuteHMI']]],
-  ['notifier_5728',['Notifier',['../../../../../CuteHMI.2/classcutehmi_1_1_notifier.html',1,'cutehmi::Notifier'],['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_notifier.html',1,'CuteHMI::Notifier']]],
+  ['notifier_5728',['Notifier',['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_notifier.html',1,'CuteHMI::Notifier'],['../../../../../CuteHMI.2/classcutehmi_1_1_notifier.html',1,'cutehmi::Notifier']]],
   ['null_5729',['Null',['http://doc.qt.io/qt-5/qstring-null.html',1,'QString']]],
   ['nullptr_5ft_5730',['nullptr_t',['https://en.cppreference.com/w/cpp/types/nullptr_t.html',1,'std']]],
   ['num_5fget_5731',['num_get',['https://en.cppreference.com/w/cpp/locale/num_get.html',1,'std']]],

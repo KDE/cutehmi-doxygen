@@ -11,7 +11,7 @@ var searchData=
   ['input_5fiterator_5ftag_5559',['input_iterator_tag',['https://en.cppreference.com/w/cpp/iterator/iterator_tags.html',1,'std']]],
   ['inputregister_5560',['InputRegister',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_input_register.html',1,'cutehmi::modbus::internal']]],
   ['inputregistercontrol_5561',['InputRegisterControl',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_client_server_1_1_input_register_control.html',1,'CuteHMI::Examples::Modbus::ClientServer']]],
-  ['inputregistercontroller_5562',['InputRegisterController',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_input_register_controller.html',1,'CuteHMI::Modbus::InputRegisterController'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_input_register_controller.html',1,'cutehmi::modbus::InputRegisterController']]],
+  ['inputregistercontroller_5562',['InputRegisterController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_input_register_controller.html',1,'cutehmi::modbus::InputRegisterController'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_input_register_controller.html',1,'CuteHMI::Modbus::InputRegisterController']]],
   ['inputregisteritem_5563',['InputRegisterItem',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_input_register_item.html',1,'CuteHMI::Modbus']]],
   ['inputregisterpolling_5564',['InputRegisterPolling',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_input_register_polling.html',1,'cutehmi::modbus::internal']]],
   ['insert_5fiterator_5565',['insert_iterator',['https://en.cppreference.com/w/cpp/iterator/insert_iterator.html',1,'std']]],
