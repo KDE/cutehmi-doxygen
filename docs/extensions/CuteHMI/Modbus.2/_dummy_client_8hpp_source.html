@@ -126,73 +126,73 @@ $(document).ready(function(){initNavTree('_dummy_client_8hpp_source.html',''); i
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>modbus {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html">   27</a></span>&#160;<span class="keyword">class </span>CUTEHMI_MODBUS_API <a class="code" href="classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">public</span> <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_client.html">AbstractClient</a></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        Q_OBJECT</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#a8c9e76cabe847cab3341d83b7af6db77">   33</a></span>&#160;        <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> INITIAL_OPEN_LATENCY = <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#ac9714491fc074b03a2c2b125f71578e3">internal::DummyClientConfig::INITIAL_OPEN_LATENCY</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#a0c4a99eb162e6f6360a7ba1923ddb157">   34</a></span>&#160;        <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> INITIAL_CLOSE_LATENCY = <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#a27b6da206bbcd3b989e2a678793da2c2">internal::DummyClientConfig::INITIAL_CLOSE_LATENCY</a>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#af22240322aedfbf4eb4ddfdbeac04d38">   35</a></span>&#160;        <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> INITIAL_LATENCY = <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#a161bd74992a220d4dc654c5bb0b8dade">internal::DummyClientConfig::INITIAL_LATENCY</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#a8636e37b089d5eb580161655b594ec49">   37</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> connectLatency READ connectLatency WRITE setConnectLatency NOTIFY connectLatencyChanged)</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#ae1dd41917a9db777db8db5f30cd6a2f8">   38</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> disconnectLatency READ disconnectLatency WRITE setDisconnectLatency NOTIFY disconnectLatencyChanged)</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#ad7f5a4c6f15eb07773bdc6d18a90202f">   39</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> latency READ latency WRITE setLatency NOTIFY latencyChanged)</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html">   25</a></span>&#160;<span class="keyword">class </span>CUTEHMI_MODBUS_API <a class="code" href="classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">public</span> <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_client.html">AbstractClient</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        Q_OBJECT</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#a8c9e76cabe847cab3341d83b7af6db77">   31</a></span>&#160;        <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> INITIAL_OPEN_LATENCY = <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#ac9714491fc074b03a2c2b125f71578e3">internal::DummyClientConfig::INITIAL_OPEN_LATENCY</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#a0c4a99eb162e6f6360a7ba1923ddb157">   32</a></span>&#160;        <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> INITIAL_CLOSE_LATENCY = <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#a27b6da206bbcd3b989e2a678793da2c2">internal::DummyClientConfig::INITIAL_CLOSE_LATENCY</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#af22240322aedfbf4eb4ddfdbeac04d38">   33</a></span>&#160;        <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> INITIAL_LATENCY = <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#a161bd74992a220d4dc654c5bb0b8dade">internal::DummyClientConfig::INITIAL_LATENCY</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#a8636e37b089d5eb580161655b594ec49">   35</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> connectLatency READ connectLatency WRITE setConnectLatency NOTIFY connectLatencyChanged)</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#ae1dd41917a9db777db8db5f30cd6a2f8">   36</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> disconnectLatency READ disconnectLatency WRITE setDisconnectLatency NOTIFY disconnectLatencyChanged)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_dummy_client.html#ad7f5a4c6f15eb07773bdc6d18a90202f">   37</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> latency READ latency WRITE setLatency NOTIFY latencyChanged)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>(<a class="codeRef" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent = <span class="keywordtype">nullptr</span>);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>(<a class="codeRef" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent = <span class="keywordtype">nullptr</span>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        ~<a class="code" href="classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>() override;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        ~<a class="code" href="classcutehmi_1_1modbus_1_1_dummy_client.html">DummyClient</a>() override;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">int</span> connectLatency() const;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">int</span> connectLatency() const;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">void</span> setConnectLatency(<span class="keywordtype">int</span> connectLatency);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">void</span> setConnectLatency(<span class="keywordtype">int</span> connectLatency);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">int</span> disconnectLatency() const;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">int</span> disconnectLatency() const;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">void</span> setDisconnectLatency(<span class="keywordtype">int</span> disconnectLatency);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">void</span> setDisconnectLatency(<span class="keywordtype">int</span> disconnectLatency);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">int</span> latency() const;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">int</span> latency() const;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">void</span> setLatency(<span class="keywordtype">int</span> latency);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">void</span> setLatency(<span class="keywordtype">int</span> latency);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    public slots:</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> open() override;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    public slots:</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">void</span> open() override;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> close() override;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">void</span> close() override;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    signals:</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">void</span> connectLatencyChanged();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    signals:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordtype">void</span> connectLatencyChanged();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">void</span> disconnectLatencyChanged();</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">void</span> disconnectLatencyChanged();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">void</span> latencyChanged();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordtype">void</span> latencyChanged();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    private:</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        struct Members {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html">internal::DummyClientConfig</a> config;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_backend.html">internal::DummyClientBackend</a> backend;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <a class="codeRef" href="http://doc.qt.io/qt-5/qthread.html">QThread</a> thread;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            Members():</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                backend(&amp; config)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        };</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="codeRef" href="../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">MPtr&lt;Members&gt;</a> m;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;};</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    private:</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        struct Members {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html">internal::DummyClientConfig</a> config;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_backend.html">internal::DummyClientBackend</a> backend;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="codeRef" href="http://doc.qt.io/qt-5/qthread.html">QThread</a> thread;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            Members():</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                backend(&amp; config)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        };</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="codeRef" href="../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">MPtr&lt;Members&gt;</a> m;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;};</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">//(c)C: Copyright © 2019, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">//(c)C: Copyright © 2019-2020, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclasscutehmi_1_1modbus_1_1internal_1_1_dummy_client_config_html_a161bd74992a220d4dc654c5bb0b8dade"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html#a161bd74992a220d4dc654c5bb0b8dade">cutehmi::modbus::internal::DummyClientConfig::INITIAL_LATENCY</a></div><div class="ttdeci">static constexpr int INITIAL_LATENCY</div><div class="ttdef"><b>Definition:</b> DummyClientConfig.hpp:21</div></div>
@@ -205,7 +205,7 @@ $(document).ready(function(){initNavTree('_dummy_client_8hpp_source.html',''); i
 <div class="ttc" id="anamespacecutehmi_html"><div class="ttname"><a href="namespacecutehmi.html">cutehmi</a></div></div>
 <div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_client_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_client.html">cutehmi::modbus::AbstractClient</a></div><div class="ttdoc">Abstract client.</div><div class="ttdef"><b>Definition:</b> AbstractClient.hpp:18</div></div>
 <div class="ttc" id="aclasscutehmi_1_1modbus_1_1internal_1_1_dummy_client_config_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1internal_1_1_dummy_client_config.html">cutehmi::modbus::internal::DummyClientConfig</a></div><div class="ttdef"><b>Definition:</b> DummyClientConfig.hpp:13</div></div>
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_dummy_client_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_dummy_client.html">cutehmi::modbus::DummyClient</a></div><div class="ttdoc">Dummy client.</div><div class="ttdef"><b>Definition:</b> DummyClient.hpp:27</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_dummy_client_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_dummy_client.html">cutehmi::modbus::DummyClient</a></div><div class="ttdoc">Dummy client.</div><div class="ttdef"><b>Definition:</b> DummyClient.hpp:25</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

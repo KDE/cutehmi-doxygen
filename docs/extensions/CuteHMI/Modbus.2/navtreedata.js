@@ -34,7 +34,6 @@ var NAVTREE =
       [ "QML components", "index.html#autotoc_md5", null ],
       [ "Examples", "index.html#autotoc_md6", null ]
     ] ],
-    [ "Todo List", "todo.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
