@@ -8,5 +8,6 @@ var namespace_cute_h_m_i =
     [ "Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
     [ "NumberDisplay", "class_cute_h_m_i_1_1_number_display.html", "class_cute_h_m_i_1_1_number_display" ],
     [ "Palette", "class_cute_h_m_i_1_1_palette.html", "class_cute_h_m_i_1_1_palette" ],
-    [ "PropItem", "class_cute_h_m_i_1_1_prop_item.html", "class_cute_h_m_i_1_1_prop_item" ]
+    [ "PropItem", "class_cute_h_m_i_1_1_prop_item.html", "class_cute_h_m_i_1_1_prop_item" ],
+    [ "Theme", "class_cute_h_m_i_1_1_theme.html", "class_cute_h_m_i_1_1_theme" ]
 ];

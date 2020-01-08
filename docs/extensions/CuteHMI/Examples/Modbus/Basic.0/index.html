@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="textblock"><p>Baisc Modbus example. Example demonstrates basic usage of QML components provided by <a href="../../../Modbus.2/index.html">CuteHMI.Modbus.2</a> extension.</p>
 <p>To run the example use <a href="../../../../../tools/cutehmi.view.2/index.html">cutehmi.view.2</a> tool. </p><div class="fragment"><div class="line">cutehmi.view.2 --extension=&quot;CuteHMI.Examples.Modbus.Basic.0&quot;</div>
 </div><!-- fragment --><p>Let's make a quick tour over <code>Main.qml</code> file.</p>
-<p>First thing to notice are %CuteHMI imports.</p>
+<p>First thing to notice are CuteHMI imports.</p>
 <div class="fragment"><div class="line"><span class="keyword">import</span> <a class="code" href="namespace_cute_h_m_i.html">CuteHMI</a>.<a class="codeRef" href="../../../Modbus.2/namespace_cute_h_m_i_1_1_modbus.html">Modbus</a> 2.0</div>
 <div class="line">import <a class="code" href="namespace_cute_h_m_i.html">CuteHMI</a>.<a class="codeRef" href="../../../Services.2/namespace_cute_h_m_i_1_1_services.html">Services</a> 2.0</div>
 </div><!-- fragment --><p> Example uses <a href="../../../Modbus.2/index.html">CuteHMI.Modbus.2</a> and <a href="../../../Services.2/index.html">CuteHMI.Services.2</a> extensions.</p>
@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line">            port: 50002</div>
 <div class="line">            slaveAddress: 1</div>
 <div class="line">        }</div>
-</div><!-- fragment --><p> We want our server to be managed by <a class="elRef" href="../../../Services.2/classcutehmi_1_1services_1_1_service_manager.html">cutehmi::services::ServiceManager</a>, so that we don't need to worry about its connection status. This is simply done by embedding it inside <a class="elRef" href="../../../Services.2/classcutehmi_1_1services_1_1_service.html">cutehmi::services::Service</a> component.</p>
+</div><!-- fragment --><p> We want our server to be managed by <a class="elRef" href="../../../Services.2/class_cute_h_m_i_1_1_services_1_1_service_manager.html">CuteHMI.Services.ServiceManager</a>, so that we don't need to worry about its connection status. This is simply done by embedding it inside <a class="elRef" href="../../../Services.2/class_cute_h_m_i_1_1_services_1_1_service.html">CuteHMI.Services.Service</a> component.</p>
 <div class="fragment"><div class="line">    Service {</div>
 <div class="line">        id: serverService</div>
 <div class="line"> </div>
@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line">                text: <span class="stringliteral">&quot;Server reset coil&quot;</span></div>
 <div class="line">                onClicked: server.requestWriteCoil(10, <span class="keyword">false</span>)</div>
 <div class="line">            }</div>
-</div><!-- fragment --><p> Now let's introduce <a class="elRef" href="../../../Modbus.2/classcutehmi_1_1modbus_1_1_coil_controller.html">cutehmi::modbus::CoilController</a>. Controllers typically are a better mean of control as they allow for property binding.</p>
+</div><!-- fragment --><p> Now let's introduce <a class="elRef" href="../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_coil_controller.html">CuteHMI.Modbus.CoilController</a>. Controllers typically are a better mean of control as they allow for property binding.</p>
 <div class="fragment"><div class="line">                CoilController {</div>
 <div class="line">                    id: coilController</div>
 <div class="line"> </div>
@@ -214,7 +214,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line">            Label {</div>
 <div class="line">                text: holdingRegisterController.value</div>
 <div class="line">            }</div>
-</div><!-- fragment --><p> Last, but not least. We start the services by calling <a class="elRef" href="../../../Services.2/classcutehmi_1_1services_1_1_service_manager.html#a6d56ac5c43a97101efe85cc80bf5e249">cutehmi::services::ServiceManager::start()</a> slot.</p>
+</div><!-- fragment --><p> Last, but not least. We start the services by calling <a class="elRef" href="../../../Services.2/classcutehmi_1_1services_1_1_service_manager.html#a6d56ac5c43a97101efe85cc80bf5e249">CuteHMI.Services.ServiceManager.start()</a> slot.</p>
 <div class="fragment"><div class="line">    Component.onCompleted: ServiceManager.start()</div>
 </div><!-- fragment --></div></div><!-- PageDoc -->
 </div><!-- contents -->

@@ -13,8 +13,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "cutehmi::Messenger::Members", "structcutehmi_1_1_messenger_1_1_members.html", null ],
-    [ "CuteHMI::Message", "class_cute_h_m_i_1_1_message.html", null ],
-    [ "CuteHMI::Messenger", "class_cute_h_m_i_1_1_messenger.html", null ],
     [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1_m_ptr.html", null ],
     [ "cutehmi::MPtr< cutehmi::Messenger::Members >", "classcutehmi_1_1_m_ptr.html", null ],
     [ "cutehmi::MPtr< Members >", "classcutehmi_1_1_m_ptr.html", null ],
@@ -25,10 +23,14 @@ var hierarchy =
         [ "cutehmi::Init", "classcutehmi_1_1_init.html", null ]
       ] ],
       [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", [
-        [ "cutehmi::Messenger", "classcutehmi_1_1_messenger.html", null ]
+        [ "cutehmi::Messenger", "classcutehmi_1_1_messenger.html", [
+          [ "CuteHMI::Messenger", "class_cute_h_m_i_1_1_messenger.html", null ]
+        ] ]
       ] ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", [
-        [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ]
+        [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", [
+          [ "CuteHMI::Notifier", "class_cute_h_m_i_1_1_notifier.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "cutehmi::NonMovable", "classcutehmi_1_1_non_movable.html", [
@@ -36,8 +38,9 @@ var hierarchy =
       [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
-    [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ],
-    [ "CuteHMI::Notifier", "class_cute_h_m_i_1_1_notifier.html", null ],
+    [ "Notificatoin", null, [
+      [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ]
+    ] ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", null ]
     ] ],
@@ -53,7 +56,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "QObject", "http://doc.qt.io/qt-5/qobject.html", [
-      [ "cutehmi::Message", "classcutehmi_1_1_message.html", null ],
+      [ "cutehmi::Message", "classcutehmi_1_1_message.html", [
+        [ "CuteHMI::Message", "class_cute_h_m_i_1_1_message.html", null ]
+      ] ],
       [ "cutehmi::Messenger", "classcutehmi_1_1_messenger.html", null ],
       [ "cutehmi::Notification", "classcutehmi_1_1_notification.html", null ],
       [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ],
@@ -69,6 +74,7 @@ var hierarchy =
     ] ],
     [ "QtObject", null, [
       [ "CuteHMI::ColorSet", "class_cute_h_m_i_1_1_color_set.html", null ],
-      [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ]
+      [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ],
+      [ "CuteHMI::Theme", "class_cute_h_m_i_1_1_theme.html", null ]
     ] ]
 ];
