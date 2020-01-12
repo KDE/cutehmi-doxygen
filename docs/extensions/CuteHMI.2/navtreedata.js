@@ -65,7 +65,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../extensions_list.html",
-"functions_enum.html"
+"functions_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
