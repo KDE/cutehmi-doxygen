@@ -1,4 +1,32 @@
 var searchData=
 [
-  ['quitlockenabled_11436',['quitLockEnabled',['http://doc.qt.io/qt-5/qcoreapplication.html#quitLockEnabled-prop',1,'QCoreApplication']]]
+  ['pagesize_23785',['pageSize',['http://doc.qt.io/qt-5/qtextdocument.html#pageSize-prop',1,'QTextDocument']]],
+  ['pagestep_23786',['pageStep',['http://doc.qt.io/qt-5/qabstractslider.html#pageStep-prop',1,'QAbstractSlider']]],
+  ['palette_23787',['palette',['http://doc.qt.io/qt-5/qwidget.html#palette-prop',1,'QWidget::palette()'],['http://doc.qt.io/qt-5/qgraphicswidget.html#palette-prop',1,'QGraphicsWidget::palette()'],['http://doc.qt.io/qt-5/qgraphicsscene.html#palette-prop',1,'QGraphicsScene::palette()'],['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_element.html#aa7c5e43e2ba686642ff9efdf8df0df48',1,'CuteHMI::Element::palette()'],['../../../../GUI.0/class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a7e03056ded098d0c5228479c0fed697c',1,'CuteHMI::GUI::Element::palette()'],['../../../../GUI.0/classcutehmi_1_1gui_1_1_theme.html#a02cd706ccde29d6752797d8dddfc9c44',1,'cutehmi::gui::Theme::palette()']]],
+  ['parent_23788',['parent',['http://doc.qt.io/qt-5/qgraphicsobject.html#parent-prop',1,'QGraphicsObject']]],
+  ['parentmimetypes_23789',['parentMimeTypes',['http://doc.qt.io/qt-5/qmimetype.html#parentMimeTypes-prop',1,'QMimeType']]],
+  ['parity_23790',['parity',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html#ad55fade12b6146c98a615a16c030fd78',1,'cutehmi::modbus::RTUClient::parity()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html#a7784c531082a3c8ce2b0b391f6709184',1,'cutehmi::modbus::RTUServer::parity()']]],
+  ['passwordmaskcharacter_23791',['passwordMaskCharacter',['http://doc.qt.io/qt-5/qstylehints.html#passwordMaskCharacter-prop',1,'QStyleHints']]],
+  ['passwordmaskdelay_23792',['passwordMaskDelay',['http://doc.qt.io/qt-5/qstylehints.html#passwordMaskDelay-prop',1,'QStyleHints']]],
+  ['physicaldotsperinch_23793',['physicalDotsPerInch',['http://doc.qt.io/qt-5/qscreen.html#physicalDotsPerInch-prop',1,'QScreen']]],
+  ['physicaldotsperinchx_23794',['physicalDotsPerInchX',['http://doc.qt.io/qt-5/qscreen.html#physicalDotsPerInchX-prop',1,'QScreen']]],
+  ['physicaldotsperinchy_23795',['physicalDotsPerInchY',['http://doc.qt.io/qt-5/qscreen.html#physicalDotsPerInchY-prop',1,'QScreen']]],
+  ['physicalsize_23796',['physicalSize',['http://doc.qt.io/qt-5/qscreen.html#physicalSize-prop',1,'QScreen']]],
+  ['pixmap_23797',['pixmap',['http://doc.qt.io/qt-5/qlabel.html#pixmap-prop',1,'QLabel']]],
+  ['placeholdertext_23798',['placeholderText',['http://doc.qt.io/qt-5/qlineedit.html#placeholderText-prop',1,'QLineEdit::placeholderText()'],['http://doc.qt.io/qt-5/qtextedit.html#placeholderText-prop',1,'QTextEdit::placeholderText()'],['http://doc.qt.io/qt-5/qplaintextedit.html#placeholderText-prop',1,'QPlainTextEdit::placeholderText()']]],
+  ['plaintext_23799',['plainText',['http://doc.qt.io/qt-5/qtextedit.html#plainText-prop',1,'QTextEdit::plainText()'],['http://doc.qt.io/qt-5/qplaintextedit.html#plainText-prop',1,'QPlainTextEdit::plainText()']]],
+  ['platformname_23800',['platformName',['http://doc.qt.io/qt-5/qguiapplication.html#platformName-prop',1,'QGuiApplication']]],
+  ['pollingtimer_23801',['pollingTimer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_abstract_client.html#a21be58800b4d17bb26e6af967b37de07',1,'cutehmi::modbus::AbstractClient']]],
+  ['popupmode_23802',['popupMode',['http://doc.qt.io/qt-5/qtoolbutton.html#popupMode-prop',1,'QToolButton']]],
+  ['port_23803',['port',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html#ae8fb1a701c9a190a78a1c018f4d68e90',1,'cutehmi::modbus::RTUClient::port()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html#a87c1f505c6ebcb0d445102d4d19fddf1',1,'cutehmi::modbus::RTUServer::port()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_client.html#ad0b83ac65fa1a770af451c3ebc33f5e4',1,'cutehmi::modbus::TCPClient::port()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_server.html#a61a5b55aedee71a4c6113477d7aceaab',1,'cutehmi::modbus::TCPServer::port()']]],
+  ['pos_23804',['pos',['http://doc.qt.io/qt-5/qwidget.html#pos-prop',1,'QWidget::pos()'],['http://doc.qt.io/qt-5/qgraphicsobject.html#pos-prop',1,'QGraphicsObject::pos()']]],
+  ['position_23805',['position',['http://doc.qt.io/qt-5/qtapgesture.html#position-prop',1,'QTapGesture::position()'],['http://doc.qt.io/qt-5/qtapandholdgesture.html#position-prop',1,'QTapAndHoldGesture::position()']]],
+  ['preferredsize_23806',['preferredSize',['http://doc.qt.io/qt-5/qgraphicswidget.html#preferredSize-prop',1,'QGraphicsWidget']]],
+  ['preferredsuffix_23807',['preferredSuffix',['http://doc.qt.io/qt-5/qmimetype.html#preferredSuffix-prop',1,'QMimeType']]],
+  ['prefix_23808',['prefix',['http://doc.qt.io/qt-5/qspinbox.html#prefix-prop',1,'QSpinBox::prefix()'],['http://doc.qt.io/qt-5/qdoublespinbox.html#prefix-prop',1,'QDoubleSpinBox::prefix()']]],
+  ['primaryorientation_23809',['primaryOrientation',['http://doc.qt.io/qt-5/qscreen.html#primaryOrientation-prop',1,'QScreen']]],
+  ['primaryscreen_23810',['primaryScreen',['http://doc.qt.io/qt-5/qguiapplication.html#primaryScreen-prop',1,'QGuiApplication::primaryScreen()'],['http://doc.qt.io/qt-5/qdesktopwidget-obsolete.html#primaryScreen-prop',1,'QDesktopWidget::primaryScreen()']]],
+  ['priority_23811',['priority',['http://doc.qt.io/qt-5/qaction.html#priority-prop',1,'QAction']]],
+  ['progress_23812',['progress',['http://doc.qt.io/qt-5/qqmlcomponent.html#progress-prop',1,'QQmlComponent']]],
+  ['propertyname_23813',['propertyName',['http://doc.qt.io/qt-5/qpropertyanimation.html#propertyName-prop',1,'QPropertyAnimation']]]
 ];

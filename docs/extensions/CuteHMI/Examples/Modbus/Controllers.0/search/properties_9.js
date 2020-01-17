@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['latency_11395',['latency',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_dummy_client.html#ad7f5a4c6f15eb07773bdc6d18a90202f',1,'cutehmi::modbus::DummyClient']]],
-  ['leftpadding_11396',['leftPadding',['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_number_display.html#a2527c6493d5533733778c528d1fab0e7',1,'CuteHMI::NumberDisplay::leftPadding()'],['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_prop_item.html#aa548f3d3564e671b6bb8999e716f6a77',1,'CuteHMI::PropItem::leftPadding()']]],
-  ['linewidth_11397',['lineWidth',['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_element.html#a1fb2e5fb9d68cdcc3f27b4239f5e72ef',1,'CuteHMI::Element']]],
-  ['loadhints_11398',['loadHints',['http://doc.qt.io/qt-5/qlibrary.html#loadHints-prop',1,'QLibrary::loadHints()'],['http://doc.qt.io/qt-5/qpluginloader.html#loadHints-prop',1,'QPluginLoader::loadHints()']]],
-  ['loopcount_11399',['loopCount',['http://doc.qt.io/qt-5/qabstractanimation.html#loopCount-prop',1,'QAbstractAnimation::loopCount()'],['http://doc.qt.io/qt-5/qtimeline.html#loopCount-prop',1,'QTimeLine::loopCount()']]]
+  ['key_23661',['key',['http://doc.qt.io/qt-5/qkeyeventtransition.html#key-prop',1,'QKeyEventTransition::key()'],['http://doc.qt.io/qt-5/qshortcut.html#key-prop',1,'QShortcut::key()']]],
+  ['keyboardautorepeatrate_23662',['keyboardAutoRepeatRate',['http://doc.qt.io/qt-5/qstylehints.html#keyboardAutoRepeatRate-prop',1,'QStyleHints']]],
+  ['keyboardinputinterval_23663',['keyboardInputInterval',['http://doc.qt.io/qt-5/qstylehints.html#keyboardInputInterval-prop',1,'QStyleHints::keyboardInputInterval()'],['http://doc.qt.io/qt-5/qapplication.html#keyboardInputInterval-prop',1,'QApplication::keyboardInputInterval()']]],
+  ['keyboardpagestep_23664',['keyboardPageStep',['http://doc.qt.io/qt-5/qmdisubwindow.html#keyboardPageStep-prop',1,'QMdiSubWindow']]],
+  ['keyboardrectangle_23665',['keyboardRectangle',['http://doc.qt.io/qt-5/qinputmethod.html#keyboardRectangle-prop',1,'QInputMethod']]],
+  ['keyboardsinglestep_23666',['keyboardSingleStep',['http://doc.qt.io/qt-5/qmdisubwindow.html#keyboardSingleStep-prop',1,'QMdiSubWindow']]],
+  ['keyboardtracking_23667',['keyboardTracking',['http://doc.qt.io/qt-5/qabstractspinbox.html#keyboardTracking-prop',1,'QAbstractSpinBox']]],
+  ['keysequence_23668',['keySequence',['http://doc.qt.io/qt-5/qkeysequenceedit.html#keySequence-prop',1,'QKeySequenceEdit']]]
 ];

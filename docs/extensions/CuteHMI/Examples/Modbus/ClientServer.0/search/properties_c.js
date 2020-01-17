@@ -1,7 +1,19 @@
 var searchData=
 [
-  ['objectname_11424',['objectName',['http://doc.qt.io/qt-5/qobject.html#objectName-prop',1,'QObject']]],
-  ['offlinestoragepath_11425',['offlineStoragePath',['http://doc.qt.io/qt-5/qqmlengine.html#offlineStoragePath-prop',1,'QQmlEngine']]],
-  ['organizationdomain_11426',['organizationDomain',['http://doc.qt.io/qt-5/qcoreapplication.html#organizationDomain-prop',1,'QCoreApplication']]],
-  ['organizationname_11427',['organizationName',['http://doc.qt.io/qt-5/qcoreapplication.html#organizationName-prop',1,'QCoreApplication']]]
+  ['name_23753',['name',['http://doc.qt.io/qt-5/qmimetype.html#name-prop',1,'QMimeType::name()'],['http://doc.qt.io/qt-5/qscreen.html#name-prop',1,'QScreen::name()'],['http://doc.qt.io/qt-5/qdnslookup.html#name-prop',1,'QDnsLookup::name()'],['../../../../Services.2/classcutehmi_1_1services_1_1_service.html#a9090b1c873377cc9dc0e431f0e4ad1bf',1,'cutehmi::services::Service::name()']]],
+  ['namefilterdetailsvisible_23754',['nameFilterDetailsVisible',['http://doc.qt.io/qt-5/qfiledialog-obsolete.html#nameFilterDetailsVisible-prop',1,'QFileDialog']]],
+  ['namefilterdisables_23755',['nameFilterDisables',['http://doc.qt.io/qt-5/qfilesystemmodel.html#nameFilterDisables-prop',1,'QFileSystemModel']]],
+  ['nameserver_23756',['nameserver',['http://doc.qt.io/qt-5/qdnslookup.html#nameserver-prop',1,'QDnsLookup']]],
+  ['namespaceprocessing_23757',['namespaceProcessing',['http://doc.qt.io/qt-5/qxmlstreamreader.html#namespaceProcessing-prop',1,'QXmlStreamReader']]],
+  ['nativemenubar_23758',['nativeMenuBar',['http://doc.qt.io/qt-5/qmenubar.html#nativeMenuBar-prop',1,'QMenuBar']]],
+  ['nativeorientation_23759',['nativeOrientation',['http://doc.qt.io/qt-5/qscreen.html#nativeOrientation-prop',1,'QScreen']]],
+  ['navigationbarvisible_23760',['navigationBarVisible',['http://doc.qt.io/qt-5/qcalendarwidget.html#navigationBarVisible-prop',1,'QCalendarWidget']]],
+  ['networkaccessible_23761',['networkAccessible',['http://doc.qt.io/qt-5/qnetworkaccessmanager.html#networkAccessible-prop',1,'QNetworkAccessManager']]],
+  ['neutral_23762',['neutral',['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_palette.html#a92bdede674ac041280c62c49453097c6',1,'CuteHMI::Palette::neutral()'],['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_theme.html#aa857b77b68c88e318ba332424cfaafd7',1,'CuteHMI::Theme::neutral()'],['../../../../GUI.0/classcutehmi_1_1gui_1_1_palette.html#af0f0daf20de7a56014a8a5eda03b3b65',1,'cutehmi::gui::Palette::neutral()']]],
+  ['normalgeometry_23763',['normalGeometry',['http://doc.qt.io/qt-5/qwidget.html#normalGeometry-prop',1,'QWidget']]],
+  ['notation_23764',['notation',['http://doc.qt.io/qt-5/qdoublevalidator.html#notation-prop',1,'QDoubleValidator']]],
+  ['notchesvisible_23765',['notchesVisible',['http://doc.qt.io/qt-5/qdial.html#notchesVisible-prop',1,'QDial']]],
+  ['notchsize_23766',['notchSize',['http://doc.qt.io/qt-5/qdial.html#notchSize-prop',1,'QDial']]],
+  ['notchtarget_23767',['notchTarget',['http://doc.qt.io/qt-5/qdial.html#notchTarget-prop',1,'QDial']]],
+  ['numericid_23768',['numericId',['http://doc.qt.io/qt-5/qpointingdeviceuniqueid.html#numericId-prop',1,'QPointingDeviceUniqueId']]]
 ];

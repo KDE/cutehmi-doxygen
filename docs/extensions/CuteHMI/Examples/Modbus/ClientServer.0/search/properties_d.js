@@ -1,11 +1,19 @@
 var searchData=
 [
-  ['palette_11428',['palette',['../../../../../CuteHMI.2/class_cute_h_m_i_1_1_element.html#aa7c5e43e2ba686642ff9efdf8df0df48',1,'CuteHMI::Element']]],
-  ['parentmimetypes_11429',['parentMimeTypes',['http://doc.qt.io/qt-5/qmimetype.html#parentMimeTypes-prop',1,'QMimeType']]],
-  ['parity_11430',['parity',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html#ad55fade12b6146c98a615a16c030fd78',1,'cutehmi::modbus::RTUClient::parity()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html#a7784c531082a3c8ce2b0b391f6709184',1,'cutehmi::modbus::RTUServer::parity()']]],
-  ['pollingtimer_11431',['pollingTimer',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_abstract_client.html#a21be58800b4d17bb26e6af967b37de07',1,'cutehmi::modbus::AbstractClient']]],
-  ['port_11432',['port',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_client.html#ae8fb1a701c9a190a78a1c018f4d68e90',1,'cutehmi::modbus::RTUClient::port()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_r_t_u_server.html#a87c1f505c6ebcb0d445102d4d19fddf1',1,'cutehmi::modbus::RTUServer::port()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_client.html#ad0b83ac65fa1a770af451c3ebc33f5e4',1,'cutehmi::modbus::TCPClient::port()'],['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_t_c_p_server.html#a61a5b55aedee71a4c6113477d7aceaab',1,'cutehmi::modbus::TCPServer::port()']]],
-  ['preferredsuffix_11433',['preferredSuffix',['http://doc.qt.io/qt-5/qmimetype.html#preferredSuffix-prop',1,'QMimeType']]],
-  ['progress_11434',['progress',['http://doc.qt.io/qt-5/qqmlcomponent.html#progress-prop',1,'QQmlComponent']]],
-  ['propertyname_11435',['propertyName',['http://doc.qt.io/qt-5/qpropertyanimation.html#propertyName-prop',1,'QPropertyAnimation']]]
+  ['objectname_23769',['objectName',['http://doc.qt.io/qt-5/qobject.html#objectName-prop',1,'QObject']]],
+  ['offlinestoragepath_23770',['offlineStoragePath',['http://doc.qt.io/qt-5/qqmlengine.html#offlineStoragePath-prop',1,'QQmlEngine']]],
+  ['offset_23771',['offset',['http://doc.qt.io/qt-5/qpangesture.html#offset-prop',1,'QPanGesture::offset()'],['http://doc.qt.io/qt-5/qgraphicsdropshadoweffect.html#offset-prop',1,'QGraphicsDropShadowEffect::offset()']]],
+  ['okbuttontext_23772',['okButtonText',['http://doc.qt.io/qt-5/qinputdialog.html#okButtonText-prop',1,'QInputDialog']]],
+  ['opacity_23773',['opacity',['http://doc.qt.io/qt-5/qwindow.html#opacity-prop',1,'QWindow::opacity()'],['http://doc.qt.io/qt-5/qgraphicsobject.html#opacity-prop',1,'QGraphicsObject::opacity()'],['http://doc.qt.io/qt-5/qgraphicsopacityeffect.html#opacity-prop',1,'QGraphicsOpacityEffect::opacity()']]],
+  ['opacitymask_23774',['opacityMask',['http://doc.qt.io/qt-5/qgraphicsopacityeffect.html#opacityMask-prop',1,'QGraphicsOpacityEffect']]],
+  ['opaqueresize_23775',['opaqueResize',['http://doc.qt.io/qt-5/qsplitter.html#opaqueResize-prop',1,'QSplitter']]],
+  ['openexternallinks_23776',['openExternalLinks',['http://doc.qt.io/qt-5/qgraphicstextitem.html#openExternalLinks-prop',1,'QGraphicsTextItem::openExternalLinks()'],['http://doc.qt.io/qt-5/qlabel.html#openExternalLinks-prop',1,'QLabel::openExternalLinks()'],['http://doc.qt.io/qt-5/qtextbrowser.html#openExternalLinks-prop',1,'QTextBrowser::openExternalLinks()']]],
+  ['openlinks_23777',['openLinks',['http://doc.qt.io/qt-5/qtextbrowser.html#openLinks-prop',1,'QTextBrowser']]],
+  ['optimizationflags_23778',['optimizationFlags',['http://doc.qt.io/qt-5/qgraphicsview.html#optimizationFlags-prop',1,'QGraphicsView']]],
+  ['options_23779',['options',['http://doc.qt.io/qt-5/qcolordialog.html#options-prop',1,'QColorDialog::options()'],['http://doc.qt.io/qt-5/qfiledialog.html#options-prop',1,'QFileDialog::options()'],['http://doc.qt.io/qt-5/qfontdialog.html#options-prop',1,'QFontDialog::options()'],['http://doc.qt.io/qt-5/qinputdialog.html#options-prop',1,'QInputDialog::options()'],['http://doc.qt.io/qt-5/qwizard.html#options-prop',1,'QWizard::options()']]],
+  ['organizationdomain_23780',['organizationDomain',['http://doc.qt.io/qt-5/qcoreapplication.html#organizationDomain-prop',1,'QCoreApplication']]],
+  ['organizationname_23781',['organizationName',['http://doc.qt.io/qt-5/qcoreapplication.html#organizationName-prop',1,'QCoreApplication']]],
+  ['orientation_23782',['orientation',['http://doc.qt.io/qt-5/qscreen.html#orientation-prop',1,'QScreen::orientation()'],['http://doc.qt.io/qt-5/qabstractslider.html#orientation-prop',1,'QAbstractSlider::orientation()'],['http://doc.qt.io/qt-5/qdatawidgetmapper.html#orientation-prop',1,'QDataWidgetMapper::orientation()'],['http://doc.qt.io/qt-5/qdialogbuttonbox.html#orientation-prop',1,'QDialogButtonBox::orientation()'],['http://doc.qt.io/qt-5/qprogressbar.html#orientation-prop',1,'QProgressBar::orientation()'],['http://doc.qt.io/qt-5/qsplitter.html#orientation-prop',1,'QSplitter::orientation()'],['http://doc.qt.io/qt-5/qtoolbar.html#orientation-prop',1,'QToolBar::orientation()']]],
+  ['origin_23783',['origin',['http://doc.qt.io/qt-5/qgraphicsscale.html#origin-prop',1,'QGraphicsScale::origin()'],['http://doc.qt.io/qt-5/qgraphicsrotation.html#origin-prop',1,'QGraphicsRotation::origin()']]],
+  ['overwritemode_23784',['overwriteMode',['http://doc.qt.io/qt-5/qtextedit.html#overwriteMode-prop',1,'QTextEdit::overwriteMode()'],['http://doc.qt.io/qt-5/qplaintextedit.html#overwriteMode-prop',1,'QPlainTextEdit::overwriteMode()']]]
 ];
