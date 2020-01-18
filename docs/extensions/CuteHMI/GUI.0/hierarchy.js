@@ -12,11 +12,17 @@ var hierarchy =
       [ "cutehmi::gui::ColorSet", "classcutehmi_1_1gui_1_1_color_set.html", [
         [ "CuteHMI::GUI::ColorSet", "class_cute_h_m_i_1_1_g_u_i_1_1_color_set.html", null ]
       ] ],
+      [ "cutehmi::gui::Fonts", "classcutehmi_1_1gui_1_1_fonts.html", [
+        [ "CuteHMI::GUI::Fonts", "class_cute_h_m_i_1_1_g_u_i_1_1_fonts.html", null ]
+      ] ],
       [ "cutehmi::gui::Palette", "classcutehmi_1_1gui_1_1_palette.html", [
         [ "CuteHMI::GUI::Palette", "class_cute_h_m_i_1_1_g_u_i_1_1_palette.html", null ]
       ] ],
       [ "cutehmi::gui::Theme", "classcutehmi_1_1gui_1_1_theme.html", [
         [ "CuteHMI::GUI::Theme", "class_cute_h_m_i_1_1_g_u_i_1_1_theme.html", null ]
+      ] ],
+      [ "cutehmi::gui::Units", "classcutehmi_1_1gui_1_1_units.html", [
+        [ "CuteHMI::GUI::Units", "class_cute_h_m_i_1_1_g_u_i_1_1_units.html", null ]
       ] ],
       [ "QCoreApplication", "http://doc.qt.io/qt-5/qcoreapplication.html", [
         [ "QGuiApplication", "http://doc.qt.io/qt-5/qguiapplication.html", [

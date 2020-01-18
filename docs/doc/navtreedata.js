@@ -27,6 +27,7 @@ var NAVTREE =
     [ "Extensions", "../extensions_list.html", null ],
     [ "Tools", "../tools_list.html", null ],
     [ "Documentation directory", "index.html", null ],
+    [ "Active symbols", "md_active-symbols.html", null ],
     [ "Using Qt Creator in \"Design\" mode", "md_using-qt-creator-in-design-mode.html", null ]
   ] ]
 ];

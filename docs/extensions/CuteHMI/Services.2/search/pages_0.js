@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['services_10320',['Services',['../index.html',1,'']]]
+  ['active_20symbols_10256',['Active symbols',['../../../../doc/md_active-symbols.html',1,'']]]
 ];

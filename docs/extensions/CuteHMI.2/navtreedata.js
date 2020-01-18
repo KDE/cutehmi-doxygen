@@ -29,8 +29,7 @@ var NAVTREE =
     [ "CuteHMI", "index.html", [
       [ "Bridges", "index.html#autotoc_md1", null ],
       [ "Utility classes", "index.html#autotoc_md2", null ],
-      [ "QML components", "index.html#autotoc_md3", null ],
-      [ "Frontend tools", "index.html#autotoc_md4", null ]
+      [ "Frontend tools", "index.html#autotoc_md3", null ]
     ] ],
     [ "Principles", "principles.html", null ],
     [ "Assumptions", "assumptions.html", null ],
@@ -49,7 +48,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", "functions_dup" ],
+        [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
@@ -64,8 +63,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../../extensions_list.html",
-"functions_l.html"
+"../../extensions_list.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

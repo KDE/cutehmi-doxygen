@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['graphical_20user_20interface_22724',['Graphical User Interface',['../index.html',1,'']]]
+  ['active_20symbols_22779',['Active symbols',['../../../../doc/md_active-symbols.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['documentation_20directory_6',['Documentation directory',['../index.html',1,'']]]
+  ['active_20symbols_9',['Active symbols',['../md_active-symbols.html',1,'']]]
 ];

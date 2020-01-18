@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['using_20qt_20creator_20in_20_22design_22_20mode_2',['Using Qt Creator in &quot;Design&quot; mode',['../md_using-qt-creator-in-design-mode.html',1,'']]],
-  ['using_2dqt_2dcreator_2din_2ddesign_2dmode_2emd_3',['using-qt-creator-in-design-mode.md',['../using-qt-creator-in-design-mode_8md.html',1,'']]]
+  ['readme_2emd_3',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]]
 ];

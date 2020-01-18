@@ -1,8 +1,8 @@
 var indexSectionsWithContent =
 {
-  0: "dru",
-  1: "ru",
-  2: "du"
+  0: "adru",
+  1: "aru",
+  2: "adu"
 };
 
 var indexSectionNames =

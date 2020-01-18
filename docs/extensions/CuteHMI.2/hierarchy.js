@@ -1,17 +1,9 @@
 var hierarchy =
 [
-    [ "Canvas", null, [
-      [ "CuteHMI::PropItem", "class_cute_h_m_i_1_1_prop_item.html", null ]
-    ] ],
     [ "cutehmi::Error", "structcutehmi_1_1_error.html", [
       [ "cutehmi::InplaceError", "structcutehmi_1_1_inplace_error.html", null ]
     ] ],
     [ "cutehmi::ErrorInfo", "structcutehmi_1_1_error_info.html", null ],
-    [ "Item", null, [
-      [ "CuteHMI::Element", "class_cute_h_m_i_1_1_element.html", [
-        [ "CuteHMI::NumberDisplay", "class_cute_h_m_i_1_1_number_display.html", null ]
-      ] ]
-    ] ],
     [ "cutehmi::Messenger::Members", "structcutehmi_1_1_messenger_1_1_members.html", null ],
     [ "cutehmi::MPtr< T, DELETER >", "classcutehmi_1_1_m_ptr.html", null ],
     [ "cutehmi::MPtr< cutehmi::Messenger::Members >", "classcutehmi_1_1_m_ptr.html", null ],
@@ -71,10 +63,5 @@ var hierarchy =
       [ "QQmlExtensionPlugin", "http://doc.qt.io/qt-5/qqmlextensionplugin.html", [
         [ "cutehmi::internal::QMLPlugin", "classcutehmi_1_1internal_1_1_q_m_l_plugin.html", null ]
       ] ]
-    ] ],
-    [ "QtObject", null, [
-      [ "CuteHMI::ColorSet", "class_cute_h_m_i_1_1_color_set.html", null ],
-      [ "CuteHMI::Palette", "class_cute_h_m_i_1_1_palette.html", null ],
-      [ "CuteHMI::Theme", "class_cute_h_m_i_1_1_theme.html", null ]
     ] ]
 ];

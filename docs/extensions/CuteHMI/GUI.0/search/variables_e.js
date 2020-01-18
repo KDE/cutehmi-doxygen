@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['pagebreakflags_21995',['PageBreakFlags',['http://doc.qt.io/qt-5/qtextformat.html#PageBreakFlag-enum',1,'QTextFormat']]],
-  ['paintenginefeatures_21996',['PaintEngineFeatures',['http://doc.qt.io/qt-5/qpaintengine.html#PaintEngineFeature-enum',1,'QPaintEngine']]],
-  ['patternoptions_21997',['PatternOptions',['http://doc.qt.io/qt-5/qregularexpression.html#PatternOption-enum',1,'QRegularExpression']]],
-  ['pausemodes_21998',['PauseModes',['http://doc.qt.io/qt-5/qabstractsocket.html#PauseMode-enum',1,'QAbstractSocket']]],
-  ['permissions_21999',['Permissions',['http://doc.qt.io/qt-5/qfiledevice.html#Permission-enum',1,'QFileDevice']]],
-  ['pixmapfragmenthints_22000',['PixmapFragmentHints',['http://doc.qt.io/qt-5/qpainter.html#PixmapFragmentHint-enum',1,'QPainter']]],
-  ['pointer_22001',['pointer',['http://doc.qt.io/qt-5/qstringview.html#pointer-typedef',1,'QStringView::pointer()'],['http://doc.qt.io/qt-5/qstring.html#pointer-typedef',1,'QString::pointer()'],['http://doc.qt.io/qt-5/qlist.html#pointer-typedef',1,'QList::pointer()'],['http://doc.qt.io/qt-5/qvarlengtharray.html#pointer-typedef',1,'QVarLengthArray::pointer()'],['http://doc.qt.io/qt-5/qvector.html#pointer-typedef',1,'QVector::pointer()'],['http://doc.qt.io/qt-5/qset.html#pointer-typedef',1,'QSet::pointer()'],['http://doc.qt.io/qt-5/qset-iterator.html#pointer-typedef',1,'QSet::iterator::pointer()'],['http://doc.qt.io/qt-5/qset-const-iterator.html#pointer-typedef',1,'QSet::const_iterator::pointer()'],['http://doc.qt.io/qt-5/qcborarray.html#pointer-typedef',1,'QCborArray::pointer()'],['http://doc.qt.io/qt-5/qfuture-const-iterator.html#pointer-typedef',1,'QFuture::const_iterator::pointer()'],['http://doc.qt.io/qt-5/qjsonarray.html#pointer-typedef',1,'QJsonArray::pointer()'],['http://doc.qt.io/qt-5/qlinkedlist.html#pointer-typedef',1,'QLinkedList::pointer()']]],
-  ['policyflags_22002',['PolicyFlags',['http://doc.qt.io/qt-5/qhstspolicy.html#PolicyFlag-enum',1,'QHstsPolicy']]],
-  ['processeventsflags_22003',['ProcessEventsFlags',['http://doc.qt.io/qt-5/qeventloop.html#ProcessEventsFlag-enum',1,'QEventLoop']]]
+  ['pagebreakflags_22043',['PageBreakFlags',['http://doc.qt.io/qt-5/qtextformat.html#PageBreakFlag-enum',1,'QTextFormat']]],
+  ['paintenginefeatures_22044',['PaintEngineFeatures',['http://doc.qt.io/qt-5/qpaintengine.html#PaintEngineFeature-enum',1,'QPaintEngine']]],
+  ['patternoptions_22045',['PatternOptions',['http://doc.qt.io/qt-5/qregularexpression.html#PatternOption-enum',1,'QRegularExpression']]],
+  ['pausemodes_22046',['PauseModes',['http://doc.qt.io/qt-5/qabstractsocket.html#PauseMode-enum',1,'QAbstractSocket']]],
+  ['permissions_22047',['Permissions',['http://doc.qt.io/qt-5/qfiledevice.html#Permission-enum',1,'QFileDevice']]],
+  ['pixmapfragmenthints_22048',['PixmapFragmentHints',['http://doc.qt.io/qt-5/qpainter.html#PixmapFragmentHint-enum',1,'QPainter']]],
+  ['pointer_22049',['pointer',['http://doc.qt.io/qt-5/qstringview.html#pointer-typedef',1,'QStringView::pointer()'],['http://doc.qt.io/qt-5/qstring.html#pointer-typedef',1,'QString::pointer()'],['http://doc.qt.io/qt-5/qlist.html#pointer-typedef',1,'QList::pointer()'],['http://doc.qt.io/qt-5/qvarlengtharray.html#pointer-typedef',1,'QVarLengthArray::pointer()'],['http://doc.qt.io/qt-5/qvector.html#pointer-typedef',1,'QVector::pointer()'],['http://doc.qt.io/qt-5/qset.html#pointer-typedef',1,'QSet::pointer()'],['http://doc.qt.io/qt-5/qset-iterator.html#pointer-typedef',1,'QSet::iterator::pointer()'],['http://doc.qt.io/qt-5/qset-const-iterator.html#pointer-typedef',1,'QSet::const_iterator::pointer()'],['http://doc.qt.io/qt-5/qcborarray.html#pointer-typedef',1,'QCborArray::pointer()'],['http://doc.qt.io/qt-5/qfuture-const-iterator.html#pointer-typedef',1,'QFuture::const_iterator::pointer()'],['http://doc.qt.io/qt-5/qjsonarray.html#pointer-typedef',1,'QJsonArray::pointer()'],['http://doc.qt.io/qt-5/qlinkedlist.html#pointer-typedef',1,'QLinkedList::pointer()']]],
+  ['policyflags_22050',['PolicyFlags',['http://doc.qt.io/qt-5/qhstspolicy.html#PolicyFlag-enum',1,'QHstsPolicy']]],
+  ['processeventsflags_22051',['ProcessEventsFlags',['http://doc.qt.io/qt-5/qeventloop.html#ProcessEventsFlag-enum',1,'QEventLoop']]]
 ];

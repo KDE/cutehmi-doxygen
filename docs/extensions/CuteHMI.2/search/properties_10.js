@@ -1,19 +1,17 @@
 var searchData=
 [
-  ['selectedindexes_10130',['selectedIndexes',['http://doc.qt.io/qt-5/qitemselectionmodel.html#selectedIndexes-prop',1,'QItemSelectionModel']]],
-  ['senderobject_10131',['senderObject',['http://doc.qt.io/qt-5/qsignaltransition.html#senderObject-prop',1,'QSignalTransition']]],
-  ['shade_10132',['shade',['../class_cute_h_m_i_1_1_color_set.html#a3c3e1446fceec3e8b84252e3349f9245',1,'CuteHMI::ColorSet']]],
-  ['signal_10133',['signal',['http://doc.qt.io/qt-5/qsignaltransition.html#signal-prop',1,'QSignalTransition']]],
-  ['singleshot_10134',['singleShot',['http://doc.qt.io/qt-5/qtimer.html#singleShot-prop',1,'QTimer']]],
-  ['socketoptions_10135',['socketOptions',['http://doc.qt.io/qt-5/qlocalserver.html#socketOptions-prop',1,'QLocalServer']]],
-  ['sortcasesensitivity_10136',['sortCaseSensitivity',['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#sortCaseSensitivity-prop',1,'QSortFilterProxyModel']]],
-  ['sortrole_10137',['sortRole',['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#sortRole-prop',1,'QSortFilterProxyModel']]],
-  ['sourcemodel_10138',['sourceModel',['http://doc.qt.io/qt-5/qabstractproxymodel.html#sourceModel-prop',1,'QAbstractProxyModel']]],
-  ['sourcestate_10139',['sourceState',['http://doc.qt.io/qt-5/qabstracttransition.html#sourceState-prop',1,'QAbstractTransition']]],
-  ['stacksize_10140',['stackSize',['http://doc.qt.io/qt-5/qthreadpool.html#stackSize-prop',1,'QThreadPool']]],
-  ['startvalue_10141',['startValue',['http://doc.qt.io/qt-5/qvariantanimation.html#startValue-prop',1,'QVariantAnimation']]],
-  ['state_10142',['state',['http://doc.qt.io/qt-5/qabstractanimation.html#state-prop',1,'QAbstractAnimation']]],
-  ['status_10143',['status',['http://doc.qt.io/qt-5/qqmlcomponent.html#status-prop',1,'QQmlComponent']]],
-  ['stroke_10144',['stroke',['../class_cute_h_m_i_1_1_color_set.html#a11c08823741df07517ee2902999bfec4',1,'CuteHMI::ColorSet']]],
-  ['suffixes_10145',['suffixes',['http://doc.qt.io/qt-5/qmimetype.html#suffixes-prop',1,'QMimeType']]]
+  ['selectedindexes_10076',['selectedIndexes',['http://doc.qt.io/qt-5/qitemselectionmodel.html#selectedIndexes-prop',1,'QItemSelectionModel']]],
+  ['senderobject_10077',['senderObject',['http://doc.qt.io/qt-5/qsignaltransition.html#senderObject-prop',1,'QSignalTransition']]],
+  ['signal_10078',['signal',['http://doc.qt.io/qt-5/qsignaltransition.html#signal-prop',1,'QSignalTransition']]],
+  ['singleshot_10079',['singleShot',['http://doc.qt.io/qt-5/qtimer.html#singleShot-prop',1,'QTimer']]],
+  ['socketoptions_10080',['socketOptions',['http://doc.qt.io/qt-5/qlocalserver.html#socketOptions-prop',1,'QLocalServer']]],
+  ['sortcasesensitivity_10081',['sortCaseSensitivity',['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#sortCaseSensitivity-prop',1,'QSortFilterProxyModel']]],
+  ['sortrole_10082',['sortRole',['http://doc.qt.io/qt-5/qsortfilterproxymodel.html#sortRole-prop',1,'QSortFilterProxyModel']]],
+  ['sourcemodel_10083',['sourceModel',['http://doc.qt.io/qt-5/qabstractproxymodel.html#sourceModel-prop',1,'QAbstractProxyModel']]],
+  ['sourcestate_10084',['sourceState',['http://doc.qt.io/qt-5/qabstracttransition.html#sourceState-prop',1,'QAbstractTransition']]],
+  ['stacksize_10085',['stackSize',['http://doc.qt.io/qt-5/qthreadpool.html#stackSize-prop',1,'QThreadPool']]],
+  ['startvalue_10086',['startValue',['http://doc.qt.io/qt-5/qvariantanimation.html#startValue-prop',1,'QVariantAnimation']]],
+  ['state_10087',['state',['http://doc.qt.io/qt-5/qabstractanimation.html#state-prop',1,'QAbstractAnimation']]],
+  ['status_10088',['status',['http://doc.qt.io/qt-5/qqmlcomponent.html#status-prop',1,'QQmlComponent']]],
+  ['suffixes_10089',['suffixes',['http://doc.qt.io/qt-5/qmimetype.html#suffixes-prop',1,'QMimeType']]]
 ];
