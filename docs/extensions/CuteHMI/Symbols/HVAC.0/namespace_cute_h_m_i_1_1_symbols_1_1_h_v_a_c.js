@@ -8,6 +8,7 @@ var namespace_cute_h_m_i_1_1_symbols_1_1_h_v_a_c =
     [ "Cooler", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_cooler.html", null ],
     [ "Heater", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heater.html", null ],
     [ "HeatExchanger", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_exchanger.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_exchanger" ],
+    [ "HeatRecoveryWheel", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_recovery_wheel.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_recovery_wheel" ],
     [ "MotorActuator", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_motor_actuator.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_motor_actuator" ],
     [ "Pump", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_pump.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_pump" ],
     [ "SymbolCanvas", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_symbol_canvas.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_symbol_canvas" ]
