@@ -107,10 +107,8 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="title">Documentation directory </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This directory keeps files used to build the documentation. Documentation itself is built by Doxygen and it is kept in separate git submodule.</p>
-<p>You can initialize this submodule by issuing following commands. </p><div class="fragment"><div class="line">git submodule init</div>
-<div class="line">git submodule update</div>
-</div><!-- fragment --><p>Alternatively you can build documentation by executing Make command from top level project directory, providing that you have all necessary tools. </p><div class="fragment"><div class="line">make doc</div>
+<div class="textblock"><p>This directory keeps files used to build the documentation.</p>
+<p>You can build documentation by executing Make command from top level project directory, providing that you have all necessary tools. </p><div class="fragment"><div class="line">make doc</div>
 </div><!-- fragment --><p>You have to build the project beforehand as Qbs module is responsible for generation of documentation artifacts!</p>
 <p>You can also view <a href="https://cutehmi.kde.org/docs/index.html">documentation online</a>. </p>
 </div></div><!-- PageDoc -->
