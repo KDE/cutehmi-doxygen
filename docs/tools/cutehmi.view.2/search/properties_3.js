@@ -14,7 +14,7 @@ var searchData=
   ['defaultstylesheet_22269',['defaultStyleSheet',['http://doc.qt.io/qt-5/qtextdocument.html#defaultStyleSheet-prop',1,'QTextDocument']]],
   ['defaultsuffix_22270',['defaultSuffix',['http://doc.qt.io/qt-5/qfiledialog.html#defaultSuffix-prop',1,'QFileDialog']]],
   ['defaulttextoption_22271',['defaultTextOption',['http://doc.qt.io/qt-5/qtextdocument.html#defaultTextOption-prop',1,'QTextDocument']]],
-  ['defaulttheme_22272',['defaultTheme',['../../../extensions/CuteHMI/GUI.0/classcutehmi_1_1gui_1_1_cute_application.html#ac9b6fd6bc955533ec35bf16a1e8b95d1',1,'cutehmi::gui::CuteApplication']]],
+  ['defaulttheme_22272',['defaultTheme',['../../../extensions/CuteHMI/GUI.0/classcutehmi_1_1gui_1_1_cute_application.html#ac9b6fd6bc955533ec35bf16a1e8b95d1',1,'cutehmi::gui::CuteApplication::defaultTheme()'],['../../../extensions/CuteHMI/GUI.0/class_cute_h_m_i_1_1_g_u_i_1_1_cute_application.html#a97cf37299bffe7fc8281518851297eb2',1,'CuteHMI::GUI::CuteApplication::defaultTheme()']]],
   ['defaulttransition_22273',['defaultTransition',['http://doc.qt.io/qt-5/qhistorystate.html#defaultTransition-prop',1,'QHistoryState']]],
   ['defaultup_22274',['defaultUp',['http://doc.qt.io/qt-5/qmenubar.html#defaultUp-prop',1,'QMenuBar']]],
   ['delta_22275',['delta',['http://doc.qt.io/qt-5/qpangesture.html#delta-prop',1,'QPanGesture']]],

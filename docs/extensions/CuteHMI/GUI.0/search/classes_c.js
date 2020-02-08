@@ -16,7 +16,7 @@ var searchData=
   ['messages_10901',['messages',['https://en.cppreference.com/w/cpp/locale/messages.html',1,'std']]],
   ['messages_5fbase_10902',['messages_base',['https://en.cppreference.com/w/cpp/locale/messages_base.html',1,'std']]],
   ['messages_5fbyname_10903',['messages_byname',['https://en.cppreference.com/w/cpp/locale/messages_byname.html',1,'std']]],
-  ['messenger_10904',['Messenger',['../../../CuteHMI.2/classcutehmi_1_1_messenger.html',1,'cutehmi::Messenger'],['../../../CuteHMI.2/class_cute_h_m_i_1_1_messenger.html',1,'CuteHMI::Messenger']]],
+  ['messenger_10904',['Messenger',['../../../CuteHMI.2/class_cute_h_m_i_1_1_messenger.html',1,'CuteHMI::Messenger'],['../../../CuteHMI.2/classcutehmi_1_1_messenger.html',1,'cutehmi::Messenger']]],
   ['micro_10905',['micro',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['microseconds_10906',['microseconds',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]],
   ['milli_10907',['milli',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],

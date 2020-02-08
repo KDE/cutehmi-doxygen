@@ -4,7 +4,7 @@ var searchData=
   ['packaged_5ftask_10967',['packaged_task',['https://en.cppreference.com/w/cpp/thread/packaged_task.html',1,'std']]],
   ['paintcontext_10968',['PaintContext',['http://doc.qt.io/qt-5/qabstracttextdocumentlayout-paintcontext.html',1,'QAbstractTextDocumentLayout']]],
   ['pair_10969',['pair',['https://en.cppreference.com/w/cpp/utility/pair.html',1,'std']]],
-  ['palette_10970',['Palette',['../classcutehmi_1_1gui_1_1_palette.html',1,'cutehmi::gui::Palette'],['../class_cute_h_m_i_1_1_g_u_i_1_1_palette.html',1,'CuteHMI::GUI::Palette']]],
+  ['palette_10970',['Palette',['../class_cute_h_m_i_1_1_g_u_i_1_1_palette.html',1,'CuteHMI::GUI::Palette'],['../classcutehmi_1_1gui_1_1_palette.html',1,'cutehmi::gui::Palette']]],
   ['pattern_10971',['pattern',['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::moneypunct_byname::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_put::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_base::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::moneypunct::pattern'],['https://en.cppreference.com/w/cpp/locale/money_base.html',1,'std::money_get::pattern']]],
   ['peta_10972',['peta',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['pico_10973',['pico',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],

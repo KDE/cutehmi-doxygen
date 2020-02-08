@@ -27,7 +27,7 @@ var searchData=
   ['uniform_5freal_5fdistribution_11876',['uniform_real_distribution',['https://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution.html',1,'std']]],
   ['unique_5flock_11877',['unique_lock',['https://en.cppreference.com/w/cpp/thread/unique_lock.html',1,'std']]],
   ['unique_5fptr_11878',['unique_ptr',['https://en.cppreference.com/w/cpp/memory/unique_ptr.html',1,'std']]],
-  ['units_11879',['Units',['../../../extensions/CuteHMI/GUI.0/classcutehmi_1_1gui_1_1_units.html',1,'cutehmi::gui::Units'],['../../../extensions/CuteHMI/GUI.0/class_cute_h_m_i_1_1_g_u_i_1_1_units.html',1,'CuteHMI::GUI::Units']]],
+  ['units_11879',['Units',['../../../extensions/CuteHMI/GUI.0/class_cute_h_m_i_1_1_g_u_i_1_1_units.html',1,'CuteHMI::GUI::Units'],['../../../extensions/CuteHMI/GUI.0/classcutehmi_1_1gui_1_1_units.html',1,'cutehmi::gui::Units']]],
   ['unordered_5fmap_11880',['unordered_map',['https://en.cppreference.com/w/cpp/container/unordered_map.html',1,'std']]],
   ['unordered_5fmultimap_11881',['unordered_multimap',['https://en.cppreference.com/w/cpp/container/unordered_multimap.html',1,'std']]],
   ['unordered_5fmultiset_11882',['unordered_multiset',['https://en.cppreference.com/w/cpp/container/unordered_multiset.html',1,'std']]],

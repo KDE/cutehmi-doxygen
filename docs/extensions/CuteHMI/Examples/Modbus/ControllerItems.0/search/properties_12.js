@@ -26,7 +26,7 @@ var searchData=
   ['textvalue_23987',['textValue',['http://doc.qt.io/qt-5/qinputdialog.html#textValue-prop',1,'QInputDialog']]],
   ['textvisible_23988',['textVisible',['http://doc.qt.io/qt-5/qprogressbar.html#textVisible-prop',1,'QProgressBar']]],
   ['textwidth_23989',['textWidth',['http://doc.qt.io/qt-5/qtextdocument.html#textWidth-prop',1,'QTextDocument']]],
-  ['theme_23990',['theme',['../../../../GUI.0/classcutehmi_1_1gui_1_1_cute_application.html#ac8db618b44d585e8c1a1504fca934fd2',1,'cutehmi::gui::CuteApplication']]],
+  ['theme_23990',['theme',['../../../../GUI.0/classcutehmi_1_1gui_1_1_cute_application.html#ac8db618b44d585e8c1a1504fca934fd2',1,'cutehmi::gui::CuteApplication::theme()'],['../../../../GUI.0/class_cute_h_m_i_1_1_g_u_i_1_1_cute_application.html#a81cd96f0fb87f9c33b290bd7015c4ffc',1,'CuteHMI::GUI::CuteApplication::theme()']]],
   ['thickness_23991',['thickness',['../../../../GUI.0/class_cute_h_m_i_1_1_g_u_i_1_1_prop_item.html#aec35cc613e9d6a27b4ea8ee6cf3bfdba',1,'CuteHMI::GUI::PropItem']]],
   ['tickinterval_23992',['tickInterval',['http://doc.qt.io/qt-5/qslider.html#tickInterval-prop',1,'QSlider']]],
   ['tickposition_23993',['tickPosition',['http://doc.qt.io/qt-5/qslider.html#tickPosition-prop',1,'QSlider']]],
