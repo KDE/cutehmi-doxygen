@@ -4,6 +4,7 @@ var namespace_cute_h_m_i_1_1_symbols_1_1_h_v_a_c =
     [ "BasicCooler", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_basic_cooler.html", null ],
     [ "BasicDiscreteInstrument", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_basic_discrete_instrument.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_basic_discrete_instrument" ],
     [ "BasicHeater", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_basic_heater.html", null ],
+    [ "BladeDamper", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_blade_damper.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_blade_damper" ],
     [ "CentrifugalFan", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_centrifugal_fan.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_centrifugal_fan" ],
     [ "Cooler", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_cooler.html", null ],
     [ "Heater", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heater.html", null ],

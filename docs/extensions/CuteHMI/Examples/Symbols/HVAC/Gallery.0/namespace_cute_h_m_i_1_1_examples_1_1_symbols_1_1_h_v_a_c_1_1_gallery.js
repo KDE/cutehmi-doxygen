@@ -2,6 +2,7 @@ var namespace_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery =
 [
     [ "AirFilterSettings", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_air_filter_settings.html", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_air_filter_settings" ],
     [ "BasicDiscreteInstrumentSettings", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_basic_discrete_instrument_settings.html", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_basic_discrete_instrument_settings" ],
+    [ "BladeDamperSettings", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_blade_damper_settings.html", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_blade_damper_settings" ],
     [ "CentrifugalFanSettings", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_centrifugal_fan_settings.html", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_centrifugal_fan_settings" ],
     [ "ElementSettings", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_element_settings.html", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_element_settings" ],
     [ "HeatRecoveryWheelSettings", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_heat_recovery_wheel_settings.html", "class_cute_h_m_i_1_1_examples_1_1_symbols_1_1_h_v_a_c_1_1_gallery_1_1_heat_recovery_wheel_settings" ],

@@ -6,6 +6,7 @@ var hierarchy =
     [ "Element", null, [
       [ "CuteHMI::Symbols::HVAC::AirFilter", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_air_filter.html", null ],
       [ "CuteHMI::Symbols::HVAC::BasicDiscreteInstrument", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_basic_discrete_instrument.html", null ],
+      [ "CuteHMI::Symbols::HVAC::BladeDamper", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_blade_damper.html", null ],
       [ "CuteHMI::Symbols::HVAC::CentrifugalFan", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_centrifugal_fan.html", null ],
       [ "CuteHMI::Symbols::HVAC::HeatExchanger", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_exchanger.html", [
         [ "CuteHMI::Symbols::HVAC::BasicCooler", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_basic_cooler.html", null ],

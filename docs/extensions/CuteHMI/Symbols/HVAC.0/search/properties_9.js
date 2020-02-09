@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['loadhints_10103',['loadHints',['http://doc.qt.io/qt-5/qlibrary.html#loadHints-prop',1,'QLibrary::loadHints()'],['http://doc.qt.io/qt-5/qpluginloader.html#loadHints-prop',1,'QPluginLoader::loadHints()']]],
-  ['loopcount_10104',['loopCount',['http://doc.qt.io/qt-5/qabstractanimation.html#loopCount-prop',1,'QAbstractAnimation::loopCount()'],['http://doc.qt.io/qt-5/qtimeline.html#loopCount-prop',1,'QTimeLine::loopCount()']]]
+  ['loadhints_10109',['loadHints',['http://doc.qt.io/qt-5/qlibrary.html#loadHints-prop',1,'QLibrary::loadHints()'],['http://doc.qt.io/qt-5/qpluginloader.html#loadHints-prop',1,'QPluginLoader::loadHints()']]],
+  ['loopcount_10110',['loopCount',['http://doc.qt.io/qt-5/qabstractanimation.html#loopCount-prop',1,'QAbstractAnimation::loopCount()'],['http://doc.qt.io/qt-5/qtimeline.html#loopCount-prop',1,'QTimeLine::loopCount()']]]
 ];
