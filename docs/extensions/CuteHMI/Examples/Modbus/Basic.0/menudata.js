@@ -32,4 +32,4 @@ var menudata={children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"}]},
-{text:"Examples",url:"examples.html"}]}
+{text:"Files",url:"examples.html"}]}

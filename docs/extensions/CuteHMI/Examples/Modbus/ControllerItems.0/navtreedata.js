@@ -35,7 +35,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ]
     ] ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "Files", "examples.html", "examples" ]
   ] ]
 ];
 

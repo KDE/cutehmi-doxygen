@@ -35,4 +35,4 @@ var menudata={children:[
 {text:"Class Members",url:"functions.html",children:[
 {text:"All",url:"functions.html"},
 {text:"Properties",url:"functions_prop.html"}]}]},
-{text:"Examples",url:"examples.html"}]}
+{text:"Files",url:"examples.html"}]}

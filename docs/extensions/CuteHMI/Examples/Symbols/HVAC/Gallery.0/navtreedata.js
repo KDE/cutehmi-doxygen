@@ -39,7 +39,7 @@ var NAVTREE =
         [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ],
-    [ "Examples", "examples.html", "examples" ]
+    [ "Files", "examples.html", "examples" ]
   ] ]
 ];
 
