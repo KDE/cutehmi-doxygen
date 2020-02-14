@@ -124,6 +124,9 @@ $(document).ready(function(){initNavTree('classcutehmi_1_1gui_1_1_units.html',''
 </div><!--header-->
 <div class="contents">
 
+<p>Unit.  
+ <a href="classcutehmi_1_1gui_1_1_units.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_units_8hpp_source.html">cutehmi/gui/Units.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for cutehmi::gui::Units:</div>
@@ -142,6 +145,8 @@ Signals</h2></td></tr>
 <tr class="separator:a5691ecbb9ea77fe9771fdc0eb6649b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a094058796e2cd2ef2ec4a3a1362da7fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a094058796e2cd2ef2ec4a3a1362da7fa">strokeWidthChanged</a> ()</td></tr>
 <tr class="separator:a094058796e2cd2ef2ec4a3a1362da7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6296b9af454ccf041e64a71319825e7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a6296b9af454ccf041e64a71319825e7d">strokeWidthRatioChanged</a> ()</td></tr>
+<tr class="separator:a6296b9af454ccf041e64a71319825e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dd9cb996e9e3d4579f865b3d9b38211"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a1dd9cb996e9e3d4579f865b3d9b38211">roundStrokeWidthChanged</a> ()</td></tr>
 <tr class="separator:a1dd9cb996e9e3d4579f865b3d9b38211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -157,6 +162,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8926fa957cb1c90aed1178eed44645bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10b2f2fc6fba558249017509ec2116dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a10b2f2fc6fba558249017509ec2116dc">setStrokeWidth</a> (qreal <a class="el" href="classcutehmi_1_1gui_1_1_units.html#a91dc062f0ace8f529237e31b21432f3c">strokeWidth</a>)</td></tr>
 <tr class="separator:a10b2f2fc6fba558249017509ec2116dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3320f6e52bd2a1f6b519938c1bfefdd8"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a3320f6e52bd2a1f6b519938c1bfefdd8">strokeWidthRatio</a> () const</td></tr>
+<tr class="separator:a3320f6e52bd2a1f6b519938c1bfefdd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3bf07a3a052aa69703c8980d44107c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a3b3bf07a3a052aa69703c8980d44107c">setStrokeWidthRatio</a> (qreal ratio)</td></tr>
+<tr class="separator:a3b3bf07a3a052aa69703c8980d44107c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924c51f91a6bdeb888e5fafb48e771e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a924c51f91a6bdeb888e5fafb48e771e0">roundStrokeWidth</a> () const</td></tr>
 <tr class="separator:a924c51f91a6bdeb888e5fafb48e771e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad66ca9e0c6e5dfa4ded18612069fdab4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#ad66ca9e0c6e5dfa4ded18612069fdab4">setRoundStrokeWidth</a> (bool <a class="el" href="classcutehmi_1_1gui_1_1_units.html#a4ee6dc7972d6a19dc0830b075c898b6d">roundStrokeWidth</a>)</td></tr>
@@ -249,18 +258,24 @@ Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a484ca1a94f8a8e471d225540924305b1"><td class="memItemLeft" align="right" valign="top">static constexpr qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a484ca1a94f8a8e471d225540924305b1">INITIAL_QUADRAT</a> = 80.0</td></tr>
 <tr class="separator:a484ca1a94f8a8e471d225540924305b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce9c2d1b1c4ba40904fa4991ec48927"><td class="memItemLeft" align="right" valign="top">static constexpr qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a4ce9c2d1b1c4ba40904fa4991ec48927">INITIAL_STROKE_WIDTH_RATIO</a> = 40.0</td></tr>
+<tr class="separator:a4ce9c2d1b1c4ba40904fa4991ec48927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a31ad1bfd9762b66d7a5db2ec341e82"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a5a31ad1bfd9762b66d7a5db2ec341e82">INITIAL_ROUND_STROKE_WIDTH</a> = true</td></tr>
 <tr class="separator:a5a31ad1bfd9762b66d7a5db2ec341e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcefb67e7e48a426ed32b1ed7938a50f"><td class="memItemLeft" align="right" valign="top">static constexpr qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#adcefb67e7e48a426ed32b1ed7938a50f">STANDARD_STROKE_WIDTH_QUADRAT_RATIO</a> = 40.0</td></tr>
-<tr class="separator:adcefb67e7e48a426ed32b1ed7938a50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a294e220a4a8fc89db4a194fdcc6fa816"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a294e220a4a8fc89db4a194fdcc6fa816">quadrat</a></td></tr>
+<tr class="memdesc:a294e220a4a8fc89db4a194fdcc6fa816"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quadrat.  <a href="classcutehmi_1_1gui_1_1_units.html#a294e220a4a8fc89db4a194fdcc6fa816">More...</a><br /></td></tr>
 <tr class="separator:a294e220a4a8fc89db4a194fdcc6fa816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91dc062f0ace8f529237e31b21432f3c"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a91dc062f0ace8f529237e31b21432f3c">strokeWidth</a></td></tr>
+<tr class="memdesc:a91dc062f0ace8f529237e31b21432f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stroke width.  <a href="classcutehmi_1_1gui_1_1_units.html#a91dc062f0ace8f529237e31b21432f3c">More...</a><br /></td></tr>
 <tr class="separator:a91dc062f0ace8f529237e31b21432f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d242c7cdf7c5a598c763de6dfc1a598"><td class="memItemLeft" align="right" valign="top">qreal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a9d242c7cdf7c5a598c763de6dfc1a598">strokeWidthRatio</a></td></tr>
+<tr class="memdesc:a9d242c7cdf7c5a598c763de6dfc1a598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stroke width ratio.  <a href="classcutehmi_1_1gui_1_1_units.html#a9d242c7cdf7c5a598c763de6dfc1a598">More...</a><br /></td></tr>
+<tr class="separator:a9d242c7cdf7c5a598c763de6dfc1a598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee6dc7972d6a19dc0830b075c898b6d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1gui_1_1_units.html#a4ee6dc7972d6a19dc0830b075c898b6d">roundStrokeWidth</a></td></tr>
+<tr class="memdesc:a4ee6dc7972d6a19dc0830b075c898b6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to round stroke width to whole integer.  <a href="classcutehmi_1_1gui_1_1_units.html#a4ee6dc7972d6a19dc0830b075c898b6d">More...</a><br /></td></tr>
 <tr class="separator:a4ee6dc7972d6a19dc0830b075c898b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_qobject"><td colspan="2" onclick="javascript:toggleInherit('properties_qobject')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el"  href="http://doc.qt.io/qt-5/qobject.html">QObject</a></td></tr>
 <tr class="memitem:objectName-prop inherit properties_qobject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="http://doc.qt.io/qt-5/qobject.html#objectName-prop">objectName</a></td></tr>
@@ -311,7 +326,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:disconnectNotify inherit pro_methods_qobject"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="http://doc.qt.io/qt-5/qobject.html#disconnectNotify">disconnectNotify</a> (const <a class="elRef" href="http://doc.qt.io/qt-5/qmetamethod.html">QMetaMethod</a> &amp;signal)</td></tr>
 <tr class="separator:disconnectNotify inherit pro_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Unit. </p>
+<p>This class provides relative units of measurment. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adb3b5222242110d6866525f1a6ef9135"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb3b5222242110d6866525f1a6ef9135">&#9670;&nbsp;</a></span>Units()</h2>
 
@@ -469,6 +487,24 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a3b3bf07a3a052aa69703c8980d44107c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b3bf07a3a052aa69703c8980d44107c">&#9670;&nbsp;</a></span>setStrokeWidthRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cutehmi::gui::Units::setStrokeWidthRatio </td>
+          <td>(</td>
+          <td class="paramtype">qreal&#160;</td>
+          <td class="paramname"><em>ratio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8926fa957cb1c90aed1178eed44645bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8926fa957cb1c90aed1178eed44645bb">&#9670;&nbsp;</a></span>strokeWidth()</h2>
 
@@ -497,6 +533,48 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void cutehmi::gui::Units::strokeWidthChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3320f6e52bd2a1f6b519938c1bfefdd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3320f6e52bd2a1f6b519938c1bfefdd8">&#9670;&nbsp;</a></span>strokeWidthRatio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal cutehmi::gui::Units::strokeWidthRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6296b9af454ccf041e64a71319825e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6296b9af454ccf041e64a71319825e7d">&#9670;&nbsp;</a></span>strokeWidthRatioChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cutehmi::gui::Units::strokeWidthRatioChanged </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -556,8 +634,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adcefb67e7e48a426ed32b1ed7938a50f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcefb67e7e48a426ed32b1ed7938a50f">&#9670;&nbsp;</a></span>STANDARD_STROKE_WIDTH_QUADRAT_RATIO</h2>
+<a id="a4ce9c2d1b1c4ba40904fa4991ec48927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce9c2d1b1c4ba40904fa4991ec48927">&#9670;&nbsp;</a></span>INITIAL_STROKE_WIDTH_RATIO</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,7 +644,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr qreal cutehmi::gui::Units::STANDARD_STROKE_WIDTH_QUADRAT_RATIO = 40.0</td>
+          <td class="memname">constexpr qreal cutehmi::gui::Units::INITIAL_STROKE_WIDTH_RATIO = 40.0</td>
         </tr>
       </table>
   </td>
@@ -599,6 +677,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Quadrat. </p>
+<p>Role of this unit is similar to role of <code>em</code> unit used in typography. </p>
+
 </div>
 </div>
 <a id="a4ee6dc7972d6a19dc0830b075c898b6d"></a>
@@ -621,6 +702,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Whether to round stroke width to whole integer. </p>
+
 </div>
 </div>
 <a id="a91dc062f0ace8f529237e31b21432f3c"></a>
@@ -642,6 +725,33 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Stroke width. </p>
+<p>By default binded to the formula <em>strokeWidth</em> = <em>quadrat</em> / <em>strokeWidthRatio</em>. </p>
+
+</div>
+</div>
+<a id="a9d242c7cdf7c5a598c763de6dfc1a598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d242c7cdf7c5a598c763de6dfc1a598">&#9670;&nbsp;</a></span>strokeWidthRatio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">qreal cutehmi::gui::Units::strokeWidthRatio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stroke width ratio. </p>
 
 </div>
 </div>

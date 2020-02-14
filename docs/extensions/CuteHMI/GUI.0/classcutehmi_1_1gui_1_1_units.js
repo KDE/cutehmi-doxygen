@@ -8,9 +8,13 @@ var classcutehmi_1_1gui_1_1_units =
     [ "setQuadrat", "classcutehmi_1_1gui_1_1_units.html#a52ab3c1840968a8c4df903ef8f4a56a0", null ],
     [ "setRoundStrokeWidth", "classcutehmi_1_1gui_1_1_units.html#ad66ca9e0c6e5dfa4ded18612069fdab4", null ],
     [ "setStrokeWidth", "classcutehmi_1_1gui_1_1_units.html#a10b2f2fc6fba558249017509ec2116dc", null ],
+    [ "setStrokeWidthRatio", "classcutehmi_1_1gui_1_1_units.html#a3b3bf07a3a052aa69703c8980d44107c", null ],
     [ "strokeWidth", "classcutehmi_1_1gui_1_1_units.html#a8926fa957cb1c90aed1178eed44645bb", null ],
     [ "strokeWidthChanged", "classcutehmi_1_1gui_1_1_units.html#a094058796e2cd2ef2ec4a3a1362da7fa", null ],
+    [ "strokeWidthRatio", "classcutehmi_1_1gui_1_1_units.html#a3320f6e52bd2a1f6b519938c1bfefdd8", null ],
+    [ "strokeWidthRatioChanged", "classcutehmi_1_1gui_1_1_units.html#a6296b9af454ccf041e64a71319825e7d", null ],
     [ "quadrat", "classcutehmi_1_1gui_1_1_units.html#a294e220a4a8fc89db4a194fdcc6fa816", null ],
     [ "roundStrokeWidth", "classcutehmi_1_1gui_1_1_units.html#a4ee6dc7972d6a19dc0830b075c898b6d", null ],
-    [ "strokeWidth", "classcutehmi_1_1gui_1_1_units.html#a91dc062f0ace8f529237e31b21432f3c", null ]
+    [ "strokeWidth", "classcutehmi_1_1gui_1_1_units.html#a91dc062f0ace8f529237e31b21432f3c", null ],
+    [ "strokeWidthRatio", "classcutehmi_1_1gui_1_1_units.html#a9d242c7cdf7c5a598c763de6dfc1a598", null ]
 ];
