@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['historytype_10089',['historyType',['http://doc.qt.io/qt-5/qhistorystate.html#historyType-prop',1,'QHistoryState']]]
+  ['historytype_10087',['historyType',['http://doc.qt.io/qt-5/qhistorystate.html#historyType-prop',1,'QHistoryState']]]
 ];

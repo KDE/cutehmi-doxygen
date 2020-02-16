@@ -30,9 +30,6 @@ var hierarchy =
       [ "cutehmi::Singleton< Messenger >", "classcutehmi_1_1_singleton.html", null ],
       [ "cutehmi::Singleton< Notifier >", "classcutehmi_1_1_singleton.html", null ]
     ] ],
-    [ "Notificatoin", null, [
-      [ "CuteHMI::Notificatoin", "class_cute_h_m_i_1_1_notificatoin.html", null ]
-    ] ],
     [ "QEvent", "http://doc.qt.io/qt-5/qevent.html", [
       [ "cutehmi::Worker::WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", null ]
     ] ],
@@ -52,7 +49,9 @@ var hierarchy =
         [ "CuteHMI::Message", "class_cute_h_m_i_1_1_message.html", null ]
       ] ],
       [ "cutehmi::Messenger", "classcutehmi_1_1_messenger.html", null ],
-      [ "cutehmi::Notification", "classcutehmi_1_1_notification.html", null ],
+      [ "cutehmi::Notification", "classcutehmi_1_1_notification.html", [
+        [ "CuteHMI::Notification", "class_cute_h_m_i_1_1_notification.html", null ]
+      ] ],
       [ "cutehmi::Notifier", "classcutehmi_1_1_notifier.html", null ],
       [ "cutehmi::Worker", "classcutehmi_1_1_worker.html", null ],
       [ "QAbstractItemModel", "http://doc.qt.io/qt-5/qabstractitemmodel.html", [

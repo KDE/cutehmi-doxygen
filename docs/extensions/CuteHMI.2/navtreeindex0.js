@@ -7,7 +7,7 @@ var NAVTREEINDEX0 =
 "assumptions.html":[5],
 "class_cute_h_m_i_1_1_message.html":[8,0,0,0],
 "class_cute_h_m_i_1_1_messenger.html":[8,0,0,1],
-"class_cute_h_m_i_1_1_notificatoin.html":[8,0,0,2],
+"class_cute_h_m_i_1_1_notification.html":[8,0,0,2],
 "class_cute_h_m_i_1_1_notifier.html":[8,0,0,3],
 "classcutehmi_1_1_error_exception.html":[8,0,1,2],
 "classcutehmi_1_1_error_exception.html#a3eb0ffff6778954936e4621c13005929":[8,0,1,2,0],
