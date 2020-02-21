@@ -16,6 +16,8 @@ var hierarchy =
       ] ],
       [ "CuteHMI::Symbols::HVAC::HeatRecoveryWheel", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_recovery_wheel.html", null ],
       [ "CuteHMI::Symbols::HVAC::MotorActuator", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_motor_actuator.html", null ],
-      [ "CuteHMI::Symbols::HVAC::Pump", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_pump.html", null ]
+      [ "CuteHMI::Symbols::HVAC::Pump", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_pump.html", null ],
+      [ "CuteHMI::Symbols::HVAC::Tank", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_tank.html", null ],
+      [ "CuteHMI::Symbols::HVAC::Valve", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html", null ]
     ] ]
 ];

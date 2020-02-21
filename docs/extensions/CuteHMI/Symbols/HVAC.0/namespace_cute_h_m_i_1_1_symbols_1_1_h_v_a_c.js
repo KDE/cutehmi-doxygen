@@ -12,5 +12,7 @@ var namespace_cute_h_m_i_1_1_symbols_1_1_h_v_a_c =
     [ "HeatRecoveryWheel", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_recovery_wheel.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_heat_recovery_wheel" ],
     [ "MotorActuator", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_motor_actuator.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_motor_actuator" ],
     [ "Pump", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_pump.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_pump" ],
-    [ "SymbolCanvas", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_symbol_canvas.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_symbol_canvas" ]
+    [ "SymbolCanvas", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_symbol_canvas.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_symbol_canvas" ],
+    [ "Tank", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_tank.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_tank" ],
+    [ "Valve", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve" ]
 ];
