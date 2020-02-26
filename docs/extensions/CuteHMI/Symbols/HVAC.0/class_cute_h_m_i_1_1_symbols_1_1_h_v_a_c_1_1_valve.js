@@ -8,5 +8,7 @@ var class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve =
     [ "rightWay", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#a45cf6b4b93cdec4d2cf7de98402e0684", null ],
     [ "topClosed", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#a86164bc79b478357c58decd580349e8b", null ],
     [ "topWay", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#ad802e830892e05fcb95a19b2c7f152a8", null ],
-    [ "way", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#ad6cb7f00d27b4568d7af556fb88da2d1", null ]
+    [ "way", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#ad6cb7f00d27b4568d7af556fb88da2d1", null ],
+    [ "wayHeight", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#af471dfd9eea5d355c040074150a21e3d", null ],
+    [ "wayWidth", "class_cute_h_m_i_1_1_symbols_1_1_h_v_a_c_1_1_valve.html#af3942f41f22070f2abb0b0bcf5d55192", null ]
 ];

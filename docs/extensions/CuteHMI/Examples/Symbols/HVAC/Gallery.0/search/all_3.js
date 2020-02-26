@@ -428,7 +428,7 @@ var searchData=
   ['contextproperty_1077',['contextProperty',['http://doc.qt.io/qt-5/qqmlcontext.html#contextProperty',1,'QQmlContext']]],
   ['controlpointrect_1078',['controlPointRect',['http://doc.qt.io/qt-5/qpainterpath.html#controlPointRect',1,'QPainterPath']]],
   ['controltype_1079',['controlType',['http://doc.qt.io/qt-5/qsizepolicy.html#controlType',1,'QSizePolicy']]],
-  ['controltypes_1080',['ControlTypes',['http://doc.qt.io/qt-5/qsizepolicy.html#ControlType-enum',1,'QSizePolicy::ControlTypes()'],['http://doc.qt.io/qt-5/qlayoutitem.html#controlTypes',1,'QLayoutItem::controlTypes()'],['http://doc.qt.io/qt-5/qwidgetitem.html#controlTypes',1,'QWidgetItem::controlTypes()'],['http://doc.qt.io/qt-5/qlayout.html#controlTypes',1,'QLayout::controlTypes()']]],
+  ['controltypes_1080',['controlTypes',['http://doc.qt.io/qt-5/qlayoutitem.html#controlTypes',1,'QLayoutItem::controlTypes()'],['http://doc.qt.io/qt-5/qwidgetitem.html#controlTypes',1,'QWidgetItem::controlTypes()'],['http://doc.qt.io/qt-5/qlayout.html#controlTypes',1,'QLayout::controlTypes()'],['http://doc.qt.io/qt-5/qsizepolicy.html#ControlType-enum',1,'QSizePolicy::ControlTypes()']]],
   ['conversionflags_1081',['ConversionFlags',['http://doc.qt.io/qt-5/qtextcodec.html#ConversionFlag-enum',1,'QTextCodec']]],
   ['conversionmode_1082',['ConversionMode',['http://doc.qt.io/qt-5/qhostaddress.html#ConversionModeFlag-enum',1,'QHostAddress']]],
   ['convert_1083',['convert',['http://doc.qt.io/qt-5/qmetatype.html#convert',1,'QMetaType::convert()'],['http://doc.qt.io/qt-5/qvariant.html#convert',1,'QVariant::convert()']]],
