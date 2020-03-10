@@ -120,143 +120,159 @@ $(document).ready(function(){initNavTree('_abstract_register_controller_8hpp_sou
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacecutehmi.html">cutehmi</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>modbus {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">   13</a></span>&#160;<span class="keyword">class </span>CUTEHMI_MODBUS_API <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">AbstractRegisterController</a>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qobject.html">QObject</a>,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qqmlparserstatus.html">QQmlParserStatus</a></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        Q_OBJECT</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        Q_INTERFACES(<a class="codeRef" href="http://doc.qt.io/qt-5/qqmlparserstatus.html">QQmlParserStatus</a>)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">   21</a></span>&#160;        <span class="keyword">enum</span> <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> {</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23">   22</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23">WRITE_DELAYED</a>,</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598">   23</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598">WRITE_POSTPONED</a>,</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6">   24</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6">WRITE_IMMEDIATE</a>,</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b">   25</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b">WRITE_EXPLICIT</a>,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        Q_ENUM(WriteMode)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad3919927f90cc72fc9696902fece7185">   29</a></span>&#160;        static constexpr <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> INITIAL_ADDRESS = 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a4e5de9d1cd745cf1daa91341f8fe1143">   30</a></span>&#160;        static constexpr <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> INITIAL_WRITE_MODE = WRITE_DELAYED;</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a6501de47edee975c7f504622f395ca20">   31</a></span>&#160;        static constexpr <span class="keywordtype">int</span> INITIAL_WRITE_DELAY = 500;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ac808a670b2e3de5070ab9db3ac307fd8">   32</a></span>&#160;        static constexpr <span class="keywordtype">bool</span> INITIAL_BUSY = true;</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a9c558218e2beb6c69cc4f933964c779a">   33</a></span>&#160;        static constexpr <span class="keywordtype">bool</span> INITIAL_READ_ON_WRITE = true;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">   16</a></span>&#160;<span class="keyword">class </span>CUTEHMI_MODBUS_API <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">AbstractRegisterController</a>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qobject.html">QObject</a>,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">public</span> <a class="codeRef" href="http://doc.qt.io/qt-5/qqmlparserstatus.html">QQmlParserStatus</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        Q_OBJECT</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        Q_INTERFACES(<a class="codeRef" href="http://doc.qt.io/qt-5/qqmlparserstatus.html">QQmlParserStatus</a>)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">   27</a></span>&#160;        <span class="keyword">enum</span> <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> {</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23">   28</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23">WRITE_DELAYED</a>,      </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598">   29</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598">WRITE_POSTPONED</a>,    </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6">   30</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6">WRITE_IMMEDIATE</a>,    </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b">   31</a></span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b">WRITE_EXPLICIT</a>,     </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        };</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        Q_ENUM(WriteMode)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#aaa44e2097de41e9f378f1f5b870535ba">   35</a></span>&#160;        Q_PROPERTY(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device READ device WRITE setDevice NOTIFY deviceChanged)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="comment">// Note: unsigned int is guaranteed to be at least 16 bits wide by the standard. Using unsigned int instead of quint16 (aka</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">// ushort), because when using quint16 QML throws an error (unsupported type &quot;ushort&quot;) for an alias to quint16 property.</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a9c60c30de235a5d6a5b60048babe224c">   38</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address READ address WRITE setAddress NOTIFY addressChanged)</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a4eb2cedb2caf4a1924642ba9d3001c39">   39</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">bool</span> busy READ busy NOTIFY busyChanged)</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#abe6c0c627ed89ac99cf4b87fa85fecd6">   40</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">bool</span> readOnWrite READ readOnWrite WRITE setReadOnWrite NOTIFY readOnWriteChanged)</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ab2ffd78d2c6b352ac2d6ddba3deb0ef2">   41</a></span>&#160;        Q_PROPERTY(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode READ writeMode WRITE setWriteMode NOTIFY writeModeChanged)</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ac9091a29002dba83152a5fe78e0d9f21">   42</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> writeDelay READ writeDelay WRITE setWriteDelay NOTIFY writeDelayChanged)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">AbstractRegisterController</a>(<a class="codeRef" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent = <span class="keywordtype">nullptr</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device() const;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">void</span> setDevice(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address() const;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">void</span> setAddress(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address);</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad3919927f90cc72fc9696902fece7185">   35</a></span>&#160;        static constexpr <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> INITIAL_ADDRESS = 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a4e5de9d1cd745cf1daa91341f8fe1143">   36</a></span>&#160;        static constexpr <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> INITIAL_WRITE_MODE = WRITE_DELAYED;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a6501de47edee975c7f504622f395ca20">   37</a></span>&#160;        static constexpr <span class="keywordtype">int</span> INITIAL_WRITE_DELAY = 500;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ac808a670b2e3de5070ab9db3ac307fd8">   38</a></span>&#160;        static constexpr <span class="keywordtype">bool</span> INITIAL_BUSY = true;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a9c558218e2beb6c69cc4f933964c779a">   39</a></span>&#160;        static constexpr <span class="keywordtype">bool</span> INITIAL_READ_ON_WRITE = true;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a47366272ceece45232470643cfb589f6">   40</a></span>&#160;        static constexpr <span class="keywordtype">bool</span> INITIAL_ENABLED = true;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#aaa44e2097de41e9f378f1f5b870535ba">   45</a></span>&#160;        Q_PROPERTY(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device READ device WRITE setDevice NOTIFY deviceChanged)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">// Note: unsigned int is guaranteed to be at least 16 bits wide by the standard. Using unsigned int instead of quint16 (aka</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">// ushort), because when using quint16 QML throws an error (unsupported type &quot;ushort&quot;) for an alias to quint16 property.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a9c60c30de235a5d6a5b60048babe224c">   52</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address READ address WRITE setAddress NOTIFY addressChanged)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">bool</span> busy() const;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">bool</span> readOnWrite() const;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> setReadOnWrite(<span class="keywordtype">bool</span> readOnWrite);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode() const;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordtype">void</span> setWriteMode(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode);</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a4eb2cedb2caf4a1924642ba9d3001c39">   57</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">bool</span> busy READ busy NOTIFY busyChanged)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#abe6c0c627ed89ac99cf4b87fa85fecd6">   62</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">bool</span> readOnWrite READ readOnWrite WRITE setReadOnWrite NOTIFY readOnWriteChanged)</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordtype">int</span> writeDelay() const;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordtype">void</span> setWriteDelay(<span class="keywordtype">int</span> writeDelay);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    signals:</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">void</span> deviceChanged();</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">void</span> addressChanged();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">void</span> busyChanged();</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">void</span> readOnWriteChanged();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">void</span> writeModeChanged();</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ab2ffd78d2c6b352ac2d6ddba3deb0ef2">   67</a></span>&#160;        Q_PROPERTY(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode READ writeMode WRITE setWriteMode NOTIFY writeModeChanged)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ac9091a29002dba83152a5fe78e0d9f21">   72</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">int</span> writeDelay READ writeDelay WRITE setWriteDelay NOTIFY writeDelayChanged)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a07ae681790f6f62c042b46ba3d67451e">   77</a></span>&#160;        Q_PROPERTY(<span class="keywordtype">bool</span> enabled READ enabled WRITE setEnabled NOTIFY enabledChanged)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordtype">void</span> writeDelayChanged();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">AbstractRegisterController</a>(<a class="codeRef" href="http://doc.qt.io/qt-5/qobject.html">QObject</a> * parent = <span class="keywordtype">nullptr</span>);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    protected:</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        virtual <span class="keywordtype">void</span> requestReadRegisters(quint16 address, quint16 amount, <a class="codeRef" href="http://doc.qt.io/qt-5/quuid.html">QUuid</a> * requestId) const = 0;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        virtual quint16 bytes() const = 0;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        virtual <span class="keywordtype">void</span> onDeviceDestroyed() = 0;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordtype">void</span> classBegin() override;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">void</span> componentComplete() override;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordtype">void</span> setBusy(<span class="keywordtype">bool</span> busy);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    protected slots:</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        virtual <span class="keywordtype">void</span> onRequestCompleted(<a class="codeRef" href="http://doc.qt.io/qt-5/qjsonobject.html">QJsonObject</a> request, <a class="codeRef" href="http://doc.qt.io/qt-5/qjsonobject.html">QJsonObject</a> reply) = 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device() const;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">void</span> setDevice(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address() const;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordtype">void</span> setAddress(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordtype">bool</span> busy() const;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">bool</span> readOnWrite() const;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordtype">void</span> setReadOnWrite(<span class="keywordtype">bool</span> readOnWrite);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode() const;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    private:</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">bool</span> deviceReady() const;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        struct Members</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <span class="keywordtype">bool</span> busy;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordtype">bool</span> readOnWrite;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="keywordtype">int</span> writeDelay;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordtype">bool</span> postponedWritePending;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordtype">bool</span> deferRequestRead;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            Members():</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                device(<span class="keyword">nullptr</span>),</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                address(INITIAL_ADDRESS),</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                busy(INITIAL_BUSY),</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                readOnWrite(INITIAL_READ_ON_WRITE),</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                writeMode(INITIAL_WRITE_MODE),</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                writeDelay(INITIAL_WRITE_DELAY),</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                deferRequestRead(<span class="keyword">false</span>)</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            }</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        };</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="codeRef" href="../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">MPtr&lt;Members&gt;</a> m;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;};</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;}</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordtype">void</span> setWriteMode(<a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">int</span> writeDelay() const;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordtype">void</span> setWriteDelay(<span class="keywordtype">int</span> writeDelay);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordtype">bool</span> enabled() const;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">void</span> setEnabled(<span class="keywordtype">bool</span> enabled);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    signals:</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">void</span> deviceChanged();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">void</span> addressChanged();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordtype">void</span> busyChanged();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordtype">void</span> readOnWriteChanged();</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordtype">void</span> writeModeChanged();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordtype">void</span> writeDelayChanged();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordtype">void</span> enabledChanged();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    protected:</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        virtual <span class="keywordtype">void</span> requestReadRegisters(quint16 address, quint16 amount, <a class="codeRef" href="http://doc.qt.io/qt-5/quuid.html">QUuid</a> * requestId) const = 0;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        virtual quint16 bytes() const = 0;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        virtual <span class="keywordtype">void</span> onDeviceDestroyed() = 0;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordtype">void</span> classBegin() override;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">//(c)C: Copyright © 2019-2020, Michał Policht &lt;michal@policht.pl&gt;, Yuri Chornoivan &lt;yurchor@ukr.net&gt;. All rights reserved.</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordtype">void</span> componentComplete() override;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordtype">void</span> setBusy(<span class="keywordtype">bool</span> busy);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    protected slots:</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        virtual <span class="keywordtype">void</span> onRequestCompleted(<a class="codeRef" href="http://doc.qt.io/qt-5/qjsonobject.html">QJsonObject</a> request, <a class="codeRef" href="http://doc.qt.io/qt-5/qjsonobject.html">QJsonObject</a> reply) = 0;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    private:</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordtype">bool</span> deviceReady() const;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        struct Members</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_device.html">AbstractDevice</a> * device;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> address;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordtype">bool</span> busy;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordtype">bool</span> readOnWrite;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <a class="code" href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">WriteMode</a> writeMode;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="keywordtype">int</span> writeDelay;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordtype">bool</span> postponedWritePending;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordtype">bool</span> enabled;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordtype">bool</span> deferRequestRead;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            Members():</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                device(<span class="keyword">nullptr</span>),</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                address(INITIAL_ADDRESS),</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                busy(INITIAL_BUSY),</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                readOnWrite(INITIAL_READ_ON_WRITE),</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                writeMode(INITIAL_WRITE_MODE),</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                writeDelay(INITIAL_WRITE_DELAY),</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                enabled(INITIAL_ENABLED),</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                deferRequestRead(<span class="keyword">false</span>)</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        };</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="codeRef" href="../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">MPtr&lt;Members&gt;</a> m;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;};</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;}</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">//(c)C: Copyright © 2019-2020, Michał Policht &lt;michal@policht.pl&gt;, Yuri Chornoivan &lt;yurchor@ukr.net&gt;. All rights reserved.</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">//(c)C: You should have received a copy of the GNU Lesser General Public License along with CuteHMI.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598">cutehmi::modbus::AbstractRegisterController::WRITE_POSTPONED</a></div><div class="ttdeci">@ WRITE_POSTPONED</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:23</div></div>
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23">cutehmi::modbus::AbstractRegisterController::WRITE_DELAYED</a></div><div class="ttdeci">@ WRITE_DELAYED</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:22</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a564446d6a996342950d4be0c723fb598">cutehmi::modbus::AbstractRegisterController::WRITE_POSTPONED</a></div><div class="ttdeci">@ WRITE_POSTPONED</div><div class="ttdoc">Writes are postponed, which means that write will not be requested until previous write has finished.</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:29</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a4a60d9a72b28f7772a20b9814d336f23">cutehmi::modbus::AbstractRegisterController::WRITE_DELAYED</a></div><div class="ttdeci">@ WRITE_DELAYED</div><div class="ttdoc">Writes are delayed. Write will be requested after amount of time specified by writeDelay property has...</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:28</div></div>
 <div class="ttc" id="aquuid_html"><div class="ttname"><a href="http://doc.qt.io/qt-5/quuid.html">QUuid</a></div></div>
 <div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_device_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_device.html">cutehmi::modbus::AbstractDevice</a></div><div class="ttdoc">Abstract Modbus device.</div><div class="ttdef"><b>Definition:</b> AbstractDevice.hpp:32</div></div>
 <div class="ttc" id="aclasscutehmi_1_1_m_ptr_html"><div class="ttname"><a href="../../CuteHMI.2/classcutehmi_1_1_m_ptr.html">cutehmi::MPtr&lt; Members &gt;</a></div></div>
 <div class="ttc" id="aqobject_html"><div class="ttname"><a href="http://doc.qt.io/qt-5/qobject.html">QObject</a></div></div>
 <div class="ttc" id="anamespacecutehmi_html"><div class="ttname"><a href="namespacecutehmi.html">cutehmi</a></div></div>
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">cutehmi::modbus::AbstractRegisterController</a></div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:13</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html">cutehmi::modbus::AbstractRegisterController</a></div><div class="ttdoc">Abstract register controller.</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:16</div></div>
 <div class="ttc" id="aqjsonobject_html"><div class="ttname"><a href="http://doc.qt.io/qt-5/qjsonobject.html">QJsonObject</a></div></div>
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6">cutehmi::modbus::AbstractRegisterController::WRITE_IMMEDIATE</a></div><div class="ttdeci">@ WRITE_IMMEDIATE</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:24</div></div>
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b">cutehmi::modbus::AbstractRegisterController::WRITE_EXPLICIT</a></div><div class="ttdeci">@ WRITE_EXPLICIT</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:25</div></div>
-<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">cutehmi::modbus::AbstractRegisterController::WriteMode</a></div><div class="ttdeci">WriteMode</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:21</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817a5f55f1dbc2349566fa4a659eb23dc6d6">cutehmi::modbus::AbstractRegisterController::WRITE_IMMEDIATE</a></div><div class="ttdeci">@ WRITE_IMMEDIATE</div><div class="ttdoc">Writes are requested immediately, which may creates a queue of pending writes if they are not proceed...</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:30</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817aa081ce47ff96d3cc8b4c113e33fd0e4b">cutehmi::modbus::AbstractRegisterController::WRITE_EXPLICIT</a></div><div class="ttdeci">@ WRITE_EXPLICIT</div><div class="ttdoc">Writes are explicit, i.e. write requires an explicit call to write value function.</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:31</div></div>
+<div class="ttc" id="aclasscutehmi_1_1modbus_1_1_abstract_register_controller_html_ad9536f695fbfe8e89f5e7ae05d516817"><div class="ttname"><a href="classcutehmi_1_1modbus_1_1_abstract_register_controller.html#ad9536f695fbfe8e89f5e7ae05d516817">cutehmi::modbus::AbstractRegisterController::WriteMode</a></div><div class="ttdeci">WriteMode</div><div class="ttdoc">Write mode enum.</div><div class="ttdef"><b>Definition:</b> AbstractRegisterController.hpp:27</div></div>
 <div class="ttc" id="aqqmlparserstatus_html"><div class="ttname"><a href="http://doc.qt.io/qt-5/qqmlparserstatus.html">QQmlParserStatus</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

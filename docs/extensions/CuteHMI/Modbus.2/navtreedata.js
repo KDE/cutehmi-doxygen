@@ -63,9 +63,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "../../../extensions_list.html",
-"classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a573466c748b5d06414f569fe15cce09f",
-"classcutehmi_1_1modbus_1_1_t_c_p_server.html#a0ccdc71e22495a5cda35d975a1b65521",
-"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_mixin.html#a6a5f30e649db3b1827fc92b928fa2f62"
+"classcutehmi_1_1modbus_1_1_abstract_register_controller.html#a524a5433d333a1f084464ce8b0965cb8",
+"classcutehmi_1_1modbus_1_1_t_c_p_client.html#ad98c2fb71a8e6d7ce4015175c49951b0",
+"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#af6ce4c2b2290d6b15dd778e8e29a8872"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

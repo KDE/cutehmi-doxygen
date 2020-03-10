@@ -137,6 +137,7 @@ $(document).ready(function(){initNavTree('_holding_register_control_8qml-example
 <div class="line">        readOnWrite: readOnWriteBox.checked</div>
 <div class="line">        writeDelay: writeDelayBox.value</div>
 <div class="line">        writeMode: writeModeBox.value</div>
+<div class="line">        enabled: enabledBox.checked</div>
 <div class="line"> </div>
 <div class="line">        onValueUpdated: delegate.value = value</div>
 <div class="line">    }</div>
@@ -258,11 +259,23 @@ $(document).ready(function(){initNavTree('_holding_register_control_8qml-example
 <div class="line"> </div>
 <div class="line">                checked: <span class="keyword">true</span></div>
 <div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            Label {</div>
+<div class="line">                Layout.alignment: <a class="codeRef" href="http://doc.qt.io/qt-5/qt.html">Qt</a>.AlignRight</div>
+<div class="line"> </div>
+<div class="line">                text: qsTr(<span class="stringliteral">&quot;Enabled:&quot;</span>)</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            CheckBox {</div>
+<div class="line">                id: enabledBox</div>
+<div class="line"> </div>
+<div class="line">                checked: <span class="keyword">true</span></div>
+<div class="line">            }</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="comment">//(c)C: Copyright © 2019, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
+<div class="line"><span class="comment">//(c)C: Copyright © 2019-2020, Michał Policht &lt;michal@policht.pl&gt;. All rights reserved.</span></div>
 <div class="line"><span class="comment">//(c)C: This file is a part of CuteHMI.</span></div>
 <div class="line"><span class="comment">//(c)C: CuteHMI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</span></div>
 <div class="line"><span class="comment">//(c)C: CuteHMI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.</span></div>

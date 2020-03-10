@@ -1,5 +1,9 @@
 var NAVTREEINDEX2 =
 {
+"classcutehmi_1_1modbus_1_1_t_c_p_client.html#ad98c2fb71a8e6d7ce4015175c49951b0":[5,0,0,0,18,2],
+"classcutehmi_1_1modbus_1_1_t_c_p_client.html#ae5f4b2c24a90d445b886b1f3016f1179":[5,0,0,0,18,4],
+"classcutehmi_1_1modbus_1_1_t_c_p_server.html":[5,0,0,0,19],
+"classcutehmi_1_1modbus_1_1_t_c_p_server.html#a0c3d2ee575b95aa17d93d4f579dd8cdc":[5,0,0,0,19,7],
 "classcutehmi_1_1modbus_1_1_t_c_p_server.html#a0ccdc71e22495a5cda35d975a1b65521":[5,0,0,0,19,16],
 "classcutehmi_1_1modbus_1_1_t_c_p_server.html#a193f09a1b8d3226e1d67fcd5d7ffd421":[5,0,0,0,19,2],
 "classcutehmi_1_1modbus_1_1_t_c_p_server.html#a1df89511dcce7d8b98b8e214b5d3d97c":[5,0,0,0,19,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#ada85a733e5903fe499282b7e5f5f99a0":[5,0,0,0,0,23,20],
 "classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#ae0f3ef1ccfcceb1b6204a5b6c12a9c93":[5,0,0,0,0,23,11],
 "classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#ae9ce9ce03fb4adb5199e295950d95200":[5,0,0,0,0,23,18],
-"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#aee42960d7bff1bd90d4e16e69608ad90":[5,0,0,0,0,23,12],
-"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#af6ce4c2b2290d6b15dd778e8e29a8872":[5,0,0,0,0,23,3],
-"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#af6ed8050aa2f280358ea47f998bd3799":[5,0,0,0,0,23,9],
-"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_mixin.html":[5,0,0,0,0,24],
-"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_mixin.html#a380a28796f96c658b0088b1e75074fa9":[5,0,0,0,0,24,1]
+"classcutehmi_1_1modbus_1_1internal_1_1_qt_server_backend.html#aee42960d7bff1bd90d4e16e69608ad90":[5,0,0,0,0,23,12]
 };
