@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['logging_20macros_24156',['Logging macros',['../../../../../CuteHMI.2/group__cutehmi-logging_macros.html',1,'']]]
+  ['logging_20macros_24160',['Logging macros',['../../../../../CuteHMI.2/group__cutehmi-logging_macros.html',1,'']]]
 ];

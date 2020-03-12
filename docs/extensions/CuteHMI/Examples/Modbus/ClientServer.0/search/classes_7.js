@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['handler_11398',['Handler',['http://doc.qt.io/qt-5/qvariant-handler.html',1,'QVariant']]],
-  ['has_5fvirtual_5fdestructor_11399',['has_virtual_destructor',['https://en.cppreference.com/w/cpp/types/has_virtual_destructor.html',1,'std']]],
-  ['hash_11400',['hash',['https://en.cppreference.com/w/cpp/utility/hash.html',1,'std']]],
-  ['hecto_11401',['hecto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
-  ['high_5fresolution_5fclock_11402',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',1,'std::chrono']]],
-  ['holdingregister_11403',['HoldingRegister',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_holding_register.html',1,'cutehmi::modbus::internal']]],
-  ['holdingregistercontrol_11404',['HoldingRegisterControl',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_client_server_1_1_holding_register_control.html',1,'CuteHMI::Examples::Modbus::ClientServer']]],
-  ['holdingregistercontroller_11405',['HoldingRegisterController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_holding_register_controller.html',1,'cutehmi::modbus::HoldingRegisterController'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_controller.html',1,'CuteHMI::Modbus::HoldingRegisterController']]],
-  ['holdingregisteritem_11406',['HoldingRegisterItem',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_item.html',1,'CuteHMI::Modbus']]],
-  ['holdingregisterpolling_11407',['HoldingRegisterPolling',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_holding_register_polling.html',1,'cutehmi::modbus::internal']]],
-  ['hours_11408',['hours',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]]
+  ['handler_11400',['Handler',['http://doc.qt.io/qt-5/qvariant-handler.html',1,'QVariant']]],
+  ['has_5fvirtual_5fdestructor_11401',['has_virtual_destructor',['https://en.cppreference.com/w/cpp/types/has_virtual_destructor.html',1,'std']]],
+  ['hash_11402',['hash',['https://en.cppreference.com/w/cpp/utility/hash.html',1,'std']]],
+  ['hecto_11403',['hecto',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
+  ['high_5fresolution_5fclock_11404',['high_resolution_clock',['https://en.cppreference.com/w/cpp/chrono/high_resolution_clock.html',1,'std::chrono']]],
+  ['holdingregister_11405',['HoldingRegister',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_holding_register.html',1,'cutehmi::modbus::internal']]],
+  ['holdingregistercontrol_11406',['HoldingRegisterControl',['../class_cute_h_m_i_1_1_examples_1_1_modbus_1_1_client_server_1_1_holding_register_control.html',1,'CuteHMI::Examples::Modbus::ClientServer']]],
+  ['holdingregistercontroller_11407',['HoldingRegisterController',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1_holding_register_controller.html',1,'cutehmi::modbus::HoldingRegisterController'],['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_controller.html',1,'CuteHMI::Modbus::HoldingRegisterController']]],
+  ['holdingregisteritem_11408',['HoldingRegisterItem',['../../../../Modbus.2/class_cute_h_m_i_1_1_modbus_1_1_holding_register_item.html',1,'CuteHMI::Modbus']]],
+  ['holdingregisterpolling_11409',['HoldingRegisterPolling',['../../../../Modbus.2/classcutehmi_1_1modbus_1_1internal_1_1_holding_register_polling.html',1,'cutehmi::modbus::internal']]],
+  ['hours_11410',['hours',['https://en.cppreference.com/w/cpp/chrono/duration.html',1,'std::chrono']]]
 ];

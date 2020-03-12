@@ -153,6 +153,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a110bbc32210918e2628d2ef1d06b4609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_color_set.html">ColorSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a110bbc32210918e2628d2ef1d06b4609">colorSet</a></td></tr>
 <tr class="memdesc:a110bbc32210918e2628d2ef1d06b4609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Active color set.  <a href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a110bbc32210918e2628d2ef1d06b4609">More...</a><br /></td></tr>
 <tr class="separator:a110bbc32210918e2628d2ef1d06b4609"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62c47d8a63413217d96d4016f27d814"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#ae62c47d8a63413217d96d4016f27d814">neutral</a></td></tr>
+<tr class="memdesc:ae62c47d8a63413217d96d4016f27d814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Denotes if element is neutral (it does not distinguish between active, inactive, warning and alarm states).  <a href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#ae62c47d8a63413217d96d4016f27d814">More...</a><br /></td></tr>
+<tr class="separator:ae62c47d8a63413217d96d4016f27d814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70625e29f3748499743cacccfc0dbcf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#af70625e29f3748499743cacccfc0dbcf">active</a></td></tr>
 <tr class="memdesc:af70625e29f3748499743cacccfc0dbcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Denotes if an item is in active state.  <a href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#af70625e29f3748499743cacccfc0dbcf">More...</a><br /></td></tr>
 <tr class="separator:af70625e29f3748499743cacccfc0dbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,6 +165,12 @@ Properties</h2></td></tr>
 <tr class="memitem:ab55eb2143e2dc984f6281429b7d43832"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#ab55eb2143e2dc984f6281429b7d43832">alarm</a></td></tr>
 <tr class="memdesc:ab55eb2143e2dc984f6281429b7d43832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Denotes if an item is in alarm state.  <a href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#ab55eb2143e2dc984f6281429b7d43832">More...</a><br /></td></tr>
 <tr class="separator:ab55eb2143e2dc984f6281429b7d43832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2360ba925888983feb16db6d237dee68"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a2360ba925888983feb16db6d237dee68">indirectWarning</a></td></tr>
+<tr class="memdesc:a2360ba925888983feb16db6d237dee68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Denotes if item is in indirect warning state.  <a href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a2360ba925888983feb16db6d237dee68">More...</a><br /></td></tr>
+<tr class="separator:a2360ba925888983feb16db6d237dee68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f7a3be0997d6c0db7daf84a4835bb96"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a8f7a3be0997d6c0db7daf84a4835bb96">indirectAlarm</a></td></tr>
+<tr class="memdesc:a8f7a3be0997d6c0db7daf84a4835bb96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Denotes if item is in indirect alarm state.  <a href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a8f7a3be0997d6c0db7daf84a4835bb96">More...</a><br /></td></tr>
+<tr class="separator:a8f7a3be0997d6c0db7daf84a4835bb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Element. </p>
@@ -253,7 +262,57 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Active color set. </p>
-<p>Normally this is controlled by <a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a0523babd3d077a8a576f438f583f491f" title="Pick color set based on active, warning and alarm property states.">currentStateColorSet()</a> function, which sets appropriate color according to the state of <em>active</em>, <em>warning</em> and <em>alarm</em> properties. </p>
+<p>Normally this is controlled by <a class="el" href="class_cute_h_m_i_1_1_g_u_i_1_1_element.html#a0523babd3d077a8a576f438f583f491f" title="Pick color set based on active, warning and alarm property states.">currentStateColorSet()</a> function, which sets appropriate color according to the state of <em>active</em>, <em>warning</em> and <em>alarm</em> properties. Neutral elements are binded to neutral color set. </p>
+
+</div>
+</div>
+<a id="a8f7a3be0997d6c0db7daf84a4835bb96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f7a3be0997d6c0db7daf84a4835bb96">&#9670;&nbsp;</a></span>indirectAlarm</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CuteHMI::GUI::Element::indirectAlarm</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Denotes if item is in indirect alarm state. </p>
+<p>This kinf of alarm may be handy when alarm is diagnosed from indirect measurments. </p>
+
+</div>
+</div>
+<a id="a2360ba925888983feb16db6d237dee68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2360ba925888983feb16db6d237dee68">&#9670;&nbsp;</a></span>indirectWarning</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CuteHMI::GUI::Element::indirectWarning</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Denotes if item is in indirect warning state. </p>
+<p>This kinf of warning may be handy when warning is diagnosed from indirect measurments. </p>
+
+</div>
+</div>
+<a id="ae62c47d8a63413217d96d4016f27d814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62c47d8a63413217d96d4016f27d814">&#9670;&nbsp;</a></span>neutral</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CuteHMI::GUI::Element::neutral</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Denotes if element is neutral (it does not distinguish between active, inactive, warning and alarm states). </p>
 
 </div>
 </div>

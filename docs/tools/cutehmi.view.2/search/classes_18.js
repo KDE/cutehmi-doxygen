@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zetta_11927',['zetta',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]]
+  ['zetta_11929',['zetta',['https://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]]
 ];

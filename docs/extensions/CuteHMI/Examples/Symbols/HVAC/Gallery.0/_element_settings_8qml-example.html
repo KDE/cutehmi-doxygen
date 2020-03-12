@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('_element_settings_8qml-example.html','
 <div class="line"> </div>
 <div class="line">        ColumnLayout {</div>
 <div class="line">            CheckBox {</div>
-<div class="line">                text: qsTr(<span class="stringliteral">&quot;Neutral colors&quot;</span>)</div>
+<div class="line">                text: qsTr(<span class="stringliteral">&quot;Neutral&quot;</span>)</div>
 <div class="line"> </div>
 <div class="line">                onCheckedChanged: checked ? element.colorSet = CuteApplication.theme.palette.neutral : element.colorSet = <a class="codeRef" href="http://doc.qt.io/qt-5/qt.html">Qt</a>.binding(element.currentStateColorSet)</div>
 <div class="line">            }</div>
@@ -155,6 +155,22 @@ $(document).ready(function(){initNavTree('_element_settings_8qml-example.html','
 <div class="line">                checked: element.alarm</div>
 <div class="line"> </div>
 <div class="line">                onCheckedChanged: element.alarm = checked</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            CheckBox {</div>
+<div class="line">                text: qsTr(<span class="stringliteral">&quot;Indirect warning&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">                checked: element.indirectWarning</div>
+<div class="line"> </div>
+<div class="line">                onCheckedChanged: element.indirectWarning = checked</div>
+<div class="line">            }</div>
+<div class="line"> </div>
+<div class="line">            CheckBox {</div>
+<div class="line">                text: qsTr(<span class="stringliteral">&quot;Indirect alarm&quot;</span>)</div>
+<div class="line"> </div>
+<div class="line">                checked: element.indirectAlarm</div>
+<div class="line"> </div>
+<div class="line">                onCheckedChanged: element.indirectAlarm = checked</div>
 <div class="line">            }</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
