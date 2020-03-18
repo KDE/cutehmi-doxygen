@@ -328,7 +328,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Worker. </p>
-<p>This class acts as a container that allows specified code to be run in a specified thread. </p>
+<p>This class acts as a container that allows specified code to be run in a specified thread. This class is useful when dealing with databases, because <a class="elRef" href="http://doc.qt.io/qt-5/qt.html">Qt</a> SQL module does not allow for sharing database connections across threads. Thus if SQL connection is established in dedicated thread, a worker can run a task in that thread and send <a class="el" href="classcutehmi_1_1_worker.html#ade163e3acef45f617f2d27f63a50f9da" title="Results are ready.">ready()</a> signal when the task is finished. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ad1af1b96360c59a3c9dc9ba470004c81"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1af1b96360c59a3c9dc9ba470004c81">&#9670;&nbsp;</a></span>State</h2>

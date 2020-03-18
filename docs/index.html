@@ -130,17 +130,18 @@ Demo</div></div>
 </div><div class="doxygen_github_hack" style="font-size: 0px"></div><h1>Compiling</h1>
 <ol type="1">
 <li>Get the Qt toolkit. Open-source and commercial editions can be obtained from <a href="https://www.qt.io/">https://www.qt.io/</a>. Qt can also be shipped with Linux distribution.</li>
-<li>Open <code>CuteHMI.qbs</code> file with <em>QtCreator</em> and simply build it.</li>
+<li>Open <code>CuteHMI.qbs</code> file with QtCreator and simply build it.</li>
 <li>All extensions dependent on external libraries will be disabled, if these libraries could not be found. To make the process of finding the libraries and installing them under Windows easier, a set of Makefiles is provided, which allows the libraries to be build from sources. Check out <a href="external/index.html">external</a> libraries for more details. Each extension may provide individual documentation on how to build it.</li>
 </ol>
 <p>Remember that Qbs caches <a href="http://doc.qt.io/qbs/qml-qbslanguageitems-probe.html">Probe</a> items' results, so if the library is installed after the project has been configured with Qbs, it will not show up. You can use <code>--force-probe-execution</code> option to force Qbs to not use cached results.</p>
 <h1>Getting started</h1>
-<p>For an introduction you may want to run one of the existing examples. In CuteHMI everything is either a tool or an extension, therefore examples are also provided as extensions. Their names follow "CuteHMI.Examples.*" pattern. The most basic example <code>CuteHMI.Examples.SimpleView.0</code> can be run with <code>cutehmi.view.2</code> tool by issuing following command.</p>
+<p>For an introduction you may want to run one of the existing examples. In CuteHMI everything is either a tool or an extension, therefore examples are also provided as extensions. Their names start with "CuteHMI.Examples" prefix. The most basic example <code>CuteHMI.Examples.SimpleView.0</code> can be run with <code>cutehmi.view.2</code> tool by issuing following command.</p>
 <div class="fragment"><div class="line">cutehmi.view.2 --extension=&quot;CuteHMI.Examples.SimpleView.0&quot;</div>
-</div><!-- fragment --><p>To create your own extension you can simply copy one of the examples to your own subdirectory in <code>extensions</code> directory (e.g. <code>Me/MyExtension.0</code>), rename <code>qbs</code> file accordingly to match extension name (e.g. <code>MyExtension.0.qbs</code>), then edit <code>qbs</code> file and change <code>name</code> property to match extension name (e.g. <code>name: "Me.MyExtension.0"</code>)</p>
+</div><!-- fragment --><p>To create your own project you can simply copy one of the examples to your own subdirectory in <code>extensions</code> directory (e.g. <code>Me/MyExtension.0</code>), rename <code>qbs</code> file accordingly to match extension name (e.g. <code>MyExtension.0.qbs</code>), then edit <code>qbs</code> file and change <code>name</code> property to match extension name (e.g. <code>name: "Me.MyExtension.0"</code>)</p>
 <p>After that you can use <code>--force-probe-execution</code> Qbs option or delete build directory and rebuild whole project. Your extension should be installed and it can be run with <code>cutehmi.view.2</code> tool.</p>
 <div class="fragment"><div class="line">cutehmi.view.2 --extension=&quot;Me.MyExtension.0&quot;</div>
-</div><!-- fragment --><p>Examples are listed in the documentation along with other extensions.</p>
+</div><!-- fragment --><p>More methodical approach is to use one of the templates. The process of creating custom extensions is described in more detail <a href="extensions/index.html">here</a>.</p>
+<p>Examples are listed in the documentation along with other extensions.</p>
 <h1>Internals</h1>
 <p>Directory structure of the project is organized as follows.</p>
 <ul>

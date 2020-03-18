@@ -107,17 +107,15 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Extensions can act as <a href="http://doc.qt.io/qt-5/qtqml-index.html">QML extensions</a>, but they can be also used like standard libraries.</p>
-<h1>Creating custom extensions</h1>
-<p>Extension <a href="Templates/Skeleton.0/index.html">Templates.Skeleton</a> can be used to boost the process of creating custom extensions.</p>
 <h1>Directories</h1>
 <p>Directory structure of extensions follows standard QML extensions scheme. According to <a href="https://doc.qt.io/qt-5/qtqml-modules-identifiedmodules.html#semantics-of-identified-modules">QML identified module rules</a> path of an extension relative to <code>extensions</code> directory defines module identifier, which is also extension <b>name</b> denoted as <b>BaseName.MajorVersion</b>. Typically <b>BaseName</b> consists of dot-separated <em>VendorName.ExtensionName</em> parts, but this is a convention rather than a requirement. Extension name must only contain <b>base name</b> and <b>major version</b> suffix. Base name parts have no special meaning.</p>
-<p>As a reference we can take <code>Templates.Skeleton.0</code> extension. Fully qualified <b>name</b> consists of <b>base name</b> (<code>Templates.Skeleton</code>) and <b>major version</b> suffix (<code>0</code>). <b>Base name</b> consists of two parts: <em>vendor name</em> (<code>Templates</code>) and <em>extension name</em> (<code>Skeleton</code>). It is allowed to omit <em>extension name</em> for a single extension from a specific vendor. It is also allowed to provide dot-separated <em>extension name</em> (e.g. <code>Examples.Skeleton</code>); or do the same with <em>vendor</em> (e.g. <code>org.nokia</code>).</p>
+<p>As a reference we can take <code>Templates.CppSkeleton.0</code> extension. Fully qualified <b>name</b> consists of <b>base name</b> (<code>Templates.CppSkeleton</code>) and <b>major version</b> suffix (<code>0</code>). <b>Base name</b> consists of two parts: <em>vendor name</em> (<code>Templates</code>) and <em>extension name</em> (<code>CppSkeleton</code>). It is allowed to omit <em>extension name</em> for a single extension from a specific vendor. It is also allowed to provide dot-separated <em>extension name</em> (e.g. <code>Examples.CppSkeleton</code>); or do the same with <em>vendor</em> (e.g. <code>org.nokia</code>).</p>
 <p>Extension directories follow camel-case (PascalCase) rules in order to remain consistent with QML extension naming convention used by Qt. On the other hand following this convention within C++ would be inconvenient in many places, so compromises have been made. Sometimes semantic members of extension directory name are lowercased. To express such intention, a pattern <em>VendorName.ExtensionName.MajorVersion</em> will be transformed according to the intention (i.e. <em>vendorname</em> represents lowercased <em>VendorName</em>).</p>
 <p>Typically each extension will have directory structure similar to this one.</p>
 <ul>
 <li><code>include</code> - public header files (available to other modules).<ul>
 <li><em>vendorname</em> - for example <code>templates</code>.<ul>
-<li><em>extensionname</em> - for example <code>skeleton</code>.<ul>
+<li><em>extensionname</em> - for example <code>cppskeleton</code>.<ul>
 <li><code>internal</code> - some headers need to be publicly available, but they are implementation detail. This directory is for such files.</li>
 </ul>
 </li>
@@ -127,7 +125,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </li>
 <li><code>src</code> - private header files and implementation.<ul>
 <li><em>vendorname</em> - for example <code>templates</code>.<ul>
-<li><em>extensionname</em> - for example <code>skeleton</code>.<ul>
+<li><em>extensionname</em> - for example <code>cppskeleton</code>.<ul>
 <li><code>internal</code> - corresponds with <code>internal</code> subdirectory inside <code>include</code> directory.</li>
 </ul>
 </li>
@@ -139,7 +137,35 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li><code>doc</code> - Documentation related files.</li>
 <li><code>dev</code> - Development notes.</li>
 </ul>
-<p>To keep things in order and avoid naming conflicts, C++ namespaces should reflect above directory structure within <code>include</code> and <code>src</code> directories. </p>
+<p>To keep things in order and avoid naming conflicts, C++ namespaces should reflect above directory structure within <code>include</code> and <code>src</code> directories.</p>
+<h1>Creating custom extensions</h1>
+<p>CuteHMI uses Qbs as build system, therefore each extension starts its life in dedicated Qbs file. Extensions tend to produce many by-products (like tests for example), so commonly they are defined within <a href="https://doc.qt.io/qbs/qml-qbslanguageitems-project.html">Project</a> Qbs item.</p>
+<p>Project item allows one to put inside a collection of <a href="https://doc.qt.io/qbs/qml-qbslanguageitems-product.html">products</a> or reference subprojects. What products are placed inside project item depends on type of extension. CuteHMI provides customized Product items and a bunch of helper Qbs modules for fast and convenient extension setup.</p>
+<p>Every CuteHMI product item requires one to provide some basic metadata, such as vendor name, description or domain. This information can be extracted by <code>cutehmi.metadata</code> Qbs module and exported to JSON or header file.</p>
+<p>Extensions can be divided into two major categories:</p><ul>
+<li>pure QML extensions</li>
+<li>extensions that use C++ code</li>
+</ul>
+<h2>QML extensions</h2>
+<p>Pure QML extensions are easy to deal with. In their roots they only need <code>qmldir</code> file to work. Such extensions should be defined with <code>cutehmi.Extension</code> product item, which takes care about things like tagging or intalling files to correct destination directories.</p>
+<p>If you would like to provide a QML extension, then you should refer to documentation on <a href="https://doc.qt.io/qt-5/qtqml-modules-qmldir.html">qmldir</a> files. You can either create <a href="https://doc.qt.io/qt-5/qtqml-modules-qmldir.html">qmldir</a> by hand or use <code>cutehmi.qmldir</code> Qbs module dependency to generate it automatically. </p><div class="fragment"><div class="line">Depends { name: &quot;cutehmi.qmldir&quot; }</div>
+</div><!-- fragment --><p>You can also use <code>cutehmi.qmltypes</code> Qbs module dependency to generate <code>plugins.qmltypes</code> file (though it is rather needed by C++ QML plugins).</p>
+<h2>C++ extensions</h2>
+<p>Extensions that use C++ code are more sophisticated than QML extensions. In order to create C++ extension one should use <code>cutehmi.CppExtension</code> product item. It hides unpleasant C++ aspects, so extension creator just has to provide the metadata and add some C++ or QML files (<code>cutehmi.CppExtension</code> extends <code>cutehmi.Extension</code>). To boost the process of creating C++ extension even further one may use <code>cutehmi.skeleton.cpp</code> module by adding it as product dependency. </p><div class="fragment"><div class="line">Depends { name: &quot;cutehmi.skeleton.cpp&quot; }</div>
+</div><!-- fragment --><p>This module will create skeletal header and source files commonly found in all C++ extensions. In fact it will create minimal operational C++ extension, which can be then provided with some custom code to do something useful. Files generated by <code>cutehmi.skeleton.cpp</code> module are not treated as artifacts, which means they can be modified (although this is not recommended, because at some point one may want to regenerate those files with newer version of the module). To recreate these files, they must be deleted.</p>
+<p>C++ extensions can act as libraries (to be linked against), QML plugins or they can be a mix of both.</p>
+<p>To create an extension that behaves like a library (i.e. other extensions can be linked against it) you should refer to Qt documentation on <a href="https://doc.qt.io/qt-5/sharedlibrary.html">Creating Shared Libraries</a>. Note that mentioned <code>MYSHAREDLIB_EXPORT</code> macros are defined within <code>platform.hpp</code> generated by <code>cutehmi.skeleton.cpp</code> module, according to the pattern <code>VENDORNAME_EXTENSIONNAME_API</code>.</p>
+<p>To make an extension that acts as a QML extension, but uses C++ code, you may refer to <a href="https://doc.qt.io/qt-5/qtqml-modules-cppplugins.html">Creating C++ Plugins for QML</a>. You can ignore the creation of <code>.pro</code> files and simply add files to Qbs project. Key concepts to focus on is a class that extends <code>QQmlExtensionPlugin</code>, <code>qmlRegisterType</code> function template that exposes <code>QObject</code> derived classes and entries in <code>qmldir</code> file. You may also check out the tutorial <a href="https://doc.qt.io/qt-5/qtqml-tutorials-extending-qml-example.html">Writing QML Extensions with C++</a>.</p>
+<p>C++ extensions, which act as QML plugins must provide QML plugin class. By convention in CuteHMI this class is called <code>QMLPlugin</code> and must be inside extension's <code>internal</code> namespace. Sticking to this convention allows one to rely on defaults, when using other Qbs helper modules, such as <code>cutehmi.qmldir</code> for example.</p>
+<p>All CuteHMI naming conventions have been defined in <code>cutehmi.conventions</code> Qbs module, which can be referenced by other Qbs modules. Among them there is mentioned QML plugin class name (<code>qmlPluginClassName</code> property). All properties can be printed to the console by setting <code>debugOutput</code> property to <code>true</code>. From the command line this can be done as follows.</p>
+<div class="fragment"><div class="line">qbs resolve -f CuteHMI.qbs modules.cutehmi.conventions.debugOutput:true</div>
+</div><!-- fragment --><p>To print naming conentions for specific extension replace <code>modules</code> with <code>products.Vendor.Extension.MajorVersion.cutehmi.conventions.debugOutput:true</code>.</p>
+<p>As stated - sticking to naming conventions is not hard requirement, but it helps avoid setting property values of various Qbs modules explicitly.</p>
+<p>Following extensions can be used as a reference for creating custom extensions:</p><ul>
+<li><a href="Templates/QMLSkeleton.0/index.html">Templates.QMLSkeleton</a> - pure QML extension</li>
+<li><a href="Templates/CppSkeleton.0/index.html">Templates.CppSkeleton</a> - C++ extension</li>
+<li><a href="Templates/CppPluginSkeleton.0/index.html">Templates.CppPluginSkeleton</a> - C++ extension with QML plugin </li>
+</ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
