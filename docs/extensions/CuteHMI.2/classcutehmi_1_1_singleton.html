@@ -179,8 +179,20 @@ Static Protected Member Functions</h2></td></tr>
 class cutehmi::Singleton&lt; C &gt;</h3>
 
 <p>Singleton template. </p>
-<p>It may be necessary to make derived class a friend of inheriting class to grant Singleton&lt;C&gt; access to its constructor. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>It may be necessary to make derived class a friend of inheriting class to grant Singleton&lt;C&gt; access to its constructor.</p>
+<p>Snippet below shows sample class, which uses Singleton template. </p><div class="fragment"><div class="line"><span class="keyword">class </span>MySingleton:</div>
+<div class="line">    <span class="keyword">public</span> <a class="code" href="classcutehmi_1_1_singleton.html">cutehmi::Singleton</a>&lt;MySingleton&gt;</div>
+<div class="line">{</div>
+<div class="line">        <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classcutehmi_1_1_singleton.html">cutehmi::Singleton</a>&lt;MySingleton&gt;;</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">public</span>:</div>
+<div class="line">        <span class="keywordtype">void</span> saySomething()</div>
+<div class="line">        {</div>
+<div class="line">            qInfo() &lt;&lt; <span class="stringliteral">&quot;I am not married!&quot;</span>;</div>
+<div class="line">        }</div>
+<div class="line">};</div>
+</div><!-- fragment --><p> Singleton instance can be obtained through <a class="el" href="classcutehmi_1_1_singleton.html#a9ea1159ae0fd584ee86839d55b0ea350" title="Get instance.">Instance()</a> function. </p><div class="fragment"><div class="line">    MySingleton::Instance().saySomething();</div>
+</div><!-- fragment --></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8149413207ab4dbec0c0c3f5d320c196"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8149413207ab4dbec0c0c3f5d320c196">&#9670;&nbsp;</a></span>Singleton()</h2>
 
@@ -327,6 +339,7 @@ template&lt;class C &gt; </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclasscutehmi_1_1_singleton_html"><div class="ttname"><a href="classcutehmi_1_1_singleton.html">cutehmi::Singleton</a></div><div class="ttdoc">Singleton template.</div><div class="ttdef"><b>Definition:</b> Singleton.hpp:25</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

@@ -164,8 +164,14 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <p>Following extensions can be used as a reference for creating custom extensions:</p><ul>
 <li><a href="Templates/QMLSkeleton.0/index.html">Templates.QMLSkeleton</a> - pure QML extension</li>
 <li><a href="Templates/CppSkeleton.0/index.html">Templates.CppSkeleton</a> - C++ extension</li>
-<li><a href="Templates/CppPluginSkeleton.0/index.html">Templates.CppPluginSkeleton</a> - C++ extension with QML plugin </li>
+<li><a href="Templates/CppPluginSkeleton.0/index.html">Templates.CppPluginSkeleton</a> - C++ extension with QML plugin</li>
 </ul>
+<h1>Keeping custom extensions in separate repositories</h1>
+<p>Often you may want to keep your extension in separate repository. A simple trick, which makes life easier is to create <code>.gitignore</code> file in <code>extensions</code> directory and make Git ignore the file itself along with your extension(s).</p>
+<div class="fragment"><div class="line">.gitignore</div>
+<div class="line"> </div>
+<div class="line">YourExtension/**</div>
+</div><!-- fragment --><p>This way you can clone your extension to <code>extensions</code> subdirectory and your reposiotry won't interfere with CuteHMI repository. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
