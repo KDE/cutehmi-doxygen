@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['info_9992',['INFO',['../classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18da8b72adad91e895a7483f7a2f565c09e0',1,'cutehmi::Message::INFO()'],['../classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5',1,'cutehmi::Notification::INFO()']]]
+  ['no_5fbutton_9988',['NO_BUTTON',['../classcutehmi_1_1_message.html#ac42671a854e0bd2cc30b627750e14040a9bc7cd60141474b2479554167e23872a',1,'cutehmi::Message']]]
 ];

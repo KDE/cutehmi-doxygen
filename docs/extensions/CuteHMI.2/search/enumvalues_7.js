@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ok_9994',['OK',['../structcutehmi_1_1_error.html#af321daa00c741246e8c9a21ea0435b96aba50e29f320f88d1416e8ce38ab3c188',1,'cutehmi::Error']]]
+  ['question_9990',['QUESTION',['../classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18dae21ff720164a867648b3a357cd96ee61',1,'cutehmi::Message']]]
 ];

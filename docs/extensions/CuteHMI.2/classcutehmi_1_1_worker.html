@@ -117,7 +117,6 @@ $(document).ready(function(){initNavTree('classcutehmi_1_1_worker.html',''); ini
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classcutehmi_1_1_worker-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -264,15 +263,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:deleteLater inherit pub_methods_qobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="http://doc.qt.io/qt-5/qobject.html#deleteLater">deleteLater</a> ()</td></tr>
 <tr class="separator:deleteLater inherit pub_methods_qobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:ad1af1b96360c59a3c9dc9ba470004c81"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81">State</a> { <a class="el" href="classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81aac760fdeafc4a2446960bccbb511ebf8">State::UNEMPLOYED</a>, 
-<a class="el" href="classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81af0232e7a746d73a8f1c684a93f636ab3">State::EMPLOYED</a>, 
-<a class="el" href="classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a89d036f09443b696bc2590c1e1fc159d">State::WORKING</a>, 
-<a class="el" href="classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a2baa69eafc7204f3bd8648eba580c489">State::READY</a>
- }</td></tr>
-<tr class="separator:ad1af1b96360c59a3c9dc9ba470004c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a468f1c147d4b4d814cc6e5306329884a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcutehmi_1_1_worker.html#a468f1c147d4b4d814cc6e5306329884a">event</a> (<a class="elRef" href="http://doc.qt.io/qt-5/qevent.html">QEvent</a> *event) override</td></tr>
@@ -329,36 +319,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Worker. </p>
 <p>This class acts as a container that allows specified code to be run in a specified thread. This class is useful when dealing with databases, because <a class="elRef" href="http://doc.qt.io/qt-5/qt.html">Qt</a> SQL module does not allow for sharing database connections across threads. Thus if SQL connection is established in dedicated thread, a worker can run a task in that thread and send <a class="el" href="classcutehmi_1_1_worker.html#ade163e3acef45f617f2d27f63a50f9da" title="Results are ready.">ready()</a> signal when the task is finished. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ad1af1b96360c59a3c9dc9ba470004c81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1af1b96360c59a3c9dc9ba470004c81">&#9670;&nbsp;</a></span>State</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81">cutehmi::Worker::State</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad1af1b96360c59a3c9dc9ba470004c81aac760fdeafc4a2446960bccbb511ebf8"></a>UNEMPLOYED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1af1b96360c59a3c9dc9ba470004c81af0232e7a746d73a8f1c684a93f636ab3"></a>EMPLOYED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1af1b96360c59a3c9dc9ba470004c81a89d036f09443b696bc2590c1e1fc159d"></a>WORKING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ad1af1b96360c59a3c9dc9ba470004c81a2baa69eafc7204f3bd8648eba580c489"></a>READY&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7d2d70ff24b96542d8fae48d0b3cf065"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d2d70ff24b96542d8fae48d0b3cf065">&#9670;&nbsp;</a></span>Worker() <span class="overload">[1/2]</span></h2>
 

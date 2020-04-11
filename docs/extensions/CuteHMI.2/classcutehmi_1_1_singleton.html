@@ -190,6 +190,9 @@ class cutehmi::Singleton&lt; C &gt;</h3>
 <div class="line">        {</div>
 <div class="line">            qInfo() &lt;&lt; <span class="stringliteral">&quot;I am not married!&quot;</span>;</div>
 <div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">protected</span>:</div>
+<div class="line">        MySingleton() = <span class="keywordflow">default</span>;</div>
 <div class="line">};</div>
 </div><!-- fragment --><p> Singleton instance can be obtained through <a class="el" href="classcutehmi_1_1_singleton.html#a9ea1159ae0fd584ee86839d55b0ea350" title="Get instance.">Instance()</a> function. </p><div class="fragment"><div class="line">    MySingleton::Instance().saySomething();</div>
 </div><!-- fragment --></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>

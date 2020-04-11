@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ready_9996',['READY',['../classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a2baa69eafc7204f3bd8648eba580c489',1,'cutehmi::Worker']]]
+  ['type_5frole_9992',['TYPE_ROLE',['../classcutehmi_1_1_notification_list_model.html#a0569d94242e4b3f15c08b40a45039b0ea09dbe86def0291a44772f3bd491089b6',1,'cutehmi::NotificationListModel']]]
 ];

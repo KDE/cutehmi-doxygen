@@ -1,12 +1,6 @@
 var classcutehmi_1_1_worker =
 [
     [ "WorkEvent", "classcutehmi_1_1_worker_1_1_work_event.html", "classcutehmi_1_1_worker_1_1_work_event" ],
-    [ "State", "classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81", [
-      [ "UNEMPLOYED", "classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81aac760fdeafc4a2446960bccbb511ebf8", null ],
-      [ "EMPLOYED", "classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81af0232e7a746d73a8f1c684a93f636ab3", null ],
-      [ "WORKING", "classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a89d036f09443b696bc2590c1e1fc159d", null ],
-      [ "READY", "classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81a2baa69eafc7204f3bd8648eba580c489", null ]
-    ] ],
     [ "Worker", "classcutehmi_1_1_worker.html#a7d2d70ff24b96542d8fae48d0b3cf065", null ],
     [ "Worker", "classcutehmi_1_1_worker.html#a04d56f50eb3c625fc9a472a1298072f3", null ],
     [ "~Worker", "classcutehmi_1_1_worker.html#a1946f0ab3788e1e178f4594c62f6f81d", null ],

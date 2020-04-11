@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['employed_9990',['EMPLOYED',['../classcutehmi_1_1_worker.html#ad1af1b96360c59a3c9dc9ba470004c81af0232e7a746d73a8f1c684a93f636ab3',1,'cutehmi::Worker']]]
+  ['fail_9986',['FAIL',['../structcutehmi_1_1_error.html#af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e',1,'cutehmi::Error']]]
 ];

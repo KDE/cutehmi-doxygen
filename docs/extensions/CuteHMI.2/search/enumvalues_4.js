@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fail_9991',['FAIL',['../structcutehmi_1_1_error.html#af321daa00c741246e8c9a21ea0435b96a0c6b97356c9b55098ad4a421b1d3956e',1,'cutehmi::Error']]]
+  ['info_9987',['INFO',['../classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18da8b72adad91e895a7483f7a2f565c09e0',1,'cutehmi::Message::INFO()'],['../classcutehmi_1_1_notification.html#afb205cc6a11ed22783f860ede8aa6c65a3e73be88ec899d4de6f2c47b2344bcf5',1,'cutehmi::Notification::INFO()']]]
 ];
