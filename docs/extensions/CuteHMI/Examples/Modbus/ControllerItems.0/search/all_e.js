@@ -149,7 +149,7 @@ var searchData=
   ['numberflags_5452',['numberFlags',['http://doc.qt.io/qt-5/qtextstream.html#numberFlags',1,'QTextStream::numberFlags() const const'],['http://doc.qt.io/qt-5/qtextstream.html#NumberFlag-enum',1,'QTextStream::NumberFlags()']]],
   ['numberliteral_5453',['numberLiteral',['http://doc.qt.io/qt-5/qqmlscriptstring.html#numberLiteral',1,'QQmlScriptString']]],
   ['numberofretries_5454',['numberOfRetries',['http://doc.qt.io/qt-5/qmodbusclient.html#numberOfRetries',1,'QModbusClient']]],
-  ['numberoptions_5455',['NumberOptions',['http://doc.qt.io/qt-5/qlocale.html#NumberOption-enum',1,'QLocale::NumberOptions()'],['http://doc.qt.io/qt-5/qlocale.html#numberOptions',1,'QLocale::numberOptions() const const']]],
+  ['numberoptions_5455',['numberOptions',['http://doc.qt.io/qt-5/qlocale.html#numberOptions',1,'QLocale::numberOptions() const const'],['http://doc.qt.io/qt-5/qlocale.html#NumberOption-enum',1,'QLocale::NumberOptions()']]],
   ['numberprefix_5456',['numberPrefix',['http://doc.qt.io/qt-5/qtextlistformat.html#numberPrefix',1,'QTextListFormat']]],
   ['numbersuffix_5457',['numberSuffix',['http://doc.qt.io/qt-5/qtextlistformat.html#numberSuffix',1,'QTextListFormat']]],
   ['numbytes_5458',['numBytes',['http://doc.qt.io/qt-5/qimage-obsolete.html#numBytes',1,'QImage']]],

@@ -329,7 +329,7 @@ var searchData=
   ['queryproxy_2821',['queryProxy',['http://doc.qt.io/qt-5/qnetworkproxyfactory.html#queryProxy',1,'QNetworkProxyFactory']]],
   ['querytype_2822',['queryType',['http://doc.qt.io/qt-5/qnetworkproxyquery.html#queryType',1,'QNetworkProxyQuery']]],
   ['queryvaluedelimiter_2823',['queryValueDelimiter',['http://doc.qt.io/qt-5/qurlquery.html#queryValueDelimiter',1,'QUrlQuery']]],
-  ['question_2824',['QUESTION',['../../../CuteHMI.2/classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18dae21ff720164a867648b3a357cd96ee61',1,'cutehmi::Message::QUESTION()'],['../../../CuteHMI.2/classcutehmi_1_1_message.html#a846627de5df6dbafc66b7a9c70044d44',1,'cutehmi::Message::Question(const QString &amp;text, Message::Buttons buttons=Message::Buttons{Message::BUTTON_YES, Message::BUTTON_NO})']]],
+  ['question_2824',['Question',['../../../CuteHMI.2/classcutehmi_1_1_message.html#a846627de5df6dbafc66b7a9c70044d44',1,'cutehmi::Message::Question(const QString &amp;text, Message::Buttons buttons=Message::Buttons{Message::BUTTON_YES, Message::BUTTON_NO})'],['../../../CuteHMI.2/classcutehmi_1_1_message.html#aa473e28efbb391a8eeaa55fb77e0e18dae21ff720164a867648b3a357cd96ee61',1,'cutehmi::Message::QUESTION()']]],
   ['queue_2825',['queue',['https://en.cppreference.com/w/cpp/container/queue.html',1,'std::queue'],['https://en.cppreference.com/w/cpp/container/queue/queue.html',1,'std::queue::queue()']]],
   ['quick_5fexit_2826',['quick_exit',['https://en.cppreference.com/w/cpp/utility/program/quick_exit.html',1,'std']]],
   ['quiet_5fnan_2827',['quiet_NaN',['https://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',1,'std::numeric_limits']]],
